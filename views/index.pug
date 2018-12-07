@@ -2,4 +2,11 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  h2 available API calls
+  h3 TDM
+  p /tdm/overview Returns mid-current grid with references to all subnets
+  p /tdm/#ID eturns the subnet with a given #ID
+
+  h3 LZA
+  p /smartmeter/subnet will return the status of all subnets. Due to system architecture this requires a request for each subnet
+
