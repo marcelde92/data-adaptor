@@ -5,8 +5,30 @@ block content
   h2 available API calls
   h3 TDM
   p /tdm/overview Returns mid-current grid with references to all subnets
+  a(href="http://localhost:3000/tdm/overview")  http://localhost:3000/tdm/overview
+
   p /tdm/#ID eturns the subnet with a given #ID
+  a(href="http://localhost:3000/tdm/SNID1")  http://localhost:3000/tdm/SNID1
 
   h3 LZA
-  p /smartmeter/subnet will return the status of all subnets. Due to system architecture this requires a request for each subnet
+  p /lza/subnet will return the status of all subnets. Due to system architecture this requires a request for each subnet
+  a(href="http://localhost:3000/lza/subnet")  http://localhost:3000/lza/subnet
+
+  p /lza/meter/:id will return the status of all nodes of a subnet
+  a(href="http://localhost:3000/lza/meter/SMGWID")  http://localhost:3000/lza/meter/SMGWID
+
+  p /lza/plausibility/meter/:id will return the status of all nodes of a subnet
+  a(href="http://localhost:3000/lza/plausibility/meter/ID1")  http://localhost:3000/lza/plausibility/meter/ID1
+
+  p /plausibility/subnet/:id returns the average of all plausibilitiers within a given subnet per algorithm
+  a(href="http://localhost:3000/lza/plausibility/subnet/SNID1")  http://localhost:3000/lza/plausibility/subnet/SNID1
+
+  p /plausibility/meter/:id/from/:from/to/:to returns plausibility for each algorithm for one SMGW in the given timespan which shoukd be 24h
+  a(href="http://localhost:3000/lza/plausibility/meter/SMGWID/from/1343643433/to/1343943433")  http://localhost:3000/lza/plausibility/meter/SMGWID/from/1343643433/to/1343943433
+
+  p /meter/:id/from/:from/to/:to returns Smartmeter values between from and to with a 1 hour resolution
+  a(href="http://localhost:3000/lza/meter/SMGWID/from/1224353444/to/1224373444")  http://localhost:3000/lza/meter/SMGWID/from/1224353444/to/1224373444
+
+  p  /weather/:location/from/:from/to/:to returns the weather data between from and to in 30 Minute resolution
+  a(href="http://localhost:3000/lza/weather/OLDENBURG/from/1224353444/to/1224373444")  http://localhost:3000/lza/weather/OLDENBURG/from/1224353444/to/1224373444
 

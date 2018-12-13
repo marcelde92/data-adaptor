@@ -22,7 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/tdm', usersRouter);
-app.use('/smartmeter', lzaRouter);
+app.use('/lza', lzaRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
