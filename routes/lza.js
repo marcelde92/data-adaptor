@@ -12,7 +12,6 @@ var LZA_PORT = 'PORT_OF_THE_LZA_SERVER'
  *
  *  FIXME: We should apply some kind of caching to prevent these massive requests
  *
- *  FIXME: OFFIS: Können wir mehrere Queries gestackt senden?
  */
 router.get('/subnet', function(req, res, next) {
 
@@ -43,12 +42,49 @@ router.get('/subnet', function(req, res, next) {
     */
 });
 
-
 /*
- *  '/meter/:id' will return the status of all nodes of a subnet
+ *  '/subnet/past' will return the status of all subnets over the previous 12 hours. Due to system architecture this requires a request for each subnet
+ *
+ *  FIXME: We should apply some kind of caching to prevent these massive requests
  *
  */
-router.get('/meter/:id', function(req, res, next) {
+router.get('/subnet/past/', function(req, res, next) {
+
+    //FIXME: We need to request amd cache all subnet ids
+    //var subnets = tdmCache.getAllSubnetIds();
+    var subnets = {
+        'subnet1' : ['SM1', 'SM2', 'SM3', 'SM4', 'SM5', 'SM6'],
+        'subnet2' : ['SMA1', 'SMA2', 'SMA3', 'SMA4', 'SMA5', 'SMA6']
+    };
+
+    var minus12H = new Date()  - 60 * 60 * 12;
+
+    var queries = [];
+    for (key in subnets) {
+        var subnet = subnets[key];
+        //FIXME: "Ersatzwert needs to be part of an ENUM
+        queries.push("SELECT mrid, category FROM SmartMeter["+minus12H+" : NOW] WHERE mrid IN (" + subnet + ") AND category LIKE 'Ersatzwert' LIMIT 1;");
+    }
+
+    //FIXME: Debug
+    res.render('debug', { content: queries });
+
+    /*
+    request({
+        uri: LZA_ADDR + ':' + LZA_PORT,
+        qs: {
+            query: queries
+        }
+    }).pipe(res);
+    */
+});
+
+
+/*
+ *  '/subnet/:id' will return the status of all nodes of a subnet
+ *
+ */
+router.get('/subnet/:id', function(req, res, next) {
 
     //FIXME: We need to request amd cache all subnet ids
     //var subnet = tdmCache.getSubnetIdsFor(req.params.id);
@@ -72,7 +108,60 @@ router.get('/meter/:id', function(req, res, next) {
     */
 });
 
+/*
+ *  '/meter/:id' will return the status of all nodes of a subnet, aggregated for the last 12 hours
+ *
+ */
+router.get('/subnet/:id/past', function(req, res, next) {
 
+    //FIXME: We need to request amd cache all subnet ids
+    //var subnet = tdmCache.getSubnetIdsFor(req.params.id);
+    var subnet = ['SM1', 'SM2', 'SM3', 'SM4', 'SM5', 'SM6'];
+
+    var minus12H = new Date()  - 60 * 60 * 12;
+
+    var queries = [];
+    //FIXME: "Ersatzwert needs to be part of an ENUM
+    queries.push("SELECT mrid, category FROM SmartMeter["+minus12H+" : NOW] WHERE mrid IN (" + subnet + ") AND category LIKE 'Ersatzwert';");
+
+    //FIXME: Debug
+    res.render('debug', { content: queries });
+
+    /*
+    request({
+        uri: LZA_ADDR + ':' + LZA_PORT,
+        qs: {
+            query: queries
+        }
+    }).pipe(res);
+    */
+});
+
+/*
+ *  /meter/:id/days returns Smartmeter values vor the last day
+ *
+ */
+router.get('/meter/:id/days/', function(req, res, next) {
+
+    //FIXME: We need to be careful when selecting timestamps
+    //FIXME: month != 30 days
+    var fromTS = new Date() - 24 * 60 * 60;
+
+    var queries = [];
+    queries.push("SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : NOW] WHERE mrid =" + req.params.id + ";");
+
+    //FIXME: Debug
+    res.render('debug', { content: queries });
+
+    /*
+     request({
+     uri: LZA_ADDR + ':' + LZA_PORT,
+     qs: {
+     query: queries
+     }
+     }).pipe(res);
+     */
+});
 
 /*
  *  FIXME: Aggregation über IDs, nicht Zeitreihen möglich?

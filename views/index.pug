@@ -4,19 +4,28 @@ block content
   h1= title
   h2 available API calls
   h3 TDM
-  p /tdm/overview Returns mid-current grid with references to all subnets
+  p /tdm/overview/ returns mid-current grid with references to all subnets
   a(href="http://localhost:3000/tdm/overview")  http://localhost:3000/tdm/overview
 
-  p /tdm/#ID eturns the subnet with a given #ID
+  p /tdm/#ID returns the subnet with a given #ID
   a(href="http://localhost:3000/tdm/SNID1")  http://localhost:3000/tdm/SNID1
 
   h3 LZA
   p /lza/subnet will return the status of all subnets. Due to system architecture this requires a request for each subnet
   a(href="http://localhost:3000/lza/subnet")  http://localhost:3000/lza/subnet
 
-  p /lza/meter/:id will return the status of all nodes of a subnet
+  p /lza/subnet/past will return the status of all subnets, aggregated for the last 12 hours. Due to system architecture this requires a request for each subnet
+  a(href="http://localhost:3000/lza/subnet/past")  http://localhost:3000/lza/subnet/past
+
+  p /lza/subnet/:id will return the status of all nodes of a subnet
   a(href="http://localhost:3000/lza/meter/SMGWID")  http://localhost:3000/lza/meter/SMGWID
 
+  p /lza/subnet/:id/past will return the status of all nodes of a subnet, aggregated for the last 12 hours
+  a(href="http://localhost:3000/lza/meter/SMGWID/past")  http://localhost:3000/lza/meter/SMGWID/past
+
+  p /lza/meter/:id/days will return values of a Smart-Meter for the last 24 hours
+  a(href="http://localhost:3000/lza/meter/SMID/days")  http://localhost:3000/lza/meter/SMID/days
+  
   p /lza/plausibility/meter/:id will return the status of all nodes of a subnet
   a(href="http://localhost:3000/lza/plausibility/meter/ID1")  http://localhost:3000/lza/plausibility/meter/ID1
 
