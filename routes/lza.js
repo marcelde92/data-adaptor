@@ -5,6 +5,8 @@ var router = express.Router();
 var LZA_ADDR = 'IP_OF_THE_LZA_SERVER'
 var LZA_PORT = 'PORT_OF_THE_LZA_SERVER'
 
+//FIXME: Generate list of all queries with explanation for OFFIS and Kisters
+
 /*
  *  '/subnet' will return the status of all subnets. Due to system architecture this requires a request for each subnet
  *
@@ -75,7 +77,7 @@ router.get('/meter/:id', function(req, res, next) {
 /*
  *  FIXME: Aggregation über IDs, nicht Zeitreihen möglich?
  *
- * /plausibility/subnet/:id returns the average of all plausibilitiers within a given subnet per algorithm
+ * /plausibility/subnet/:id returns the average of all plausibilities within a given subnet per algorithm
  *
  */
 router.get('/plausibility/subnet/:id', function(req, res, next) {
@@ -86,7 +88,7 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
 
     var queries = [];
     //FIXME: "Ersatzwert needs to be part of an ENUM
-    queries.push("SELECT SM.mrid AS mrid, PL.plausibility_value AS pl-value, PL.plausibility_source AS pl-source FROM SmartMeter AS SM, SM_Plausibility AS PL NEARESTBEFORE NOW WHERE mrid IN (" + subnet + ");");
+    queries.push("SELECT plausibility_value, plausibility_source FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid IN (" + subnet + ");");
 
     //FIXME: manual aggregation here
 
@@ -112,7 +114,7 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
 router.get('/plausibility/meter/:id', function(req, res, next) {
 
     var queries = [];
-    queries.push("SELECT SM.mrid AS mrid, PL.plausibility_value AS pl-value, PL.plausibility_source AS pl-source FROM SmartMeter AS SM, SM_Plausibility AS PL NEARESTBEFORE NOW WHERE mrid =" + req.params.id + ";");
+    queries.push("SELECT mrid, plausibility_value, plausibility_source FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid =" + req.params.id + ";");
 
 
     //FIXME: Debug
@@ -130,15 +132,16 @@ router.get('/plausibility/meter/:id', function(req, res, next) {
 
 
 /*
- *  /plausibility/meter/:id/from/:from/to/:to returns plausibility for each algorithm for one SMGW in the given timespan which shoukd be 24h
+ *  /plausibility/meter/:id/from/:from/to/:to returns plausibility for each algorithm for one SMGW in the given timespan which should be 24h
  *  
  *  TODO: Eventuelle Rückberechnung eines now ts - 24h statt "from"
  *  FIXME: Frage OFFIS: PL.timestamp?
  */
 router.get('/plausibility/meter/:id/from/:from/to/:to', function(req, res, next) {
-
+    //FIXME: TimeResolution ISO 15 Minuten (ISO kontrollieren)
+    //FIXME: Middlewear should set from data
     var queries = [];
-    queries.push("SELECT SM.mrid AS mrid, PL.timestamp AS ts, PL.plausibility_value AS pl-value, PL.plausibility_source AS pl-source FROM SmartMeter AS SM, SM_Plausibility AS PL ["+req.params.from+" : "+ ((req.params.to - req.params.from) / 60*15)  +" : "+req.params.to+"] INTERPOLATE BY STAMPED-LEFT WHERE SM.mrid =" + req.params.id + " AND PL.mrid =" + req.params.id + ";");
+    queries.push("SELECT mrid, timestamp, plausibility_value, plausibility_source FROM SM_Plausibility ["+req.params.from+" : ISO(PT00H15M) : NOW] WHERE mrid =" + req.params.id + ";");
 
 
     //FIXME: Debug
@@ -161,10 +164,44 @@ router.get('/plausibility/meter/:id/from/:from/to/:to', function(req, res, next)
  *  value eines SMGWs 1 Monat bei 1 M zwischen from/to
  *  values eines SMGWs 2 Monate for 13 Monaten zwischebn from/to
  */
-router.get('/meter/:id/from/:from/to/:to', function(req, res, next) {
+router.get('/meter/:id/lastmonth/', function(req, res, next) {
+
+    //FIXME: We need to be careful when selecting timestamps
+    //FIXME: month != 30 days
+    var fromTS = new Date() - 24 * 60 * 60 * 30;
+    var toTS = + new Date(); //Date() instead of NOW since we do the same in /meter/:id/pastmonth
 
     var queries = [];
-    queries.push("SELECT mrid, timestamp FROM SmartMeter ["+req.params.from+" : "+ ((req.params.to - req.params.from) / 60*60) +" : "+req.params.to+"] INTERPOLATE BY STAMPED-LEFT WHERE mrid =" + req.params.id + ";");
+    queries.push("SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : ISO(PT01H00M) : "+toTS+"] WHERE mrid =" + req.params.id + ";");
+
+
+    //FIXME: Debug
+    res.render('debug', { content: queries });
+
+    /*
+     request({
+     uri: LZA_ADDR + ':' + LZA_PORT,
+     qs: {
+     query: queries
+     }
+     }).pipe(res);
+     */
+});
+
+/*
+ *  /meter/:id/pastmonth returns Smartmeter values between 13 and 11 month ago (2 month) with a 1 hour resolution
+ *
+ *  values eines SMGWs 2 Monate for 13 Monaten zwischebn from/to
+ */
+router.get('/meter/:id/pastmonth', function(req, res, next) {
+
+    //FIXME: We need to be careful when selecting timestamps
+    //FIXME: month != 30 days
+    var fromTS = new Date() - 24 * 60 * 60 * 30 * 13;
+    var toTS = new Date() - 24 * 60 * 60 * 30 * 11;
+
+    var queries = [];
+    queries.push("SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : ISO(PT01H00M) : "+toTS+"] WHERE mrid =" + req.params.id + ";");
 
 
     //FIXME: Debug
@@ -186,10 +223,13 @@ router.get('/meter/:id/from/:from/to/:to', function(req, res, next) {
  *
  * wetter eines SMGWs 24h
  */
-router.get('/weather/:location/from/:from/to/:to', function(req, res, next) {
+router.get('/weather/:location', function(req, res, next) {
+
+    //FIXME: We need to be careful when selecting timestamps
+    var fromTS = new Date() - 24 * 60 * 60;
 
     var queries = [];
-    queries.push("SELECT * FROM Weather ["+req.params.from+" : "+ ((req.params.to - req.params.from) / 60*30)  +" : "+req.params.to+"] INTERPOLATE BY STAMPED-LEFT WHERE location =" + req.params.location + ";");
+    queries.push("SELECT * FROM Weather ["+fromTS+" : ISO(PT00H30M) : NOW] WHERE location =" + req.params.location + ";");
 
 
     //FIXME: Debug
