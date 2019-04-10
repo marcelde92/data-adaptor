@@ -1,0 +1,2027 @@
+{
+    "links": [
+        {
+            "source": "f85787f2-f625-4a00-9120-553743248fe9",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_6"
+        },
+        {
+            "source": "node_16",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_21"
+        },
+        {
+            "source": "node_22",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_26"
+        },
+        {
+            "source": "node_29",
+            "target": "node_32"
+        },
+        {
+            "source": "node_32",
+            "target": "node_30"
+        },
+        {
+            "source": "f85787f2-f625-4a00-9120-553743248fe9",
+            "target": "node_40"
+        },
+        {
+            "source": "node_40",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_3"
+        },
+        {
+            "source": "node_4",
+            "target": "node_33"
+        },
+        {
+            "source": "node_33",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_15"
+        },
+        {
+            "source": "node_17",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_31"
+        },
+        {
+            "source": "node_33",
+            "target": "node_34"
+        },
+        {
+            "source": "node_34",
+            "target": "node_37"
+        },
+        {
+            "source": "node_37",
+            "target": "node_36"
+        },
+        {
+            "source": "node_37",
+            "target": "node_39"
+        },
+        {
+            "source": "node_40",
+            "target": "node_41"
+        },
+        {
+            "source": "f85787f2-f625-4a00-9120-553743248fe9",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_2"
+        },
+        {
+            "source": "node_5",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_11"
+        },
+        {
+            "source": "node_13",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_14"
+        },
+        {
+            "source": "node_23",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_25"
+        },
+        {
+            "source": "node_28",
+            "target": "node_42"
+        },
+        {
+            "source": "node_42",
+            "target": "node_38"
+        },
+        {
+            "source": "node_38",
+            "target": "node_35"
+        }
+    ],
+    "name": "Oldenburger Landstra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2901567,
+                "lon": 8.0810484
+            },
+            "id": "e22c2ed5-e58e-416f-b278-85c0522e16eb",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "ba5b5e7b-2cf6-4018-8a2f-6c1a8d1749d5",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 351,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2940251,
+                "lon": 8.0740172
+            },
+            "id": "da7653ba-49bd-4dd7-8660-842473be53a9",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "a16ebb99-bc0a-44f7-abbe-814daa652c53",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "d21ad228-2ae3-44de-a81e-a35bcfad989a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 185,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2927531,
+                "lon": 8.0753143
+            },
+            "id": "e4334398-405a-4747-9dd8-10f761d5b75b",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "e8166524-76ad-4c3e-8689-e719f7fec2e3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3172,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 147,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2942027,
+                "lon": 8.0740013
+            },
+            "id": "c2324bab-1546-43b8-94ad-d79ee42c3a37",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "e265ff9f-b6d8-4d8e-a67a-b9947e4f89d6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2766,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 71,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2885857,
+                "lon": 8.084167
+            },
+            "id": "fc2cfd52-67d4-476d-81ba-fe30b17f9b80",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "f744ce29-49b8-44bf-8641-b2d79b69c2ba",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 196,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "7",
+                "addr:postcode": "26215",
+                "addr:street": "Oldenburger Landstra\u00dfe",
+                "addr:suburb": "Dringenburg",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2922587,
+                "lon": 8.0732116
+            },
+            "id": "c6a66c63-a753-4f57-9e5c-735d4e54f524",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "c2d2fe11-f1d7-4e06-9d4d-8d2d0b02b434",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3475,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "e6387b5f-f73a-4042-ac02-9e23e2e65863",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3553,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 856,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1a",
+                "addr:postcode": "26215",
+                "addr:street": "Oldenburger Landstra\u00dfe",
+                "addr:suburb": "Dringenburg",
+                "man_made": "works",
+                "name": "Molkerei Ammerland eG",
+                "website": "http://www.molkerei-ammerland.de"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2908828,
+                "lon": 8.0679234
+            },
+            "id": "caab1955-26a6-492e-aaf3-ee8c4042e3d8",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "e0944313-56db-4e87-866c-55aac6dbd355",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 121,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26215",
+                "addr:street": "Oldenburger Landstra\u00dfe",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2924301,
+                "lon": 8.0696754
+            },
+            "id": "c042d534-7db7-47bc-b375-51ec736198fd",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "c582195e-fa93-4eb1-8979-8102de3d2b79",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 30,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2b",
+                "addr:postcode": "26215",
+                "addr:street": "Oldenburger Landstra\u00dfe",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2940366,
+                "lon": 8.0740472
+            },
+            "id": "de66415c-3c23-4073-8f36-d016bfbaa805",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "d87f7972-8241-41f6-986e-55a092be61d4",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 762,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1b",
+                "addr:postcode": "26215",
+                "addr:street": "Oldenburger Landstra\u00dfe",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2929284,
+                "lon": 8.0701448
+            },
+            "id": "d26ad93d-7db4-4909-8657-8ac09c44e043",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "ecbd9346-4132-471b-b06c-d62e2bf63138",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 698,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26215",
+                "addr:street": "Oldenburger Landstra\u00dfe",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2923116,
+                "lon": 8.0697745
+            },
+            "id": "e838cceb-0ff3-434c-aaea-760ed6556fcf",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "db5c8d9d-3777-455f-9f36-26c24a1cfae9",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 600,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26215",
+                "addr:street": "Oldenburger Landstra\u00dfe",
+                "addr:suburb": "Dringenburg",
+                "man_made": "works",
+                "name": "Gerdes Ladenbau GmbH"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2939879,
+                "lon": 8.0687629
+            },
+            "id": "f725cfb4-3c58-45fc-8026-32c0fc6cf8d2",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "f1f69eeb-c4c5-430e-8385-9bde67106fd1",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 723,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "44",
+                "addr:postcode": "26215",
+                "addr:street": "Wiefelsteder Stra\u00dfe",
+                "addr:suburb": "Spohle"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2976697,
+                "lon": 8.076325
+            },
+            "id": "a9618b73-4dd8-4de1-a67a-d32de78bb424",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "a1568b65-0cf9-4763-b476-3f2dea9b7231",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "d2af29ac-f8eb-47be-9b37-0de0b47f16cc",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 648,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26215",
+                "addr:street": "Heidjeweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.3051638,
+                "lon": 8.0775415
+            },
+            "id": "e2644241-4567-44bf-830d-fa8a12184e6a",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "a686ed9b-c0a3-4bdd-9488-03d5e7f8a80f",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 452,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26215",
+                "addr:street": "Moordamm II",
+                "addr:suburb": "Spohle"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.3066509,
+                "lon": 8.0765268
+            },
+            "id": "d37deb95-da11-4282-87a6-15b919a3d47b",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "aad75987-4cc6-45ae-a0be-f37abb7eac0f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2853,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 609,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26215",
+                "addr:street": "Moordamm II",
+                "addr:suburb": "Spohle"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2971839,
+                "lon": 8.0760069
+            },
+            "id": "f888eed5-cb42-4f96-b429-7b4d765ca411",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "c0a5b04e-f0f2-44e7-bb94-29ae4a38043e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 517,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26215",
+                "addr:street": "Heidjeweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.3061743,
+                "lon": 8.0755904
+            },
+            "id": "ba126307-e972-415f-89ec-c9293f393a07",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "fe7b08d0-22a7-4d70-9922-2f01f0f41808",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 95,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26215",
+                "addr:street": "Moordamm II",
+                "addr:suburb": "Spohle"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2958353,
+                "lon": 8.0717514
+            },
+            "id": "b4b66b1a-3d73-4d95-8919-c4a655b8f4c3",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "a5e3bff6-d9fe-414f-9d08-e6749f0eb507",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 454,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26215",
+                "addr:street": "Heidjeweg",
+                "addr:suburb": "Spohle"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2807445,
+                "lon": 8.0655908
+            },
+            "id": "c39f75ca-bf0f-4148-91e3-5a668bf91e8b",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "c18c5097-1d28-41c7-9df5-334bd1e2cf74",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 701,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26215",
+                "addr:street": "Otterb\u00e4kenweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2882798,
+                "lon": 8.080306
+            },
+            "id": "c85c6040-60a9-445b-a274-54a08a3fe05b",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "f48e634c-7b36-4911-b3d4-898ab8928943",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 547,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26215",
+                "addr:street": "Oldenburger Landstra\u00dfe",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2886479,
+                "lon": 8.0697372
+            },
+            "id": "d3255cc8-82ea-479d-9624-7f7bbde34188",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "e3889999-1183-4de0-82ed-a085290503f5",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 785,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26215",
+                "addr:street": "Bramkampsweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2820011,
+                "lon": 8.0629982
+            },
+            "id": "bb4e5e77-4df8-4b56-a54b-1718b9207559",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "cd50c0d5-5dd9-4078-b908-ff1fe26382b5",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 775,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26215",
+                "addr:street": "Otterb\u00e4kenweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2889303,
+                "lon": 8.0806882
+            },
+            "id": "c7bbd764-f6f2-4a44-90c4-e19ee1e0f527",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "dc48b508-874a-496c-a29d-e731e69db74e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "b978a2ce-954a-43a2-a319-891952c3ee29",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 120,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26215",
+                "addr:street": "Oldenburger Landstra\u00dfe",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2892814,
+                "lon": 8.0709226
+            },
+            "id": "da3ca194-a14f-4e2a-8c59-1d969724fe49",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "d79251c6-0128-47a2-b522-5ffb02f02cfe",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 24,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26215",
+                "addr:street": "Bramkampsweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2817703,
+                "lon": 8.0510214
+            },
+            "id": "a8054181-7c8a-4256-a505-bd90644dc422",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "eb404cd1-87ae-49aa-b0bc-b169c2e8a9d0",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 330,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "51",
+                "addr:postcode": "26655",
+                "addr:street": "Garnholterdamm",
+                "addr:suburb": "Garnholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2887741,
+                "lon": 8.084027
+            },
+            "id": "f00cb562-d686-46e2-9a21-e5342d666fed",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "eea01259-d126-4354-b61a-40c0cdfb7a6f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 140,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26215",
+                "addr:street": "Oldenburger Landstra\u00dfe",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2799396,
+                "lon": 8.0529639
+            },
+            "id": "f91013de-6f30-4771-8f7f-476362d884fb",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "e01c9375-a618-4c58-83ed-d2154c69f7ea",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 468,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26215",
+                "addr:street": "Bramkampsweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2809937,
+                "lon": 8.0494652
+            },
+            "id": "d89c0bc5-4f44-42ae-bf2c-1088b8e7856f",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "eca1c129-5f86-4c61-bbf8-f42a50a76b40",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 453,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "49",
+                "addr:postcode": "26655",
+                "addr:street": "Garnholterdamm",
+                "addr:suburb": "Garnholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2818379,
+                "lon": 8.0502921
+            },
+            "id": "c50a6aa1-2f5f-43f3-bc1a-607f0710a7e8",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "db4b0609-27f9-45a9-bdb1-939161eefade",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 435,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "48",
+                "addr:postcode": "26655",
+                "addr:street": "Garnholterdamm",
+                "addr:suburb": "Garnholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2826079,
+                "lon": 8.0617378
+            },
+            "id": "e12c0eba-0606-4d75-ace3-03b820eba68c",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "fb606983-f55e-4be5-83c4-358ff21a3ac9",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 736,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26215",
+                "addr:street": "Otterb\u00e4kenweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2901615,
+                "lon": 8.0811015
+            },
+            "id": "fdbf8d39-5844-4f15-9952-695aa57c7183",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "ce45a6ad-1295-4e3d-b91f-762efc68a642",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 251,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "3a",
+                "addr:postcode": "26215",
+                "addr:street": "Oldenburger Landstra\u00dfe",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2837781,
+                "lon": 8.056408
+            },
+            "id": "abe48d6b-bd8d-4452-8ff3-61b9c3e3c039",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "b0f22823-5d97-4ef3-924c-b0a94f48820b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3123,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 843,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26215",
+                "addr:street": "Bramkampsweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2830785,
+                "lon": 8.0606321
+            },
+            "id": "f9a8de93-e64b-4e0c-9b61-3f90a316e2c1",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "a66acd0c-ab3d-44cb-8b6f-dced0c6e971a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 438,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2a",
+                "addr:postcode": "26215",
+                "addr:street": "Otterb\u00e4kenweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.283335,
+                "lon": 8.0598872
+            },
+            "id": "c9673cb0-f1a7-4314-b622-e74c3401d057",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "dcbfdbed-1afe-4970-b258-3047987e46af",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 453,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26215",
+                "addr:street": "Otterb\u00e4kenweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2824396,
+                "lon": 8.0515168
+            },
+            "id": "a1cfdb3c-c23b-4a0b-9c37-13b542c0ee97",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "fa584719-e63e-43fb-a259-9c8d0ce55daa",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 501,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "18",
+                "addr:postcode": "26215",
+                "addr:street": "Bramkampsweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2850256,
+                "lon": 8.0576561
+            },
+            "id": "d159aca1-4577-402e-9ff8-719d8eba0745",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "d6fe2716-d3a3-4bb1-a9ad-789bbe8d968d",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 667,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "16",
+                "addr:postcode": "26215",
+                "addr:street": "Bramkampsweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2863092,
+                "lon": 8.0608559
+            },
+            "id": "c987747c-dca4-46e0-bf10-ab92b30db455",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "cb21c043-7ec8-4fc3-aeae-5b0f8390a632",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 393,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "14",
+                "addr:postcode": "26215",
+                "addr:street": "Bramkampsweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2864725,
+                "lon": 8.0617881
+            },
+            "id": "d1761a8a-1979-4125-b42d-580b4f525dd0",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "e5b9d587-7e57-44aa-924e-8b8e04219e63",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 849,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26215",
+                "addr:street": "Bramkampsweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2883497,
+                "lon": 8.0849124
+            },
+            "id": "e165f976-79e5-46b8-9146-406a12131afe",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "f3b0c864-a3ed-4363-ac6f-026b526d7790",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2942,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 451,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "11",
+                "addr:postcode": "26215",
+                "addr:street": "Oldenburger Landstra\u00dfe",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2885617,
+                "lon": 8.0690585
+            },
+            "id": "a68ea04b-0848-4a29-957e-62f3aa0b71f1",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "c00da01f-1638-48b8-8718-063d0f37dd04",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 115,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26215",
+                "addr:street": "Bramkampsweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2828904,
+                "lon": 8.0719675
+            },
+            "id": "c08526f1-3f9c-49b2-ac00-09414d25a196",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "bb93edaa-0b6d-406e-b494-554d59eaa8b3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3183,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 348,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26215",
+                "addr:street": "Otterb\u00e4kenweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2854991,
+                "lon": 8.0687621
+            },
+            "id": "d157c0ef-b20a-430d-a893-4dc8edb5cb3c",
+            "node": "node_41",
+            "smartmeters": [
+                {
+                    "id": "aed2a82d-c9c5-4999-bb4c-8126d0f97226",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3393,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 394,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26215",
+                "addr:street": "Bramkampsweg",
+                "addr:suburb": "Dringenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2977672,
+                "lon": 8.0706277
+            },
+            "id": "faebd1a9-1789-4d2e-b0fe-f5adc3874091",
+            "node": "node_42",
+            "smartmeters": [
+                {
+                    "id": "ff0ecff7-3b69-45fa-b4f7-bcfe8ea4f580",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 581,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26215",
+                "addr:street": "Meyersweg",
+                "addr:suburb": "Spohle"
+            }
+        }
+    ]
+}

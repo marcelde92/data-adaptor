@@ -4,6 +4,7 @@ block content
   h1= title
   h2 available API calls
   h3 TDM
+  h2 This is currently stored locally in the clients
   p /tdm/overview/ returns mid-current grid with references to all subnets
   a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/tdm/overview")  http://netzdatenstrom.imis.uni-luebeck.de:3000/tdm/overview
 
@@ -30,17 +31,17 @@ block content
   a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/meter/ID1")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/meter/ID1
 
   p /plausibility/subnet/:id returns the average of all plausibilitiers within a given subnet per algorithm
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/subnet/SNID1")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/subnet/SNID1
+  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/subnet/fff760-33-6ed2-4296-90c0-ed682a68b6ec")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/subnet/SNID1
 
-  p /plausibility/meter/:id/from/:from/to/:to returns plausibility for each algorithm for one SMGW in the given timespan which shoukd be 24h
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/meter/SMGWID/from/1343643433/to/1343943433")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/meter/SMGWID/from/1343643433/to/1343943433
+  p /plausibility/meter/:id/from/:from/to/:to returns plausibility for each algorithm for one SM in the given timespan which should be 24h
+  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/meter/d71bb352-0cdb-4e74-9754-11687a7de91a/from/1515024000/to/1515110399")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/meter/SMGWID/from/1343643433/to/1343943433
 
-  p /meter/:id/lastmonth/ returns Smartmeter values for last month with 1 hour resolution
+  p /meter/:id/lastmonth/ returns Smart-Meter values for last month with 1 hour resolution
   a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/meter/SMGWID/lastmonth")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/meter/SMGWID/lastmonth
 
-  p /meter/:id/pastmonth/ returns Smartmeter values for two month one year ago with 1 hour resolution
+  p /meter/:id/pastmonth/ returns Smart-Meter values for two month one year ago with 1 hour resolution
   a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/meter/SMGWID/pastmonth")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/meter/SMGWID/pastmonth
 
-  p  /weather/:location/ returns the weather data for the last 24 hours 30 Minute resolution
+  p  /weather/:location/ returns the weather data for the last 24 hours in 30 Minute resolution
   a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/weather/OLDENBURG")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/weather/OLDENBURG
 

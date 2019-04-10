@@ -1,0 +1,2440 @@
+{
+    "links": [
+        {
+            "source": "c5221593-a178-40ed-b993-1fdc9b6a04ab",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_2"
+        },
+        {
+            "source": "node_3",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_4"
+        },
+        {
+            "source": "node_5",
+            "target": "node_42"
+        },
+        {
+            "source": "node_42",
+            "target": "node_32"
+        },
+        {
+            "source": "node_32",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_7"
+        },
+        {
+            "source": "node_8",
+            "target": "node_9"
+        },
+        {
+            "source": "node_10",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_11"
+        },
+        {
+            "source": "node_12",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_14"
+        },
+        {
+            "source": "node_15",
+            "target": "node_16"
+        },
+        {
+            "source": "node_17",
+            "target": "node_21"
+        },
+        {
+            "source": "node_21",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_18"
+        },
+        {
+            "source": "node_19",
+            "target": "node_20"
+        },
+        {
+            "source": "node_21",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_23"
+        },
+        {
+            "source": "node_24",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_26"
+        },
+        {
+            "source": "node_27",
+            "target": "node_30"
+        },
+        {
+            "source": "node_30",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_28"
+        },
+        {
+            "source": "node_30",
+            "target": "node_31"
+        },
+        {
+            "source": "node_32",
+            "target": "node_34"
+        },
+        {
+            "source": "node_34",
+            "target": "node_33"
+        },
+        {
+            "source": "node_34",
+            "target": "node_38"
+        },
+        {
+            "source": "node_38",
+            "target": "node_35"
+        },
+        {
+            "source": "node_35",
+            "target": "node_37"
+        },
+        {
+            "source": "node_37",
+            "target": "node_36"
+        },
+        {
+            "source": "node_38",
+            "target": "node_40"
+        },
+        {
+            "source": "node_40",
+            "target": "node_39"
+        },
+        {
+            "source": "node_40",
+            "target": "node_41"
+        },
+        {
+            "source": "node_42",
+            "target": "node_52"
+        },
+        {
+            "source": "node_52",
+            "target": "node_45"
+        },
+        {
+            "source": "node_45",
+            "target": "node_44"
+        },
+        {
+            "source": "node_44",
+            "target": "node_43"
+        },
+        {
+            "source": "node_45",
+            "target": "node_47"
+        },
+        {
+            "source": "node_47",
+            "target": "node_46"
+        },
+        {
+            "source": "node_47",
+            "target": "node_48"
+        },
+        {
+            "source": "node_48",
+            "target": "node_51"
+        },
+        {
+            "source": "node_51",
+            "target": "node_50"
+        },
+        {
+            "source": "node_50",
+            "target": "node_49"
+        },
+        {
+            "source": "node_52",
+            "target": "node_53"
+        },
+        {
+            "source": "node_53",
+            "target": "node_54"
+        }
+    ],
+    "name": "Am Willbrok",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2345115,
+                "lon": 7.9755619
+            },
+            "id": "e31c57ed-1d14-44b3-a44f-b4192cecac2f",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "c27185c1-7858-4133-b686-4dfa67f9d1be",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 501,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26160",
+                "addr:street": "Am Willbrok",
+                "addr:suburb": "Elmendorf",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2352286,
+                "lon": 7.979458
+            },
+            "id": "b9a91dd0-1761-4c10-9467-8155647c2ae2",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "c4783f6e-abc6-44c5-97e6-6c181d749914",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 313,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26160",
+                "addr:street": "Marderweg",
+                "addr:suburb": "Elmendorf",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2346258,
+                "lon": 7.9758404
+            },
+            "id": "fa0b6860-58a1-4fe4-8e9f-c26ab1af6197",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "ea2bb8ad-4384-4a62-8d71-64c1113e59b9",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 385,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2343539,
+                "lon": 7.97633
+            },
+            "id": "b64758fd-0f75-4f89-aa65-86a01d3b4728",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "ee9442de-a00e-4092-8de5-b9e92c248d31",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3300,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 355,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2353348,
+                "lon": 7.9796921
+            },
+            "id": "e36eae28-09fe-47dc-a055-5be64915b99e",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "e5d07b69-0fef-4ae0-ba7f-5880b787bc25",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 368,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2342742,
+                "lon": 7.9758322
+            },
+            "id": "a9e7fd4c-0857-4066-9684-0f3b556e1f67",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "dc496a87-0887-471b-a42d-30dedd2948d1",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 806,
+            "tags": {
+                "building": "farm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2283886,
+                "lon": 7.9696605
+            },
+            "id": "d5452c5f-84bd-4447-a0fa-58e7c56c8d26",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "c130017f-f443-43c5-8925-a2fe31c73c97",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3435,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 805,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26655",
+                "addr:street": "Marderweg",
+                "addr:suburb": "Gie\u00dfelhorst",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2261788,
+                "lon": 7.9667322
+            },
+            "id": "aad94b31-244c-401a-ab1a-a694330dfd97",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "f628f4d4-6bcb-4a0d-b370-ea69d6d7ba32",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "bc22d824-bfdc-4259-9b3b-c6032ddcd135",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 66,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26655",
+                "addr:state": "Niedersachsen",
+                "addr:street": "Stubberei",
+                "addr:suburb": "Gie\u00dfelhorst",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2246365,
+                "lon": 7.9682438
+            },
+            "id": "c67c6369-a9f2-432f-9e9e-ff275def2a85",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "feaa044f-1c88-47f9-97bd-4f71157ffc95",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 183,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "3a",
+                "addr:postcode": "26160",
+                "addr:street": "Marderweg",
+                "addr:suburb": "Deepenfurth",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2244147,
+                "lon": 7.9682236
+            },
+            "id": "f3ba6993-39f2-4004-b9c2-7d18e868e041",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "d9d92618-e5d0-4ccf-ab37-c6eea138fb22",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 724,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:hamlet": "Rostrup II",
+                "addr:housenumber": "3",
+                "addr:postcode": "26160",
+                "addr:state": "Niedersachsen",
+                "addr:street": "Marderweg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2286419,
+                "lon": 7.9691414
+            },
+            "id": "ae16eea1-ca18-471c-860f-e87ad188c677",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "c86b7a3d-dee7-453a-9aa2-efab86bdb232",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3316,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 527,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26655",
+                "addr:street": "Marderweg",
+                "addr:suburb": "Gie\u00dfelhorst",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2263519,
+                "lon": 7.9668776
+            },
+            "id": "f2737482-b470-44f8-9f89-033a92d54706",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "acdb5f22-88c6-41e9-956e-89921811b98d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2990,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 265,
+            "tags": {
+                "building": "farm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2285069,
+                "lon": 7.9695917
+            },
+            "id": "f7c19885-a973-4d79-9dc1-fa7f706bb03a",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "efdf9e05-a235-47f0-bdd0-7dfc413d092b",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 507,
+            "tags": {
+                "building": "roof"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2284788,
+                "lon": 7.9696386
+            },
+            "id": "c9247deb-bc26-4f54-a65b-21b8ccf37a0c",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "f717bc00-6576-48af-b27d-db31c44fcc8e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 879,
+            "tags": {
+                "building": "garage"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2268065,
+                "lon": 7.9670372
+            },
+            "id": "ffdb1d02-8c86-4e02-82f3-4c25a2784c63",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "a5112242-539a-4089-b0c5-78e0a6b28e97",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2803,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 539,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2291781,
+                "lon": 7.969265
+            },
+            "id": "b4ee856d-72da-44b0-89f0-d218822207bf",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "bd86357e-4bcb-4672-ba4b-28fd067a1e7a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 744,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2290467,
+                "lon": 7.9692796
+            },
+            "id": "c8a66a12-a689-49df-813a-e7745d57b978",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "db9ad007-d679-43d1-8a59-30333fc95a52",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3685,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 667,
+            "tags": {
+                "building": "greenhouse"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2284897,
+                "lon": 7.9700783
+            },
+            "id": "d36c770b-acd7-4810-a1a4-e1949ec9ed27",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "bcdc1492-092d-42bd-92b5-cb360b1096d7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3389,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 322,
+            "tags": {
+                "building": "greenhouse"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2287382,
+                "lon": 7.9696668
+            },
+            "id": "fa6aa0e0-ad78-44ca-b796-b7e1c2e639a0",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "a0bac64a-a800-4b4a-b18c-9840ebcb52d7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3493,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 473,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2287682,
+                "lon": 7.9688769
+            },
+            "id": "da998e08-62e5-4f8a-8ee9-6b66aca33576",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "ee4d8f9d-6b63-45ba-8c9a-b61f7b3bc3e2",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 217,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2262922,
+                "lon": 7.9677181
+            },
+            "id": "b29c28d8-e0f2-4c18-a328-703f60bcc2c4",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "f3723517-6118-4e28-bfb3-20fcb064e675",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 862,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "6A",
+                "addr:postcode": "26655",
+                "addr:state": "Niedersachsen",
+                "addr:street": "Stubberei",
+                "addr:suburb": "Gie\u00dfelhorst",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2263703,
+                "lon": 7.9665337
+            },
+            "id": "a646dc7b-acce-4c79-8cc5-a5be30ea666f",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "a246c148-3ff7-428f-8a75-6ee514794051",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 342,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2290213,
+                "lon": 7.9695567
+            },
+            "id": "c39408fd-e69e-4e11-adcd-c4235aa9151e",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "c448f5f0-e909-434f-8dc3-bf1bd129db3e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 459,
+            "tags": {
+                "building": "greenhouse"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2349807,
+                "lon": 7.9723676
+            },
+            "id": "f8ab5ce8-d1ee-4ec8-8c64-791695ddcdcf",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "f66a8417-7793-4d36-8e89-4032794882aa",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 68,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "25b",
+                "addr:postcode": "26655",
+                "addr:street": "Omorikastra\u00dfe",
+                "addr:suburb": "Gie\u00dfelhorst",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2350166,
+                "lon": 7.9726166
+            },
+            "id": "ca6b9e4c-d8e3-47f3-80b3-cd46fc25d4a5",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "d9faf181-deb1-4138-9d73-a3b5cb761eff",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3628,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 838,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "25a",
+                "addr:postcode": "26655",
+                "addr:street": "Omorikastra\u00dfe",
+                "addr:suburb": "Gie\u00dfelhorst",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2350569,
+                "lon": 7.9724457
+            },
+            "id": "d9aaee7e-f86b-45ed-838f-f1857a10f352",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "b6be2d8b-2814-4c14-99f4-328361e1c64d",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 726,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "25",
+                "addr:postcode": "26655",
+                "addr:street": "Omorikastra\u00dfe",
+                "addr:suburb": "Gie\u00dfelhorst",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2356744,
+                "lon": 7.971313
+            },
+            "id": "cfff0157-8bd2-42ea-b25a-f136c40dca74",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "c0214998-6043-4a44-8117-6d90280c9008",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 52,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "22",
+                "addr:postcode": "26655",
+                "addr:street": "Omorikastra\u00dfe",
+                "addr:suburb": "Gie\u00dfelhorst",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2357516,
+                "lon": 7.9716077
+            },
+            "id": "b22c6e3e-1565-4b03-acbb-89f5a39fcd27",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "f12771ee-f4a9-49a0-9623-74ff0eef8519",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 818,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2347816,
+                "lon": 7.9752046
+            },
+            "id": "adc0da76-76da-42ce-87eb-cfba27bdfdf6",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "f2df058a-fdd3-4156-ae37-b2dfdab87ff0",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "c2a02a9f-6aef-4cbd-9b4c-503f420f07af",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 134,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2362174,
+                "lon": 7.9722433
+            },
+            "id": "dc7b5dac-e94f-491f-96dc-64dad32a70ca",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "a088af2a-87df-4341-bc9b-eea380c05b93",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 627,
+            "tags": {
+                "building": "farm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2350639,
+                "lon": 7.9722069
+            },
+            "id": "b74b7782-474e-4d09-871e-76e0a3c9e8e7",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "d08966f7-7ca3-4136-9e4d-bd48e4844dc6",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 139,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.232751,
+                "lon": 7.9899216
+            },
+            "id": "ea2fe294-1ee2-4674-83e6-cec31859ec30",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "ef006241-5996-4f43-82e4-da659d02bf77",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 407,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "20",
+                "addr:postcode": "26160",
+                "addr:street": "Willbroksmoor",
+                "addr:suburb": "Langebr\u00fcgge",
+                "building": "commercial"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2328279,
+                "lon": 7.9922294
+            },
+            "id": "b9b332e0-6a7e-499a-82b8-a72d067b2106",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "cb149251-9108-45df-af7e-c85772f6cd0b",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 568,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "17",
+                "addr:postcode": "26160",
+                "addr:street": "Langebr\u00fcgger Stra\u00dfe",
+                "addr:suburb": "Langebr\u00fcgge",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2328943,
+                "lon": 7.9924451
+            },
+            "id": "d1a0fb92-226e-4d0e-8c1d-034be89c1955",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "f25d1a9c-e4c5-467f-91fb-33e9704cfee0",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 163,
+            "tags": {
+                "building": "garage"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.224417,
+                "lon": 7.9863631
+            },
+            "id": "ed07bcdc-6598-427e-bb80-fa0c5926d68e",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "d52e6375-6233-403a-b127-615d218e1abc",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3749,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 287,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26160",
+                "addr:street": "Willbroksmoor",
+                "addr:suburb": "Willbroksmoor",
+                "building": "farm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2240792,
+                "lon": 7.9802621
+            },
+            "id": "e1fdd03a-8b65-46bc-8d83-b978dae0d4a6",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "db5c698c-8cdc-48c8-aa1e-225f2b3d02d8",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 872,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26160",
+                "addr:street": "Willbroksmoor",
+                "addr:suburb": "Willbroksmoor",
+                "building": "farm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2243812,
+                "lon": 7.9801779
+            },
+            "id": "a9c15d7a-7809-4f29-9226-357542d704de",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "d730417e-1e80-4135-bffe-50eed2059341",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 632,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2242805,
+                "lon": 7.9804451
+            },
+            "id": "f590eadc-5d2a-465a-b373-0c9f77328ba2",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "f4d3740e-a044-4aa6-be73-aea544027fdf",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 21,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.224528,
+                "lon": 7.9862618
+            },
+            "id": "d0e70153-2b69-456e-a289-647135fc29f3",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "eebf66e6-5a20-4244-95bf-c4adda52a886",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 335,
+            "tags": {
+                "building": "farm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2239297,
+                "lon": 7.9802528
+            },
+            "id": "a0755703-c167-43aa-855a-82804d620c47",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "a3193b83-2176-4df8-bb7a-86843fa2333f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 644,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2243936,
+                "lon": 7.9866225
+            },
+            "id": "fedb5da4-844e-4750-b314-152c78f9fd0b",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "dc579c58-9be3-422a-8a0c-7e7969c97d97",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 385,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2240904,
+                "lon": 7.9804914
+            },
+            "id": "aeb18eda-9b82-4415-b484-872fd78fca95",
+            "node": "node_41",
+            "smartmeters": [
+                {
+                    "id": "bd9ba60f-9d1d-4e8b-beb9-45bbfa45e2ce",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 720,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2242219,
+                "lon": 7.9865522
+            },
+            "id": "b42334a9-5fa6-4c50-9e63-b6af4a24303f",
+            "node": "node_42",
+            "smartmeters": [
+                {
+                    "id": "b393499b-313d-4706-937f-52110854756e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 558,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2367532,
+                "lon": 7.9901792
+            },
+            "id": "e5f0edac-00f7-4625-9b0f-ecae1c9e366c",
+            "node": "node_43",
+            "smartmeters": [
+                {
+                    "id": "fb46f0a3-117b-46d9-8056-28b80f13183f",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 470,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26160",
+                "addr:street": "H\u00fcllsteder Stra\u00dfe",
+                "addr:suburb": "Langebr\u00fcgge",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2369089,
+                "lon": 7.9901098
+            },
+            "id": "f0588095-fa83-4c72-b9d9-9703645d5bec",
+            "node": "node_44",
+            "smartmeters": [
+                {
+                    "id": "e37ef04f-c969-4db6-a1b7-853a31b090ec",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 188,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2347138,
+                "lon": 7.9749729
+            },
+            "id": "b36b8e3d-88a4-44d1-a94a-df8adc3403d5",
+            "node": "node_45",
+            "smartmeters": [
+                {
+                    "id": "c43970c3-537e-485e-ac83-e53bd5082a32",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 18,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26160",
+                "addr:street": "Am Willbrok",
+                "addr:suburb": "Elmendorf",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2349102,
+                "lon": 7.9796918
+            },
+            "id": "f42904d3-dd1f-401d-8b51-191450a094d8",
+            "node": "node_46",
+            "smartmeters": [
+                {
+                    "id": "cd154014-4b50-42bd-be8d-9b10d043ff21",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 722,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26160",
+                "addr:street": "Am Willbrok",
+                "addr:suburb": "Elmendorf",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2273049,
+                "lon": 7.9736562
+            },
+            "id": "ed9528e7-4088-4991-906b-b30faf2ba2b2",
+            "node": "node_47",
+            "smartmeters": [
+                {
+                    "id": "a04e9f41-76ca-4c1e-aeb7-ca2060f9a926",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 91,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2353354,
+                "lon": 7.9753304
+            },
+            "id": "c746de65-ddbe-49d3-ad43-a8c8e13f32a0",
+            "node": "node_48",
+            "smartmeters": [
+                {
+                    "id": "d71d4e92-4bba-4fc2-80db-4832beaa2eaa",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 764,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26160",
+                "addr:street": "Am Willbrok",
+                "addr:suburb": "Elmendorf"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2341177,
+                "lon": 7.984409
+            },
+            "id": "e4c7a152-656b-4a07-9164-fc4a78215cea",
+            "node": "node_49",
+            "smartmeters": [
+                {
+                    "id": "d5cd58f9-68cd-48e7-b5da-481a091d723c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 314,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26160",
+                "addr:street": "Am Willbrok",
+                "addr:suburb": "Elmendorf"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2354369,
+                "lon": 7.9755217
+            },
+            "id": "a0718f0a-832c-45f8-bb67-94603ec4654f",
+            "node": "node_50",
+            "smartmeters": [
+                {
+                    "id": "d98e691c-0d6f-41af-98d0-f40d3da5720c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 892,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26160",
+                "addr:street": "Am Willbrok",
+                "addr:suburb": "Elmendorf"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2337765,
+                "lon": 7.9868889
+            },
+            "id": "bcd513b6-fd1a-4244-b127-a5a6227a36e8",
+            "node": "node_51",
+            "smartmeters": [
+                {
+                    "id": "a885f056-5b64-4dec-858f-0477c723413e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "bcd98cb3-8db8-4e11-9ed7-0f16f83a477d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3599,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 784,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26160",
+                "addr:street": "Am Willbrok",
+                "addr:suburb": "Elmendorf"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2353416,
+                "lon": 7.9767876
+            },
+            "id": "f7db1860-a265-48f7-ba4c-87fcc8a157cc",
+            "node": "node_52",
+            "smartmeters": [
+                {
+                    "id": "b659d827-9ba9-479e-83dd-b4bfe1ea61a2",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 52,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "1a",
+                "addr:postcode": "26160",
+                "addr:street": "Am Willbrok",
+                "addr:suburb": "Elmendorf"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2365544,
+                "lon": 7.9683352
+            },
+            "id": "ac369014-e14d-49a4-82ab-2ff3b2381359",
+            "node": "node_53",
+            "smartmeters": [
+                {
+                    "id": "aae8c569-b4ec-4128-9aaf-731167e00e7a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 843,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "18",
+                "addr:postcode": "26655",
+                "addr:street": "Omorikastra\u00dfe",
+                "addr:suburb": "Gie\u00dfelhorst"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2365875,
+                "lon": 7.9673684
+            },
+            "id": "fd04bd9e-51ee-4567-a477-44119a500a38",
+            "node": "node_54",
+            "smartmeters": [
+                {
+                    "id": "f3c27aed-1274-4fd1-9c8f-13d33f8b27be",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 351,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "16",
+                "addr:postcode": "26655",
+                "addr:street": "Omorikastra\u00dfe",
+                "addr:suburb": "Gie\u00dfelhorst"
+            }
+        }
+    ]
+}

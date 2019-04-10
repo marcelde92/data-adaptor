@@ -1,0 +1,388 @@
+{
+    "links": [
+        {
+            "source": "b3d36e9f-7c39-45cb-8da8-04d1b1cd43b4",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_6"
+        },
+        {
+            "source": "b3d36e9f-7c39-45cb-8da8-04d1b1cd43b4",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_3"
+        },
+        {
+            "source": "b3d36e9f-7c39-45cb-8da8-04d1b1cd43b4",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_4"
+        },
+        {
+            "source": "b3d36e9f-7c39-45cb-8da8-04d1b1cd43b4",
+            "target": "node_5"
+        }
+    ],
+    "name": "Hochtanger Weg",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1567149,
+                "lon": 7.9403817
+            },
+            "id": "a0040536-e453-48cc-9df4-a7f7c491f9a6",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "bb958b8d-5a3d-41e9-ba40-7b7e984346f1",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "dca4233a-5895-41aa-bcfd-1e252bc87ce9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3541,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 23,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26160",
+                "addr:street": "Lange Riede",
+                "addr:suburb": "D\u00e4nikhorst"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.15639,
+                "lon": 7.9366102
+            },
+            "id": "db2bcd91-5767-45a8-9f44-fbff652ed8f2",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "e1b6b329-400c-414d-944a-a64acd629050",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 461,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "39",
+                "addr:postcode": "26160",
+                "addr:street": "Hochtanger Weg",
+                "addr:suburb": "D\u00e4nikhorst"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1568158,
+                "lon": 7.9366524
+            },
+            "id": "ec5f4dc4-3714-4047-a437-fef7ad980456",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "a2fb8666-14ec-4373-8193-f6b431ffa5c9",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "e0783d95-a1c8-4281-82fc-f1cda90f5f8d",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 730,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "37a",
+                "addr:postcode": "26160",
+                "addr:street": "Hochtanger Weg",
+                "addr:suburb": "D\u00e4nikhorst"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.157111,
+                "lon": 7.9366665
+            },
+            "id": "f620afdf-be63-49ee-86b9-8a56dbd385e4",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "b55ac9d1-1b43-4ea1-97d4-761628d20e1e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "faa60146-13f4-4a1a-acc1-6f1ed9312b0e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2869,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 360,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "37",
+                "addr:postcode": "26160",
+                "addr:street": "Hochtanger Weg",
+                "addr:suburb": "D\u00e4nikhorst"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1576043,
+                "lon": 7.9365258
+            },
+            "id": "d9c3d73b-78c5-44c1-96dc-1a30b8c8da60",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "de737fc8-dbc0-4d9e-9eeb-a476101fa3f3",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 329,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "35",
+                "addr:postcode": "26160",
+                "addr:street": "Hochtanger Weg",
+                "addr:suburb": "D\u00e4nikhorst"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1495869,
+                "lon": 7.9417507
+            },
+            "id": "a5b5b7e3-1f24-45c2-82a5-355490d48e13",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "afde0b93-ff8c-4dcc-850e-d6990df62040",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 343,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "18",
+                "addr:postcode": "26160",
+                "addr:street": "Hauptstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.153184,
+                "lon": 7.9461932
+            },
+            "id": "ba1e2995-7212-42b8-87e1-0e4a0943230a",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "fbafd58f-1b25-46d9-8cbc-4526098176e1",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 633,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26160",
+                "addr:street": "Hauptstra\u00dfe"
+            }
+        }
+    ]
+}

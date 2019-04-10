@@ -1,0 +1,1975 @@
+{
+    "links": [
+        {
+            "source": "f7fe7655-1d96-4ba7-bd9c-4761a1d17677",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_8"
+        },
+        {
+            "source": "node_9",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_13"
+        },
+        {
+            "source": "node_16",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_35"
+        },
+        {
+            "source": "node_35",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_18"
+        },
+        {
+            "source": "node_24",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_26"
+        },
+        {
+            "source": "node_35",
+            "target": "node_37"
+        },
+        {
+            "source": "node_37",
+            "target": "node_39"
+        },
+        {
+            "source": "f7fe7655-1d96-4ba7-bd9c-4761a1d17677",
+            "target": "node_34"
+        },
+        {
+            "source": "node_34",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_3"
+        },
+        {
+            "source": "node_15",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_20"
+        },
+        {
+            "source": "node_27",
+            "target": "node_33"
+        },
+        {
+            "source": "node_33",
+            "target": "node_29"
+        },
+        {
+            "source": "node_34",
+            "target": "node_36"
+        },
+        {
+            "source": "node_36",
+            "target": "node_38"
+        },
+        {
+            "source": "node_38",
+            "target": "node_40"
+        },
+        {
+            "source": "node_40",
+            "target": "node_43"
+        },
+        {
+            "source": "node_43",
+            "target": "node_41"
+        },
+        {
+            "source": "f7fe7655-1d96-4ba7-bd9c-4761a1d17677",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_1"
+        },
+        {
+            "source": "node_10",
+            "target": "node_45"
+        },
+        {
+            "source": "node_45",
+            "target": "node_21"
+        },
+        {
+            "source": "f7fe7655-1d96-4ba7-bd9c-4761a1d17677",
+            "target": "node_30"
+        },
+        {
+            "source": "node_30",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_4"
+        },
+        {
+            "source": "node_6",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_11"
+        },
+        {
+            "source": "node_14",
+            "target": "node_22"
+        },
+        {
+            "source": "node_23",
+            "target": "node_25"
+        },
+        {
+            "source": "node_30",
+            "target": "node_44"
+        },
+        {
+            "source": "node_44",
+            "target": "node_32"
+        },
+        {
+            "source": "node_32",
+            "target": "node_31"
+        },
+        {
+            "source": "node_32",
+            "target": "node_42"
+        }
+    ],
+    "name": "Waterender Weg",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1547068,
+                "lon": 8.2483809
+            },
+            "id": "babc13b8-e8ff-4ae4-9fad-23ba23dd97f8",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "ded94462-86b2-4529-92e8-bf3704f1d910",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2690,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 783,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "30",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.153197,
+                "lon": 8.2472056
+            },
+            "id": "f7140db8-a6d4-4a2f-9db0-48f25d42ad99",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "aced45cd-d61c-43a1-9631-70ee211bd002",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5208,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 115,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1529238,
+                "lon": 8.2472469
+            },
+            "id": "bdbe21a0-6713-4688-a231-ff8cdee9398d",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "d8355dcc-e43a-41bf-82b4-ed79f2cd4338",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4531,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 469,
+            "tags": {
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1550216,
+                "lon": 8.2477633
+            },
+            "id": "adc252b1-d8b0-409d-b3bf-0bb03301dda7",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "e6833faa-7bfb-41c7-932c-0dfba09281a6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3226,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 759,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "26",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1550386,
+                "lon": 8.2480225
+            },
+            "id": "cf8e73bf-984d-429b-9b61-375d18a1aa90",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "b1e2de58-c6e1-45e2-97ee-828adfb8d436",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "af9d72cb-9397-4d40-8677-5168acd5e189",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2657,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 589,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "28",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1544177,
+                "lon": 8.2484196
+            },
+            "id": "f495348b-9b71-4c58-b93c-acd0320db68f",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "a8593587-6824-4e98-9d24-c19c1783bbea",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2567,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 96,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "30c",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "apartments"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1547361,
+                "lon": 8.2491297
+            },
+            "id": "e9df5487-f317-4e45-8f64-b089c51aa40f",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "d3d9d024-396c-41b2-ac27-c605931393a4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3991,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 654,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "34a",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1543688,
+                "lon": 8.2482119
+            },
+            "id": "cfaab4ee-5dcf-4171-adc4-e7185d35c900",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "fa609505-f664-4723-9e7e-57d2e3b75d11",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3357,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "ac60d793-066e-4da8-806f-366c64033c5e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3812,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 261,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "30d",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "apartments"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1547858,
+                "lon": 8.24952
+            },
+            "id": "f4fb42c2-1bbf-4a26-9487-a880a950c74f",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "a2151a6e-4c03-4bc9-a881-8ec8388320d8",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 548,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "38b",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1541771,
+                "lon": 8.2476291
+            },
+            "id": "d1de35ef-c465-434d-adec-d89a356d352d",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "dd7e3be5-5739-452b-b62c-24a599860159",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 423,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "30a",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "school",
+                "name": "ZAW Zentrales Aus- und Weiterbildungszentrum EWE"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1532174,
+                "lon": 8.2478569
+            },
+            "id": "a0e81778-f2da-443f-b981-95a6682ed713",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "dbfecfeb-b276-4147-a7b6-6b0e21cdfbaa",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3408,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 329,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "amenity": "restaurant",
+                "building": "yes",
+                "name": "EWE Kantine"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1535182,
+                "lon": 8.2479544
+            },
+            "id": "ea7f25d3-062c-45af-994f-cb7b67550d30",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "e6a17aa8-ada1-4b5d-beeb-39622776cc2c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3211,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 373,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "apartments",
+                "name": "EWE Internat Haus 3"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1551044,
+                "lon": 8.2485263
+            },
+            "id": "d8667b7c-4bdd-4c22-8ea7-cfb68153ea6a",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "cd393c07-aea4-4390-82cf-a92e2505956e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3329,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 222,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1551947,
+                "lon": 8.2488384
+            },
+            "id": "cf174290-a58b-478f-8b26-ed7d5714ab84",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "df28af8b-b8f2-4dd9-9ee9-4476ce2bea35",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 472,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "36",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1551116,
+                "lon": 8.2487305
+            },
+            "id": "ba25db54-6938-40b3-abc7-98fb9dc36dce",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "be8981a1-d8af-4d7a-a957-7d3e41a2967e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3892,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 591,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "34",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1536806,
+                "lon": 8.24736
+            },
+            "id": "aefcc718-6307-4bf1-bec8-44044c0fdbe1",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "e7b9267b-8257-46cd-9ee7-158aee40fe98",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3211,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 825,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "yes",
+                "name": "EWE Ausbildungswerkstatt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1532664,
+                "lon": 8.2483742
+            },
+            "id": "e5290fb7-f72a-43e1-ac05-bdf7bb19c8bc",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "bbf1de6f-dd8c-4a0e-aa66-113fb4c428b2",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 35,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:postcode": "26123",
+                "building": "apartments",
+                "name": "EWE Internat Haus"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1541921,
+                "lon": 8.2483974
+            },
+            "id": "d09da594-4499-482e-87e8-6978d6355ea0",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "f2bca66f-1f7d-4e37-a11f-9267d3ec35b4",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 436,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "30b",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1530005,
+                "lon": 8.2486644
+            },
+            "id": "dda09838-0387-41a0-9817-06297f6f1572",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "aa3aef68-4ca3-4bae-b6fb-a663ef76b27d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3225,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 93,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.154953,
+                "lon": 8.2484843
+            },
+            "id": "c5a688c1-c82a-4d63-a580-1eb00f7c31dd",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "ce157e25-4d8d-41f7-a94b-9aac51375c89",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3470,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 259,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "32",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1535829,
+                "lon": 8.2484291
+            },
+            "id": "f6864852-02c6-4334-a4c8-7089be0a0fc4",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "c9773620-53f8-4ba9-b9ed-77095f7431a5",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 719,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "apartments",
+                "name": "EWE Internat Haus 2"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1545919,
+                "lon": 8.2477189
+            },
+            "id": "c73324ad-0bb6-439d-8985-49635db0d364",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "f36c8aa1-4cd7-4d3c-bb6a-b07d18e9528d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3472,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 759,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "28a",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "apartments",
+                "name": "EWE Internat Haus 5"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1537906,
+                "lon": 8.2480694
+            },
+            "id": "e9a52781-282b-48ae-9636-3595b57c6cb5",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "b4e2c99e-0fbe-4fff-a710-b2d9176e3096",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3791,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 506,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:street": "Waterender Weg",
+                "building": "school",
+                "name": "DV Schulung"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1533777,
+                "lon": 8.2476784
+            },
+            "id": "d8002019-3090-42e3-acfb-2e045423717a",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "f706405e-6da1-4943-800f-dd4a145f39ce",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3715,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 765,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1554749,
+                "lon": 8.2496712
+            },
+            "id": "a6702ad7-2dfb-470e-8d23-7b546a5c14eb",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "b7f71025-fe2b-4c57-85e8-46288d467949",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 31,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "44",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1553689,
+                "lon": 8.2494375
+            },
+            "id": "be7159da-6512-4bc6-8534-d589c5cc2a78",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "bdca6921-418e-4f66-9ccb-f39007030276",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 629,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "42",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1550132,
+                "lon": 8.2495645
+            },
+            "id": "f7417080-6277-4662-bfaa-f45ea9b581ec",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "c861b68c-97bf-4811-b218-3f1c281dab6d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3655,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 402,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "40",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1551654,
+                "lon": 8.2496605
+            },
+            "id": "f0ebc9ef-3d0c-464e-8f88-82d77874af5d",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "e86079c8-84cf-484c-a441-a1641f457c41",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3395,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 370,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "42a",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1552632,
+                "lon": 8.2490574
+            },
+            "id": "e90418f0-be7c-4e2a-84ad-9d6983eaa9f4",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "f9b32f01-3696-4a5f-bbf5-8dbc189174c8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2893,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 879,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "38",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1553105,
+                "lon": 8.2497762
+            },
+            "id": "c8b62ee8-fb60-4074-80fc-e87fddf30255",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "f6658a78-8549-4b75-bc3b-18f25da1a8e0",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4256,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 362,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "44a",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1555131,
+                "lon": 8.2484808
+            },
+            "id": "da6d8e31-02b4-4888-a751-ba098f896aaf",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "ebabe6db-201d-4df0-a94b-bffc2f925997",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2699,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 298,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1559223,
+                "lon": 8.2489805
+            },
+            "id": "b8708adb-a44c-48d3-aa03-c7759fdf324b",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "ac41a0f0-333a-4d51-8bbd-6951e0b67e8c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4241,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 146,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "25",
+                "addr:postcode": "26123",
+                "addr:street": "Brahmkamp",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1554326,
+                "lon": 8.2480205
+            },
+            "id": "f4d832eb-450d-4978-ae40-3bab332547b2",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "c3ea2e31-a6eb-437f-91bf-cd519351ccb5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4243,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 215,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "35",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1556476,
+                "lon": 8.2488875
+            },
+            "id": "f5b7ab1e-4342-4405-898b-fea59418612b",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "ab858c86-05a7-4212-a302-976a58642858",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2858,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 127,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "27",
+                "addr:postcode": "26123",
+                "addr:street": "Brahmkamp",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1556667,
+                "lon": 8.2491761
+            },
+            "id": "f9b28869-3ac0-43f9-a786-b83933196e62",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "c495f64d-4cf7-4922-80a0-769936ef25d2",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2808,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 405,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "41",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1557488,
+                "lon": 8.2490365
+            },
+            "id": "e0e2963a-a1bb-4acd-a33c-228efd0d9607",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "dcdee630-28bf-48fa-bcb5-e31468aee68d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3103,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 846,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1561111,
+                "lon": 8.2488383
+            },
+            "id": "ac79e8cf-99cd-4073-a239-9ced8d9ed3b9",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "efbe4e4b-af36-41d4-b0f1-7a9ae51e2872",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3005,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 520,
+            "tags": {
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1556903,
+                "lon": 8.248222
+            },
+            "id": "ab8cf111-7ba9-4edc-9747-ea3fe7bb3a0d",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "d4222f06-1b95-4451-9351-d47222b8e0c7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4592,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 282,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "26",
+                "addr:postcode": "26123",
+                "addr:street": "Brahmkamp",
+                "building": "yes",
+                "name": "Kath. Kindergarten St. Bonifatius"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1558487,
+                "lon": 8.2494233
+            },
+            "id": "f5aca2b8-4386-4ac5-ab22-66cc30707547",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "aaa72678-4907-42cc-ac8b-197cd6b56521",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4173,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 9,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "43",
+                "addr:postcode": "26123",
+                "addr:street": "Waterender Weg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1550963,
+                "lon": 8.2504012
+            },
+            "id": "f9d01346-2f25-450c-9849-cbf4368ebffc",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "a5f22f8a-3d45-48ec-8a84-9b566dea61dc",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3267,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 507,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "68",
+                "addr:postcode": "26125",
+                "addr:street": "Waterender Weg",
+                "building": "yes",
+                "crop": "milk"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1530012,
+                "lon": 8.2472279
+            },
+            "id": "c6c6e967-b9e3-4efb-b681-7eb8f375c8e5",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "ebe5719c-6fb4-46e2-9b9f-32ece9d72d9b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4444,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "ffef2f96-ecd7-4f1a-9710-edce690810eb",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 4,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "23",
+                "addr:postcode": "26123",
+                "addr:street": "Feldkamp"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1560705,
+                "lon": 8.2489688
+            },
+            "id": "ca230671-5f7f-49a6-8373-ee5ba79859c0",
+            "node": "node_41",
+            "smartmeters": [
+                {
+                    "id": "da8686ca-e5e6-481c-8414-9b9833006cba",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 217,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "23a",
+                "addr:postcode": "26123",
+                "addr:street": "Brahmkamp"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.156102,
+                "lon": 8.2487209
+            },
+            "id": "be5804da-52b8-435c-8329-07034252d718",
+            "node": "node_42",
+            "smartmeters": [
+                {
+                    "id": "ed7a2271-dd2c-43aa-9725-90ed479a2543",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3621,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 501,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "23",
+                "addr:postcode": "26123",
+                "addr:street": "Brahmkamp"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.152945,
+                "lon": 8.2472509
+            },
+            "id": "d566a212-5c01-42b0-b3fe-d4f05134651a",
+            "node": "node_43",
+            "smartmeters": [
+                {
+                    "id": "e0dad31f-a67a-41c0-a4a2-e81503cbdf29",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 348,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "21",
+                "addr:postcode": "26123",
+                "addr:street": "Feldkamp"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1528888,
+                "lon": 8.247274
+            },
+            "id": "b1f3f94c-f64b-46ef-9dd7-61464ae410d2",
+            "node": "node_44",
+            "smartmeters": [
+                {
+                    "id": "d71843a6-b717-4f8f-b650-c1b7a4ef701a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3530,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 712,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "19",
+                "addr:postcode": "26123",
+                "addr:street": "Feldkamp"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1528391,
+                "lon": 8.2472862
+            },
+            "id": "b8750426-580c-4afc-82f7-168351471726",
+            "node": "node_45",
+            "smartmeters": [
+                {
+                    "id": "f70adbca-8e23-4020-8c84-372fc5cb9283",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5125,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 178,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "17",
+                "addr:postcode": "26123",
+                "addr:street": "Feldkamp"
+            }
+        }
+    ]
+}

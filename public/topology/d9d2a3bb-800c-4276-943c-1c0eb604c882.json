@@ -1,0 +1,1493 @@
+{
+    "links": [
+        {
+            "source": "d9d2a3bb-800c-4276-943c-1c0eb604c882",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_0"
+        },
+        {
+            "source": "node_2",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_4"
+        },
+        {
+            "source": "node_5",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_7"
+        },
+        {
+            "source": "node_11",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_13"
+        },
+        {
+            "source": "node_14",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_17"
+        },
+        {
+            "source": "node_19",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_21"
+        },
+        {
+            "source": "node_21",
+            "target": "node_20"
+        },
+        {
+            "source": "node_22",
+            "target": "node_23"
+        },
+        {
+            "source": "node_24",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_28"
+        },
+        {
+            "source": "node_29",
+            "target": "node_30"
+        }
+    ],
+    "name": "Lehmder Stra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2977317,
+                "lon": 8.2015591
+            },
+            "id": "e938b92b-09f4-4164-b130-75fe2e8c845a",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "ae62fe33-4450-46db-8be0-46eeaa8c60e4",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 824,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "308",
+                "addr:postcode": "26180",
+                "addr:street": "Lehmder Stra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2978692,
+                "lon": 8.201506
+            },
+            "id": "a0732a6b-2e31-4f66-a371-0819f68caed4",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "ce02da26-8b7d-4c0f-8940-b33e852dad98",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 707,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "308a",
+                "addr:postcode": "26180",
+                "addr:street": "Lehmder Stra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.3078394,
+                "lon": 8.1816765
+            },
+            "id": "fc3999c2-a3b6-4d8d-8534-4cf2822e2351",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "f818b2fa-dc0d-4d90-9825-3bf0dc55b62d",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 43,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26180",
+                "addr:street": "Wullgrasweg",
+                "addr:suburb": "Hahn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.3046508,
+                "lon": 8.1990073
+            },
+            "id": "cd3b4049-329d-421d-a683-7e17534b7ec8",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "f9b1cafe-e389-4fbe-bae2-e2147f2d6b2c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3076,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 164,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "51",
+                "addr:postcode": "26180",
+                "addr:street": "Alter Lehmder Weg",
+                "addr:suburb": "Hahn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.3008297,
+                "lon": 8.1960408
+            },
+            "id": "e958ee6b-90a9-4639-b99d-3dc93326522b",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "d2b947b4-be8f-4dc9-b514-e31056d8cf54",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2822,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 702,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "48a",
+                "addr:postcode": "26180",
+                "addr:street": "Alter Lehmder Weg",
+                "addr:suburb": "Hahn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.3009101,
+                "lon": 8.1960817
+            },
+            "id": "aed2be1f-ab81-4f49-844b-0a0756513b0e",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "f432f279-00a9-4dad-98a4-488b4c7dace4",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 513,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "48",
+                "addr:postcode": "26180",
+                "addr:street": "Alter Lehmder Weg",
+                "addr:suburb": "Hahn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.3008901,
+                "lon": 8.1940505
+            },
+            "id": "e4cda18c-2f5f-4e11-950f-629d72cd7b84",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "cd72cc79-85b4-4cd9-93ea-d5ef095ded0c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 22,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "42",
+                "addr:postcode": "26180",
+                "addr:street": "Alter Lehmder Weg",
+                "addr:suburb": "Hahn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2989217,
+                "lon": 8.1910804
+            },
+            "id": "d6a43a82-a7bd-483f-b477-2b08030e5831",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "a66def40-70b4-4ba4-b598-4dc4e6fa5702",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 30,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "30",
+                "addr:postcode": "26180",
+                "addr:street": "Alter Lehmder Weg",
+                "addr:suburb": "Hahn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.3042575,
+                "lon": 8.2076436
+            },
+            "id": "a76e74da-3eb8-42b0-8770-53fbc7634e05",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "af925be8-e807-4d1e-ae74-617704f2aef8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3229,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "a16b38f4-0709-4b42-881e-2ebff1ac08a5",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 567,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "21",
+                "addr:postcode": "26180",
+                "addr:street": "B\u00e4kenweg",
+                "addr:suburb": "Hahn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.296697,
+                "lon": 8.187705
+            },
+            "id": "a6b345fe-e1d1-445c-abdb-be91a4367259",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "f4d34f4d-83e0-4a2d-9d98-f536376346a6",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 594,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "14",
+                "addr:postcode": "26180",
+                "addr:street": "Alter Lehmder Weg",
+                "addr:suburb": "Hahn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.3037463,
+                "lon": 8.2039288
+            },
+            "id": "aed68ac2-0e8f-4a1d-9eef-b2d22a96511b",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "edfd3b80-71eb-43b6-a6f4-6e0ea42f4fe2",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 488,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "11",
+                "addr:postcode": "26180",
+                "addr:street": "B\u00e4kenweg",
+                "addr:suburb": "Hahn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2953206,
+                "lon": 8.1873237
+            },
+            "id": "a11bdcfb-d703-433c-b1b3-64a09f157416",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "a5a7bd44-1eda-4b7b-abd5-13e93984e36c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 606,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26180",
+                "addr:street": "Alter Lehmder Weg",
+                "addr:suburb": "Hahn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.3102667,
+                "lon": 8.18706
+            },
+            "id": "b896e446-66c7-4ebf-819d-3b33865ead08",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "ad577e25-9067-4f00-bf3a-865266488e08",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 710,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "137a",
+                "addr:postcode": "26180",
+                "addr:street": "Hahnermoorweg",
+                "addr:suburb": "Hahn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.3102038,
+                "lon": 8.1871419
+            },
+            "id": "e0289dec-2d14-4524-bdc6-af0d28cade5d",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "ae52d73c-1568-4f28-a504-050e23813b3e",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 450,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "137",
+                "addr:postcode": "26180",
+                "addr:street": "Hahnermoorweg",
+                "addr:suburb": "Hahn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2854757,
+                "lon": 8.1798796
+            },
+            "id": "eb6482d6-36b8-4a40-9c1d-759d36f1866c",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "a73bb971-80fd-4003-872c-2c1e10eb5ff6",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 337,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "99a",
+                "addr:postcode": "26180",
+                "addr:street": "Lehmder Stra\u00dfe",
+                "addr:suburb": "Lehmden"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2852504,
+                "lon": 8.1796867
+            },
+            "id": "ece5c9bb-97ff-4eb4-9f44-82da2ac578c8",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "f2e370eb-2c87-412b-9ed6-fc07f9124054",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 240,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "99",
+                "addr:postcode": "26180",
+                "addr:street": "Lehmder Stra\u00dfe",
+                "addr:suburb": "Lehmden"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.295241,
+                "lon": 8.182935
+            },
+            "id": "ee49793a-e100-4a84-9482-7aa9451d0d6d",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "d93e3524-c25c-4747-8dbc-b3c4571e6d39",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "a6c2df13-752c-4ddc-ba32-ecb3ff81201f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3710,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 584,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "48",
+                "addr:postcode": "26180",
+                "addr:street": "Kuhdamm",
+                "addr:suburb": "Lehmden"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2854766,
+                "lon": 8.1810661
+            },
+            "id": "a544d2c2-3857-4438-b2b0-3598d2b74b23",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "c04be19a-bc50-4a45-adb3-44ed1416a049",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 387,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "101a",
+                "addr:postcode": "26180",
+                "addr:street": "Lehmder Stra\u00dfe",
+                "addr:suburb": "Lehmden"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2860051,
+                "lon": 8.1799322
+            },
+            "id": "b1497416-83da-49dc-9f45-8d740353af00",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "b4916afd-0d87-47e5-bbd5-95829c2c362f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2834,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "d9919a74-5b21-4038-babb-ae4200bf9aa2",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 15,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "101",
+                "addr:postcode": "26180",
+                "addr:street": "Lehmder Stra\u00dfe",
+                "addr:suburb": "Lehmden"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2870544,
+                "lon": 8.2078127
+            },
+            "id": "f75a989d-10cc-4e3a-a6e7-8ae131ec215d",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "b47d3a1f-a8e4-46d2-9119-7499e721abd6",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "a9a29781-e95e-41d3-9662-1b744aff85d2",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 796,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "77",
+                "addr:postcode": "26180",
+                "addr:street": "Schaftrift",
+                "addr:suburb": "Lehmdermoor"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2873461,
+                "lon": 8.2089253
+            },
+            "id": "e408319e-2f67-4b3a-8dd8-3e7153e407b9",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "cc1053a0-b4b1-4d95-8613-6621bbb72585",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 76,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "71",
+                "addr:postcode": "26180",
+                "addr:street": "Schaftrift",
+                "addr:suburb": "Lehmdermoor"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2891847,
+                "lon": 8.1945998
+            },
+            "id": "a92b2878-a6b1-42ce-aa6c-e6d7cd6f1d2b",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "f984efb7-55ae-40c0-b0b3-97d6d7663e7b",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 488,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "70",
+                "addr:postcode": "26180",
+                "addr:street": "Dwoweg",
+                "addr:suburb": "Lehmden"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2868866,
+                "lon": 8.2029893
+            },
+            "id": "b90a25a5-5567-477c-a424-785ebf024ae9",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "f4124055-63e1-48cf-b7e2-dfd5dcee2c6f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2996,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 228,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "156",
+                "addr:postcode": "26180",
+                "addr:street": "Dwoweg",
+                "addr:suburb": "Lehmden"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2874667,
+                "lon": 8.1852142
+            },
+            "id": "c779d2e0-4915-4bf0-8543-324d376534ef",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "b243c351-1f5f-441c-bf45-f489291dbe83",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 284,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "145",
+                "addr:postcode": "26180",
+                "addr:street": "Lehmder Stra\u00dfe",
+                "addr:suburb": "Lehmden"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2871787,
+                "lon": 8.1849733
+            },
+            "id": "e9f04180-60a5-4425-94d1-5da64130b6c0",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "e41f798f-4a65-4061-a0c0-488b43a5a834",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 677,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "143",
+                "addr:postcode": "26180",
+                "addr:street": "Lehmder Stra\u00dfe",
+                "addr:suburb": "Lehmden"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2864341,
+                "lon": 8.1838723
+            },
+            "id": "c148d58c-4846-461d-ae5b-d45f667967e6",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "c1f23d3d-2534-458c-90fe-987ee0866749",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3023,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 79,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "125",
+                "addr:postcode": "26180",
+                "addr:street": "Lehmder Stra\u00dfe",
+                "addr:suburb": "Lehmden"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2858315,
+                "lon": 8.1828064
+            },
+            "id": "c634195f-d7f5-4797-b113-9fc7022f4c41",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "fdd49800-3571-4811-9251-ccd02944f5d2",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 857,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "121",
+                "addr:postcode": "26180",
+                "addr:street": "Lehmder Stra\u00dfe",
+                "addr:suburb": "Lehmden"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2856566,
+                "lon": 8.1819161
+            },
+            "id": "fb84a767-0b09-465b-aeee-5388480fbb43",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "f77d24b5-f4fc-4afb-862d-efe05388b46b",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 327,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "109",
+                "addr:postcode": "26180",
+                "addr:street": "Lehmder Stra\u00dfe",
+                "addr:suburb": "Lehmden"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2856232,
+                "lon": 8.1823462
+            },
+            "id": "accc4d57-f832-4e13-926f-989f280b3350",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "bc7d5617-bd14-4b24-ba4c-bcde765d6a36",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 20,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "109a",
+                "addr:postcode": "26180",
+                "addr:street": "Lehmder Stra\u00dfe",
+                "addr:suburb": "Lehmden"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2904937,
+                "lon": 8.2162436
+            },
+            "id": "d8064dfa-32f0-488f-9bd9-b36707ce2745",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "b2807107-0c72-432e-bf5c-130ae575eaa7",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 760,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26180",
+                "addr:street": "Schaftrift",
+                "addr:suburb": "Lehmdermoor"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.299754,
+                "lon": 8.2166055
+            },
+            "id": "d9ef85ac-b93d-472d-ab7c-d5e2a36965bf",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "c9070429-035a-4f3f-bedc-282076d27c07",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 346,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "423",
+                "addr:postcode": "26180",
+                "addr:street": "Lehmder Stra\u00dfe",
+                "addr:suburb": "Lehmdermoor"
+            }
+        }
+    ]
+}

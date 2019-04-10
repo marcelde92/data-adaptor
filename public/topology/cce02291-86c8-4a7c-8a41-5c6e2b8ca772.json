@@ -1,0 +1,492 @@
+{
+    "links": [
+        {
+            "source": "cce02291-86c8-4a7c-8a41-5c6e2b8ca772",
+            "target": "node_0"
+        },
+        {
+            "source": "cce02291-86c8-4a7c-8a41-5c6e2b8ca772",
+            "target": "node_1"
+        },
+        {
+            "source": "cce02291-86c8-4a7c-8a41-5c6e2b8ca772",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_2"
+        },
+        {
+            "source": "cce02291-86c8-4a7c-8a41-5c6e2b8ca772",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_11"
+        },
+        {
+            "source": "cce02291-86c8-4a7c-8a41-5c6e2b8ca772",
+            "target": "node_5"
+        },
+        {
+            "source": "cce02291-86c8-4a7c-8a41-5c6e2b8ca772",
+            "target": "node_6"
+        },
+        {
+            "source": "cce02291-86c8-4a7c-8a41-5c6e2b8ca772",
+            "target": "node_7"
+        },
+        {
+            "source": "cce02291-86c8-4a7c-8a41-5c6e2b8ca772",
+            "target": "node_8"
+        },
+        {
+            "source": "cce02291-86c8-4a7c-8a41-5c6e2b8ca772",
+            "target": "node_9"
+        },
+        {
+            "source": "cce02291-86c8-4a7c-8a41-5c6e2b8ca772",
+            "target": "node_10"
+        }
+    ],
+    "name": "Zwischenahner Damm",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1792283,
+                "lon": 8.0988882
+            },
+            "id": "d43bf455-fa08-456e-8c38-df1443edb345",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "d8b4a187-da8d-4e68-ae98-cac5acaa8169",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3228,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 758,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.177707,
+                "lon": 8.0970584
+            },
+            "id": "ff80d59a-1fdd-4014-93b0-649ce3e4a63d",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "dae6fbdd-a281-47f4-9f4c-942fd978cda8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3542,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 287,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.175681,
+                "lon": 8.0942529
+            },
+            "id": "d68f0c03-8ebe-44ec-863b-168ed5da93eb",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "f7b5fdf5-bfa5-4cf7-a24b-5b4bed366149",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4800,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 782,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1791146,
+                "lon": 8.0986305
+            },
+            "id": "beaa66d1-9f9b-41e0-af0b-a8f3228cbfaf",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "a3737469-0547-4712-9038-11678dfe4bea",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3203,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "b0a1044e-4765-4b81-b255-662fea40b9a1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3115,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 747,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1688963,
+                "lon": 8.0950373
+            },
+            "id": "b2689864-f9a1-4c94-99cf-f8e658d0ea1a",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "acfec229-2ec9-47e8-988e-567e50a01b05",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4980,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 530,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1664795,
+                "lon": 8.0912473
+            },
+            "id": "b6260106-5e17-488b-9a90-08c43d31eb1f",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "cc6ce18c-eedc-48a1-b132-0c4a2b91b363",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 535,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1662449,
+                "lon": 8.0897579
+            },
+            "id": "aa3b3b7f-e8fa-4c78-a1c7-9ae0f82b8c99",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "d9b7c288-b1ed-49ac-9a0b-a55a11e12641",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4938,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 814,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1691288,
+                "lon": 8.0963681
+            },
+            "id": "d334a8f0-5eb0-4e2e-a696-51b5d8e9be78",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "d869dce3-d9ab-4dfd-8ea9-3989f4668136",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 330,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1660946,
+                "lon": 8.0915977
+            },
+            "id": "d5774a51-3628-4b50-b53d-790f4f27a87c",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "bb65d2a8-253b-4d50-98e3-bbee52d69d03",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3116,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 519,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1688928,
+                "lon": 8.0940462
+            },
+            "id": "b7855936-f8bc-4c80-80b9-45374e8ba578",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "f4ce91c9-5cc2-4d2a-9e43-054a2d32735d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2950,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 95,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1686111,
+                "lon": 8.0946804
+            },
+            "id": "e990e22c-8344-4189-9513-7a6c5d90c89a",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "d8bcd0fe-04aa-45d5-86c3-56a2bcc16f66",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 250,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1919246,
+                "lon": 8.0987357
+            },
+            "id": "a6fc8e74-57a9-45b0-8161-df4804fc6168",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "ca1a731e-e781-4533-83d2-20adc066b340",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2962,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 379,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26215",
+                "addr:street": "Zwischenahner Damm",
+                "addr:suburb": "Neuenkruge"
+            }
+        }
+    ]
+}

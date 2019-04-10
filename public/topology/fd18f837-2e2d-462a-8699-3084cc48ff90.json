@@ -1,0 +1,1196 @@
+{
+    "links": [
+        {
+            "source": "fd18f837-2e2d-462a-8699-3084cc48ff90",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_23"
+        },
+        {
+            "source": "fd18f837-2e2d-462a-8699-3084cc48ff90",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_15"
+        },
+        {
+            "source": "fd18f837-2e2d-462a-8699-3084cc48ff90",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_21"
+        },
+        {
+            "source": "fd18f837-2e2d-462a-8699-3084cc48ff90",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_5"
+        },
+        {
+            "source": "fd18f837-2e2d-462a-8699-3084cc48ff90",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_1"
+        },
+        {
+            "source": "fd18f837-2e2d-462a-8699-3084cc48ff90",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_4"
+        },
+        {
+            "source": "node_7",
+            "target": "node_11"
+        },
+        {
+            "source": "fd18f837-2e2d-462a-8699-3084cc48ff90",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_9"
+        },
+        {
+            "source": "fd18f837-2e2d-462a-8699-3084cc48ff90",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_26"
+        },
+        {
+            "source": "fd18f837-2e2d-462a-8699-3084cc48ff90",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_3"
+        },
+        {
+            "source": "node_12",
+            "target": "node_19"
+        },
+        {
+            "source": "fd18f837-2e2d-462a-8699-3084cc48ff90",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_10"
+        }
+    ],
+    "name": "Fikensolterfeld",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2284992,
+                "lon": 7.9561292
+            },
+            "id": "fc3b9838-45e6-4ccb-9f25-d6271d1b6a79",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "dd3f8a7f-f5ae-4732-87a8-9d24e47d16a2",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2437,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "b9f95d0f-b08e-48b4-9491-80f06f94371d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3112,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 210,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "51",
+                "addr:postcode": "26655",
+                "addr:street": "Oldenburger Stra\u00dfe",
+                "addr:suburb": "Torsholt",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2339781,
+                "lon": 7.9473079
+            },
+            "id": "ffb3f774-39da-4370-8f8b-e9622cfbe18c",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "dc9f3ea5-1ebf-4648-9fb5-7d398ec2b729",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 292,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26655",
+                "addr:street": "Fikensolterfeld",
+                "addr:suburb": "Fikensolterfeld",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2339231,
+                "lon": 7.9414749
+            },
+            "id": "dea56eee-eb48-406c-9c4b-7d0f65e67c19",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "e7896788-7178-4393-959f-c129f9ee08a8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3147,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 827,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2338169,
+                "lon": 7.9409906
+            },
+            "id": "bdcb87fc-ca68-4b13-8bbc-5eb100cf9262",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "abdd4871-6cec-46f8-915a-aa13a6ac51f7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4019,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 814,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2337124,
+                "lon": 7.9404277
+            },
+            "id": "eb9521ca-431e-4790-82f4-fa32ca7300a0",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "c3ffa56f-bbb5-4d65-be2b-c10885f9ee7c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4443,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 61,
+            "tags": {
+                "building": "yes",
+                "name": "Ponyhof Jaspers",
+                "sport": "equestrian"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.23326,
+                "lon": 7.9419004
+            },
+            "id": "e8620616-e2f1-40bc-a2aa-3002c101c914",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "fbd2da13-ec13-454f-9b6a-069dd748ae19",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4003,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 734,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2347637,
+                "lon": 7.9387564
+            },
+            "id": "ae5f68c0-7706-4aff-970b-b18c8832cc9c",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "f92c8042-46e8-4462-9802-f5f9e72b0343",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4045,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 447,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26655",
+                "addr:state": "Niedersachsen",
+                "addr:street": "Fikensolterfeld",
+                "addr:suburb": "Fikensolt",
+                "building": "detached",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2339741,
+                "lon": 7.9412608
+            },
+            "id": "ac766579-5afe-4544-8a2a-e77f08216ad2",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "f9fcfdd0-be28-4e5c-ba84-67c99fdf7144",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 576,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2331768,
+                "lon": 7.9410464
+            },
+            "id": "e98f691d-14ad-4236-b2a6-5d4a42c66dce",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "f4bd2ae9-f2d0-45f1-b579-5b66f307045d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3711,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 893,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2330557,
+                "lon": 7.9428399
+            },
+            "id": "ca3dd3ee-ca6c-4d7f-82ff-b2d16f4b9c73",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "cd3ef4f7-c145-4c9e-8e73-389e0634f9ac",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3571,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 884,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2360171,
+                "lon": 7.9549504
+            },
+            "id": "ac1d1ce0-244c-43f1-a0d0-e16786775dde",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "cca27563-9a54-48a1-861f-bcfcec982391",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3096,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 895,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26655",
+                "addr:street": "Omorikastra\u00dfe",
+                "addr:suburb": "Gie\u00dfelhorst"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2350866,
+                "lon": 7.9521834
+            },
+            "id": "d3433854-2306-4d4c-8deb-51cdc06622a4",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "c5311ae5-de4a-445d-9402-5a9cbcf4178e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4449,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 66,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26655",
+                "addr:street": "Omorikastra\u00dfe",
+                "addr:suburb": "Gie\u00dfelhorst"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2349415,
+                "lon": 7.9515035
+            },
+            "id": "c6efc433-a4a7-432b-8d60-1db083421091",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "f62a3d38-6e23-48fe-b6dc-b31aa46932e5",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 558,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26655",
+                "addr:street": "Omorikastra\u00dfe",
+                "addr:suburb": "Gie\u00dfelhorst"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2362248,
+                "lon": 7.9532198
+            },
+            "id": "a6ef43fa-dc8c-41af-b426-e3632dd473a7",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "ce70a9c6-f0e1-477a-b72b-5047849d4870",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3169,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 395,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2a",
+                "addr:postcode": "26655",
+                "addr:street": "Omorikastra\u00dfe",
+                "addr:suburb": "Gie\u00dfelhorst"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.236111,
+                "lon": 7.9532959
+            },
+            "id": "b8adc2d4-fc72-45a9-b842-b538282ba4b6",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "f36acf89-f10f-4837-9eba-7ddd38991825",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 134,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26655",
+                "addr:street": "Omorikastra\u00dfe",
+                "addr:suburb": "Gie\u00dfelhorst"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2288317,
+                "lon": 7.955802
+            },
+            "id": "aa59e84f-db28-4833-aac9-79f791d93816",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "a5e291a3-b07d-42af-9db3-f34b1a42e5ac",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3187,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 1,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "51a",
+                "addr:postcode": "26655",
+                "addr:street": "Oldenburger Stra\u00dfe",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2270367,
+                "lon": 7.9559139
+            },
+            "id": "b80575bb-030a-4237-b8cd-26696b17de71",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "e0e9fa4e-eca4-4946-bfe2-02b539e3afa8",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "b42a51d8-d3a6-498e-a821-146366a0d5fd",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4229,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 377,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26655",
+                "addr:street": "Torsholter Hauptstra\u00dfe",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2288901,
+                "lon": 7.9542432
+            },
+            "id": "cc0614e3-af85-4079-b376-5ed28fd17d28",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "eae0f215-94e3-4034-9041-b9e896a80900",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 66,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "49",
+                "addr:postcode": "26655",
+                "addr:street": "Oldenburger Stra\u00dfe",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2277202,
+                "lon": 7.950525
+            },
+            "id": "b8001d97-32f3-4dde-b53a-7a11bf7f0664",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "d9206310-a639-4e72-a0fc-18bef32f803e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4093,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 131,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "45",
+                "addr:postcode": "26655",
+                "addr:street": "Oldenburger Stra\u00dfe",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2343453,
+                "lon": 7.9494195
+            },
+            "id": "da77e501-8890-4997-b38f-b73c386db0ca",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "a8a6cc23-0085-4d01-ba98-0fa77d7e40b2",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3004,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 501,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26655",
+                "addr:street": "Omorikastra\u00dfe",
+                "addr:suburb": "Gie\u00dfelhorst"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.232844,
+                "lon": 7.9393691
+            },
+            "id": "cb314c52-cefb-4925-9bf4-c5cb80cdc84f",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "e344e987-0f36-4aa1-8570-c94661ad1ac5",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 189,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26655",
+                "addr:street": "Seghorner Weg",
+                "addr:suburb": "Fikensolterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2340032,
+                "lon": 7.9472328
+            },
+            "id": "b19230fe-0d07-43c8-8a1e-a4653197fc2b",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "f1377a5e-7e7b-4897-803a-3f6545015b56",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4692,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 290,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26655",
+                "addr:street": "Fikensolterfeld",
+                "addr:suburb": "Fikensolterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2332014,
+                "lon": 7.9410378
+            },
+            "id": "a9e7ab0a-2a26-4ef4-8880-8b89ab949c90",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "c75f9cb8-bc6e-4e58-9e91-66519e728e30",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3196,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 186,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26655",
+                "addr:street": "Seghorner Weg",
+                "addr:suburb": "Fikensolterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.234188,
+                "lon": 7.9409102
+            },
+            "id": "b45bab43-b70c-4516-9026-48819f3b2688",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "fec53198-1dbe-48e0-83da-9689770aa64a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3446,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 44,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "3a",
+                "addr:postcode": "26655",
+                "addr:street": "Fikensolterfeld",
+                "addr:suburb": "Fikensolterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2342093,
+                "lon": 7.9411246
+            },
+            "id": "be6cb1f4-ffe0-45ba-8725-77e36616060e",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "b4eb0631-8c8d-4c2a-95f6-e51ba5353617",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4769,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 184,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26655",
+                "addr:street": "Fikensolterfeld",
+                "addr:suburb": "Fikensolterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2339467,
+                "lon": 7.9431147
+            },
+            "id": "f6798d7f-58fd-4a46-921f-a261c31eecc5",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "ca1c3c71-b021-44df-ac68-f135864423ec",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2853,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 815,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26655",
+                "addr:street": "Fikensolterfeld",
+                "addr:suburb": "Fikensolterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2337619,
+                "lon": 7.9412834
+            },
+            "id": "b2d245a2-b26d-4a7f-82a4-4c4c2ed6da5a",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "c1648d5c-c08c-4350-998e-99f5b651231e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2867,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 859,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:housenumber": "3",
+                "addr:postcode": "26655",
+                "addr:street": "Fikensolterfeld",
+                "leisure": "sports_centre",
+                "name": "Ponyhof Jaspers",
+                "phone": "04488-3427",
+                "website": "ponyhof-jaspers.de3"
+            }
+        }
+    ]
+}

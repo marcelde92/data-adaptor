@@ -1,0 +1,1295 @@
+{
+    "links": [
+        {
+            "source": "f55bb82e-5e22-4898-b96d-b8d065d99ea2",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_6"
+        },
+        {
+            "source": "node_23",
+            "target": "node_25"
+        },
+        {
+            "source": "f55bb82e-5e22-4898-b96d-b8d065d99ea2",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_4"
+        },
+        {
+            "source": "node_17",
+            "target": "node_22"
+        },
+        {
+            "source": "f55bb82e-5e22-4898-b96d-b8d065d99ea2",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_2"
+        },
+        {
+            "source": "node_11",
+            "target": "node_16"
+        },
+        {
+            "source": "f55bb82e-5e22-4898-b96d-b8d065d99ea2",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_0"
+        },
+        {
+            "source": "node_7",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_20"
+        },
+        {
+            "source": "f55bb82e-5e22-4898-b96d-b8d065d99ea2",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_5"
+        },
+        {
+            "source": "node_8",
+            "target": "node_14"
+        },
+        {
+            "source": "node_15",
+            "target": "node_21"
+        }
+    ],
+    "name": "Bokeler Landstra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.228892,
+                "lon": 8.1346011
+            },
+            "id": "d598b3a6-f58c-450f-a974-58ecdca8d7fd",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "b6e75b5d-8ccc-4b1b-8a46-040800666d24",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 900,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "16a",
+                "addr:postcode": "26215",
+                "addr:street": "Bokeler Landstra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2290878,
+                "lon": 8.1353446
+            },
+            "id": "fb7223be-c604-43fd-976a-daabdca0f44c",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "a85bbf73-ab47-48b4-8337-e532909fe95f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "e7fdf7d2-0d96-41b5-8ff0-b4d0d00f16ec",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 820,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "16",
+                "addr:postcode": "26215",
+                "addr:street": "Bokeler Landstra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2266965,
+                "lon": 8.1361749
+            },
+            "id": "f489a5cd-1b96-47f5-ac15-44d285ac7385",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "b8362b95-6e4f-4284-82ee-cad5f48c1f8e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 298,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "22a",
+                "addr:postcode": "26215",
+                "addr:street": "Bokeler Landstra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2267053,
+                "lon": 8.136306
+            },
+            "id": "a01e07a1-654a-4078-8599-ba8118a2d9ba",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "b73bcea0-d8ef-4a5a-8db2-63049bab7c54",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 871,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "22",
+                "addr:postcode": "26215",
+                "addr:street": "Bokeler Landstra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2318205,
+                "lon": 8.1309387
+            },
+            "id": "e2bc8e53-a945-480a-a931-e4e6e5b0a3d4",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "a680a31f-2470-4e80-9cad-db08265f6ecc",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 120,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26215",
+                "addr:street": "Mansholter Stra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2290496,
+                "lon": 8.1279247
+            },
+            "id": "e8e8d98c-0c58-4d0d-885a-048b37c834fc",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "fe4be795-985a-424f-9fda-e0e048a16966",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2963,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 751,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26215",
+                "addr:street": "M\u00fchlenfeld",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.226073,
+                "lon": 8.1364413
+            },
+            "id": "d4610c5a-dc4e-4260-bdd7-647d0f0ee61a",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "fdedf378-a83b-46ce-a794-f93464dd0c30",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 155,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "22a",
+                "addr:postcode": "26215",
+                "addr:street": "Bokeler Landstra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2260964,
+                "lon": 8.137127
+            },
+            "id": "b4004442-7b7c-42b2-b4b7-0255854e8aa7",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "cc1ecbde-f8e9-4e0a-a6a8-94dba98b9685",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3521,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 887,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "21",
+                "addr:postcode": "26215",
+                "addr:street": "Bokeler Landstra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2259481,
+                "lon": 8.1289452
+            },
+            "id": "dc02dcd3-5f91-488b-9d8b-31a47a760072",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "aeecffcb-b7ee-4a8e-a8ee-94481b575ccd",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 820,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "12a",
+                "addr:postcode": "26215",
+                "addr:street": "Mansholter Stra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2259896,
+                "lon": 8.1365472
+            },
+            "id": "e12b0eb7-d9a0-472f-8d54-74d53a6722c1",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "df07716d-00ee-435b-a9bb-6419e3b1ac49",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 51,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "22",
+                "addr:postcode": "26215",
+                "addr:street": "Bokeler Landstra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2283324,
+                "lon": 8.135711
+            },
+            "id": "b36ad295-bd62-4d42-b139-153f45204f51",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "f8a663da-50a3-4064-8dbf-3561c41acb19",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 780,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "20",
+                "addr:postcode": "26215",
+                "addr:street": "Bokeler Landstra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2258903,
+                "lon": 8.1288537
+            },
+            "id": "f31787f1-1e75-4e3a-8a82-429691395114",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "a334a1c4-4728-4961-9279-8a3aab60fe23",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 618,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "12b",
+                "addr:postcode": "26215",
+                "addr:street": "Mansholter Stra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2251779,
+                "lon": 8.1281571
+            },
+            "id": "f751278e-2057-4ad5-9f18-f007fdc8b614",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "ceb36ad9-ff4a-44bc-8508-3b76afa46a0a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 891,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "16",
+                "addr:postcode": "26215",
+                "addr:street": "Mansholter Stra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2254823,
+                "lon": 8.1285486
+            },
+            "id": "bee79fe1-2c17-446a-b0a1-f5de32380538",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "a9eaaf79-34b9-48ae-b83d-a758bf32465a",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "e33c4477-c846-4404-b93e-e85d150703b5",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 755,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "12d",
+                "addr:postcode": "26215",
+                "addr:street": "Mansholter Stra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2254489,
+                "lon": 8.1295198
+            },
+            "id": "d31a0c0b-cbef-4ad4-a8b5-215804968051",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "c8470608-0c4c-48d3-a0fe-d12d92bc1bae",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "e9b0c788-1e25-4248-a40d-1a6482a29782",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 381,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26215",
+                "addr:street": "Mansholter Stra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2254976,
+                "lon": 8.127491
+            },
+            "id": "c7ebfb23-ad64-4e17-8d28-657bbcc42fb2",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "a46eec0e-13a2-4a4f-b705-e2b33d55b784",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2924,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 148,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "14",
+                "addr:postcode": "26215",
+                "addr:street": "Mansholter Stra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2287262,
+                "lon": 8.1353431
+            },
+            "id": "eea3baba-1db8-4caa-87dd-81ee2bced1cd",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "d27cd0d2-732f-4cb1-aca8-b9657106b9dd",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 522,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "18",
+                "addr:postcode": "26215",
+                "addr:street": "Bokeler Landstra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2258355,
+                "lon": 8.129774
+            },
+            "id": "f0d334d0-0872-4ccb-9e64-21b7f2e69bcd",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "e7f727da-3287-4cca-9c6d-ef3a15258a56",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "ad878450-3298-4a22-8903-d9c33e72d9ba",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 235,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "7",
+                "addr:postcode": "26215",
+                "addr:street": "Mansholter Stra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2254336,
+                "lon": 8.1292859
+            },
+            "id": "d506e2da-3dd8-4bd7-b126-a50b1c461c83",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "e70f04ac-fe87-489e-963a-b5b9eb2ac509",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 486,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "11",
+                "addr:postcode": "26215",
+                "addr:street": "Mansholter Stra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2256406,
+                "lon": 8.1297181
+            },
+            "id": "dc072308-ef6b-4413-84b0-2c3791c171c6",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "b3d202f9-5c74-409a-8122-1d7bb227b2a3",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 720,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "7a",
+                "addr:postcode": "26215",
+                "addr:street": "Mansholter Stra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2249466,
+                "lon": 8.1278164
+            },
+            "id": "c8cd04bf-803b-42a2-a571-5b0ad28c4c0a",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "ed19b053-eadd-428c-87bc-884df8f3a280",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 643,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "16a",
+                "addr:postcode": "26215",
+                "addr:street": "Mansholter Stra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.225756,
+                "lon": 8.1365863
+            },
+            "id": "e97c678d-8c22-4ffb-967b-520e5ac1dccb",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "d41bc5ee-adc5-468a-bbfe-fac203659dbc",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3364,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "e1c79f04-a3ee-4d24-915e-66157511ba9c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2732,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 446,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "24",
+                "addr:postcode": "26215",
+                "addr:street": "Bokeler Landstra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2260912,
+                "lon": 8.1302317
+            },
+            "id": "d90b8423-a23c-4292-9bd7-a5ec153f3c7c",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "bde7554a-f3dd-4243-8050-ff9532de99d6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3281,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 864,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26215",
+                "addr:street": "Mansholter Stra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2263133,
+                "lon": 8.1376622
+            },
+            "id": "e13d448a-0ca6-4740-8b84-3d0dc49baf89",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "cf32f027-bcdc-4f20-ab67-2809425570bb",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 871,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "21a",
+                "addr:postcode": "26215",
+                "addr:street": "Bokeler Landstra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.214528,
+                "lon": 8.1347108
+            },
+            "id": "a5176b55-a5c3-43b4-a65f-52e4122e3a9e",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "ff80a2dc-21d0-4920-89f3-05ccaaaf338f",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 885,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "7",
+                "addr:postcode": "26215",
+                "addr:street": "V\u00f6r de Fladdern",
+                "addr:suburb": "Borbeck"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2253026,
+                "lon": 8.1368733
+            },
+            "id": "ebb3a82d-6de0-44c8-9378-548086af4fd1",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "ad818b07-ab15-4e26-a49f-a839975aeeda",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 489,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "24a",
+                "addr:postcode": "26215",
+                "addr:street": "Bokeler Landstra\u00dfe",
+                "addr:suburb": "Bokel"
+            }
+        }
+    ]
+}

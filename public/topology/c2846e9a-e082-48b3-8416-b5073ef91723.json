@@ -1,0 +1,2205 @@
+{
+    "links": [
+        {
+            "source": "c2846e9a-e082-48b3-8416-b5073ef91723",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_13"
+        },
+        {
+            "source": "node_20",
+            "target": "node_21"
+        },
+        {
+            "source": "node_26",
+            "target": "node_49"
+        },
+        {
+            "source": "node_49",
+            "target": "node_44"
+        },
+        {
+            "source": "c2846e9a-e082-48b3-8416-b5073ef91723",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_1"
+        },
+        {
+            "source": "node_4",
+            "target": "node_6"
+        },
+        {
+            "source": "node_7",
+            "target": "node_41"
+        },
+        {
+            "source": "node_41",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_33"
+        },
+        {
+            "source": "node_33",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_12"
+        },
+        {
+            "source": "node_41",
+            "target": "node_47"
+        },
+        {
+            "source": "c2846e9a-e082-48b3-8416-b5073ef91723",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_2"
+        },
+        {
+            "source": "node_9",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_10"
+        },
+        {
+            "source": "node_24",
+            "target": "node_46"
+        },
+        {
+            "source": "node_46",
+            "target": "node_34"
+        },
+        {
+            "source": "node_34",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_32"
+        },
+        {
+            "source": "c2846e9a-e082-48b3-8416-b5073ef91723",
+            "target": "node_42"
+        },
+        {
+            "source": "node_42",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_17"
+        },
+        {
+            "source": "node_18",
+            "target": "node_19"
+        },
+        {
+            "source": "c2846e9a-e082-48b3-8416-b5073ef91723",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_0"
+        },
+        {
+            "source": "node_27",
+            "target": "node_45"
+        },
+        {
+            "source": "node_45",
+            "target": "node_38"
+        },
+        {
+            "source": "node_38",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_31"
+        },
+        {
+            "source": "c2846e9a-e082-48b3-8416-b5073ef91723",
+            "target": "node_37"
+        },
+        {
+            "source": "node_37",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_15"
+        },
+        {
+            "source": "node_16",
+            "target": "node_35"
+        },
+        {
+            "source": "node_35",
+            "target": "node_30"
+        },
+        {
+            "source": "node_35",
+            "target": "node_36"
+        },
+        {
+            "source": "node_37",
+            "target": "node_43"
+        },
+        {
+            "source": "node_43",
+            "target": "node_40"
+        },
+        {
+            "source": "node_40",
+            "target": "node_39"
+        },
+        {
+            "source": "node_43",
+            "target": "node_48"
+        }
+    ],
+    "name": "Alter Damm",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2586455,
+                "lon": 8.107321
+            },
+            "id": "b25dc783-cf62-4894-9bd6-30e54306d047",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "bae7629b-0a16-4ed7-a48b-8652f5162ac1",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 531,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26215",
+                "addr:street": "Alter Damm",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2588443,
+                "lon": 8.1072277
+            },
+            "id": "d987373e-c9be-4519-b8d2-5df2cd10dbab",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "de745b0f-4650-41e1-a562-225b537e6bd0",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 28,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26215",
+                "addr:street": "Alter Damm",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2586719,
+                "lon": 8.1066468
+            },
+            "id": "e9b5ee1e-9e39-4913-90d3-35a34f7d2402",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "f013a5af-b1c8-4140-9cdb-3b8f7d289b4e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3204,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 470,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "12a",
+                "addr:postcode": "26215",
+                "addr:street": "Hollener Stra\u00dfe",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.258549,
+                "lon": 8.1066528
+            },
+            "id": "ffa9b73c-e246-4d90-92a3-ac6b11a9f00e",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "e92724e3-d9f8-4fd6-9111-0bd85fa278c0",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 823,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26215",
+                "addr:street": "Hollener Stra\u00dfe",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2583446,
+                "lon": 8.1071167
+            },
+            "id": "da75d423-caf2-40e9-86c8-959142f4374a",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "fc5065f8-cf0a-40ff-9935-e5c13a633249",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 759,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26215",
+                "addr:street": "Hollener Stra\u00dfe",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2584572,
+                "lon": 8.1071103
+            },
+            "id": "e59e50ba-a753-48e9-97f6-3657205e5a45",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "b483b7bd-d104-4bc0-9238-5a1b1c957cd0",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 533,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2589371,
+                "lon": 8.1072408
+            },
+            "id": "dea15134-334a-4338-a283-e2f9ec370cdd",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "caeb87c6-c881-47a9-a01a-fd565b246ba4",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 255,
+            "tags": {
+                "building": "garage"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2586519,
+                "lon": 8.1069941
+            },
+            "id": "e9c69ed7-c91a-4e40-8634-55d42edafe5a",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "bb2e0f9a-d3db-44cd-b8dc-7dff009ca7b0",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 706,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2587941,
+                "lon": 8.1068287
+            },
+            "id": "e91929c9-8b9e-4a37-a7f8-07e9d800415b",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "a06d72c1-e7fd-4b13-98b8-8c9f40ced66c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3092,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 776,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2532683,
+                "lon": 8.1031683
+            },
+            "id": "d196a89d-c423-49e0-ba84-8854d0acaacc",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "cf896178-e69a-4bb2-b3b2-0297359079e6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3368,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 739,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "18",
+                "addr:postcode": "26215",
+                "addr:street": "Feldtange",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2533632,
+                "lon": 8.1031136
+            },
+            "id": "b394998c-d63f-4669-a43d-bf6d776395d2",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "af588669-39b1-4886-95ab-60246f5ae922",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 727,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2533799,
+                "lon": 8.1024741
+            },
+            "id": "bb3ab2ae-761b-4e4c-ab88-c7f2b8515f67",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "abb8830d-0da9-4c0f-b43c-9aa09fdb4eec",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 823,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "18a",
+                "addr:postcode": "26215",
+                "addr:street": "Feldtange",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.253575,
+                "lon": 8.1022058
+            },
+            "id": "fff687f1-eca9-42b1-8850-9e6299437e30",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "b262bf05-32c8-4133-85b0-d76707f6ee5c",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 253,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2536022,
+                "lon": 8.1019375
+            },
+            "id": "dc8b99af-4221-4b69-82b7-2aa8fccde7f9",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "f2fbbf2b-d8d2-4699-b07c-277bdd928fa5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2925,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 205,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2617781,
+                "lon": 8.1084614
+            },
+            "id": "cf6b0e1f-2134-4dd5-9439-a13c44cbc260",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "a570466f-2fbf-4e8c-b724-8003adb45a67",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 406,
+            "tags": {
+                "building": "yes",
+                "leisure": "sports_centre",
+                "sport": "swimming"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2514982,
+                "lon": 8.0932477
+            },
+            "id": "ff1ae399-ebbd-4dde-bd8a-9033754c3600",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "b603cdd0-e7c9-4819-a828-6a4aaed56f25",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3539,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 404,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2510453,
+                "lon": 8.0936221
+            },
+            "id": "c41797c0-274d-476b-be32-f3853614fc94",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "faea0956-1de6-4f69-bc62-8b28ca963be0",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 163,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2532988,
+                "lon": 8.0920912
+            },
+            "id": "a42c5442-498a-41e2-82f5-0b6f22584054",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "cacda59d-7bfd-4452-8835-75c93d5108ec",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 474,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2538154,
+                "lon": 8.0918242
+            },
+            "id": "e7d09755-cba8-4d3e-bd28-d0b60243cf1f",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "fd9449f9-738e-485a-8ea9-60324903c0be",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 568,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2523642,
+                "lon": 8.0934369
+            },
+            "id": "ad91655e-aa32-4847-b1dd-da712ac870f8",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "c9de318c-6aa8-4ba8-8b04-29901f5c313b",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 93,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2517964,
+                "lon": 8.0930969
+            },
+            "id": "b26fd702-822b-4ad5-80c1-eedc77c1d6dc",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "dc630887-22fc-41e7-83d4-dfa750f0f92a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 615,
+            "tags": {
+                "addr:housenumber": "20",
+                "addr:postcode": "26215",
+                "addr:street": "Feldtange",
+                "addr:suburb": "Wiefelstedermoor",
+                "building": "yes",
+                "name": "Gefl\u00fcgelhof Kuck",
+                "source": "http://www.nwzonline.de/ammerland/wirtschaft/koennen-feld-nicht-kritikern-ueberlassen_a_2,0,1214251464.html"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2526035,
+                "lon": 8.0933977
+            },
+            "id": "b8534153-42df-4ae3-bed5-1ecb3675a0e8",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "fbd7d73c-f6a2-4468-a5fd-d62bf0e91544",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 459,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2523931,
+                "lon": 8.092932
+            },
+            "id": "ca4d3167-05f5-45fb-9ce8-2bdb2ed71fa6",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "dbdf54f1-03d7-4725-947d-67f61818254c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 191,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2515345,
+                "lon": 8.0926571
+            },
+            "id": "ad77c852-1597-42b2-b165-4cbce4c78178",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "e2ea6ca8-c520-4391-99a7-492bf631f736",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 447,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.258082,
+                "lon": 8.1078042
+            },
+            "id": "ca2e64f8-5435-4088-938f-a8f30bfce2e3",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "e85b534f-cc5f-46da-92d4-765e01b9b0ad",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 56,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26215",
+                "addr:street": "Hollener Stra\u00dfe",
+                "email": "info@fliesen-brunken.de",
+                "name": "Fliesen Brunken",
+                "operator": "Fliesen Brunken GmbH",
+                "phone": "+49 4402 96870",
+                "shop": "trade",
+                "website": "http://www.fliesen-brunken.de/"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2603202,
+                "lon": 8.1071838
+            },
+            "id": "fb7a6322-b985-4434-bd1b-5ba45f14e22d",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "ee9cca3a-dff2-4f1d-89b8-d1ad253648a9",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 873,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "9a",
+                "addr:postcode": "26215",
+                "addr:street": "Alter Damm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2607107,
+                "lon": 8.1067555
+            },
+            "id": "c54e7228-908e-4042-b3bb-0c2f974ed1d4",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "f6b0c243-12d0-4e07-9080-2be3e044cb25",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 82,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26215",
+                "addr:street": "Alter Damm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.258478,
+                "lon": 8.107911
+            },
+            "id": "d41d73c5-2edb-4870-af84-67c697e01ca4",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "e3f5c307-ea8b-484f-a2a3-7df9ae8fae56",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 784,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26215",
+                "addr:street": "Hollener Stra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2580318,
+                "lon": 8.1077883
+            },
+            "id": "feb05c6c-1e02-4d89-aa85-3b5a0e3ef2c1",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "e8b0aa2b-0b44-4d15-adc0-4c2e9aa65eae",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 510,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26215",
+                "addr:street": "Hollener Stra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2615403,
+                "lon": 8.1062863
+            },
+            "id": "d117f505-6cab-4f67-8f6e-a806a450387b",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "b0817900-8f2b-4b3d-a369-2da0047d705f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2683,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 378,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5b",
+                "addr:postcode": "26215",
+                "addr:street": "Alter Damm",
+                "addr:suburb": "Hassel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2617661,
+                "lon": 8.106164
+            },
+            "id": "c90efc26-dc8c-4ce0-ae0c-8fe107b1c7cf",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "a859f4b9-d497-4340-9065-746799208e6e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 813,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5a",
+                "addr:postcode": "26215",
+                "addr:street": "Alter Damm",
+                "addr:suburb": "Hassel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2620802,
+                "lon": 8.1049962
+            },
+            "id": "b4fc7d8b-9571-4637-aac0-f5e9efdc9bd8",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "fd1e1a94-d6ca-43cd-bea5-6b69f057955c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 365,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26215",
+                "addr:street": "Alter Damm",
+                "addr:suburb": "Hassel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.261882,
+                "lon": 8.1069544
+            },
+            "id": "a4b4040e-9ec4-4811-a718-4d8bb32c8539",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "b6ffc087-e049-42f6-b3fe-85c3e1ebc62f",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 646,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "3a",
+                "addr:postcode": "26215",
+                "addr:street": "Alter Damm",
+                "addr:suburb": "Hassel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.262306,
+                "lon": 8.1065107
+            },
+            "id": "d237829d-406f-4a85-b5aa-e4e8ac34db3a",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "c23fb8ef-5b4d-4e8e-9cc0-e47aeb1d461e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 379,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26215",
+                "addr:street": "Alter Damm",
+                "addr:suburb": "Hassel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2626018,
+                "lon": 8.1069238
+            },
+            "id": "be8e360d-0e0c-42b9-902b-98d33847c59b",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "ad93fabd-bf2d-4b47-ac35-7d45ebbf8fee",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3765,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 196,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1a",
+                "addr:postcode": "26215",
+                "addr:street": "Alter Damm",
+                "addr:suburb": "Hassel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2593562,
+                "lon": 8.1035839
+            },
+            "id": "dad2ad0d-8b16-4156-a050-621dd932f7a1",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "ff0edcef-2232-485e-afde-a53227a7eb84",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 84,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "13a",
+                "addr:postcode": "26215",
+                "addr:street": "Hollener Stra\u00dfe",
+                "addr:suburb": "Hassel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.259574,
+                "lon": 8.1028628
+            },
+            "id": "df608a44-fdd9-4044-9bd7-bb325dcc71d0",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "b0c0c0f9-80fa-4082-96c1-d11be961cb51",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 318,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26215",
+                "addr:street": "Hollener Stra\u00dfe",
+                "addr:suburb": "Hassel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2588408,
+                "lon": 8.1079437
+            },
+            "id": "b158fc9c-3689-4669-ad65-50cfe8152b50",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "e52bc922-5b7a-4d3f-bfd5-d8b13ae308a7",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 790,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26215",
+                "addr:street": "Alter Damm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2609696,
+                "lon": 8.0961956
+            },
+            "id": "c1729467-1cd5-45de-92ea-d03420c611fe",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "bf8cc4e7-3ebc-4c3f-9b5c-70de84f4830c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 352,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26215",
+                "addr:street": "Hasseler Weg",
+                "addr:suburb": "Hassel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2616105,
+                "lon": 8.1081833
+            },
+            "id": "b7f7f1ee-ffa2-4518-b029-162768472bce",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "e87e7cbb-406e-49fe-bccb-178a04ccc4d5",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 801,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "11",
+                "addr:postcode": "26215",
+                "addr:street": "Alter Damm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2625927,
+                "lon": 8.1066943
+            },
+            "id": "d0b75066-d4e2-403b-9d48-39b58f122a6e",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "a911433b-0c27-4382-ac4f-3f6dc21ec803",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 531,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26215",
+                "addr:street": "Alter Damm",
+                "addr:suburb": "Hassel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2535948,
+                "lon": 8.1038997
+            },
+            "id": "d4be465b-1963-4f02-90c1-1664e249aa30",
+            "node": "node_41",
+            "smartmeters": [
+                {
+                    "id": "c2e09de9-c78a-4204-8fb6-f485bbe04090",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 286,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "16",
+                "addr:postcode": "26215",
+                "addr:street": "Feldtange"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2542756,
+                "lon": 8.1045285
+            },
+            "id": "aeb2ba8a-5049-4235-929c-ec5a233dc3aa",
+            "node": "node_42",
+            "smartmeters": [
+                {
+                    "id": "f3cf5b65-5b23-47cb-82cd-852f750e8ce0",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 505,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "14",
+                "addr:postcode": "26215",
+                "addr:street": "Feldtange"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2542648,
+                "lon": 8.1049298
+            },
+            "id": "fde76ddd-7f3b-4826-ade1-0d4aaf1997d2",
+            "node": "node_43",
+            "smartmeters": [
+                {
+                    "id": "f7745ef2-3b2f-4c66-bfcc-8274e45e6fc9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2577,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 240,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26215",
+                "addr:street": "Feldtange"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2545738,
+                "lon": 8.1059966
+            },
+            "id": "d41a9e49-014a-48d6-b612-cf306ac6ff5e",
+            "node": "node_44",
+            "smartmeters": [
+                {
+                    "id": "a06ff209-d9ac-4336-b4ba-a9ea7a8de906",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 851,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "8a",
+                "addr:postcode": "26215",
+                "addr:street": "Feldtange"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2543933,
+                "lon": 8.10614
+            },
+            "id": "b8c8b655-48e9-4724-bb7e-29e1d2ab1560",
+            "node": "node_45",
+            "smartmeters": [
+                {
+                    "id": "c8cad17e-8524-460f-9784-d8e2cf2b883a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 2,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26215",
+                "addr:street": "Feldtange"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2537836,
+                "lon": 8.1049528
+            },
+            "id": "b72477ae-2827-4def-b9ef-716891b04570",
+            "node": "node_46",
+            "smartmeters": [
+                {
+                    "id": "fc9ab859-8a25-4083-b2e3-8aa468613b7f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "d913f4b8-0d78-4f72-915b-19bbffae5b5c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 298,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "17",
+                "addr:postcode": "26215",
+                "addr:street": "Feldtange"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2538961,
+                "lon": 8.105304
+            },
+            "id": "dd539503-c27c-42e4-be7a-700649c0d690",
+            "node": "node_47",
+            "smartmeters": [
+                {
+                    "id": "ee8c9657-cf1b-4816-9011-aa2de6f8b912",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2719,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 422,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "15",
+                "addr:postcode": "26215",
+                "addr:street": "Feldtange"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2539878,
+                "lon": 8.1055711
+            },
+            "id": "f3602e6e-5690-4bfc-b772-e0f93aaedee4",
+            "node": "node_48",
+            "smartmeters": [
+                {
+                    "id": "d5f659d9-7d7b-42b7-bbd0-06d075237756",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3608,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 396,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26215",
+                "addr:street": "Feldtange"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2541446,
+                "lon": 8.1062987
+            },
+            "id": "d7b28382-c190-4526-a6e1-2a9dbe19c61d",
+            "node": "node_49",
+            "smartmeters": [
+                {
+                    "id": "e1cc7085-37e1-449d-aac8-9205b0a987b5",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 801,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "11",
+                "addr:postcode": "26215",
+                "addr:street": "Feldtange"
+            }
+        }
+    ]
+}

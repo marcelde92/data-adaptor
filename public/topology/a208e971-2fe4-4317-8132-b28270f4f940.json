@@ -1,0 +1,1382 @@
+{
+    "links": [
+        {
+            "source": "a208e971-2fe4-4317-8132-b28270f4f940",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_14"
+        },
+        {
+            "source": "node_19",
+            "target": "node_21"
+        },
+        {
+            "source": "node_21",
+            "target": "node_26"
+        },
+        {
+            "source": "a208e971-2fe4-4317-8132-b28270f4f940",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_8"
+        },
+        {
+            "source": "node_20",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_24"
+        },
+        {
+            "source": "node_29",
+            "target": "node_30"
+        },
+        {
+            "source": "a208e971-2fe4-4317-8132-b28270f4f940",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_3"
+        },
+        {
+            "source": "node_4",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_15"
+        }
+    ],
+    "name": "Leuchtenburger Stra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.242675,
+                "lon": 8.160688
+            },
+            "id": "f48697b8-a3c0-484e-a149-3e550261d842",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "fed48e32-0ed3-4f34-9441-a0de0611106a",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 363,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "7",
+                "addr:postcode": "26180",
+                "addr:street": "Stellmoorweg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2374903,
+                "lon": 8.1731969
+            },
+            "id": "f105dfbf-a2af-4dfd-b66d-a6031662342c",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "f70d3fef-02c9-42a1-b26a-434dde9dd8f0",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4584,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 308,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "6a",
+                "addr:postcode": "26180",
+                "addr:street": "Domsheide"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2374382,
+                "lon": 8.173213
+            },
+            "id": "a0c3bf51-9bd5-481c-9295-d7fd3b6a889d",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "bbb95b51-3dc7-467b-9c8a-4d86bb30023b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2997,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 564,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "6",
+                "addr:postcode": "26180",
+                "addr:street": "Domsheide"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2429949,
+                "lon": 8.163289
+            },
+            "id": "ad3aaa58-a625-46c5-af9e-6cf2fbaf3f3e",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "b71927fb-6969-47ad-95ed-5f13ccddc741",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4524,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 333,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "25",
+                "addr:postcode": "26180",
+                "addr:street": "B\u00fcrgermeister-Br\u00f6tje-Stra\u00dfe",
+                "name": "TriOS Mess- und Datentechnik GmbH"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2320203,
+                "lon": 8.1580758
+            },
+            "id": "a7e00a9c-855a-4b6e-b1da-4c4761fc4cc8",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "f38f5c87-3245-417e-aee3-71d5067ed26c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3119,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 758,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "30",
+                "addr:postcode": "26215",
+                "addr:street": "Alter M\u00fchlenweg",
+                "addr:suburb": "Bokel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2359897,
+                "lon": 8.1712946
+            },
+            "id": "cfdbe42e-7aeb-4da7-b80c-ee9c950e0595",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "ceb5049a-2816-433b-8e3c-1cd58981fbc7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5288,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 812,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "6a",
+                "addr:postcode": "26180",
+                "addr:street": "Am Heerweg",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2360705,
+                "lon": 8.1712246
+            },
+            "id": "c0755eae-5234-478f-9c83-bfb58240f85b",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "c6eb88d1-d79f-4850-895a-f7969c41227d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4035,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 349,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26180",
+                "addr:street": "Am Heerweg",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2362026,
+                "lon": 8.1710922
+            },
+            "id": "c3a9fc8d-e701-4341-b25a-16f2eee4cd04",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "d1de25e3-e1a2-4441-8be5-f3dd637211af",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4590,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 285,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "4a",
+                "addr:postcode": "26180",
+                "addr:street": "Am Heerweg",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2364352,
+                "lon": 8.1721491
+            },
+            "id": "c1f2a808-ae64-4528-83c8-911e1b1c8cdf",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "baf73b35-b5ba-4322-a0fa-c1b8252ddff8",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 602,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "42b",
+                "addr:postcode": "26180",
+                "addr:street": "Leuchtenburger Stra\u00dfe",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2365564,
+                "lon": 8.1722373
+            },
+            "id": "cc1a68e1-402f-41a9-8e20-4748edee29c2",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "e5e43d57-22f3-4eb2-999a-f26e3295fa0b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3544,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 156,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "42a",
+                "addr:postcode": "26180",
+                "addr:street": "Leuchtenburger Stra\u00dfe",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2362647,
+                "lon": 8.1710169
+            },
+            "id": "d6738750-0431-4ca4-9ae3-f9b2a5a3b760",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "ef3f664e-0483-4ce1-8f91-f1ddf605ce43",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2497,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 890,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26180",
+                "addr:street": "Am Heerweg",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2366046,
+                "lon": 8.1728109
+            },
+            "id": "acb8adc9-a896-43db-9cbb-4475410f0974",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "bcf0ee6b-d996-4246-b100-1a29521ea83f",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "ff913c30-f7a5-4956-922a-fa7fb32b805a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4572,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 800,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "38a",
+                "addr:postcode": "26180",
+                "addr:street": "Leuchtenburger Stra\u00dfe",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.236558,
+                "lon": 8.1729563
+            },
+            "id": "acac64ef-cb8c-4ef1-a78b-b40a6a86a5cb",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "d6116586-c765-43c0-b3b8-9348749abb2c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2700,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 260,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "38",
+                "addr:postcode": "26180",
+                "addr:street": "Leuchtenburger Stra\u00dfe",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2358652,
+                "lon": 8.1685974
+            },
+            "id": "a8388e21-3eb2-4e5e-8e71-d43265085dfb",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "eb9d7ec5-b6c7-483e-881b-901fbe585a4e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2467,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 843,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "2a",
+                "addr:postcode": "26180",
+                "addr:street": "Bei der Landwehr",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2360237,
+                "lon": 8.1690666
+            },
+            "id": "d5bf0023-21d1-4ef4-bdd0-9ab8757931da",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "aae92b02-f10a-46d1-b83c-3653dda41060",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2813,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 610,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "29a",
+                "addr:postcode": "26180",
+                "addr:street": "Domsheide",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2360383,
+                "lon": 8.1691842
+            },
+            "id": "c2893d5e-142d-487a-9f26-d73d4b418575",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "e308b240-fb67-47cf-b801-7544e097f8fa",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2805,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 617,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "29",
+                "addr:postcode": "26180",
+                "addr:street": "Domsheide",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2359235,
+                "lon": 8.1685284
+            },
+            "id": "dc5d9748-e61c-4df7-9c57-836448c65aec",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "c23c0a79-25c3-4d19-abbc-4fdbb24aac2d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4096,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 260,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26180",
+                "addr:street": "Bei der Landwehr",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2413269,
+                "lon": 8.1645336
+            },
+            "id": "b613ede3-fc8d-4d13-8cf5-5ca1015b0987",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "c42dc896-9bfb-48dd-9020-50369ed62e68",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3774,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 682,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "218",
+                "addr:postcode": "26180",
+                "addr:street": "Raiffeisenstra\u00dfe",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2409095,
+                "lon": 8.1673424
+            },
+            "id": "f388f339-34cc-49f0-bda0-b0168604e02b",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "a5d4b163-3b3c-4508-a224-77aa86c15f77",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4450,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 470,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "195",
+                "addr:postcode": "26180",
+                "addr:street": "Raiffeisenstra\u00dfe",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2409283,
+                "lon": 8.1677886
+            },
+            "id": "ec7d7564-b8cc-4f87-9543-876ccd139014",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "ddcbcc18-1357-4b38-98d9-ee15a12ba64a",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 627,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "193",
+                "addr:postcode": "26180",
+                "addr:street": "Raiffeisenstra\u00dfe",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2430997,
+                "lon": 8.1611796
+            },
+            "id": "d0316a50-b8a5-43e7-b471-ec5794cb5f4c",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "b2ecb635-0f02-47e9-b92a-e185489a694e",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "fe85ce74-84ca-4097-98f1-7ba2554d2590",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3098,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 298,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "12a",
+                "addr:postcode": "26180",
+                "addr:street": "Stellmoorweg",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2432176,
+                "lon": 8.1611426
+            },
+            "id": "ba567dd3-f26c-4a5b-b980-6dbb26be9054",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "db9b9128-60b4-4253-ba55-988979fa271e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3196,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 160,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26180",
+                "addr:street": "Stellmoorweg",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2362184,
+                "lon": 8.1650034
+            },
+            "id": "e8556c15-0932-467a-bdc8-abaae5459873",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "e555b81f-f3cc-4662-9924-cfa56006f6ff",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3088,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 773,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "48",
+                "addr:postcode": "26215",
+                "addr:street": "Metjendorfer Stra\u00dfe",
+                "addr:suburb": "Bokelerburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2360843,
+                "lon": 8.1656194
+            },
+            "id": "cb918c54-bc69-4352-81af-d625cb5d6ce9",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "e73343b7-839d-4878-92ba-98f9b4630b78",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4393,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 589,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "50",
+                "addr:postcode": "26215",
+                "addr:street": "Metjendorfer Stra\u00dfe",
+                "addr:suburb": "Bokelerburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2357768,
+                "lon": 8.1666874
+            },
+            "id": "d258e479-db09-416b-8cff-6e3522b162d3",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "c709fa6f-0356-410f-904d-09d2d8cb0898",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3694,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 39,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "52",
+                "addr:postcode": "26215",
+                "addr:street": "Metjendorfer Stra\u00dfe",
+                "addr:suburb": "Bokelerburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2347509,
+                "lon": 8.1721951
+            },
+            "id": "d9cd13a4-757b-41cf-b067-cf5cca36f9be",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "e75356bd-115d-4289-997b-0a5d1dc3b669",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5054,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 302,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "58",
+                "addr:postcode": "26180",
+                "addr:street": "Leuchtenburger Stra\u00dfe",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2348801,
+                "lon": 8.1721887
+            },
+            "id": "cb977366-9acf-442a-8673-5eb28e6adf24",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "b8e76327-4992-49ea-b057-e89357ae054a",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 448,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "56",
+                "addr:postcode": "26180",
+                "addr:street": "Leuchtenburger Stra\u00dfe",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2441969,
+                "lon": 8.1702349
+            },
+            "id": "b9989f8a-63e4-4467-95df-3c54722e9ada",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "f85bc81e-ae56-44ed-957b-bd8028f2ef2a",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 125,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26180",
+                "addr:street": "Moorweg",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.226608,
+                "lon": 8.1621447
+            },
+            "id": "f672138c-a404-473c-97ac-90fd002d8606",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "d091bcd4-086f-42f9-b17b-9fc9fd8371fe",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 783,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "22",
+                "addr:postcode": "26215",
+                "addr:street": "Am Schippstroth",
+                "addr:suburb": "Borbeck"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2364741,
+                "lon": 8.1684356
+            },
+            "id": "f02546f4-c5e6-45db-9c20-46776d674983",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "e812a27a-319f-4e86-bcfe-2b6cce60020b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4160,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 426,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "16a",
+                "addr:postcode": "26180",
+                "addr:street": "Am Hingstkamp",
+                "addr:suburb": "Leuchtenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2364052,
+                "lon": 8.1684776
+            },
+            "id": "c33ff4b2-485e-4073-91c8-bfb5e2306758",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "e8c6d73e-b7ee-4d0b-87e1-0746e507e18e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3282,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 119,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "16",
+                "addr:postcode": "26180",
+                "addr:street": "Am Hingstkamp",
+                "addr:suburb": "Leuchtenburg"
+            }
+        }
+    ]
+}

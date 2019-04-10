@@ -1,0 +1,1242 @@
+{
+    "links": [
+        {
+            "source": "ac3be6fc-9346-4f19-ae46-fe0002d4b575",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_21"
+        },
+        {
+            "source": "node_21",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_7"
+        },
+        {
+            "source": "ac3be6fc-9346-4f19-ae46-fe0002d4b575",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_8"
+        },
+        {
+            "source": "node_18",
+            "target": "node_19"
+        },
+        {
+            "source": "ac3be6fc-9346-4f19-ae46-fe0002d4b575",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_2"
+        },
+        {
+            "source": "node_3",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_25"
+        },
+        {
+            "source": "ac3be6fc-9346-4f19-ae46-fe0002d4b575",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_1"
+        },
+        {
+            "source": "node_4",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_16"
+        },
+        {
+            "source": "ac3be6fc-9346-4f19-ae46-fe0002d4b575",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_22"
+        },
+        {
+            "source": "ac3be6fc-9346-4f19-ae46-fe0002d4b575",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_27"
+        },
+        {
+            "source": "node_28",
+            "target": "node_29"
+        },
+        {
+            "source": "ac3be6fc-9346-4f19-ae46-fe0002d4b575",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_17"
+        },
+        {
+            "source": "ac3be6fc-9346-4f19-ae46-fe0002d4b575",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_11"
+        },
+        {
+            "source": "node_13",
+            "target": "node_20"
+        }
+    ],
+    "name": "Tirpitzstra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1382059,
+                "lon": 8.1992246
+            },
+            "id": "c044294f-05d0-45c7-a1ac-1b3bc81b498a",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "cc3d25ea-0158-4b4d-9091-bb7286e13242",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3614,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "d69ca6e5-ed7e-4a36-bee4-aa29242f8c8a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3206,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 308,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1375021,
+                "lon": 8.2007196
+            },
+            "id": "fedbaa63-b0a1-4867-bc33-a27339779ba0",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "b4bf22ef-00b2-4fea-b955-bfcf62c95d03",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3294,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 141,
+            "tags": {
+                "addr:housenumber": "22",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1385849,
+                "lon": 8.1986705
+            },
+            "id": "ff1c2586-0c3f-4c94-844e-9cccef83e5eb",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "e7b9469e-7b67-49ce-ae94-ff2f5f5ada83",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2728,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 697,
+            "tags": {
+                "addr:housenumber": "21",
+                "addr:street": "Tirpitzstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1375872,
+                "lon": 8.2005097
+            },
+            "id": "acbdf59d-55c2-41d5-9327-78f8571e384b",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "f6fbfac4-e962-47e2-8be4-3f1756fa5765",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 798,
+            "tags": {
+                "addr:housenumber": "24",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1385027,
+                "lon": 8.1989145
+            },
+            "id": "b11c933f-1526-48ba-8e75-f06e3fb395b1",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "ffa4e967-7bf5-4ac9-9547-494ed811a0be",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3444,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 71,
+            "tags": {
+                "addr:housenumber": "17",
+                "addr:street": "Tirpitzstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1380249,
+                "lon": 8.2005483
+            },
+            "id": "c46a8010-1452-407b-97cc-680edf5260de",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "e2b72faa-3123-42f3-9342-663a0ff0a45b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4365,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "ca18d63e-500a-4fb4-9ad8-a753a4af2add",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 73,
+            "tags": {
+                "addr:housenumber": "5",
+                "addr:street": "Tirpitzstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1384005,
+                "lon": 8.1993377
+            },
+            "id": "a2d69d58-48da-4a5f-86e5-577f53db2bc7",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "e638e9ae-57c4-4f49-aca6-8196add9fc27",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3277,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 314,
+            "tags": {
+                "addr:housenumber": "15",
+                "addr:street": "Tirpitzstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1382394,
+                "lon": 8.1987261
+            },
+            "id": "e04d5a8d-1ce7-4a5b-b7f7-bb73370bbbd3",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "e1782592-614d-49f1-9bc7-acd51f9c4fc5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3599,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 205,
+            "tags": {
+                "addr:housenumber": "38",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1380235,
+                "lon": 8.2008172
+            },
+            "id": "d9879198-a344-488d-ab2f-c45cf29d1038",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "b785e8ca-7bfe-422b-bd39-e894858022c6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3230,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 809,
+            "tags": {
+                "addr:housenumber": "3",
+                "addr:street": "Tirpitzstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1382278,
+                "lon": 8.199822
+            },
+            "id": "ae29f2a4-574d-4fc0-87ab-e8b4a37a0dd1",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "abe82bf9-c531-44f3-b589-142b614476fa",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 137,
+            "tags": {
+                "addr:housenumber": "11",
+                "addr:street": "Tirpitzstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1384404,
+                "lon": 8.1982129
+            },
+            "id": "f3aabfe0-8079-4251-b5c7-ec480e54f308",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "d4caebf6-2359-4fd7-af0c-cf5d11096934",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2935,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 383,
+            "tags": {
+                "addr:housenumber": "42",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1387508,
+                "lon": 8.1981352
+            },
+            "id": "f899e7cf-c6a6-47e9-9ca7-7be1d9a2d26f",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "d27c084b-264b-46d2-bcc2-7291f44408d5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4387,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 125,
+            "tags": {
+                "addr:housenumber": "25",
+                "addr:street": "Tirpitzstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1386689,
+                "lon": 8.1984115
+            },
+            "id": "b78d3d1c-64d6-40e8-86af-08dd78cfe813",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "be537e00-b4e7-4a94-9ff6-2fa6317a7e62",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3311,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 143,
+            "tags": {
+                "addr:housenumber": "23",
+                "addr:street": "Tirpitzstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1381028,
+                "lon": 8.1990927
+            },
+            "id": "ff754421-3066-46f0-9e72-5ebf523cad0d",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "acc4fff5-fc6a-4ff9-af70-11f727ba1180",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4032,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 93,
+            "tags": {
+                "addr:housenumber": "36",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.13771,
+                "lon": 8.1999704
+            },
+            "id": "d56b2b15-3589-4810-a2fb-a762f97c5f73",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "a8573218-98a4-46e5-a53e-d936a00b84b0",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3183,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 754,
+            "tags": {
+                "addr:housenumber": "28",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1376038,
+                "lon": 8.2006989
+            },
+            "id": "cadd73d0-3488-4adf-93b8-7ab13592d830",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "f73560d5-3976-463b-9f69-f1c8a8d6395f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4331,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 219,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1376639,
+                "lon": 8.2002121
+            },
+            "id": "bf054d40-2e13-43ec-823c-d06156aa9fd9",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "c5d34efb-b495-41bb-a715-984856319390",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4360,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 858,
+            "tags": {
+                "addr:housenumber": "26",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1381823,
+                "lon": 8.2000406
+            },
+            "id": "a5433def-fcbb-4824-874a-ff7f6a430535",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "e9b72c93-10c6-46ab-87ee-35007f655d53",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3727,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 639,
+            "tags": {
+                "addr:housenumber": "9",
+                "addr:street": "Tirpitzstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1380794,
+                "lon": 8.20029
+            },
+            "id": "e480cc10-ceb7-4c21-9d50-8002f6e3858d",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "e4f08549-6629-4be2-9485-1f94bf73315c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3150,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 318,
+            "tags": {
+                "addr:housenumber": "7",
+                "addr:street": "Tirpitzstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1379811,
+                "lon": 8.2010506
+            },
+            "id": "a77601a3-55c3-45f3-adda-ad2eeecc415c",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "f92d4060-e313-4832-9add-34a95ef55e87",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3643,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 795,
+            "tags": {
+                "addr:housenumber": "1",
+                "addr:street": "Tirpitzstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1379071,
+                "lon": 8.1995483
+            },
+            "id": "a73c626d-11af-4ea1-84fa-8ee33e4c0f48",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "bceb0ac8-87e0-4f01-a6e3-78ced6500bd2",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 525,
+            "tags": {
+                "addr:housenumber": "32",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1377873,
+                "lon": 8.2009761
+            },
+            "id": "a256b142-5f68-447c-8a78-3535d1cc1275",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "ad79da8f-6210-4637-81f7-15b0fdbe862f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3339,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 633,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1377954,
+                "lon": 8.1997497
+            },
+            "id": "fa15b167-e4c0-434b-b6ca-c82d8113c24a",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "c2b2f2c5-f8b5-4556-b0e2-13278d5e2af5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2970,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 585,
+            "tags": {
+                "addr:housenumber": "30",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1390617,
+                "lon": 8.1972195
+            },
+            "id": "e28ccf49-ab0c-4147-9359-768838b12ca3",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "b961b186-b37d-4b52-b375-d2ff7218227c",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 789,
+            "tags": {
+                "addr:housenumber": "33",
+                "addr:street": "Tirpitzstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1388333,
+                "lon": 8.1978684
+            },
+            "id": "a3e137af-056c-4421-816c-3d1de90afa7b",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "d7e8301b-79ff-49a3-9769-38aa29b5c13b",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 212,
+            "tags": {
+                "addr:housenumber": "27",
+                "addr:street": "Tirpitzstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1388288,
+                "lon": 8.1976089
+            },
+            "id": "d77cf67a-e563-4619-87e9-e7f876a61eb4",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "c6c9f971-3831-4514-902e-27592f82f3d4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3408,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 516,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1384181,
+                "lon": 8.1978301
+            },
+            "id": "d517e561-0a7c-4295-b2cc-258da2de7bdc",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "fdff9bd1-feb2-47bb-9214-e468150b66db",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 868,
+            "tags": {
+                "addr:housenumber": "44",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1386545,
+                "lon": 8.1975386
+            },
+            "id": "d33ea608-9c7d-40df-95be-ce6c7f90cdd2",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "d85c9881-647b-4c0c-b2be-849295d9eb65",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 91,
+            "tags": {
+                "addr:housenumber": "46",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.138902,
+                "lon": 8.1975986
+            },
+            "id": "cfce4abe-9414-4f8e-a610-a11b30bc4267",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "b6ebdf37-6179-44b2-8ecd-173711ee398b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3506,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 625,
+            "tags": {
+                "addr:housenumber": "29",
+                "addr:street": "Tirpitzstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1385081,
+                "lon": 8.2010821
+            },
+            "id": "ba3f60f6-5e11-482b-a87d-3f036ac33391",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "fcd5f270-3af1-4fe3-b978-56d30c31b9b7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3246,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 622,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "1",
+                "addr:postcode": "26122",
+                "addr:street": "Tappenbeckstra\u00dfe",
+                "building": "yes",
+                "historic": "building",
+                "name": "ehem. Landtag",
+                "wikidata": "Q2018720",
+                "wikipedia": "de:Oldenburgischer Landtag"
+            }
+        }
+    ]
+}

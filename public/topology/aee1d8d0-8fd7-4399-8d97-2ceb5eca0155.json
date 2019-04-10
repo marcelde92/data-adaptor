@@ -1,0 +1,1304 @@
+{
+    "links": [
+        {
+            "source": "aee1d8d0-8fd7-4399-8d97-2ceb5eca0155",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_12"
+        },
+        {
+            "source": "node_16",
+            "target": "node_17"
+        },
+        {
+            "source": "aee1d8d0-8fd7-4399-8d97-2ceb5eca0155",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_3"
+        },
+        {
+            "source": "node_20",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_21"
+        },
+        {
+            "source": "aee1d8d0-8fd7-4399-8d97-2ceb5eca0155",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_1"
+        },
+        {
+            "source": "node_6",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_10"
+        },
+        {
+            "source": "aee1d8d0-8fd7-4399-8d97-2ceb5eca0155",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_7"
+        },
+        {
+            "source": "node_11",
+            "target": "node_22"
+        },
+        {
+            "source": "aee1d8d0-8fd7-4399-8d97-2ceb5eca0155",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_2"
+        },
+        {
+            "source": "node_8",
+            "target": "node_13"
+        },
+        {
+            "source": "aee1d8d0-8fd7-4399-8d97-2ceb5eca0155",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_24"
+        },
+        {
+            "source": "aee1d8d0-8fd7-4399-8d97-2ceb5eca0155",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_5"
+        },
+        {
+            "source": "aee1d8d0-8fd7-4399-8d97-2ceb5eca0155",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_4"
+        },
+        {
+            "source": "node_15",
+            "target": "node_26"
+        }
+    ],
+    "name": "M\u00fchlenstra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2429563,
+                "lon": 8.2174076
+            },
+            "id": "c3f49f5e-a930-4ac9-afde-ff0d89fba1fb",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "fbc7b263-5c6a-4ff7-b80c-b238547949a7",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 198,
+            "tags": {
+                "building": "dormitory"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2477134,
+                "lon": 8.2105798
+            },
+            "id": "fece8bc5-86b1-485c-bfaa-8ec0caeccc87",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "c7e93f7c-2b07-4512-bf1e-e1254a0fcd6e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "fa4e3f37-85d2-4915-bd90-06d4739376a8",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 358,
+            "tags": {
+                "amenity": "cafe",
+                "building": "yes",
+                "name": "M\u00fchlrad bei der Klosterm\u00fchle",
+                "note": "CultureCall +49 (4402) 9833581-12",
+                "tourism": "attraction",
+                "wikipedia": "de:Kloster Rastede#Klosterm.C3.BChle Hankhausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2474259,
+                "lon": 8.2088604
+            },
+            "id": "b4b97bfe-6507-4824-992f-0d7b625b413e",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "f2a59ddc-ba2b-49ca-9645-dcc7590ebba8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2885,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 730,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2473302,
+                "lon": 8.2119361
+            },
+            "id": "da30c132-89c5-4cf6-b50c-fae58684fa65",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "eee36d69-8622-4271-bdf1-79bba072dedb",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 120,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26180",
+                "addr:street": "Im K\u00fchlen Grunde",
+                "building": "yes",
+                "name": "M\u00fchlenhof"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.247969,
+                "lon": 8.2124933
+            },
+            "id": "cb6cadce-fcc4-4706-972d-6612bba176ee",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "e8df6fc4-2363-4bee-8c7d-ae504d9a9456",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 353,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "77",
+                "addr:postcode": "26180",
+                "addr:street": "M\u00fchlenstra\u00dfe",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2481231,
+                "lon": 8.2122847
+            },
+            "id": "b109de25-d874-411a-9e32-0e8b31a95dd9",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "f15c1fec-6504-4316-9eff-31bc691c2e42",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 678,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "75",
+                "addr:postcode": "26180",
+                "addr:street": "M\u00fchlenstra\u00dfe",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2488624,
+                "lon": 8.2121439
+            },
+            "id": "a813ac7e-eab7-43e6-8eb8-d9df3202e743",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "abbdab56-e01a-4c85-ba5f-a68b16fd7dce",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 879,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26180",
+                "addr:street": "Quellenweg",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2472208,
+                "lon": 8.2116939
+            },
+            "id": "afad6333-9dab-4603-a301-71f2f9395a93",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "febf1ee0-e36e-45ac-8cd0-391e591dfde6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3058,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 440,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2478936,
+                "lon": 8.2105059
+            },
+            "id": "e9c7ab23-8c9e-44d8-b07d-cf562426c6d9",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "c9ef6d96-2279-4d2c-9a9b-7f42236f0465",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3660,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 745,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26180",
+                "addr:state": "Niedersachsen",
+                "addr:street": "Im K\u00fchlen Grunde",
+                "amenity": "cafe",
+                "building": "commercial",
+                "email": "kontakt@cafe-klostermuehle.de",
+                "name": "Caf\u00e9 Klosterm\u00fchle",
+                "opening_hours": "Sa,Su 13:00-18:00",
+                "operator": "Stephanie Segerdiek",
+                "outdoor_seating": "yes",
+                "phone": "+49 (4402) 8639261",
+                "website": "http://www.cafe-klostermuehle.de/"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2585413,
+                "lon": 8.2231231
+            },
+            "id": "f23d1a2d-4c09-444d-99d0-66a068437294",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "d514f4e2-af25-4fb3-931f-da2ac06a5bab",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2811,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 677,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "99",
+                "addr:postcode": "26180",
+                "addr:street": "Im G\u00f6hlen",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2476533,
+                "lon": 8.2055331
+            },
+            "id": "e60b8a36-f743-4823-9f6f-a9d86747c1c1",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "f4e1355c-d4ba-49b5-94e9-c9842d0a337c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 93,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "43",
+                "addr:postcode": "26180",
+                "addr:street": "M\u00fchlenstra\u00dfe",
+                "building": "commercial",
+                "name": "CleverReach GmbH & Co. KG.",
+                "office": "company",
+                "website": "http://www.cleverreach.de"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.249822,
+                "lon": 8.206378
+            },
+            "id": "a2f19bc5-0962-4c96-8f8f-281becc24a4a",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "cb3c2794-20c8-4a46-b006-4c397ce7c61d",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 15,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2491567,
+                "lon": 8.2072824
+            },
+            "id": "a6337a04-ade3-4733-b93d-c189fe7708df",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "c29f7e4c-a54a-4499-8f46-41aeeee05349",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 588,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2493053,
+                "lon": 8.2065614
+            },
+            "id": "cbf021dc-028c-4a6b-9c05-db959508a200",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "e2b05f71-e305-4542-80d3-273863f9680d",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 95,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2497823,
+                "lon": 8.206603
+            },
+            "id": "de6f0fe5-355d-4dba-9220-629dbf610fed",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "a3101076-8544-4a8f-a208-e3fb997787a3",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 730,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2482911,
+                "lon": 8.2080985
+            },
+            "id": "daa0fef5-39cb-48fb-a18a-0632f357f267",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "bc31b4de-0824-4ca0-8710-f66ebb54f7a2",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 227,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "55",
+                "addr:postcode": "26180",
+                "addr:street": "M\u00fchlenstra\u00dfe",
+                "amenity": "kindergarten",
+                "building": "kindergarten",
+                "email": "kiga-rastede@ewetel.net",
+                "name": "Kindergarten M\u00fchlenstra\u00dfe",
+                "phone": "04402 3015",
+                "source": "Bing",
+                "website": "https://www.rastede.de/leben-in-rastede/schulen-kinder/"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2498394,
+                "lon": 8.2060437
+            },
+            "id": "fc98047c-435b-40ce-b629-e976c1fd64f5",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "c178c6ed-2a7b-4bd9-9e22-8c0b1109d00b",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 866,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2498276,
+                "lon": 8.2062665
+            },
+            "id": "ced689d7-36d0-4d36-9681-9574775af086",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "a46dad1d-f153-4ce6-b6c4-12d2b581907e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2672,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 13,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2497792,
+                "lon": 8.2068266
+            },
+            "id": "ac408d35-e11e-43c0-b379-510e1f023a67",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "b7df1a00-b305-46c2-a13c-e4a8412a02af",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 849,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2498333,
+                "lon": 8.2061582
+            },
+            "id": "d5ea6f9f-01d6-4e90-8e54-b516e0fdce9d",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "d118628b-8348-4422-8038-372584e4ad07",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 167,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2494216,
+                "lon": 8.2079177
+            },
+            "id": "c40d5ca5-44ab-4940-956b-9d747499fc8f",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "a56d2229-2ed0-4410-b3ef-917a166ac955",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3015,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 723,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2497779,
+                "lon": 8.2069387
+            },
+            "id": "de41bfbe-8969-4839-9714-1e8e5f0c4e5c",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "d5ce5030-0ab3-49eb-b572-b5cf59546b01",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 511,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2497806,
+                "lon": 8.206718
+            },
+            "id": "a5d97747-9554-427f-ac34-c15640d4fdfd",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "a00f19dc-49f5-48b4-b0f0-dcef03d731f9",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 810,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2476365,
+                "lon": 8.2096148
+            },
+            "id": "d834d7aa-93d4-4ed2-88a8-7003675ce115",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "c8976d00-3051-4ee5-98b2-17357b7edf56",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 664,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2473033,
+                "lon": 8.2119573
+            },
+            "id": "bfc7b6c5-3422-4149-b14e-87f5da4217a9",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "bb0975ec-1406-4626-9860-b1b465358061",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 336,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "80",
+                "addr:postcode": "26180",
+                "addr:street": "M\u00fchlenstra\u00dfe",
+                "amenity": "hospital",
+                "building": "yes",
+                "name": "Wohnanlage am M\u00fchlenhof",
+                "operator": "AWO Trialog Weser-Ems GmbH",
+                "phone": "04402 929190"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.248903,
+                "lon": 8.2105249
+            },
+            "id": "d079ec96-2337-4210-b57c-e50c469a803a",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "da135e6b-f3a6-47e0-aa18-6f0070c277e8",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "b9672cb7-fc58-435c-910c-4ab656eae0da",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 442,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "5-7",
+                "addr:postcode": "26180",
+                "addr:street": "Im G\u00f6hlen",
+                "building": "yes",
+                "leisure": "sports_centre",
+                "name": "TCH Sport Center",
+                "sport": "tennis"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2469532,
+                "lon": 8.2053123
+            },
+            "id": "a65d91fa-1b59-4dcf-b42c-f171e71180b6",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "e2039e47-9b95-48b0-b303-f2b8db40831e",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 199,
+            "tags": {
+                "amenity": "toilets",
+                "building": "yes",
+                "fee": "no",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2470745,
+                "lon": 8.2102505
+            },
+            "id": "eae3d579-d973-4271-afdd-9ab810339749",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "aa234d33-f72c-4d79-9e73-bfccda624945",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "c7e8e033-fb41-40d0-b0b2-fa198bd078d7",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 642,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "58",
+                "addr:postcode": "26180",
+                "addr:street": "M\u00fchlenstra\u00dfe",
+                "fenced": "yes",
+                "landuse": "recreation_ground",
+                "leisure": "water_park",
+                "name": "Freibad Rastede",
+                "source": "Bing",
+                "website": "http://www.rastede.de"
+            }
+        }
+    ]
+}

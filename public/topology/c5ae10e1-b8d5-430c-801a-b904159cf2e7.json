@@ -1,0 +1,985 @@
+{
+    "links": [
+        {
+            "source": "c5ae10e1-b8d5-430c-801a-b904159cf2e7",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_1"
+        },
+        {
+            "source": "node_6",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_9"
+        },
+        {
+            "source": "node_11",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_17"
+        },
+        {
+            "source": "c5ae10e1-b8d5-430c-801a-b904159cf2e7",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_2"
+        },
+        {
+            "source": "node_3",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_7"
+        },
+        {
+            "source": "node_12",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_13"
+        },
+        {
+            "source": "node_20",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_21"
+        }
+    ],
+    "name": "Waldweg",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2115605,
+                "lon": 7.7166513
+            },
+            "id": "bf21434d-07f3-4b99-b9b5-fd54baf2e6eb",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "beb195e5-421a-4c99-b018-2d461db3c16d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3780,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 729,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "720",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Holtgast",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2116228,
+                "lon": 7.7162634
+            },
+            "id": "fa2d6052-6e02-472f-b4d7-0a26c9c2aeda",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "d1aad49f-f3c9-4dfb-a5b8-d439ce448374",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 292,
+            "tags": {
+                "building": "farm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2117243,
+                "lon": 7.7155335
+            },
+            "id": "f03562eb-3935-4abe-81d4-fd128ca65819",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "c90c47a6-1e35-4190-bdb3-dba747cf7033",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3187,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 822,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2114033,
+                "lon": 7.7162423
+            },
+            "id": "e4906565-b292-4577-af57-dfbae58aa4bc",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "f155500d-bf5f-473d-bae3-705d39f13f71",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2608,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 537,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2113547,
+                "lon": 7.7164424
+            },
+            "id": "b48b0696-9e17-432f-a340-cd33aa4955d1",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "bbdb78c6-bb02-4842-abe6-7d70d2c8c3db",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 676,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2104623,
+                "lon": 7.7150571
+            },
+            "id": "eda5dac8-2ecc-4b2b-a79c-c3726c77d9c0",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "fcbaec1e-a2e5-4593-a525-a22c66902c18",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3448,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 508,
+            "tags": {
+                "building": "farm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.210157,
+                "lon": 7.714982
+            },
+            "id": "ed464a40-ce2b-4d07-911f-df1f565dd228",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "d8319175-98c5-4396-86b0-f5fce160a66c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3918,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 291,
+            "tags": {
+                "building": "farm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2125288,
+                "lon": 7.7235046
+            },
+            "id": "c5f137c4-d9da-4d28-88c5-f876ef1a0126",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "c65c68de-11ea-4117-9d84-5504ee2761de",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2925,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 164,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "710",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Holtgast",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2123044,
+                "lon": 7.7235692
+            },
+            "id": "db76243a-2ace-4be0-aa02-18b18645873a",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "da65e5de-3691-44d1-9946-8ea4ec491bbd",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4471,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 98,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2124934,
+                "lon": 7.723329
+            },
+            "id": "f83ae9b4-df70-4422-9ea1-0b3b179c59c3",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "c6bad56b-e86c-4fa4-9309-b698a1325e98",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4253,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 107,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.210826,
+                "lon": 7.7270163
+            },
+            "id": "bf4dffa4-e184-4a4e-8b1e-d9e6cdddf4d0",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "b7a5b16a-d019-4157-91a8-3fb891a7dcce",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3013,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 714,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "6a",
+                "addr:postcode": "26689",
+                "addr:street": "Waldweg",
+                "addr:suburb": "Holtgast",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2108621,
+                "lon": 7.72718
+            },
+            "id": "c95028c6-ec14-4b61-aef1-66481006842a",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "b2a560fd-64dc-4418-86cd-b02d53b30f13",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 146,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26689",
+                "addr:street": "Waldweg",
+                "addr:suburb": "Holtgast",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2124989,
+                "lon": 7.7256744
+            },
+            "id": "d1b3238d-c0a1-4835-b82d-0311a3b734fb",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "e328e7b6-3027-47ba-964b-b34bc631bbdb",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5210,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 130,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26689",
+                "addr:street": "Waldweg",
+                "addr:suburb": "Holtgast",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2118114,
+                "lon": 7.7271224
+            },
+            "id": "ee42fdaa-9e0c-4fad-9dea-73949a7a9c16",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "c355232d-6580-4da4-b602-9364617a9075",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2536,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 10,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26689",
+                "addr:street": "Waldweg",
+                "addr:suburb": "Holtgast",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2119189,
+                "lon": 7.7272436
+            },
+            "id": "f045eec6-19f3-4d09-b7ee-8918c6fc898d",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "aa4ef6d0-07a9-4479-8ef2-59812c16323a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3244,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 220,
+            "tags": {
+                "building": "farm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2125918,
+                "lon": 7.725789
+            },
+            "id": "c148ca70-57dc-457a-aa79-5ddb7d94b004",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "b097df6d-f220-4710-96e2-a14f8ec7a759",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4148,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "e4907b02-951d-46e3-af19-3aee032936ed",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4272,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 712,
+            "tags": {
+                "building": "garage"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2131872,
+                "lon": 7.7256342
+            },
+            "id": "bcd1d453-928e-4b19-a70c-4ceaded908bf",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "ef744e4b-d24e-47be-bd04-3f2e134986fc",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3834,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 358,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26689",
+                "addr:street": "Waldweg",
+                "addr:suburb": "Holtgast",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.213055,
+                "lon": 7.725634
+            },
+            "id": "fe93a43b-ba55-4607-ad31-d51f31a3b1f9",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "bb4fde87-baa0-4c3a-b6be-4139c718f017",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 730,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2130554,
+                "lon": 7.7257844
+            },
+            "id": "b8960fa6-6107-48f1-9b1c-3d5865468837",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "ff538770-3226-49aa-9291-c131102a80a9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3019,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 46,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2130035,
+                "lon": 7.7257381
+            },
+            "id": "ace99a05-f518-488c-be1f-609e5a1a1697",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "b3dffa5f-189a-47ba-8ab8-af5cd111e618",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3178,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "b11b4c3a-a8c6-466f-9cca-7c82d7c3295f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3744,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 420,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2137989,
+                "lon": 7.7172694
+            },
+            "id": "f58acdcb-96e2-47ff-b02f-2a36c6c0eb67",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "cda20d69-361f-4ed1-83a0-2797aad9b41f",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 364,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2085689,
+                "lon": 7.7157763
+            },
+            "id": "f63468a5-9f56-4506-8008-f912d2d9b42f",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "c6a08efd-8366-4d8e-9172-3d98c51d73fd",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 428,
+            "tags": {
+                "building": "yes",
+                "layer": "1",
+                "name": "Pumpstation"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1907291,
+                "lon": 7.7250003
+            },
+            "id": "dc65a30a-182b-47ee-af40-c06712a96b82",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "eda8ca11-1ec1-4837-9e58-a7d889a0d9c9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4078,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 401,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:hamlet": "Tange",
+                "addr:housenumber": "85",
+                "addr:postcode": "26689",
+                "addr:street": "Tanger Hauptstra\u00dfe",
+                "amenity": "cafe",
+                "email": "erika-oltmanns@t-online.de",
+                "name": "Bauerncaf\u00e9 Oltmanns",
+                "opening_hours": "May-Oct: We-Su 14:00-18:00",
+                "operator": "Familie L\u00fcken",
+                "outdoor_seating": "yes",
+                "phone": "04499 1080",
+                "website": "http://www.ferienhof-oltmanns.de"
+            }
+        }
+    ]
+}

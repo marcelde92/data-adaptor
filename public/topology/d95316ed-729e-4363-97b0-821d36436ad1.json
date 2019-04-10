@@ -1,0 +1,1233 @@
+{
+    "links": [
+        {
+            "source": "d95316ed-729e-4363-97b0-821d36436ad1",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_10"
+        },
+        {
+            "source": "d95316ed-729e-4363-97b0-821d36436ad1",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_9"
+        },
+        {
+            "source": "node_18",
+            "target": "node_20"
+        },
+        {
+            "source": "d95316ed-729e-4363-97b0-821d36436ad1",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_3"
+        },
+        {
+            "source": "node_19",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_24"
+        },
+        {
+            "source": "d95316ed-729e-4363-97b0-821d36436ad1",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_0"
+        },
+        {
+            "source": "d95316ed-729e-4363-97b0-821d36436ad1",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_21"
+        },
+        {
+            "source": "node_22",
+            "target": "node_28"
+        },
+        {
+            "source": "d95316ed-729e-4363-97b0-821d36436ad1",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_23"
+        },
+        {
+            "source": "d95316ed-729e-4363-97b0-821d36436ad1",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_11"
+        },
+        {
+            "source": "d95316ed-729e-4363-97b0-821d36436ad1",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_14"
+        },
+        {
+            "source": "d95316ed-729e-4363-97b0-821d36436ad1",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_7"
+        },
+        {
+            "source": "node_15",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_16"
+        }
+    ],
+    "name": "Hindenburgstra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1371075,
+                "lon": 8.2034222
+            },
+            "id": "b736f20c-3241-4af6-b042-19de1c209e7f",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "db70867c-f8e8-4d12-bffe-9a659401077f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3160,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 282,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1377674,
+                "lon": 8.20208
+            },
+            "id": "d542c65e-fca5-4c0d-9710-c8d2acd2cd1a",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "d58bb86f-0dfa-48c6-949c-86ec62597d17",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "cbf5079b-a458-4765-8b2f-e580e1a8ae89",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3910,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 109,
+            "tags": {
+                "addr:housenumber": "39",
+                "addr:street": "Hindenburgstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1379799,
+                "lon": 8.2040672
+            },
+            "id": "b6a9d4cb-5979-45ba-939a-28c5fbfeaa6e",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "f82e19d2-180d-4a1d-bb55-37ae2e5cf60c",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 475,
+            "tags": {
+                "addr:housenumber": "30",
+                "addr:street": "Hindenburgstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.137249,
+                "lon": 8.2020801
+            },
+            "id": "e2bd84b1-38ce-4a74-9834-96541bfc5af7",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "c4342ec8-b9a8-4012-bfe2-b37dec00de5d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2713,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 5,
+            "tags": {
+                "addr:housenumber": "16",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1373587,
+                "lon": 8.2035022
+            },
+            "id": "e35a1bc0-f1bf-42c5-a803-8494498e81fa",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "d88b94e7-34f3-47a2-9659-a81cbc31c4e6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4184,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 373,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1373107,
+                "lon": 8.201723
+            },
+            "id": "a135cf61-ded5-48b7-8093-5e3def0efb07",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "f23e8dc6-95f1-4556-9867-2373ed49abf0",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3104,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 746,
+            "tags": {
+                "addr:housenumber": "18",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1378757,
+                "lon": 8.2015502
+            },
+            "id": "ed2370bc-1552-4800-a45f-ce7c2a636284",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "bc813467-0b78-46cb-93f6-d29b97144113",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3578,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 391,
+            "tags": {
+                "addr:housenumber": "41",
+                "addr:street": "Hindenburgstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1371994,
+                "lon": 8.2023728
+            },
+            "id": "b8ade59d-d83d-4bc9-ab9d-e4e4d22ca93f",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "de9ff3e0-f7a5-4474-b12c-6455a6a7b6c5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2721,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 273,
+            "tags": {
+                "addr:housenumber": "14",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1370033,
+                "lon": 8.203939
+            },
+            "id": "ecb9a047-7c76-438b-ac3a-e58ec2431838",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "a13f82a3-aefe-4adf-a699-286b3cf8a7e7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3695,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 754,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:street": "Proppingstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1371799,
+                "lon": 8.2026613
+            },
+            "id": "b043c213-532a-436b-9ebf-a6d25d0bb300",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "a5444b99-33de-4611-8d88-8494071d3772",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 198,
+            "tags": {
+                "addr:housenumber": "8",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1369848,
+                "lon": 8.2044429
+            },
+            "id": "e13a9dbd-c36f-4101-a164-45cf29815972",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "d5204cc6-a4b7-4997-b127-7e02517f9d9a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3205,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 379,
+            "tags": {
+                "addr:housenumber": "1",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.137917,
+                "lon": 8.2045004
+            },
+            "id": "e8404aad-655d-4ccf-8603-c000f730e29b",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "e8d797d6-3514-45bc-b4b3-80f4812fe7ad",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 759,
+            "tags": {
+                "addr:housenumber": "26",
+                "addr:street": "Hindenburgstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1371877,
+                "lon": 8.2029928
+            },
+            "id": "a27495f5-73a1-4232-b16c-4d2ec6349c0a",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "b2b4d8ed-cba9-4a64-a1bf-d3e3a7a2bd73",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4969,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 270,
+            "tags": {
+                "addr:housenumber": "6",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1375721,
+                "lon": 8.2013071
+            },
+            "id": "f823fde9-9ef5-4c21-8528-d15d7bac71b7",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "a013927a-9769-4552-a35c-a8a36477243c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3623,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 89,
+            "tags": {
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1373333,
+                "lon": 8.2027026
+            },
+            "id": "a133e382-a3dc-4039-b73d-464860df29de",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "a4dec8a4-8981-4c33-8ca7-e9497e0bd325",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 585,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1379179,
+                "lon": 8.2043016
+            },
+            "id": "cb102e60-2bfb-46c2-9030-af6048e5eb46",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "bc4a0e15-56d9-4297-98fb-cddf2c96a9c9",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 1,
+            "tags": {
+                "addr:housenumber": "28",
+                "addr:street": "Hindenburgstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.137495,
+                "lon": 8.2040659
+            },
+            "id": "d042a99c-3f49-4875-b2d1-b143dbec98a8",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "ed427db5-ea90-45b7-86de-89ce0d3167e5",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 19,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1376911,
+                "lon": 8.2024965
+            },
+            "id": "a039ef71-355d-47ce-9ab1-e5021cccfe09",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "f394df3d-6bdb-410f-8c37-1ec4931c97c7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3366,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 237,
+            "tags": {
+                "addr:housenumber": "37",
+                "addr:street": "Hindenburgstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1374994,
+                "lon": 8.2014
+            },
+            "id": "e9c7f6ca-4d90-46c8-a58e-14bd9cb99d0f",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "a1343c82-dec7-49c0-9723-7aa33cd48a7e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3240,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 9,
+            "tags": {
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.137344,
+                "lon": 8.2040107
+            },
+            "id": "be5b833f-6361-4785-9b4a-c9362bb7e555",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "e50ce568-8115-42ee-b121-34794e85d985",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4086,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 12,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.137651,
+                "lon": 8.2041411
+            },
+            "id": "cc4f1c5d-1faf-4ca2-b4ee-d8655a8c5679",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "e7bbec49-bfb3-46df-bf42-8b255b3ac12f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4191,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "b378f8d1-3de8-4b0d-bd63-9a7454fdd667",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 287,
+            "tags": {
+                "addr:housenumber": "29",
+                "addr:street": "Hindenburgstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1377357,
+                "lon": 8.2028917
+            },
+            "id": "b7c73336-c252-44df-be74-1974191235b9",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "b1aa0844-edc4-421e-8a09-f2eda6c9ffd7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3465,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 526,
+            "tags": {
+                "addr:housenumber": "35",
+                "addr:street": "Hindenburgstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1376505,
+                "lon": 8.2013901
+            },
+            "id": "b8acb3a5-55b3-4fda-aacb-9aa2ab077548",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "d258107e-5d7f-42ad-a599-35d21afbf8e5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3111,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 345,
+            "tags": {
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1371691,
+                "lon": 8.2039319
+            },
+            "id": "c3ba25a2-5eac-4863-a124-eefcd4929123",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "dc97d61b-4a6c-4f71-b957-92c47a55a84d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3371,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 563,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1377216,
+                "lon": 8.2031167
+            },
+            "id": "df9359f7-0bf7-48fc-9028-bcc3c16959ee",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "db71f4fb-f430-4a4a-be06-204ad9d6509f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2802,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 4,
+            "tags": {
+                "addr:housenumber": "33",
+                "addr:street": "Hindenburgstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1373741,
+                "lon": 8.2013524
+            },
+            "id": "c807e4bf-16c7-46bf-aa28-5716f7fcedb2",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "ff03c305-4336-442f-8df1-e626c1630e78",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3922,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 345,
+            "tags": {
+                "addr:housenumber": "20",
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1376906,
+                "lon": 8.2034076
+            },
+            "id": "e1b55fe7-277a-42a7-9d21-981138169ab8",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "d26aaf00-f437-4462-86e8-ac4534fc897c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3986,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 126,
+            "tags": {
+                "addr:housenumber": "31",
+                "addr:street": "Hindenburgstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1388057,
+                "lon": 8.2027703
+            },
+            "id": "be16caa1-beb9-4714-94b6-00c68994a238",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "b3220040-cf48-4eec-9ba2-e754c1b81f08",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3543,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "bfcc05f4-c501-4f34-9449-a1fb2e6ea673",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4009,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 215,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "8",
+                "addr:postcode": "26122",
+                "addr:street": "Theodor-Tantzen-Platz",
+                "alt_name": "Landesbeh\u00f6rdenzentrum",
+                "building": "yes",
+                "historic": "building",
+                "image": "File:Ministerium_009.JPG",
+                "layer": "1",
+                "name": "Regierungsvetretung Oldenburg",
+                "old_name": "Landesregierung",
+                "wikidata": "Q2018720",
+                "wikipedia": "de:Oldenburgischer Landtag"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1389432,
+                "lon": 8.2028313
+            },
+            "id": "e3e3004e-0c1b-41e9-9e61-6c0f5a77e29e",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "a386a04b-3118-4889-b59e-79cf95a01eb3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2874,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 438,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26122",
+                "addr:street": "Theodor-Tantzen-Platz",
+                "amenity": "police",
+                "contact:fax": "+49 441-799-1010",
+                "contact:phone": "+49 441-799-0",
+                "contact:website": "http://www.pd-ol.polizei-nds.de",
+                "name": "Polizeidirektion Oldenburg"
+            }
+        }
+    ]
+}

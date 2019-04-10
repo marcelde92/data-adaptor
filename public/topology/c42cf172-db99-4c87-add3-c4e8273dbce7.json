@@ -1,0 +1,2489 @@
+{
+    "links": [
+        {
+            "source": "c42cf172-db99-4c87-add3-c4e8273dbce7",
+            "target": "node_42"
+        },
+        {
+            "source": "node_42",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_0"
+        },
+        {
+            "source": "node_2",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_4"
+        },
+        {
+            "source": "node_8",
+            "target": "node_12"
+        },
+        {
+            "source": "node_13",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_14"
+        },
+        {
+            "source": "node_17",
+            "target": "node_40"
+        },
+        {
+            "source": "node_40",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_18"
+        },
+        {
+            "source": "node_22",
+            "target": "node_39"
+        },
+        {
+            "source": "node_39",
+            "target": "node_30"
+        },
+        {
+            "source": "node_30",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_25"
+        },
+        {
+            "source": "node_26",
+            "target": "node_29"
+        },
+        {
+            "source": "node_30",
+            "target": "node_37"
+        },
+        {
+            "source": "node_37",
+            "target": "node_33"
+        },
+        {
+            "source": "node_33",
+            "target": "node_36"
+        },
+        {
+            "source": "node_36",
+            "target": "node_34"
+        },
+        {
+            "source": "node_37",
+            "target": "node_38"
+        },
+        {
+            "source": "node_42",
+            "target": "node_48"
+        },
+        {
+            "source": "node_48",
+            "target": "node_45"
+        },
+        {
+            "source": "node_48",
+            "target": "node_51"
+        },
+        {
+            "source": "node_51",
+            "target": "node_57"
+        },
+        {
+            "source": "node_57",
+            "target": "node_52"
+        },
+        {
+            "source": "c42cf172-db99-4c87-add3-c4e8273dbce7",
+            "target": "node_54"
+        },
+        {
+            "source": "node_54",
+            "target": "node_41"
+        },
+        {
+            "source": "node_41",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_1"
+        },
+        {
+            "source": "node_3",
+            "target": "node_7"
+        },
+        {
+            "source": "node_9",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_10"
+        },
+        {
+            "source": "node_16",
+            "target": "node_19"
+        },
+        {
+            "source": "node_20",
+            "target": "node_21"
+        },
+        {
+            "source": "node_24",
+            "target": "node_27"
+        },
+        {
+            "source": "node_28",
+            "target": "node_32"
+        },
+        {
+            "source": "node_32",
+            "target": "node_31"
+        },
+        {
+            "source": "node_32",
+            "target": "node_35"
+        },
+        {
+            "source": "node_41",
+            "target": "node_46"
+        },
+        {
+            "source": "node_46",
+            "target": "node_43"
+        },
+        {
+            "source": "node_43",
+            "target": "node_44"
+        },
+        {
+            "source": "node_46",
+            "target": "node_49"
+        },
+        {
+            "source": "node_49",
+            "target": "node_47"
+        },
+        {
+            "source": "node_49",
+            "target": "node_50"
+        },
+        {
+            "source": "node_50",
+            "target": "node_53"
+        },
+        {
+            "source": "node_54",
+            "target": "node_55"
+        },
+        {
+            "source": "node_55",
+            "target": "node_56"
+        }
+    ],
+    "name": "Wittenheimstra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2927418,
+                "lon": 7.9374739
+            },
+            "id": "a22a69a4-dbb4-4c90-a882-b97c9a99b7a2",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "e02a5c61-1a42-4343-bd12-a96c7f3397fb",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3849,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 595,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26655",
+                "addr:street": "K\u00f6hlmoorweg",
+                "addr:suburb": "Felde",
+                "building": "hangar"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2928578,
+                "lon": 7.9375697
+            },
+            "id": "b5ca9d01-09c4-4f4e-ae11-ec329df2c519",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "c1696e2e-5938-4f3f-b935-42995f83602e",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 318,
+            "tags": {
+                "building": "farm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2929556,
+                "lon": 7.9372427
+            },
+            "id": "d1063e16-4637-4786-9709-572dc163052c",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "b73dacde-23dc-41a0-9182-dc783f3630c1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3476,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 556,
+            "tags": {
+                "building": "farm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2938011,
+                "lon": 7.936666
+            },
+            "id": "ee982837-5e1b-43b2-8584-022c162a1518",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "ec4c2b0e-c737-4efd-9660-50753830672f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3985,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 515,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2891756,
+                "lon": 7.9294687
+            },
+            "id": "c69ef704-a3ec-456d-ae72-9b196a39a5bb",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "b2256910-0569-4f22-b0a5-592ceff207ce",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3236,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 168,
+            "tags": {
+                "building": "hangar"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2890654,
+                "lon": 7.9291269
+            },
+            "id": "cde50dac-ce38-4ecb-88e5-e9822295fea4",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "e9758e33-daa7-42c0-964f-c38dc87bdd9b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3532,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 70,
+            "tags": {
+                "building": "hangar"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2890144,
+                "lon": 7.9287534
+            },
+            "id": "e2418289-b741-4d9a-862a-f21de09cb9b2",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "b3a60857-5fd8-4eaf-9542-b08ee9ab8cbf",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 359,
+            "tags": {
+                "building": "hangar"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.28887,
+                "lon": 7.9284171
+            },
+            "id": "b9baa82a-605f-4770-a2c4-d37c07fb3307",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "dac5d047-373e-4bda-a72e-5c37a4e5dfc0",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 351,
+            "tags": {
+                "building": "hangar"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2896365,
+                "lon": 7.9313388
+            },
+            "id": "f75589f3-fb8f-4981-84b5-066fad2fd42b",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "f44e1b31-d54f-4681-9c39-2378dd14d937",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "bb162a66-221d-4ade-8c2d-8fb1b04cc97d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2734,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 883,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26655",
+                "addr:state": "Niedersachsen",
+                "addr:street": "K\u00f6hlmoorweg",
+                "addr:suburb": "Felde",
+                "amenity": "restaurant",
+                "building": "yes",
+                "cuisine": "german",
+                "email": "info@schloss-koehlmoor.de",
+                "name": "Schloss K\u00f6hlmoor Restaurant \"Zum Ritter\"",
+                "operator": "Schloss K\u00f6hlmoor GmbH",
+                "phone": "04488-9836826",
+                "website": "http://www.schloss-koehlmoor.de/"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2897634,
+                "lon": 7.9324248
+            },
+            "id": "b8affa20-6e43-45dd-8973-58b0229ca651",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "e0d505a8-7ab4-478b-b860-57685e54be2a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2602,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 616,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2864318,
+                "lon": 7.9232067
+            },
+            "id": "b4cce735-3e3e-4cbd-8f3d-fc14deef003a",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "c51f5a05-a826-4399-bcfb-446d463e92be",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4537,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 44,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "23",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde",
+                "building": "house",
+                "name": "Vahlenkamp"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2884454,
+                "lon": 7.9228718
+            },
+            "id": "eb43aa6b-4b1d-470a-8881-beb0231c3eac",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "f09228db-8a8a-4a61-9e47-57638e7e1377",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2619,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 180,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26655",
+                "addr:street": "K\u00f6hlmoorweg",
+                "addr:suburb": "Felde",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2865717,
+                "lon": 7.9234371
+            },
+            "id": "f84589c8-6fc7-40a7-ae27-4a58aed59279",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "dc8a3f0a-bd82-42da-af1e-ce5f0c4a5d4a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3219,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 210,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2865463,
+                "lon": 7.9240994
+            },
+            "id": "c5709b9c-8533-4fb2-aa17-3cd535e813ac",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "bedebddb-b1a4-4762-acf6-daa89f28ebae",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3027,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 837,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2866327,
+                "lon": 7.9231535
+            },
+            "id": "ea88c87e-f373-4e3b-b394-26816e580747",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "f4770ec2-b794-433b-91f9-82543b795a40",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 363,
+            "tags": {
+                "building": "roof"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.286682,
+                "lon": 7.9231267
+            },
+            "id": "a8db76ce-9af4-465e-b23f-2db9305c3d70",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "c760cce2-da81-40cf-8ead-b0d61e17c01e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2860,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 230,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2915183,
+                "lon": 7.922425
+            },
+            "id": "caa1980e-0a95-464f-8e0d-e4d94f179155",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "d69981cc-8005-4dfc-9b5f-048c8d10a7b3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3292,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 897,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "31",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2916158,
+                "lon": 7.9222408
+            },
+            "id": "cc2abf39-a9e3-465d-98c1-1ebe4f5cf156",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "dbe981d4-efe9-48bf-8582-d8f639f3839c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3592,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 755,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.291692,
+                "lon": 7.9224755
+            },
+            "id": "eb10c6e7-6254-463d-9ed9-352564402b7a",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "ae2384e0-4a44-44c7-9382-0c6df7ab9ec7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4130,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 546,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2916405,
+                "lon": 7.9227318
+            },
+            "id": "bf6e0d9f-c649-4cb7-8d77-40bf2bba2279",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "e71c5803-1c5a-4f61-b74a-1ce686fabd10",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3054,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 752,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2912328,
+                "lon": 7.92279
+            },
+            "id": "c869c63a-02c4-49b5-8c6e-638eaa0de6de",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "b3f60378-5c25-4080-a378-60062e4834b1",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 242,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2822214,
+                "lon": 7.9191666
+            },
+            "id": "cb8b8f3b-c061-436e-a863-425dc193aea2",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "dc47abec-5258-4f53-8cc4-388ce974d0f1",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 729,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "19",
+                "addr:postcode": "26655",
+                "addr:street": "Am Wehlen",
+                "addr:suburb": "Felde",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2819308,
+                "lon": 7.9191005
+            },
+            "id": "c9f985b4-6a92-456e-97ac-9855c722dcbe",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "efe6f701-1522-48a8-9cd5-046b17afdd1d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4691,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 345,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "17",
+                "addr:postcode": "26655",
+                "addr:street": "Am Wehlen",
+                "addr:suburb": "Felde",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2818997,
+                "lon": 7.9192849
+            },
+            "id": "c5857510-195e-490e-9941-c913437002e1",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "bee0a99c-c40e-49bd-9260-ebbac6183b40",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3943,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 595,
+            "tags": {
+                "building": "garage"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2816325,
+                "lon": 7.9195832
+            },
+            "id": "b40ee84a-5f30-4c83-a009-1e9bf0934316",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "daeb2d4f-1fbf-4731-b16e-2355e99cff88",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3403,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 170,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2816656,
+                "lon": 7.9191543
+            },
+            "id": "aef82f29-d838-42c2-8475-93915a75a358",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "c8112590-675c-40f5-b577-58e840de2edb",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 783,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2816504,
+                "lon": 7.9187411
+            },
+            "id": "ede77d68-edae-4dbe-941d-13d16c18e258",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "c032e55f-2441-44a1-bc6a-04810d1b33e1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3935,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "e8cc470f-6d1f-4142-9fbd-81a39006dcf2",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3551,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 875,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2781559,
+                "lon": 7.9270751
+            },
+            "id": "b651e3bc-dba6-4e24-8243-55bd0a0c8d72",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "c57c660c-a4cc-46cc-bc38-0f5fdf5f69e0",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3363,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 587,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "16",
+                "addr:postcode": "26655",
+                "addr:state": "Niedersachsen",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2827427,
+                "lon": 7.9248349
+            },
+            "id": "fb141156-6ab6-4e15-9fb8-fbba783ff9a2",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "a4b1a38b-7bfd-4abf-ab47-e36a37c03088",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3633,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 95,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "22",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.293493,
+                "lon": 7.9370335
+            },
+            "id": "a958355b-78da-4eee-b844-b2bb36ab9c17",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "ac7606e4-205a-41ac-b8e8-3b3be4926b9b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2726,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 833,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26655",
+                "addr:street": "K\u00f6hlmoorweg",
+                "addr:suburb": "Felde",
+                "leisure": "sports_centre",
+                "name": "Reithalle Felde",
+                "operator": "M\u00fcller Reitbetrieb",
+                "phone": "0170 8647065",
+                "sport": "equestrian",
+                "website": "https://de-de.facebook.com/ReithalleFelde/"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2932936,
+                "lon": 7.9370954
+            },
+            "id": "e21bd800-ec29-49c4-8cc0-3df631363c83",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "db887c40-2d09-4d4c-bc03-84fe5c0fe94c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3255,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 564,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26655",
+                "addr:street": "K\u00f6hlmoorweg",
+                "addr:suburb": "Felde",
+                "amenity": "pub",
+                "email": "reithalle-felde@web.de",
+                "name": "Reiterst\u00fcbchen Felde",
+                "operator": "M\u00fcller Reitbetrieb",
+                "phone": "0170 8647065"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2838255,
+                "lon": 7.9199626
+            },
+            "id": "e33a4c57-0c9a-4ee7-a0ef-bc77e16d4a16",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "fce35e8c-333b-4cf0-ace3-71a353825280",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2724,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 382,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "28",
+                "addr:postcode": "26655",
+                "addr:street": "Am Wehlen",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2828796,
+                "lon": 7.919321
+            },
+            "id": "a086580f-dac0-4fb6-9030-16be1c9e721f",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "c51228e8-4c50-42cc-9383-b6c6fdf01595",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 619,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "24",
+                "addr:postcode": "26655",
+                "addr:street": "Am Wehlen",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2823435,
+                "lon": 7.9185263
+            },
+            "id": "fee75042-ec43-4d30-8645-6ff9d0bd2604",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "bbf56a86-104f-4f20-bca7-751e63e9e863",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3344,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 177,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "22",
+                "addr:postcode": "26655",
+                "addr:street": "Am Wehlen",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2820465,
+                "lon": 7.9180433
+            },
+            "id": "ff3a4803-2a4b-4e91-a5d5-51c587edbee5",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "c53f8714-dd73-48aa-bd8c-88a20603f6d3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3735,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 678,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "20a",
+                "addr:postcode": "26655",
+                "addr:street": "Am Wehlen",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2819386,
+                "lon": 7.9179969
+            },
+            "id": "a7e40d3b-8146-489c-a22d-ff338de46476",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "fd17a2d0-710c-477c-9887-cc09adf4c248",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 283,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "20",
+                "addr:postcode": "26655",
+                "addr:street": "Am Wehlen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2880047,
+                "lon": 7.9212749
+            },
+            "id": "d7bb5993-f82a-4dd4-a46f-c53d2540bb00",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "d28bf63a-55c6-4790-bd9e-7c3d17c97027",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3136,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 396,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26655",
+                "addr:street": "Friesenschanze",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2832829,
+                "lon": 7.9243307
+            },
+            "id": "dead5ba7-ef1c-4aa8-bf7c-073b02a981b0",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "c3e826b9-3e64-4391-ad94-3cb76cc47238",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 892,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "24",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2857802,
+                "lon": 7.9232854
+            },
+            "id": "e1862fec-d3c3-413a-8f4e-501cb7e3d730",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "e6af11f6-c6db-41e7-8c5d-7524ed3f0898",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 524,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "19",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2911021,
+                "lon": 7.92197
+            },
+            "id": "e2d2502c-651f-4e5d-bce5-c6ef5aec5778",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "deed9f0e-b806-467e-98cb-e7b5cf5ded37",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4101,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 650,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "40",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2815836,
+                "lon": 7.9224085
+            },
+            "id": "ce422c84-165f-4ccc-b00c-d9818eab22fd",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "bdc40bf8-ed48-4f51-ae16-d934e32bed70",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 134,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26655",
+                "addr:street": "Am Logenkamp",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2840248,
+                "lon": 7.9222167
+            },
+            "id": "a790f80f-15ec-4619-bd70-fba26da32e47",
+            "node": "node_41",
+            "smartmeters": [
+                {
+                    "id": "aea89636-6822-4828-8420-dacd4f7d5409",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4414,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 742,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26655",
+                "addr:street": "Tw\u00fcschenweg",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2849049,
+                "lon": 7.9242133
+            },
+            "id": "a7535b92-c6cd-4dbe-9565-3c890650563b",
+            "node": "node_42",
+            "smartmeters": [
+                {
+                    "id": "b252b2a8-194d-4242-ba86-63fd3b45e50b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3855,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 235,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "17",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2821992,
+                "lon": 7.9251803
+            },
+            "id": "d6e44dd4-3291-486f-82fb-544dde3edba2",
+            "node": "node_43",
+            "smartmeters": [
+                {
+                    "id": "a33fee36-b0ca-4b8c-8b35-4834e04c0a48",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5108,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 791,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "20",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2769768,
+                "lon": 7.9278855
+            },
+            "id": "ca787c5c-6260-4bff-a9dc-15f3b0b4768a",
+            "node": "node_44",
+            "smartmeters": [
+                {
+                    "id": "f2eff221-e7bf-42e9-8c17-9b10d9186431",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3675,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 67,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2840272,
+                "lon": 7.9247261
+            },
+            "id": "dfbf1fae-d947-4b95-8a57-2898aeb96aed",
+            "node": "node_45",
+            "smartmeters": [
+                {
+                    "id": "e9c15546-5e24-4605-a577-d64c8164ce6f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3128,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 781,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "13a",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.284954,
+                "lon": 7.923168
+            },
+            "id": "ecb09c5f-a9fe-4c8a-b07b-9f8b4140601c",
+            "node": "node_46",
+            "smartmeters": [
+                {
+                    "id": "fdc7dcd3-8d98-4d1a-86cf-44ac7e5a91d0",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3132,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 526,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26655",
+                "addr:street": "Tw\u00fcschenweg",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2898056,
+                "lon": 7.9223184
+            },
+            "id": "fb011354-cd0b-4d32-8353-763089d6b1a8",
+            "node": "node_47",
+            "smartmeters": [
+                {
+                    "id": "b519295b-55bd-480b-bd90-ed819a9843ac",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3049,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 672,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "38",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.281607,
+                "lon": 7.9261003
+            },
+            "id": "ab77fc4e-02e7-4933-8b4a-b0d91cd0ae34",
+            "node": "node_48",
+            "smartmeters": [
+                {
+                    "id": "e59c443d-7d16-4bb7-84f4-0ad419dcbf51",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4054,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 155,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2878057,
+                "lon": 7.9222732
+            },
+            "id": "b736a428-dfaa-48fe-8d9a-dd0cb0072396",
+            "node": "node_49",
+            "smartmeters": [
+                {
+                    "id": "a3f7bbc6-53a7-4c11-9b5c-92e213da299b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4292,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 654,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "27",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2870347,
+                "lon": 7.9219309
+            },
+            "id": "eb41c680-1687-4fa6-83fd-331d86fe5331",
+            "node": "node_50",
+            "smartmeters": [
+                {
+                    "id": "e47abef2-a487-485a-9ef8-5c6149c2992b",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 649,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "34",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2833133,
+                "lon": 7.9251529
+            },
+            "id": "f0785578-a3f7-4f3c-9bb1-cb29d1e9b340",
+            "node": "node_51",
+            "smartmeters": [
+                {
+                    "id": "b1b12878-8719-4b3c-a94a-8509815cd47b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3271,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 574,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2858996,
+                "lon": 7.9231602
+            },
+            "id": "f9c370ac-65cd-4e48-98a8-39abdf877fba",
+            "node": "node_52",
+            "smartmeters": [
+                {
+                    "id": "f1b816be-9d04-4215-b29a-8f42eb810c06",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3725,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 323,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "21",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2890169,
+                "lon": 7.9234918
+            },
+            "id": "c122d840-9012-4b5e-b358-3efa2307ab16",
+            "node": "node_53",
+            "smartmeters": [
+                {
+                    "id": "c8495554-27cd-43f0-81cb-df172281e553",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3247,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 830,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "19",
+                "addr:postcode": "26655",
+                "addr:street": "K\u00f6hlmoorweg",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2894966,
+                "lon": 7.9304164
+            },
+            "id": "aa2575c3-4ebd-47a5-a59e-b12e9076e2b7",
+            "node": "node_54",
+            "smartmeters": [
+                {
+                    "id": "ee350c87-981a-4190-a634-f0c10853c750",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 558,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26655",
+                "addr:street": "K\u00f6hlmoorweg",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2893972,
+                "lon": 7.92979
+            },
+            "id": "b5b6c4ec-f16b-4ae7-af67-57b27dca849e",
+            "node": "node_55",
+            "smartmeters": [
+                {
+                    "id": "d11b563b-9403-4f4b-9f84-9a5e16cfce7a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4503,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 133,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "8a",
+                "addr:postcode": "26655",
+                "addr:street": "K\u00f6hlmoorweg",
+                "addr:suburb": "Felde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2917347,
+                "lon": 7.9372777
+            },
+            "id": "d874edbb-99d8-49b3-a546-b9fd79720310",
+            "node": "node_56",
+            "smartmeters": [
+                {
+                    "id": "fa189054-94e8-4ec4-94ae-5b416ebbad5a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3052,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 654,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26655",
+                "addr:street": "K\u00f6hlmoorweg",
+                "addr:suburb": "Eggeloge"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2827784,
+                "lon": 7.9249335
+            },
+            "id": "c443f26a-9ec8-447b-85a9-ef4d5303001c",
+            "node": "node_57",
+            "smartmeters": [
+                {
+                    "id": "a681d71b-8120-4b0f-ae2e-13af3bed98eb",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3905,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 290,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "22",
+                "addr:postcode": "26655",
+                "addr:street": "Wittenheimstra\u00dfe",
+                "addr:suburb": "Felde",
+                "amenity": "place_of_worship",
+                "denomination": "evangelical",
+                "name": "Bethaus Felde",
+                "religion": "christian"
+            }
+        }
+    ]
+}

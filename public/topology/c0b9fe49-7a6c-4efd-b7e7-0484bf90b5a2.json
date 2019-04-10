@@ -1,0 +1,1908 @@
+{
+    "links": [
+        {
+            "source": "c0b9fe49-7a6c-4efd-b7e7-0484bf90b5a2",
+            "target": "node_36"
+        },
+        {
+            "source": "node_36",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_1"
+        },
+        {
+            "source": "node_2",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_5"
+        },
+        {
+            "source": "node_6",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_8"
+        },
+        {
+            "source": "node_9",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_10"
+        },
+        {
+            "source": "node_12",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_34"
+        },
+        {
+            "source": "node_34",
+            "target": "node_30"
+        },
+        {
+            "source": "node_30",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_15"
+        },
+        {
+            "source": "node_16",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_17"
+        },
+        {
+            "source": "node_20",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_21"
+        },
+        {
+            "source": "node_22",
+            "target": "node_23"
+        },
+        {
+            "source": "node_24",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_27"
+        },
+        {
+            "source": "node_28",
+            "target": "node_29"
+        },
+        {
+            "source": "node_30",
+            "target": "node_33"
+        },
+        {
+            "source": "node_33",
+            "target": "node_31"
+        },
+        {
+            "source": "node_31",
+            "target": "node_32"
+        },
+        {
+            "source": "node_34",
+            "target": "node_35"
+        },
+        {
+            "source": "node_36",
+            "target": "node_39"
+        },
+        {
+            "source": "node_39",
+            "target": "node_38"
+        },
+        {
+            "source": "node_38",
+            "target": "node_37"
+        },
+        {
+            "source": "node_39",
+            "target": "node_40"
+        }
+    ],
+    "name": "Shakespearestra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1756531,
+                "lon": 8.1611736
+            },
+            "id": "daa2b30d-83c0-494d-88d1-d21f18e1d8ae",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "ca5baf9a-85d6-429e-8ce2-73efb6c27813",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 640,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1760181,
+                "lon": 8.1614512
+            },
+            "id": "b47a185d-205a-4918-9585-7ea81e445eb2",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "d3536f01-c226-4561-bfce-680f7dc00e78",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 63,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1755269,
+                "lon": 8.1616725
+            },
+            "id": "ea5c6609-e177-470f-be39-1b7aba6723db",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "dc062dfe-ae49-4e7c-99af-121e031c4912",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3249,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 374,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1763742,
+                "lon": 8.1617234
+            },
+            "id": "f8af51b7-88a2-4db5-a8e4-3443fbfcc57e",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "e2f360f0-d231-4bb6-9a32-844f4394964c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 216,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1762496,
+                "lon": 8.1622224
+            },
+            "id": "d5cfd376-94c9-4913-9036-807cfd30ba60",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "ac4a08d0-6e57-43ab-9d85-42a66d1dd8fe",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 644,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1758838,
+                "lon": 8.1619407
+            },
+            "id": "f807332b-284d-49f5-90e7-48d6446c3849",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "ade29b2b-fc74-41d3-90c9-9f2d56f3c7bc",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "ed48063a-fb8e-4eeb-9cfb-063d07c5875c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 786,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1761155,
+                "lon": 8.1627804
+            },
+            "id": "b0911ce3-f972-47aa-8c0b-c7afae011e83",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "ce63f826-aa79-442f-8031-63f418e5249a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 360,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.175578,
+                "lon": 8.163921
+            },
+            "id": "e63eb722-ed71-49be-a043-722962cbd21d",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "f906cf39-85b5-45c1-a4ec-3d52093014a4",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 366,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1762364,
+                "lon": 8.1637641
+            },
+            "id": "a3f00b86-f8aa-4cdd-95e6-2a34b9c7ee00",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "b38b3bb2-b8fb-4b75-adcd-71c1a2d3c5bc",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2409,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 442,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.175043,
+                "lon": 8.1631349
+            },
+            "id": "cf14c1a5-cc6d-47ca-bf05-0fbe90091c55",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "beb07b94-dba5-4728-b86f-d02d5bfbae36",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 218,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1772803,
+                "lon": 8.1616244
+            },
+            "id": "ee00c908-fd0d-46c7-a90e-5ab75cc348aa",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "a824e1fe-7275-422d-9612-e55450d9754a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 51,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.177166,
+                "lon": 8.1620571
+            },
+            "id": "f1c7f7d2-3193-4566-820c-dea24b004401",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "fc8eda9e-9af6-4561-970d-aa07803f73c3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3607,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 858,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1770326,
+                "lon": 8.1631761
+            },
+            "id": "b9933249-2e36-4e38-b3a1-0480b7687280",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "bf6001d3-2f48-4c57-9fdc-101d9948a73d",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 653,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1771222,
+                "lon": 8.1646551
+            },
+            "id": "b4dd9b66-832d-4ec0-a68c-26181e1f36f2",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "d9c0fd42-392e-4c4b-98be-a504c087307d",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 527,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1763847,
+                "lon": 8.1618222
+            },
+            "id": "fa5d0bc7-84bd-43dc-afdb-0c0d12f3c534",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "a132d95c-babb-4dd5-86ff-50f7c559b77b",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 709,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26129",
+                "addr:street": "Shakespearestra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1756614,
+                "lon": 8.1612737
+            },
+            "id": "a15eb5d6-0209-4fcc-9775-8a713698cdfc",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "b81d6a05-d3cb-48c0-a842-1cc6c420584d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3629,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 607,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26129",
+                "addr:street": "Newtonstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1760247,
+                "lon": 8.1615465
+            },
+            "id": "be993aeb-f84a-4827-afc7-b7e2e3cf2e17",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "ba52b68f-120c-42eb-b170-baf3e767cbee",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 344,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26129",
+                "addr:street": "Byronstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1764116,
+                "lon": 8.1617382
+            },
+            "id": "a71b57eb-cd70-4a47-964a-ac76fe372e2b",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "fd84a5f6-e99c-4350-b974-7ff4bb3742c4",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 531,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26129",
+                "addr:street": "Shakespearestra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.175685,
+                "lon": 8.1611923
+            },
+            "id": "b6bdbb63-ebe1-444a-85a7-518992efc691",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "a98f3e77-b835-4d84-a3a0-a95981d35f6d",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "c8d78412-bfaa-4d20-bab9-8739c52c0626",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 456,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26129",
+                "addr:street": "Newtonstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1760493,
+                "lon": 8.1614689
+            },
+            "id": "c5a86f32-82b1-4a24-87a7-88f0e88f612d",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "ecc8ec5a-bdf9-4386-ac74-0b50047b55ac",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "da78a793-a777-4ac4-8b55-048453d14be8",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 704,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26129",
+                "addr:street": "Byronstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1764396,
+                "lon": 8.1616512
+            },
+            "id": "f25985b3-9b24-49f9-a44e-6046a42d02c7",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "d352bcc5-c56a-4911-8ee5-7ef2e5e18f88",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 390,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26129",
+                "addr:street": "Shakespearestra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1757104,
+                "lon": 8.1611043
+            },
+            "id": "cac186a4-6aca-447f-9114-62139ff9f7de",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "b958fbbb-6a89-4577-b65b-c34defb6ae80",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2878,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 62,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26129",
+                "addr:street": "Newtonstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1760774,
+                "lon": 8.1613803
+            },
+            "id": "bedb7b11-5ca0-46ea-b17f-1e1c0df9f095",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "afb1767f-a350-418a-bab8-510580577a93",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 742,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26129",
+                "addr:street": "Byronstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1764668,
+                "lon": 8.1615664
+            },
+            "id": "f29eb902-d245-48b3-943a-61d20a1012e9",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "ab0468e7-bf0f-4920-b05d-df4222255c4c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 644,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26129",
+                "addr:street": "Shakespearestra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1757377,
+                "lon": 8.16101
+            },
+            "id": "ec8c560a-e97e-4be7-acd7-af59ecc01caa",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "b01aac3d-bee7-48ff-ad0c-0ba4d1ec566f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 236,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26129",
+                "addr:street": "Newtonstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.176104,
+                "lon": 8.1612967
+            },
+            "id": "a696a725-7efc-403f-914e-af56a4705c37",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "e3fc8fc3-df45-4f81-877c-4f178f939d34",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3297,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 409,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26129",
+                "addr:street": "Byronstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1762475,
+                "lon": 8.1623604
+            },
+            "id": "ef77cec5-7c3b-464c-b602-104eb9286277",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "d835477a-4943-4a75-a862-2a2808790c1f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "cdcfe2b2-560d-448b-b337-b08087327f03",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 40,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "18",
+                "addr:postcode": "26129",
+                "addr:street": "Shakespearestra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1755195,
+                "lon": 8.1618078
+            },
+            "id": "bab4eb1f-7df2-4848-9eb9-625518268e25",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "fd7e71e7-b03e-425d-b5ef-e05d162af008",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "b77d550f-dae7-4cb7-a550-bfe4f70836c0",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 885,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "18",
+                "addr:postcode": "26129",
+                "addr:street": "Newtonstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1758824,
+                "lon": 8.1620794
+            },
+            "id": "d6b1e06c-a244-4ab1-afde-b34c2438e1a1",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "db1ae655-82aa-42d1-aa4a-8a519492011d",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 646,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "18",
+                "addr:postcode": "26129",
+                "addr:street": "Byronstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1762715,
+                "lon": 8.1622758
+            },
+            "id": "d11b3a46-738b-4c12-836a-8ad5c7cd1e00",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "bdb96ca1-3481-4fe9-8d91-3e578a787cc7",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 447,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "16",
+                "addr:postcode": "26129",
+                "addr:street": "Shakespearestra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1755453,
+                "lon": 8.1617199
+            },
+            "id": "e7a738de-38da-4991-adca-2a0307426ed2",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "ba4a7436-0f40-44fb-bf2d-dc8ab8e436d9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2723,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 724,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "16",
+                "addr:postcode": "26129",
+                "addr:street": "Newtonstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1759074,
+                "lon": 8.1619994
+            },
+            "id": "c31bf75d-ab31-4086-b0aa-ced27bdc605a",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "d0a184bc-4a75-4be0-ab4c-92d7aa921458",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 284,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "16",
+                "addr:postcode": "26129",
+                "addr:street": "Byronstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1762973,
+                "lon": 8.162185
+            },
+            "id": "addb1df9-a98f-4b20-a389-38b5ca7a9673",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "d4cd7eaa-f990-423d-aee0-72840eba334d",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 899,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "14",
+                "addr:postcode": "26129",
+                "addr:street": "Shakespearestra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1755704,
+                "lon": 8.1616343
+            },
+            "id": "c80bd553-c725-4d49-b6fe-c2798abb79fa",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "f8487def-73b0-4a50-a453-b02f1a924ebc",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 215,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "14",
+                "addr:postcode": "26129",
+                "addr:street": "Newtonstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1759355,
+                "lon": 8.1619097
+            },
+            "id": "c60235ba-af4c-44ab-93a8-f477d1fb4b5f",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "f7f928f1-f1f9-4f11-9e28-42b12ba7e8e5",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 322,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "14",
+                "addr:postcode": "26129",
+                "addr:street": "Byronstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1763323,
+                "lon": 8.1619851
+            },
+            "id": "e53fbefe-fdb6-44f4-90f6-9f9feb9507c7",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "ba10ddf0-5583-4d15-bf29-63dc4bc89c8a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2980,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 697,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26129",
+                "addr:street": "Shakespearestra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1756133,
+                "lon": 8.16144
+            },
+            "id": "fae64b57-3494-4b91-872e-cd79c0d3157e",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "ca827b0f-d4fd-4592-9a8f-7d0ec2f54cac",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 670,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26129",
+                "addr:street": "Newtonstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1759717,
+                "lon": 8.1617135
+            },
+            "id": "dbdd004d-8982-4bf5-bbab-df976012bbc0",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "cc1072ee-f746-49e0-9a17-22fe32bfdca6",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 381,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26129",
+                "addr:street": "Byronstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1763586,
+                "lon": 8.1619033
+            },
+            "id": "f41f3f21-611e-41d2-ab27-b95392a4c52c",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "e7416099-2e50-4ae0-bdd2-b7c7d81a44df",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 407,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26129",
+                "addr:street": "Shakespearestra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1756349,
+                "lon": 8.1613655
+            },
+            "id": "f90ea65e-acf8-4720-aa07-c28ff8418b99",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "d62808a7-76a4-491c-9b5c-17e7344c187b",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 440,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26129",
+                "addr:street": "Newtonstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1759982,
+                "lon": 8.16163
+            },
+            "id": "c579786b-439f-460c-bffa-35f9b8431964",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "d4621f2d-8094-4359-9e45-dea50d89c757",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2964,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 745,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26129",
+                "addr:street": "Byronstra\u00dfe",
+                "addr:suburb": "Wechloy"
+            }
+        }
+    ]
+}

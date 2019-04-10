@@ -1,0 +1,1389 @@
+{
+    "links": [
+        {
+            "source": "e8756607-2b6f-43f1-80af-0aef95cb610b",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_0"
+        },
+        {
+            "source": "node_10",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_13"
+        },
+        {
+            "source": "node_14",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_23"
+        },
+        {
+            "source": "e8756607-2b6f-43f1-80af-0aef95cb610b",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_6"
+        },
+        {
+            "source": "node_11",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_17"
+        },
+        {
+            "source": "node_18",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_29"
+        },
+        {
+            "source": "e8756607-2b6f-43f1-80af-0aef95cb610b",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_1"
+        },
+        {
+            "source": "node_12",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_30"
+        },
+        {
+            "source": "e8756607-2b6f-43f1-80af-0aef95cb610b",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_4"
+        },
+        {
+            "source": "node_5",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_21"
+        },
+        {
+            "source": "e8756607-2b6f-43f1-80af-0aef95cb610b",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_7"
+        },
+        {
+            "source": "node_9",
+            "target": "node_15"
+        },
+        {
+            "source": "node_22",
+            "target": "node_28"
+        }
+    ],
+    "name": "Harsinger Weg",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1688962,
+                "lon": 7.8400716
+            },
+            "id": "b27073d5-6397-4a18-8fc0-d11fe2160d30",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "e601b05b-80e6-486f-998b-ff5cffc1ff2e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3149,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 873,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26689",
+                "addr:street": "Am Vo\u00dfbarg",
+                "addr:suburb": "Godensholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1717079,
+                "lon": 7.8398394
+            },
+            "id": "ef3164cb-4e92-41ae-aa93-1e048a58cc50",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "b452d702-825a-4f46-9ff4-80f265f1c983",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3709,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 295,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26689",
+                "addr:street": "Am Jagen",
+                "addr:suburb": "Godensholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1713496,
+                "lon": 7.8402069
+            },
+            "id": "eb9c5233-254c-424d-bb2b-f5bf12083e08",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "c8410b62-b015-4668-bd9e-a134ca449452",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3736,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 174,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26689",
+                "addr:street": "Dannenkamp",
+                "addr:suburb": "Godensholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1709575,
+                "lon": 7.8407238
+            },
+            "id": "c9bb011d-82ea-4f06-8658-2bebea421116",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "fd0a3578-a3be-4765-b678-a87ac0b09fcc",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3312,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 458,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "7",
+                "addr:postcode": "26689",
+                "addr:street": "Dannenkamp",
+                "addr:suburb": "Godensholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1657863,
+                "lon": 7.8443857
+            },
+            "id": "c7fda771-177e-4558-a44b-78c788c0dff5",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "d3f26fdf-e2c4-41e9-ae41-f0941825a53d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3298,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 706,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "39",
+                "addr:postcode": "26689",
+                "addr:street": "Edewechter Stra\u00dfe",
+                "addr:suburb": "Godensholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1691928,
+                "lon": 7.8443401
+            },
+            "id": "f90b64e5-6c95-4a3f-8b80-a8d389cb3304",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "d4e0fbc8-7a2b-40da-93d1-1152d2b552da",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 726,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "11",
+                "addr:postcode": "26689",
+                "addr:street": "Dannenkamp",
+                "addr:suburb": "Godensholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.167838,
+                "lon": 7.8453307
+            },
+            "id": "ccb79bd8-8814-467d-8008-e330f6e17a77",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "f7972fd1-6ced-4294-bcdb-cc8597c47d17",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 25,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26689",
+                "addr:street": "Deepen Deel",
+                "addr:suburb": "Godensholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1802391,
+                "lon": 7.8400918
+            },
+            "id": "b4ac3b78-8d79-4792-b2c8-d2dbb890392d",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "da299d07-470f-4a58-b1cc-736a508c2c8a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3786,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 715,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26689",
+                "addr:street": "Rinzeldorf",
+                "addr:suburb": "Godensholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1825264,
+                "lon": 7.8431566
+            },
+            "id": "beaf33e9-5afc-4ff3-b2eb-9f21c67e9573",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "b23434f0-bf1e-48f6-96a4-b53b77e90163",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3009,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 820,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "34",
+                "addr:postcode": "26689",
+                "addr:street": "Ocholter Stra\u00dfe",
+                "addr:suburb": "Godensholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1767792,
+                "lon": 7.8557442
+            },
+            "id": "d1fda373-f923-4369-9f2e-a16a898d612a",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "bde93c3e-a5d5-47bf-8702-295a85d6537c",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 447,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26655",
+                "addr:street": "Kanalstra\u00dfe",
+                "addr:suburb": "Karlshof"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1868559,
+                "lon": 7.8549699
+            },
+            "id": "c63dcb4a-1c74-4017-9dca-71da5bec2c34",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "bc242d92-c22b-4971-a3c1-c1423d63ce45",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2687,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 725,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "96",
+                "addr:postcode": "26655",
+                "addr:street": "Godensholter Stra\u00dfe",
+                "addr:suburb": "Ocholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1876491,
+                "lon": 7.8556419
+            },
+            "id": "eb49a6c2-044c-42da-97b1-dc1b0b87081e",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "ef6a6b79-c9e2-4a0f-aea2-e317139bf88e",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 401,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "95",
+                "addr:postcode": "26655",
+                "addr:street": "Godensholter Stra\u00dfe",
+                "addr:suburb": "Ocholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1874627,
+                "lon": 7.8570665
+            },
+            "id": "d880011c-3049-4eab-a264-0900e0e42c06",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "fb8cf99a-3c34-439c-90dd-97d1632d51e7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3150,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 394,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "94",
+                "addr:postcode": "26655",
+                "addr:street": "Godensholter Stra\u00dfe",
+                "addr:suburb": "Ocholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1878269,
+                "lon": 7.85635
+            },
+            "id": "fd010c7b-2635-4a96-bb69-3223731c18cc",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "f81bd882-e1ef-4536-b55a-20d7527c242e",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 203,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "93",
+                "addr:postcode": "26655",
+                "addr:street": "Godensholter Stra\u00dfe",
+                "addr:suburb": "Ocholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1897508,
+                "lon": 7.8582324
+            },
+            "id": "cdf2df0e-0e14-4a26-b05b-eea23442180a",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "e787f13c-0f7c-4bb3-966f-2b870d87d300",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3255,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 818,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "89",
+                "addr:postcode": "26655",
+                "addr:street": "Godensholter Stra\u00dfe",
+                "addr:suburb": "Ocholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1901363,
+                "lon": 7.8592394
+            },
+            "id": "dd530aa0-4b36-4a63-b02c-fca161138078",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "cb09b899-1f95-419b-8681-65f64f4d3313",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 818,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "87",
+                "addr:postcode": "26655",
+                "addr:street": "Godensholter Stra\u00dfe",
+                "addr:suburb": "Ocholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1870113,
+                "lon": 7.8538452
+            },
+            "id": "a2e513ec-b661-4d79-9efa-f66d879b4204",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "c1d69a46-0e59-44d3-a42b-085309f8746c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3423,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 310,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "65",
+                "addr:postcode": "26689",
+                "addr:street": "Ocholter Stra\u00dfe",
+                "addr:suburb": "Godensholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1849998,
+                "lon": 7.8496492
+            },
+            "id": "ec087873-4406-4b53-8ef4-42bfc8d273ad",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "bb5a3126-d160-4973-8888-8b46108f6cb9",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 612,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "44",
+                "addr:postcode": "26689",
+                "addr:street": "Ocholter Stra\u00dfe",
+                "addr:suburb": "Godensholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1836225,
+                "lon": 7.8459109
+            },
+            "id": "bae5b08c-15b4-42a0-a6b5-2323603b0cfa",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "d24e7dd1-a39c-4ae1-a7ca-b96235c6b97e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4253,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "abc0ed92-ba89-47a0-a361-8ed755ad66f5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4867,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 731,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "40",
+                "addr:postcode": "26689",
+                "addr:street": "Ocholter Stra\u00dfe",
+                "addr:suburb": "Godensholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1884076,
+                "lon": 7.856615
+            },
+            "id": "d99f6fbe-32e4-4d0c-88cb-7552b48dbd86",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "e633b774-9791-4b9d-a969-f5332391e771",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3656,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 614,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26655",
+                "addr:street": "Haisinger Weg",
+                "addr:suburb": "Ocholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1920517,
+                "lon": 7.8509337
+            },
+            "id": "ed4b85da-72f2-4800-a7f1-68a0a3f2c55a",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "ac14fde2-d956-410d-9a0e-1c48f7baa666",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 725,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26655",
+                "addr:street": "Haisinger Weg",
+                "addr:suburb": "Ocholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1918149,
+                "lon": 7.8523264
+            },
+            "id": "e2e3f533-7707-4203-8d22-bb4ac270c00f",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "a5d22f01-a08a-46df-aee1-9bd3754e2338",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2635,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 874,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "7a",
+                "addr:postcode": "26655",
+                "addr:street": "Haisinger Weg",
+                "addr:suburb": "Ocholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.191612,
+                "lon": 7.8526652
+            },
+            "id": "f8b3494a-c245-4e80-b70c-2355a3c64fc4",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "c11a60cc-b27f-4287-b51a-42edc592dedd",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3646,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 882,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "7",
+                "addr:postcode": "26655",
+                "addr:street": "Haisinger Weg",
+                "addr:suburb": "Ocholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1976911,
+                "lon": 7.8363098
+            },
+            "id": "d1bb8f3b-accb-4889-8793-df842d974e7e",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "d87677f2-fdf1-46ff-8098-cad67029ab35",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2763,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 563,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "22",
+                "addr:postcode": "26689",
+                "addr:street": "Harsinger Weg",
+                "addr:suburb": "Godensholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1983749,
+                "lon": 7.8343807
+            },
+            "id": "e4ab98cc-ba25-4f84-9bae-1dfa02e10667",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "a216bf17-bc5c-44a0-84b9-f46163084232",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4277,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 22,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "18",
+                "addr:postcode": "26689",
+                "addr:street": "Harsinger Weg",
+                "addr:suburb": "Godensholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2000533,
+                "lon": 7.8320991
+            },
+            "id": "cc865f91-4b1e-43b9-b764-ad962c0072ae",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "c925da5d-a58f-4b74-8eea-26c5cc07596e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3246,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 416,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26689",
+                "addr:street": "Harsinger Weg",
+                "addr:suburb": "Godensholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2016995,
+                "lon": 7.8522777
+            },
+            "id": "dcbe5349-ad70-450c-ab1f-c1a411c80182",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "d150a60f-ee9c-460b-842f-1b3c773ea0e4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3360,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 149,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "34",
+                "addr:postcode": "26655",
+                "addr:street": "Apener Stra\u00dfe",
+                "addr:suburb": "Ocholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1990814,
+                "lon": 7.8336709
+            },
+            "id": "e87aecb3-31fa-469c-ae0e-21cfaa0dfd44",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "a62cf647-60da-4808-bdc0-82671348164a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3065,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 807,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "16",
+                "addr:postcode": "26689",
+                "addr:street": "Harsinger Weg",
+                "addr:suburb": "Godensholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1975762,
+                "lon": 7.8366658
+            },
+            "id": "de62725f-567d-4039-946c-e5076d757626",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "c0cfed05-4be4-4a25-9e25-6dd24fb5d0df",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2848,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 545,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "24",
+                "addr:postcode": "26689",
+                "addr:street": "Harsinger Weg",
+                "addr:suburb": "Godensholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1965605,
+                "lon": 7.8402538
+            },
+            "id": "a8c90be5-bef6-493b-8e58-19f7819561e2",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "d64f863b-95f8-4fe9-9677-accd4aab7608",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3952,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 720,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "28",
+                "addr:postcode": "26689",
+                "addr:street": "Harsinger Weg",
+                "addr:suburb": "Godensholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1858485,
+                "lon": 7.8500534
+            },
+            "id": "b5e1bef8-9832-4d67-919f-6ad7f44d2d5e",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "e2d04326-1d3c-4434-bc2e-9d77bc578c55",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4502,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "b6bb9f21-21b9-4d60-be88-99c9e6b80ce0",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5089,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 502,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "59",
+                "addr:postcode": "26689",
+                "addr:street": "Ocholter Stra\u00dfe",
+                "addr:suburb": "Godensholterfeld"
+            }
+        }
+    ]
+}

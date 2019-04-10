@@ -1,0 +1,1420 @@
+{
+    "links": [
+        {
+            "source": "e26c2814-7b2c-4f3f-aed9-06c0f01a08c7",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_11"
+        },
+        {
+            "source": "node_17",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_24"
+        },
+        {
+            "source": "e26c2814-7b2c-4f3f-aed9-06c0f01a08c7",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_7"
+        },
+        {
+            "source": "node_18",
+            "target": "node_25"
+        },
+        {
+            "source": "e26c2814-7b2c-4f3f-aed9-06c0f01a08c7",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_15"
+        },
+        {
+            "source": "e26c2814-7b2c-4f3f-aed9-06c0f01a08c7",
+            "target": "node_21"
+        },
+        {
+            "source": "node_21",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_5"
+        },
+        {
+            "source": "e26c2814-7b2c-4f3f-aed9-06c0f01a08c7",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_16"
+        },
+        {
+            "source": "node_19",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_29"
+        },
+        {
+            "source": "e26c2814-7b2c-4f3f-aed9-06c0f01a08c7",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_2"
+        },
+        {
+            "source": "node_9",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_14"
+        },
+        {
+            "source": "node_22",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_23"
+        },
+        {
+            "source": "e26c2814-7b2c-4f3f-aed9-06c0f01a08c7",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_8"
+        },
+        {
+            "source": "node_13",
+            "target": "node_28"
+        }
+    ],
+    "name": "Posthalterweg",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.159936,
+                "lon": 8.170847
+            },
+            "id": "c9bc551d-6ba5-484c-ae58-218cbd5f94d4",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "cfbdf51d-3165-48b6-8ea2-785500fe199b",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 555,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "6-8",
+                "addr:postcode": "26129",
+                "addr:street": "Posthalterweg",
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1608256,
+                "lon": 8.1697328
+            },
+            "id": "a173ee03-4279-4f75-89d8-493d1c5ffbfe",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "f6d2ff4b-c2db-4917-a038-0a2231d465fc",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 55,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "2a",
+                "addr:postcode": "26129",
+                "addr:street": "Posthalterweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1633744,
+                "lon": 8.1737715
+            },
+            "id": "aa7159d4-5fb3-4b2a-970e-abdc25cd0e6c",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "efca3af4-eb9e-4552-8d82-c5741bf44c4b",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 166,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1600536,
+                "lon": 8.1726228
+            },
+            "id": "fae718d5-0182-49be-9a4e-d42033be32cf",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "dbaab3fa-ace7-4654-a2f2-74ef595fb37d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3470,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "e4d42fda-80a8-4754-9623-210de9a97917",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 875,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1617094,
+                "lon": 8.1713427
+            },
+            "id": "b5a8a159-f845-4c3b-8805-8432c9cc5134",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "e30e703b-2d05-4ed0-8360-ea2fb8994363",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3677,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 409,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1585585,
+                "lon": 8.1770176
+            },
+            "id": "b381dd5c-339f-426d-b695-24331aaae7e0",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "ce034722-bfe4-4901-b7e9-2275be6a9f9f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "d91f2909-f772-4bb1-8e01-f488421570d7",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 314,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1577851,
+                "lon": 8.1730589
+            },
+            "id": "b6c2001c-85be-4d23-8cd8-d5f47a598666",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "fcc4b23d-f4ff-41a2-a722-0dd5ce755da8",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 634,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1581013,
+                "lon": 8.170639
+            },
+            "id": "cfc0824e-7d53-4674-91bf-dee072ae54b2",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "c7ef80c2-c9f5-4b37-b7bf-66af16233a26",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "adca1f73-8f1c-4421-a951-cbae65861a90",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 82,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1621848,
+                "lon": 8.1742234
+            },
+            "id": "ee2d2bd2-7309-4a1a-b6d7-175dd52cef3c",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "e6f6032b-a6d9-44f5-b251-5abc8ca3bb29",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3646,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 433,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1633147,
+                "lon": 8.1732768
+            },
+            "id": "b1c56840-098d-4a26-9c7b-3a874f0ba6a9",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "f6414bc9-6c19-4f4b-a939-0ea7783e9861",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 515,
+            "tags": {
+                "building": "yes",
+                "leisure": "sports_centre",
+                "name": "Sporthalle BBS Wechloy",
+                "source": "survey"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.161281,
+                "lon": 8.1714265
+            },
+            "id": "ae527b9c-aef5-48c9-a95d-6eae18166ad2",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "ad804dc1-19f9-4ae0-83ab-bb942bdb57dd",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3324,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 183,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1591173,
+                "lon": 8.1720512
+            },
+            "id": "b45be3aa-604b-4b73-a8f1-bbf60d08713e",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "faa87c7d-ef60-43d3-91eb-87cd613d7ea0",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 381,
+            "tags": {
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1598375,
+                "lon": 8.1757525
+            },
+            "id": "ac03a628-6367-468d-9032-8d3c4c3301bb",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "ed588c40-ab47-43a0-ad25-9034e5b67b4c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 131,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26129",
+                "addr:street": "Posthalterweg",
+                "building": "supermarket",
+                "layer": "1",
+                "name": "Aldi Oldenburg Posthalterweg",
+                "opening_hours": "Mo-Sa 08:00-10:00",
+                "operator": "Aldi Nord",
+                "shop": "supermarket",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.160842,
+                "lon": 8.1742638
+            },
+            "id": "a2073a8b-3569-4782-abfe-57b93c49b16a",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "a0ed445f-0a69-4e56-95af-4db095eb5f1f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 454,
+            "tags": {
+                "building": "yes",
+                "name": "Famila Gartencenter",
+                "shop": "garden_centre"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1605619,
+                "lon": 8.1724349
+            },
+            "id": "c8080e23-6f67-4b1d-96ad-ca0124ca94dd",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "c4f78efc-5631-4d55-ac63-dfaba399ecf1",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 548,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.160429,
+                "lon": 8.1757723
+            },
+            "id": "f8e6bc68-5345-4d2c-a58f-74aa03d30c66",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "d3f2e63f-abf9-4e4e-b30f-8f7b8451784b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3189,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 2,
+            "tags": {
+                "amenity": "car_wash",
+                "building": "yes",
+                "layer": "1",
+                "name": "Janzen Autowasch"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1609947,
+                "lon": 8.1727422
+            },
+            "id": "b643996e-42cc-4795-affe-dc34d53fba95",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "ab0dddcc-2340-489a-91dc-29d2f27ded4a",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 104,
+            "tags": {
+                "building": "retail",
+                "building:colour": "black",
+                "building:levels": "6",
+                "building:min_level": "0",
+                "building:shape": "pyramid",
+                "name": "Mediamarkt",
+                "roof:colour": "black",
+                "roof:levels": "6",
+                "roof:min_level": "0",
+                "shop": "electronics",
+                "toilets:wheelchair": "yes",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1596223,
+                "lon": 8.1697808
+            },
+            "id": "db0ae0eb-d748-4c83-825f-619de5bca6c4",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "c7f2ef2d-6dbb-4efd-9dd0-772519250067",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 736,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1602668,
+                "lon": 8.1752986
+            },
+            "id": "d695a12f-4fe3-492b-8a7f-ae5aafa66faa",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "e6de4ee3-bc0d-45a1-9484-c67d080178eb",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 496,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26129",
+                "addr:street": "Posthalterweg",
+                "building": "yes",
+                "name": "Famila Getr\u00e4nkemarkt",
+                "phone": "0441 794310",
+                "shop": "beverages",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1585281,
+                "lon": 8.17577
+            },
+            "id": "f57c0748-4adb-47f1-87e2-c3dfe086c4ac",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "e48a5115-8930-4ab2-ba12-d5509b374d9c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 136,
+            "tags": {
+                "building": "yes",
+                "name": "Famila"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1577451,
+                "lon": 8.175013
+            },
+            "id": "a2e90ab9-e55e-4347-a36f-516bfc673bc6",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "a1479c0d-ddd4-4917-a728-fedb740bbb27",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 499,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26129",
+                "addr:street": "Posthalterweg",
+                "name": "Strauss Innovation im famila XXL",
+                "phone": "0441 998489901",
+                "shop": "department_store"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1578085,
+                "lon": 8.1728364
+            },
+            "id": "e90ddf44-0fb7-4ec0-b998-d5307d1b9179",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "b6b67c50-797d-43be-9357-8ec3139d68c6",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 405,
+            "tags": {
+                "addr:housenumber": "10",
+                "addr:street": "Posthalterweg",
+                "email": "marcel.plantenundblomen@web.de",
+                "name": "Planten und Blomen",
+                "opening_hours": "Mo-Sa 09:00-20:00",
+                "phone": "+49 441 4085940",
+                "shop": "florist"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1580402,
+                "lon": 8.1726781
+            },
+            "id": "c5a1138f-0484-478e-88b6-9ad5627b8413",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "d3a314a6-bc88-4a48-ad30-28a15bc179e8",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 832,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "10",
+                "addr:postcode": "26129",
+                "addr:street": "Posthalterweg",
+                "email": "info@zooundco-oldenburg.de",
+                "name": "Zoo & Co. Oldenburg",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-19:00",
+                "phone": "+49 441 9987380",
+                "shop": "pet",
+                "website": "http://www.zooundco-oldenburg.de"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.159727,
+                "lon": 8.1713923
+            },
+            "id": "c47b811e-a5f9-4c10-8fd0-5030102d9a1d",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "bec9b869-2256-4e5d-978f-84aae7b3bf9f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 212,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26129",
+                "addr:state": "Niedersachsen",
+                "addr:street": "Posthalterweg",
+                "addr:suburb": "Wechloy",
+                "name": "Intersport Voswinkel",
+                "phone": "0441 74837",
+                "shop": "sports"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1599975,
+                "lon": 8.1711111
+            },
+            "id": "d5c14fa1-2341-4615-9e1d-19643e4853de",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "c05d2a9a-2a28-4e8c-8c9d-5d521ce34717",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 631,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "6-8",
+                "addr:postcode": "26129",
+                "addr:state": "Niedersachsen",
+                "addr:street": "Posthalterweg",
+                "addr:suburb": "Wechloy",
+                "name": "Siemes Schuhcenter",
+                "phone": "0441 4086456",
+                "shop": "shoes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1580255,
+                "lon": 8.1759369
+            },
+            "id": "fd3df246-53ec-4ba3-8a69-d08076172bfd",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "cfbd63f7-5848-446b-b8b7-ed569fc4386f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 556,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26129",
+                "addr:street": "Posthalterweg",
+                "name": "J. B\u00fcnting Coloniale im famila XXL",
+                "phone": "0441 36118710",
+                "shop": "deli",
+                "toilets:wheelchair": "yes",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1607004,
+                "lon": 8.1715456
+            },
+            "id": "c2482d2c-b6b4-4728-9e56-8e4111c29330",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "ae8f50a3-ab9b-44bf-9e0f-13d642ae6a10",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 584,
+            "tags": {
+                "addr:housenumber": "17",
+                "addr:street": "Posthalterweg",
+                "amenity": "pharmacy",
+                "contact:phone": "+49 441 9507980",
+                "contact:website": "http://wechloy.easyapotheken.de/start/?id=22749",
+                "dispensing": "yes",
+                "name": "easyApotheke Wechloy",
+                "opening_hours": "Mo-Fr 09:00-19:00;Sa 09:30-18:00",
+                "operator": "Axel Hett"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1581133,
+                "lon": 8.1761884
+            },
+            "id": "f157f011-cdba-4116-b91c-bd92e0297d9d",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "e1a59776-e8a2-44e3-8da6-34b750145bd7",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 588,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26129",
+                "addr:street": "Posthalterweg",
+                "name": "Famila Verbrauchermarkt",
+                "opening_hours": "Mo-Sa 08:00-22:00",
+                "phone": "0441 794310",
+                "shop": "supermarket",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1588747,
+                "lon": 8.1749229
+            },
+            "id": "dd21c6f5-90ca-44c7-9975-6b429d351932",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "fccd5f50-88e1-4c01-a5e6-0e2dac802143",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 43,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "10",
+                "addr:postcode": "26129",
+                "addr:street": "Posthalterweg",
+                "amenity": "atm",
+                "name": "Raiffeisenbank in Wechloy",
+                "opening_hours": "Mo.- Fr. 8:00 - 21:00;Sa. 8:00 - 20:00",
+                "operator": "Raiffeisenbank Oldenburg eG",
+                "phone": "0441/9502-0",
+                "source": "Eigenpflege durch die Bank",
+                "website": "http://www.raiba-oldenburg.de",
+                "wheelchair": "yes",
+                "wikipedia": "de:Raiffeisenbank Oldenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1598243,
+                "lon": 8.1694217
+            },
+            "id": "e0ab293d-ce81-4099-a9a2-beb56fec8067",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "dd2ce417-aed3-4120-9884-f133a4558f05",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2736,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 494,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "4a",
+                "addr:postcode": "26129",
+                "addr:street": "Posthalterweg",
+                "contact:phone": "+49 441 3619906",
+                "name": "Zimmermann",
+                "shop": "supermarket",
+                "wheelchair": "yes"
+            }
+        }
+    ]
+}

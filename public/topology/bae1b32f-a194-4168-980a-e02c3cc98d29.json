@@ -1,0 +1,1351 @@
+{
+    "links": [
+        {
+            "source": "bae1b32f-a194-4168-980a-e02c3cc98d29",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_21"
+        },
+        {
+            "source": "node_21",
+            "target": "node_18"
+        },
+        {
+            "source": "bae1b32f-a194-4168-980a-e02c3cc98d29",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_10"
+        },
+        {
+            "source": "node_23",
+            "target": "node_24"
+        },
+        {
+            "source": "bae1b32f-a194-4168-980a-e02c3cc98d29",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_0"
+        },
+        {
+            "source": "node_5",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_14"
+        },
+        {
+            "source": "node_15",
+            "target": "node_16"
+        },
+        {
+            "source": "bae1b32f-a194-4168-980a-e02c3cc98d29",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_9"
+        },
+        {
+            "source": "node_20",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_26"
+        },
+        {
+            "source": "bae1b32f-a194-4168-980a-e02c3cc98d29",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_3"
+        },
+        {
+            "source": "node_11",
+            "target": "node_30"
+        },
+        {
+            "source": "node_30",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_25"
+        },
+        {
+            "source": "bae1b32f-a194-4168-980a-e02c3cc98d29",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_7"
+        },
+        {
+            "source": "node_13",
+            "target": "node_19"
+        }
+    ],
+    "name": "Mittellinie",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1396627,
+                "lon": 8.1180566
+            },
+            "id": "b8351c4c-e865-4a63-9039-b06f1c70f893",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "f731eff4-7e95-4361-b734-cca5c3ba3104",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 450,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "43",
+                "addr:postcode": "26160",
+                "addr:street": "Mittellinie",
+                "addr:suburb": "Petersfehn I",
+                "building": "apartments"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1387067,
+                "lon": 8.1125527
+            },
+            "id": "f9aac740-eddb-45b0-87a7-c0486a10ef8e",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "d6a8684f-40a8-4149-b231-1128a20eb172",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 482,
+            "tags": {
+                "building": "industrial"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1390431,
+                "lon": 8.1126957
+            },
+            "id": "cf4454d3-0d78-42a9-837d-a8cf4315ede9",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "fa86fb4e-a07e-4932-8c71-767ad6269835",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3740,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "d3888754-6f3c-441b-8c68-0e5b7fe21538",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4284,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 389,
+            "tags": {
+                "building": "industrial"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1390312,
+                "lon": 8.1125318
+            },
+            "id": "ec4bf317-7a8b-48e3-a3f1-a7de385577f1",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "bb34a4e5-b1ee-4f69-9e98-72fea7e0e6cb",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2438,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 187,
+            "tags": {
+                "building": "industrial"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.138774,
+                "lon": 8.1121973
+            },
+            "id": "a1358dfd-04fd-41bc-a5b0-2342228d64de",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "d94815c7-fbc9-47c2-aa86-8da418ba3633",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 527,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "80",
+                "addr:postcode": "26160",
+                "addr:street": "Mittellinie",
+                "addr:suburb": "Petersfehn I",
+                "building": "industrial",
+                "contact:fax": "+49 4486 440",
+                "contact:phone": "+49 4486 578",
+                "name": "Omnibusbetrieb von Seggern GmbH",
+                "shop": "car_repair",
+                "website": "http://www.von-seggern-online.de/"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1360503,
+                "lon": 8.1168935
+            },
+            "id": "bc971683-f609-46ca-871b-598bd13dc371",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "a229ded8-8396-4c0a-8f9d-079230713648",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 883,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "35",
+                "addr:postcode": "26160",
+                "addr:street": "Sperberweg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1364098,
+                "lon": 8.1169918
+            },
+            "id": "d22a47f1-e152-4137-bfa9-fc0a6f018258",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "a2e59e92-0c7e-4257-8c6f-86b2b5ab2aa1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4482,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 672,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "20",
+                "addr:postcode": "26160",
+                "addr:street": "Sperberweg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1364712,
+                "lon": 8.1168886
+            },
+            "id": "d277af3e-b559-448a-94a9-56c6594c20ac",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "c5704b2b-7894-4b42-8dfa-75a0087cc76b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3649,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 138,
+            "tags": {
+                "building": "garage"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1360062,
+                "lon": 8.1163751
+            },
+            "id": "f1715870-5be8-4887-8dfa-57512f0c1005",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "be454262-5d30-4e0d-b42c-434bd186be9f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4108,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 368,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "33",
+                "addr:postcode": "26160",
+                "addr:street": "Sperberweg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1360707,
+                "lon": 8.1164783
+            },
+            "id": "ce12e6b9-436e-465e-ba01-2a44ac1f049e",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "acbb4456-919e-42d8-a4f7-6ab98ea21db1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3657,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 394,
+            "tags": {
+                "building": "roof",
+                "layer": "1"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1359938,
+                "lon": 8.1165143
+            },
+            "id": "ff207682-40d0-4630-b7fd-0e5c4dbf0046",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "e18d0e7e-64e1-457e-914f-3123f0dbc1c3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3305,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 834,
+            "tags": {
+                "building": "garage"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1359467,
+                "lon": 8.1164444
+            },
+            "id": "e6f3c1a2-5f26-45e9-b83a-6229d69c1094",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "a0cc1aca-2fb0-4a8f-8c34-334fe469002b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4015,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 156,
+            "tags": {
+                "building": "roof"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1395437,
+                "lon": 8.1136271
+            },
+            "id": "dff6172f-a245-4dca-a5fa-5ef1577e8405",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "d8aa5162-345c-438f-b380-e44015df297e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4188,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 218,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1390418,
+                "lon": 8.1163508
+            },
+            "id": "b8485569-3b70-4508-9182-c740f12643a3",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "bc21e728-58a3-4e33-93f2-80933c9d6394",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3554,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 111,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "70",
+                "addr:postcode": "26160",
+                "addr:street": "Mittellinie",
+                "building": "commercial"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1388628,
+                "lon": 8.116408
+            },
+            "id": "d67b5a67-91cf-4dfd-a7d5-6e1df50bf20a",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "db51c388-60ac-4fea-8229-4f486b97880b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3830,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 731,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.137602,
+                "lon": 8.1140475
+            },
+            "id": "d2c51b8b-fd90-4bc2-99d1-8b3a278aafd3",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "ee9bb5a1-9140-4fd8-bd8f-f52a56a8cae3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3285,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 892,
+            "tags": {
+                "building": "yes",
+                "leisure": "sports_centre",
+                "name": "Turnhalle Petersfehn",
+                "sport": "multi"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.146193,
+                "lon": 8.1094199
+            },
+            "id": "abc075fe-ac77-40da-bed4-84147d93d34e",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "de4c255d-74ee-4f6f-a6ee-07c3341030dc",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 350,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:housenumber": "2",
+                "addr:postcode": "26160",
+                "addr:street": "Sandweg",
+                "addr:suburb": "Petersfehn I",
+                "building": "yes",
+                "name": "Haaren-Wasseracht"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1396031,
+                "lon": 8.1172922
+            },
+            "id": "e4f9c17e-6085-4a61-9693-467c61ec9ac7",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "a238702b-95c7-411f-bbde-5129026788ec",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 179,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "45",
+                "addr:postcode": "26160",
+                "addr:street": "Mittellinie",
+                "addr:suburb": "Petersfehn I",
+                "amenity": "fire_station",
+                "building": "yes",
+                "name": "Freiwillige Feuerwehr Petersfehn",
+                "website": "http://www.petersfehn.florian-ammerland.de/"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1386444,
+                "lon": 8.1141003
+            },
+            "id": "d40aa710-fde6-464e-bad0-ff6594ac1771",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "d2f7d945-72a1-4405-8b37-594cfd3a3c97",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 863,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1378369,
+                "lon": 8.1130228
+            },
+            "id": "b6d6c915-5605-4c47-80e9-ba8c8409b4af",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "be6568c4-03d8-4309-a96f-c9ca7d02cbb8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3695,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 255,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1380566,
+                "lon": 8.114308
+            },
+            "id": "b98221ac-ca4c-4a22-9e40-8c60abbcf990",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "f1945c77-d9f8-4bff-bf95-d536d3a37183",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3750,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 113,
+            "tags": {
+                "building": "yes",
+                "leisure": "sports_centre",
+                "name": "Sporthalle Petersfehn",
+                "sport": "multi"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.13875,
+                "lon": 8.1065677
+            },
+            "id": "f2f23093-f414-4e7d-a95c-3efc80d1f724",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "ab4cab58-3e0c-44c6-b157-5ba0e78ed3c4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2814,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 826,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1383667,
+                "lon": 8.1082557
+            },
+            "id": "e14a8f6c-be2e-40cb-8454-0e1f118b88e8",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "d9076eae-6915-4749-ba6e-9224896dbf1c",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 790,
+            "tags": {
+                "building": "yes",
+                "name": "Lidl",
+                "shop": "supermarket",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1393067,
+                "lon": 8.1097627
+            },
+            "id": "e1fd4feb-bfbf-4d42-826a-68bf3b6d43d4",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "b7e6207c-492e-465e-ab9c-7e90aa0fee76",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3328,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 573,
+            "tags": {
+                "building": "yes",
+                "name": "Glockenturm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1399583,
+                "lon": 8.109667
+            },
+            "id": "b72333a6-6a3a-4320-a90f-98dc1ff297f7",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "e4b8b17b-ad24-40c3-929d-9adaf9198221",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3350,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 420,
+            "tags": {
+                "amenity": "toilets",
+                "building": "yes",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1386058,
+                "lon": 8.1065209
+            },
+            "id": "b1d1185a-090b-4c70-9e3b-82de89543a45",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "e207d641-3e07-4954-80a8-d65f9d84e59d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3467,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 467,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:housenumber": "70",
+                "addr:postcode": "26160",
+                "addr:street": "Br\u00fcderstra\u00dfe",
+                "amenity": "atm",
+                "name": "Raiffeisenbank in Petersfehn",
+                "opening_hours": "24/7",
+                "operator": "Raiffeisenbank Oldenburg eG",
+                "phone": "0441/9502-0",
+                "source": "Eigenpflege durch die Bank",
+                "website": "www.raiba-oldenburg.de",
+                "wheelchair": "yes",
+                "wikipedia": "de:Raiffeisenbank Oldenburg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1391116,
+                "lon": 8.1161157
+            },
+            "id": "b50cf7c0-e5c6-4c56-9f3a-eef6aa4c21f7",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "be0c84be-8f44-4bd0-9628-359c963511d8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3448,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 806,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "70",
+                "addr:postcode": "26160",
+                "addr:street": "Mittellinie",
+                "name": "Karl Bakenhus GmbH - Baustoffe Landhandel",
+                "shop": "doityourself"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1396445,
+                "lon": 8.1137056
+            },
+            "id": "a9b6a280-a3f7-4c93-b9fa-e1f9684b725f",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "bf8ff466-a3a4-49a0-9f2b-59ad1d838f2b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3289,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 719,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "65",
+                "addr:postcode": "26160",
+                "addr:street": "Mittellinie",
+                "addr:suburb": "Petersfehn I",
+                "name": "Bikes",
+                "service:bicycle:repair": "yes",
+                "service:bicycle:retail": "yes",
+                "service:bicycle:second_hand": "yes",
+                "shop": "bicycle"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1391256,
+                "lon": 8.1165788
+            },
+            "id": "f9d67df5-b08a-4878-a3a6-06d5c2df1841",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "bb050d35-eb15-467e-a964-d8b852bfa064",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4920,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 389,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "70",
+                "addr:postcode": "26160",
+                "addr:street": "Mittellinie",
+                "addr:suburb": "Petersfehn I",
+                "name": "Biol\u00e4dchen",
+                "opening_hours": "Mo-Tu, Th-Fr 08:30-18:00; We 08:30-14:30; Sa 08:00-12:30",
+                "organic": "yes",
+                "phone": "04486 921728",
+                "shop": "convenience"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1393821,
+                "lon": 8.1140346
+            },
+            "id": "cc50b12c-d1b9-423c-a3d2-04c178970442",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "fef3bea2-79f5-47d8-8e2b-b209c4301d29",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3248,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "b926b38f-250b-41ab-b5d3-ca617d5f8c4e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2555,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 536,
+            "tags": {
+                "addr:housenumber": "63",
+                "addr:street": "Mittellinie",
+                "amenity": "cafe",
+                "cuisine": "ice_cream",
+                "name": "Adi's Eisdiele",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1393937,
+                "lon": 8.1113695
+            },
+            "id": "bd13d7bb-21d2-49a9-94c6-010df59c0a11",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "fe068534-bb37-4a9d-8bc0-1a1eb5408e9c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3023,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 469,
+            "tags": {
+                "addr:housenumber": "77c",
+                "addr:street": "Mittellinie",
+                "amenity": "pharmacy",
+                "contact:phone": "+49 4486 8833",
+                "contact:website": "http://www.apotheke-petersfehn.de/",
+                "dispensing": "yes",
+                "name": "Apotheke Petersfehn",
+                "opening_hours": "Mo-Fr 08:30-12:30,14:30-18:30; We 08:30-12:30; Sa 08:30-12:30",
+                "operator": "Albrecht Schlabach",
+                "wheelchair": "yes"
+            }
+        }
+    ]
+}

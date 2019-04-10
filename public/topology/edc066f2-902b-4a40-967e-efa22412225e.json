@@ -1,0 +1,1820 @@
+{
+    "links": [
+        {
+            "source": "edc066f2-902b-4a40-967e-efa22412225e",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_41"
+        },
+        {
+            "source": "node_41",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_33"
+        },
+        {
+            "source": "edc066f2-902b-4a40-967e-efa22412225e",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_15"
+        },
+        {
+            "source": "node_17",
+            "target": "node_24"
+        },
+        {
+            "source": "edc066f2-902b-4a40-967e-efa22412225e",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_39"
+        },
+        {
+            "source": "node_39",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_38"
+        },
+        {
+            "source": "edc066f2-902b-4a40-967e-efa22412225e",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_0"
+        },
+        {
+            "source": "node_3",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_25"
+        },
+        {
+            "source": "edc066f2-902b-4a40-967e-efa22412225e",
+            "target": "node_36"
+        },
+        {
+            "source": "node_36",
+            "target": "node_21"
+        },
+        {
+            "source": "node_21",
+            "target": "node_14"
+        },
+        {
+            "source": "node_21",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_34"
+        },
+        {
+            "source": "edc066f2-902b-4a40-967e-efa22412225e",
+            "target": "node_32"
+        },
+        {
+            "source": "node_32",
+            "target": "node_28"
+        },
+        {
+            "source": "node_32",
+            "target": "node_37"
+        },
+        {
+            "source": "edc066f2-902b-4a40-967e-efa22412225e",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_6"
+        },
+        {
+            "source": "node_7",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_31"
+        },
+        {
+            "source": "edc066f2-902b-4a40-967e-efa22412225e",
+            "target": "node_40"
+        },
+        {
+            "source": "node_40",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_16"
+        },
+        {
+            "source": "edc066f2-902b-4a40-967e-efa22412225e",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_12"
+        },
+        {
+            "source": "node_20",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_35"
+        },
+        {
+            "source": "edc066f2-902b-4a40-967e-efa22412225e",
+            "target": "node_30"
+        },
+        {
+            "source": "node_30",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_1"
+        },
+        {
+            "source": "node_4",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_10"
+        }
+    ],
+    "name": "Stahlstra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2414264,
+                "lon": 8.1238694
+            },
+            "id": "ff37524d-c9e6-49c8-a880-9b9e82a7843d",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "eb61ce7e-495f-4fb5-b200-f59a83c2121e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3928,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 892,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26215",
+                "addr:street": "Dingsfelder Weg",
+                "addr:suburb": "Dingsfelde",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2433983,
+                "lon": 8.1264987
+            },
+            "id": "c9bd212a-08ca-4419-80e0-3387cf847b97",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "acfb29ed-e666-4858-b569-45070f77d878",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3157,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 745,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2a",
+                "addr:postcode": "26215",
+                "addr:street": "Dingsfelder Weg",
+                "addr:suburb": "Dingsfelde",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2435847,
+                "lon": 8.1262819
+            },
+            "id": "b09899af-1dec-42ce-a9cf-35b517ba4187",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "a900914b-2bc9-4e9a-a3d5-692416e67aea",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 358,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2436996,
+                "lon": 8.1261321
+            },
+            "id": "e96bb654-044e-4fed-82f4-8ff696a32175",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "f509d699-e829-451a-99de-3e78d697f5f8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3778,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 75,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2436539,
+                "lon": 8.1267005
+            },
+            "id": "dd36ea26-ff52-4ffb-bffe-aa062a7b08f8",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "a4eacc96-3cb1-4fbe-ab63-9ddffab15f5e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4654,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 529,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26215",
+                "addr:street": "Dingsfelder Weg",
+                "addr:suburb": "Dingsfelde",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2444133,
+                "lon": 8.1226096
+            },
+            "id": "aa7a511d-68ce-46a7-b965-ef779da71891",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "b50bbd0a-4d65-4562-8d26-2a9b0e85d495",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2581,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 716,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2449503,
+                "lon": 8.1228621
+            },
+            "id": "f5d742ee-efb6-4f0c-b78c-f6761286fe89",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "aeeed13f-c7c6-4b8f-9799-edb50c312ef9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4696,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 259,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2433965,
+                "lon": 8.1225315
+            },
+            "id": "ce775548-ed9f-466e-a124-4cc3f480c697",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "c855c864-ddc5-4324-8cc3-64e3097b26b9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2407,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 827,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2451363,
+                "lon": 8.1228271
+            },
+            "id": "c99d5613-97e4-446c-9c5e-6ed8a0e44a99",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "e4dfd320-4a5b-48a5-a141-f634d446888f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2899,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 586,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2438906,
+                "lon": 8.1236413
+            },
+            "id": "bee74d91-4531-41f6-989b-4a8171a430e1",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "c4f1dab3-7b78-4bd2-8853-ba0704af23c3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4222,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 701,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2443401,
+                "lon": 8.1236391
+            },
+            "id": "ab2a9817-067d-46de-9690-0f2fa03b9a26",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "dbcdc525-2b08-4b61-8b56-71be22dffabc",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 702,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2480096,
+                "lon": 8.1201911
+            },
+            "id": "c7cf0093-5239-4fc1-8575-e521bb95a010",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "fea3ad9e-a5b0-4f23-b720-7dfc738d8e49",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4113,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 759,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:housenumber": "20",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2464232,
+                "lon": 8.1228136
+            },
+            "id": "cbb7f5b4-2341-404a-aa87-5c4eca5c261f",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "ead86959-4cf7-4d7b-a689-d518f6a75772",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4411,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 711,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:housenumber": "27",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2468614,
+                "lon": 8.1234392
+            },
+            "id": "e2ac5da1-2fb8-4648-83c3-befd6eddaf88",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "ccc9a624-bd02-496c-9821-2f8255c4509d",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 649,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:housenumber": "21",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe",
+                "operator": "Dieter von Seggern"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2478023,
+                "lon": 8.1226026
+            },
+            "id": "fa020a18-1a65-47c3-b627-ad794fb2c6d6",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "a185a0c1-3bfc-4897-9e6e-f215f7e920d8",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 336,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "56",
+                "addr:postcode": "26215",
+                "addr:street": "Hauptstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2478888,
+                "lon": 8.1229118
+            },
+            "id": "ff30714a-1403-4ed2-93b1-21556d3169ab",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "d89ab7fe-72c4-43ed-9989-a8f6eb24cd46",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3142,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "f50676ec-161e-4681-8fc2-c24f88ce224c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3876,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 116,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "54",
+                "addr:postcode": "26215",
+                "addr:street": "Hauptstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.246227,
+                "lon": 8.1215691
+            },
+            "id": "d189f0ac-860b-42b7-ba37-f3283677bf69",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "a0eb730e-c3b6-44b6-9343-57f62a400515",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3166,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "c0edfd80-126f-4b43-8e0c-d4282a72b406",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3547,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 876,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "33",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2464892,
+                "lon": 8.1232143
+            },
+            "id": "b247646b-b19d-4969-b259-683fa4e89bd3",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "c9ba7da5-72bb-42d8-9563-b4f488a58620",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4436,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 707,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "25",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2469273,
+                "lon": 8.1229692
+            },
+            "id": "a51215c6-346d-4837-92ba-5a7ac0d9ff7c",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "e68a3ca1-346e-452e-9128-8ecd9756bcdf",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 836,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "21a",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2474002,
+                "lon": 8.1230798
+            },
+            "id": "f2450703-5646-47b2-ad39-d2784b4b33df",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "e3146f69-1d6e-439d-a182-d97dfa595802",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3004,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 676,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "19",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2472916,
+                "lon": 8.1220918
+            },
+            "id": "d3342aee-3403-4ae7-b539-d8b2637f28ba",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "c5540ee6-b4df-41e1-98a4-aa01a3de790e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4099,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 619,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "17b",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2467024,
+                "lon": 8.1224514
+            },
+            "id": "beb2c411-7a02-4ca0-8adf-9d8ec05c8cab",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "d01c8319-d3df-47e8-9e9e-81854496054c",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 811,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "17a",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2467164,
+                "lon": 8.1219405
+            },
+            "id": "e043c704-996d-41d9-8581-fc706eac98b5",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "d8ac6cb5-23fb-4cfd-b189-d53fa19ab059",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3608,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 163,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "17",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2466058,
+                "lon": 8.121544
+            },
+            "id": "bdd98dad-bb14-44c2-8841-22847d11e2a1",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "aed678c8-7cb4-4d36-bfc7-ae62e81967d6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4043,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 875,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "15a",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2468109,
+                "lon": 8.1215205
+            },
+            "id": "b7673117-0df7-4c17-866b-0956e2799599",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "ddef158b-5957-4c4d-bd0c-126fcc06bdfa",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3948,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 53,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "15",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2472111,
+                "lon": 8.1211004
+            },
+            "id": "dd757cdb-f8ce-49dc-b9a7-69035adb2d39",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "b8fe3423-f5a6-4551-9aff-27d7aae4eaa7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2948,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 175,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2478023,
+                "lon": 8.1217456
+            },
+            "id": "a35c3b05-392a-46f1-89db-bae9703c7baf",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "ccca1c04-0fb6-4853-a5f6-63ba0cf8bd0a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3161,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "eb8a6a95-e18f-49c2-aeeb-1212cf75f8c9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3280,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 110,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "11",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2470382,
+                "lon": 8.1205962
+            },
+            "id": "c13cbddb-922f-4d2f-8dc9-fa18298df69a",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "a76cc360-90f0-41f3-8566-1a4e5f46d6df",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 689,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "24",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2391679,
+                "lon": 8.11965
+            },
+            "id": "ec0d7ccf-cf5e-48c1-b215-437088ae6d92",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "fe8e85fb-f583-4838-8d72-9c0ef0ebdde6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5190,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 720,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26215",
+                "addr:street": "Dingsfelder Weg",
+                "addr:suburb": "Dingsfelde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2391707,
+                "lon": 8.1206808
+            },
+            "id": "fd0d35aa-f33a-44df-bb0a-b429e26719d9",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "a530ecdb-4472-4e74-8d61-b5069634b03d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3972,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 656,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5a",
+                "addr:postcode": "26215",
+                "addr:street": "Dingsfelder Weg",
+                "addr:suburb": "Dingsfelde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2392364,
+                "lon": 8.1207619
+            },
+            "id": "f898c57a-1f01-4d69-8279-17f031621fff",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "a91da376-ddb3-4f18-aed3-01614e124838",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3419,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 613,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26215",
+                "addr:street": "Dingsfelder Weg",
+                "addr:suburb": "Dingsfelde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2437096,
+                "lon": 8.1220715
+            },
+            "id": "dde91cff-8bb2-44ff-a9d3-bae791173da6",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "f1ecfd02-deb4-4736-a52a-3fa03fcae353",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 44,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "45a",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2442065,
+                "lon": 8.1220667
+            },
+            "id": "e42bd92d-c786-4bbd-8b9c-2adf01f2355c",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "db208293-151e-48c9-a9be-69c0441f9b71",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4255,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 486,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "45",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2434811,
+                "lon": 8.1224914
+            },
+            "id": "a3400fd0-4b88-4cce-9af8-e3676c79cc91",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "e7ff6bd9-d200-4de5-8b25-0f9d22cc5f94",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 207,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "43c",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.243681,
+                "lon": 8.1239182
+            },
+            "id": "d06fde91-68a6-4b69-98f4-3f1e3852a3f1",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "e006ce0f-902c-412d-b61c-a35f14531ac8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2949,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 446,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "43a",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.243978,
+                "lon": 8.123923
+            },
+            "id": "f6e7f6be-ef4a-4c54-8a72-f6b7ad7ea084",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "daaf1893-09b0-4636-9ed8-15366ab2eecc",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3613,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 707,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "43",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2443378,
+                "lon": 8.1235603
+            },
+            "id": "a7fc8401-cff2-4769-b921-58f9ecbb9d5e",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "bb00c065-6c25-4f2f-b99f-d91e5d5d0393",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 606,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "41",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2447262,
+                "lon": 8.1235937
+            },
+            "id": "fb95b5f0-b947-457a-9a8a-62ab823fd219",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "eb05295c-2669-44ad-b4d1-aabd288768fe",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4014,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 813,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "39",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2449546,
+                "lon": 8.1219235
+            },
+            "id": "f53f8f82-ddd1-477c-9573-40824a7c890d",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "b6c02540-d344-4eba-91cc-6029b286c7f2",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 384,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "37a",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2447576,
+                "lon": 8.1219092
+            },
+            "id": "f1d47028-6c3f-4222-973f-c3e4241d85b1",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "c258b061-6745-4136-a0ae-833d06feba98",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3424,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 481,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "37",
+                "addr:postcode": "26215",
+                "addr:street": "Stahlstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.241929,
+                "lon": 8.1248345
+            },
+            "id": "f5a72706-8c85-4bad-ac66-f08068d495a0",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "ef9ec4ed-584a-49eb-87dc-dda714fcd1a9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2711,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 384,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26215",
+                "addr:street": "Dingsfelder Weg",
+                "addr:suburb": "Dingsfelde"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2430927,
+                "lon": 8.1259984
+            },
+            "id": "ee177a6d-1a16-4498-a08d-e74efa0d7f79",
+            "node": "node_41",
+            "smartmeters": [
+                {
+                    "id": "e9ec289c-90c8-426a-bc73-95f91e95501e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4381,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 707,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26215",
+                "addr:street": "Dingsfelder Weg",
+                "addr:suburb": "Dingsfelde"
+            }
+        }
+    ]
+}

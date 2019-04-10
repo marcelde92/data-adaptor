@@ -1,0 +1,1959 @@
+{
+    "links": [
+        {
+            "source": "e2d0db80-80cc-4d44-b1e2-ef664db18522",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_7"
+        },
+        {
+            "source": "node_9",
+            "target": "node_39"
+        },
+        {
+            "source": "node_39",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_15"
+        },
+        {
+            "source": "node_18",
+            "target": "node_36"
+        },
+        {
+            "source": "node_36",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_26"
+        },
+        {
+            "source": "node_29",
+            "target": "node_30"
+        },
+        {
+            "source": "e2d0db80-80cc-4d44-b1e2-ef664db18522",
+            "target": "node_42"
+        },
+        {
+            "source": "node_42",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_1"
+        },
+        {
+            "source": "node_12",
+            "target": "node_16"
+        },
+        {
+            "source": "node_25",
+            "target": "node_33"
+        },
+        {
+            "source": "node_33",
+            "target": "node_32"
+        },
+        {
+            "source": "node_33",
+            "target": "node_41"
+        },
+        {
+            "source": "node_42",
+            "target": "node_44"
+        },
+        {
+            "source": "node_44",
+            "target": "node_43"
+        },
+        {
+            "source": "e2d0db80-80cc-4d44-b1e2-ef664db18522",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_3"
+        },
+        {
+            "source": "node_17",
+            "target": "node_31"
+        },
+        {
+            "source": "node_31",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_24"
+        },
+        {
+            "source": "node_31",
+            "target": "node_40"
+        },
+        {
+            "source": "node_40",
+            "target": "node_38"
+        },
+        {
+            "source": "e2d0db80-80cc-4d44-b1e2-ef664db18522",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_8"
+        },
+        {
+            "source": "node_14",
+            "target": "node_34"
+        },
+        {
+            "source": "node_34",
+            "target": "node_21"
+        },
+        {
+            "source": "node_34",
+            "target": "node_45"
+        },
+        {
+            "source": "node_45",
+            "target": "node_35"
+        },
+        {
+            "source": "e2d0db80-80cc-4d44-b1e2-ef664db18522",
+            "target": "node_37"
+        },
+        {
+            "source": "node_37",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_5"
+        },
+        {
+            "source": "node_10",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_11"
+        },
+        {
+            "source": "node_13",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_19"
+        }
+    ],
+    "name": "Kleibroker Stra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2565624,
+                "lon": 8.2095377
+            },
+            "id": "ae606c4a-3c49-40b7-a5ac-b101b87a1e29",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "a4b1c22f-6f83-42b4-8933-fa4500131c93",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 733,
+            "tags": {
+                "building": "garage",
+                "capacity": "1"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2564555,
+                "lon": 8.209499
+            },
+            "id": "c07d40bf-d9b7-4903-bf22-a1482e9d1598",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "cf8360b6-0d28-4728-baba-b62dff65b845",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4108,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 311,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "57",
+                "addr:postcode": "26180",
+                "addr:street": "Am Wiesenrand",
+                "building": "house",
+                "building:levels": "2"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2598576,
+                "lon": 8.2032242
+            },
+            "id": "fd3771ed-a73b-44fe-be79-8bb7677bceaf",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "da448225-777d-4739-bb5d-0b29942ea8e2",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3158,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 35,
+            "tags": {
+                "building": "yes",
+                "name": "Bohmann",
+                "office": "company"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2594341,
+                "lon": 8.2036799
+            },
+            "id": "a2a1b7e9-4008-4395-956a-a97b22c9ce51",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "f5ef1cd1-1b05-4067-96a0-fd17a417e1d1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3350,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 244,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2594811,
+                "lon": 8.2040034
+            },
+            "id": "bba914a8-cd88-4623-af20-16e4ceb7beb5",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "b6685ec8-9323-4f2d-b735-0a4343e744b6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3306,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 407,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "104",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2593513,
+                "lon": 8.2042862
+            },
+            "id": "a549963a-a0f7-4ea4-8330-6e81b04d3993",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "a964f05e-3554-42e9-8122-08f291de8d3a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5220,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 142,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2598655,
+                "lon": 8.2042329
+            },
+            "id": "ade32652-a480-4285-88da-4ef52720652f",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "c8efa23c-1596-4cf7-bfee-3eb9764f8c27",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3716,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 850,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "110",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2606586,
+                "lon": 8.2041151
+            },
+            "id": "f9a117e8-ac8a-45ad-ad82-8a469a766d52",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "b6c06048-2c7d-4bb8-ac2c-f8a2d86a3c35",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2707,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 867,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "115",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2608388,
+                "lon": 8.2043235
+            },
+            "id": "d7505440-fe2e-46c3-a28a-9ddd76d4368b",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "d71cf4f8-7366-4c01-9d2d-e0f03d201f65",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2769,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 705,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "119",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2609132,
+                "lon": 8.2044907
+            },
+            "id": "d71a343d-a123-4385-9e9c-fbfbe870e85a",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "d869289e-71c1-48b7-81cd-a0b172bfdca2",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 29,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "121",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2610476,
+                "lon": 8.2047061
+            },
+            "id": "b10a263d-edc0-4ec4-980c-58e310db78cf",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "f5b7eb9a-6a7b-40ea-8daf-83e10d8b5e6e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4871,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "a3cf206f-78f5-40ab-a598-345d3491fde1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3957,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 432,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2612671,
+                "lon": 8.2050235
+            },
+            "id": "ac20d412-5ba9-4251-96c2-332d38100d6e",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "f5aef3d1-59fd-4f15-9456-372ef3f44a41",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4181,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 778,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "123",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2615309,
+                "lon": 8.2094827
+            },
+            "id": "f8575592-a565-4abc-b503-9937109555b8",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "c7593aa8-2491-42ac-8e66-ba4e8fa3caad",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3056,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 22,
+            "tags": {
+                "building": "yes",
+                "generator:source": "biogas",
+                "power": "generator"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.262195,
+                "lon": 8.208138
+            },
+            "id": "f4ef2fff-aae5-4ee0-8871-33c0b2edc9f0",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "ad24e404-9dc5-46d6-82da-67a536c06287",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3481,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 139,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2620419,
+                "lon": 8.2079812
+            },
+            "id": "f9cbfdf6-9d0f-4d7e-bbd9-fe740cb1d305",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "a22a8bb3-a7cf-4b84-a30f-6413f580661a",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 35,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2619493,
+                "lon": 8.2074709
+            },
+            "id": "be4f7e6a-7471-4553-9a58-d6be6ff99d75",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "e3bfd60f-ba27-4422-a4eb-20355a4e16e0",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2931,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 460,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "132",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2629335,
+                "lon": 8.2072099
+            },
+            "id": "d2ceb929-db03-4eca-8487-1e1ca8d43a61",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "dd7e9820-345f-4650-9e31-6f75e9060d57",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 152,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "139a",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe",
+                "building": "hotel",
+                "name": "Wellness & Spa"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2639959,
+                "lon": 8.1995112
+            },
+            "id": "c4341b19-ce78-405c-ad67-7892c2617d42",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "da9a3bf4-ee9a-455e-ab06-6a57e5ef450d",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 50,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "49",
+                "addr:postcode": "26180",
+                "addr:street": "Roggenmoorweg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2636641,
+                "lon": 8.2002784
+            },
+            "id": "abd5191a-4610-47a7-a148-8967c15960a5",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "a634ded7-6e04-4cc2-9be0-01ca7971c9b4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3212,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 551,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2633209,
+                "lon": 8.2010944
+            },
+            "id": "fd75284b-c4f0-4562-82c6-403fb0ee2af6",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "f85d1eab-c95d-454b-9fc3-e83b23e5faf4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2990,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 585,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2636713,
+                "lon": 8.2011169
+            },
+            "id": "b0a61546-7270-4765-be05-1feedd608e9b",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "b20981b9-9e1f-4f17-a220-c3d574535e95",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4739,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 76,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2634807,
+                "lon": 8.2006183
+            },
+            "id": "a2777b6a-bdd4-4e7d-9a0f-69c3f250c264",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "d8c98b4f-53f8-4b8f-962d-9826dcf57c9a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4236,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 483,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2633619,
+                "lon": 8.1999659
+            },
+            "id": "acd92074-9514-4f56-a5b2-0817b3bec6d9",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "b382c9a1-751e-4cc6-bb58-73e279482275",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4009,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 305,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2630926,
+                "lon": 8.1997395
+            },
+            "id": "a6dd5b73-8521-4724-ac3a-cf19979cc559",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "d3ce85fb-779f-415a-a518-827b7823b2f7",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 90,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2623848,
+                "lon": 8.2012088
+            },
+            "id": "be686a15-b158-495d-8e23-f09bbb706595",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "c1f3f05c-1c72-4192-a7d7-9ab50afa3680",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4650,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "b2ccf81c-ee0a-4752-911b-087b99b14c5c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3832,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 48,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2611217,
+                "lon": 8.2035504
+            },
+            "id": "c1d0a491-e682-43b3-9f16-c5399b1a9530",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "c4da26b4-5ad5-4609-bd85-6de41f838710",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4333,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 305,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "113",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2607932,
+                "lon": 8.2026387
+            },
+            "id": "d5d7cad6-4075-4477-a03e-fd23fd9dad77",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "d2f7af1b-9007-4f0b-9d48-713e1dbed9a9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4535,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 473,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2612097,
+                "lon": 8.2023495
+            },
+            "id": "fdf845ff-3a03-4d3e-89cf-4134d960ef04",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "f1f9a877-33e9-476b-9f7c-f038bcd53214",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "a036cf4e-e398-46a7-99f0-8e78664dcb16",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3630,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 759,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2610496,
+                "lon": 8.202005
+            },
+            "id": "f448d289-2aa3-429a-ba1c-97ab884188b2",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "d215835b-18fe-431b-8cae-9e47f9d87510",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2563,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 515,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2603045,
+                "lon": 8.2035775
+            },
+            "id": "e39705de-228a-4770-86e6-16aa40bf3ab1",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "fce976bd-c85f-4cf5-9335-99ca97f6e847",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3012,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 415,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe",
+                "amenity": "fire_station",
+                "building": "yes",
+                "name": "Freiwillige Feuerwehr Rastede",
+                "website": "http://www.rastede.florian-ammerland.de/"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2595189,
+                "lon": 8.2027367
+            },
+            "id": "c40b9edd-2547-45db-82c9-de0768bb5bd4",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "c113444f-1a84-4b10-9dbc-547079cbdd2c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3496,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 813,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "99",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe",
+                "building": "yes",
+                "name": "Bohmann",
+                "office": "company",
+                "phone": "+49 4402 1011",
+                "website": "http://www.heinemann-entsorgung.de/"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2636152,
+                "lon": 8.2066144
+            },
+            "id": "a758b741-f6ef-4d70-b98e-80ea794200c7",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "eb3a463f-c6ff-4c13-bb66-bb94190748cf",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 527,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2631536,
+                "lon": 8.2069436
+            },
+            "id": "e1bfd106-a82c-4752-bc4e-daa4c2441815",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "bd32933c-d338-467f-9793-12de0bc8b609",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2465,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 838,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "4",
+                "addr:postcode": "26180",
+                "addr:street": "Logemanns Damm",
+                "building": "yes",
+                "craft": "hvac",
+                "name": "Gerold Meyer - Heizungsbau GmbH",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2632166,
+                "lon": 8.206503
+            },
+            "id": "d184dbd8-5df1-4118-9794-33df82d65262",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "bd837b87-77bc-4db0-a69c-5333453ef8af",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3357,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 378,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "6",
+                "addr:postcode": "26180",
+                "addr:street": "Logemanns Damm",
+                "building": "house",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.263388,
+                "lon": 8.2064755
+            },
+            "id": "bdb3caf0-33b3-406a-93c3-f353a5be2d8e",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "a62e995f-4eed-48b7-bc5e-182e40f240c7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2474,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 8,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "8",
+                "addr:postcode": "26180",
+                "addr:street": "Logemanns Damm",
+                "building": "house",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2638221,
+                "lon": 8.206692
+            },
+            "id": "e8bcfa69-515d-4ae5-89cd-4eff6a09da46",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "fc8920b6-6f14-4591-aadf-d5dfc46808f7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3434,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 48,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "12",
+                "addr:postcode": "26180",
+                "addr:street": "Logemanns Damm",
+                "building": "house",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2628178,
+                "lon": 8.206745
+            },
+            "id": "fca78a15-d76f-4817-a20b-02fdf19e4f3f",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "a9600a9c-e354-4246-8087-fce8a7c5a04d",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 4,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "139",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe",
+                "amenity": "restaurant",
+                "building": "yes",
+                "cuisine": "german",
+                "email": "info@zumzollhaus.de",
+                "name": "Residenz-Hotel Zum Zollhaus",
+                "operator": "Torsten Meyer",
+                "phone": "+49 (4402) 9381-0",
+                "smoking": "isolated",
+                "source": "Bing",
+                "tourism": "hotel",
+                "website": "http://www.zumzollhaus.de",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2686978,
+                "lon": 8.210938
+            },
+            "id": "ce0f8349-f739-485e-aa40-62ccf27b4fb2",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "b53a5a6c-6d82-4d8f-814b-20f0593b510c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4418,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 721,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2684609,
+                "lon": 8.2110953
+            },
+            "id": "eb552a29-1a6c-49d7-8156-1e917a3cc35e",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "a29b13a1-1387-463a-ae21-af58bdcce7e8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3268,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 121,
+            "tags": {
+                "building": "yes",
+                "name": "Melkhuus"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2568194,
+                "lon": 8.2062654
+            },
+            "id": "b54afa32-029b-4013-a637-b79889dad2ec",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "c98c7ce0-e535-4540-a2d7-cde83691df16",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 238,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2636813,
+                "lon": 8.2065099
+            },
+            "id": "cff1aa2e-d26a-46c3-aad1-2edf2b299cec",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "a9fab533-140e-4d98-b0fe-38d16827af47",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3581,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 859,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "10",
+                "addr:postcode": "26180",
+                "addr:street": "Logemanns Damm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2635934,
+                "lon": 8.2065612
+            },
+            "id": "d33d3798-0503-42d6-993b-4b65d9d9ed55",
+            "node": "node_41",
+            "smartmeters": [
+                {
+                    "id": "fff120ef-6789-42b6-a636-240426e8eb96",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3865,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 476,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "10a",
+                "addr:postcode": "26180",
+                "addr:street": "Logemanns Damm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2565229,
+                "lon": 8.2095002
+            },
+            "id": "aa670c25-eb4f-4c1b-8f78-cce9bb813616",
+            "node": "node_42",
+            "smartmeters": [
+                {
+                    "id": "b3b57485-38db-4f5c-856c-295558a36bb9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3082,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 729,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "57",
+                "addr:postcode": "26180",
+                "addr:street": "Am Wiesenrand",
+                "name": "Uwe Reinsch Holzbau - Zimmerei",
+                "office": "company",
+                "opening_hours": "\"Nach telefonischer Absprache\"",
+                "payment:bitcoin": "yes",
+                "phone": "+49 172 5412372",
+                "website": "http://www.oldenburg-zimmerei.com"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2607161,
+                "lon": 8.2042614
+            },
+            "id": "aae72cf2-5020-414a-82a4-9fddcc249da7",
+            "node": "node_43",
+            "smartmeters": [
+                {
+                    "id": "e9fcbc9b-34c3-4149-9d9e-76585756ae6a",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 772,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "117",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2602423,
+                "lon": 8.203531
+            },
+            "id": "fc5736bc-a26d-491b-9529-8f6c28b475ff",
+            "node": "node_44",
+            "smartmeters": [
+                {
+                    "id": "fdee3640-2c91-423e-be33-63798865d18a",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 184,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "111a",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2603234,
+                "lon": 8.2036497
+            },
+            "id": "fd9ed847-1dee-4ab3-8da4-3d18286548c3",
+            "node": "node_45",
+            "smartmeters": [
+                {
+                    "id": "c52cf570-f735-4775-8dc3-1755987216ed",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4465,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 401,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "111",
+                "addr:postcode": "26180",
+                "addr:street": "Kleibroker Stra\u00dfe"
+            }
+        }
+    ]
+}

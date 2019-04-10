@@ -1,0 +1,665 @@
+{
+    "links": [
+        {
+            "source": "a39d031b-ff5a-42d0-a783-3510d44b2b97",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_6"
+        },
+        {
+            "source": "node_11",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_12"
+        },
+        {
+            "source": "a39d031b-ff5a-42d0-a783-3510d44b2b97",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_0"
+        },
+        {
+            "source": "node_1",
+            "target": "node_4"
+        },
+        {
+            "source": "node_7",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_8"
+        }
+    ],
+    "name": "Am Liethegleis",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2652511,
+                "lon": 8.1811082
+            },
+            "id": "e3ddc33a-ba81-4b82-9300-12acc9bd2533",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "ab43b8c8-3924-42c8-9c7d-22c531918ee2",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3009,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 255,
+            "tags": {
+                "building": "industrial",
+                "name": "Nordfrost"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2662664,
+                "lon": 8.1797308
+            },
+            "id": "ab4863c9-cf2f-479e-8997-cbe83f9fa0c9",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "eea8ce3a-d44b-4eec-a166-cc29298aefff",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 501,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "12",
+                "addr:postcode": "26180",
+                "addr:street": "Am Liethegleis",
+                "building": "industrial",
+                "name": "Nordfrost",
+                "website": "http://www.nordfrost.de"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.267562,
+                "lon": 8.1798224
+            },
+            "id": "aef2b611-d689-4e25-91a0-90be9e899640",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "c4efe883-7f92-416b-b6b4-a5eebae352ce",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2745,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 660,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:postcode": "26180",
+                "addr:street": "Am Liethegleis",
+                "addr:suburb": "Liethe",
+                "building": "yes",
+                "leisure": "pitch",
+                "name": "Kart-O-Drom",
+                "sport": "karting",
+                "website": "http://www.kart-o-drom.de"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2597481,
+                "lon": 8.183953
+            },
+            "id": "b4be2afc-d0cf-4bea-8a5c-b2a38f927934",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "ba2412b4-4d73-4b62-8a68-7aabdaed9860",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4614,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "a73fc42d-3256-42d2-b8a3-d28aa4153a67",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5138,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 104,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "120",
+                "addr:postcode": "26180",
+                "addr:street": "Stellmoorweg",
+                "building": "industrial",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2666363,
+                "lon": 8.176922
+            },
+            "id": "d87eb5c5-72c1-4db2-86f2-9ecc6fc359e0",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "e40be181-dac8-4ceb-b87f-6e8c8b99c9e0",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3355,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 683,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "35",
+                "addr:postcode": "26180",
+                "addr:street": "Wilhelmshavener Stra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2663671,
+                "lon": 8.1756181
+            },
+            "id": "abd8580e-e19c-4e2c-9d91-25cb5544a17e",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "d324026a-7f5f-4040-b701-7e917f8d3b9e",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 72,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "5",
+                "addr:postcode": "26180",
+                "addr:street": "Wilhelmshavener Stra\u00dfe",
+                "addr:suburb": "Liehte",
+                "building": "industrial"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2653335,
+                "lon": 8.1755084
+            },
+            "id": "f72402be-4f2a-4506-902c-f79b512f60f4",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "ad4e713f-dace-4b84-aa5a-d83c652b1a43",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3383,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 720,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "10",
+                "addr:postcode": "26180",
+                "addr:street": "Am Eichenwall",
+                "addr:suburb": "Liethe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2709619,
+                "lon": 8.1737608
+            },
+            "id": "b5607b22-ef3a-4017-8f9c-241929ff9054",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "cf678e85-57ca-4fc8-a454-5ce40c272531",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3769,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 898,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "3",
+                "addr:postcode": "26180",
+                "addr:street": "Gut Rehorn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.267258,
+                "lon": 8.1801122
+            },
+            "id": "b185c169-2090-45e7-b306-ed84703c57c5",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "d2e5b339-6e98-43f8-894f-7d7e3a50d852",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3746,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 517,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "7",
+                "addr:postcode": "26180",
+                "addr:street": "Am Liethegleis"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2674088,
+                "lon": 8.1795238
+            },
+            "id": "c72ab8a3-e888-44b5-b411-785edc12e13a",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "c593fd0a-d39b-49bd-9229-b4c6805bb81c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3355,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 602,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "5",
+                "addr:postcode": "26180",
+                "addr:street": "Am Liethegleis"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2673487,
+                "lon": 8.1789681
+            },
+            "id": "b3ac290b-b0c8-44b6-ab05-90e3d4a1e151",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "bf58efe1-a4f2-4820-a781-293cb3bc22e4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3510,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 656,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "1",
+                "addr:postcode": "26180",
+                "addr:street": "Am Liethegleis"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2685402,
+                "lon": 8.1782957
+            },
+            "id": "ba85f524-6fd8-44b3-80c0-d2d2a5095bf8",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "d1c8a63f-d6e3-48e0-8409-8fe3f4e0ed3a",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 21,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "17",
+                "addr:postcode": "26180",
+                "addr:street": "Rehornweg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2669139,
+                "lon": 8.1781006
+            },
+            "id": "ee507163-fe4c-4732-b2f1-598c66c2b3b5",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "ddde7d8b-a15a-4108-b355-26c72a30fcd2",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4183,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 241,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "1",
+                "addr:postcode": "26180",
+                "addr:street": "Am Liethegleis"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2659765,
+                "lon": 8.1768027
+            },
+            "id": "a6467c7e-254a-46f1-872e-b2fbcb6b70cb",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "ef9ae558-cfcb-4410-89c6-f51b7464abdd",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 240,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "2",
+                "addr:postcode": "26180",
+                "addr:street": "Am Eichenwall",
+                "name": "NW Nordwest Logistik GmbH & Co. KG",
+                "office": "company",
+                "website": "http://www.nordwestlogistik.de/"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2604145,
+                "lon": 8.1730145
+            },
+            "id": "f8b74085-b0a7-4aee-8d38-9edaa7808f29",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "cb7f8e2f-6459-45a3-a557-799f25a4983c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2866,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 268,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "85",
+                "addr:postcode": "26180",
+                "addr:street": "Hohe Liethe",
+                "addr:suburb": "Liethe"
+            }
+        }
+    ]
+}

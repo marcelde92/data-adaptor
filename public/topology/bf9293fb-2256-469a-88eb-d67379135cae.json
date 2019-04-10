@@ -1,0 +1,658 @@
+{
+    "links": [
+        {
+            "source": "bf9293fb-2256-469a-88eb-d67379135cae",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_1"
+        },
+        {
+            "source": "node_4",
+            "target": "node_8"
+        },
+        {
+            "source": "node_11",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_14"
+        },
+        {
+            "source": "bf9293fb-2256-469a-88eb-d67379135cae",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_3"
+        },
+        {
+            "source": "node_5",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_6"
+        },
+        {
+            "source": "node_9",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_12"
+        }
+    ],
+    "name": "Borbecker Weg",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2212822,
+                "lon": 8.1772394
+            },
+            "id": "dad0dffa-23a1-40e4-8709-9f63b52fc3a2",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "fd56c4fd-7175-424c-a403-b9586fd484f1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4024,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "a7459777-370b-4d5f-b646-2f71a410ad4c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3561,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 66,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "33a",
+                "addr:postcode": "26180",
+                "addr:street": "Borbecker Weg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2212445,
+                "lon": 8.1770666
+            },
+            "id": "cb1d2a7f-bcc0-482c-900c-2bada0671c6d",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "b23c8b21-57e3-4dc7-9c6a-1397d44cfec1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3092,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 78,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "33",
+                "addr:postcode": "26180",
+                "addr:street": "Borbecker Weg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2214902,
+                "lon": 8.1758615
+            },
+            "id": "b4512f8c-5209-4a62-9eae-39c78316d81c",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "eb55e453-49dd-4230-b16f-c7c3fde05ecf",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 485,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "76a",
+                "addr:postcode": "26180",
+                "addr:street": "Am Palsterkiel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2215951,
+                "lon": 8.1757943
+            },
+            "id": "fd7e16fc-ca4d-46f8-abde-2525c5b262a5",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "a937447f-d426-4713-b449-4be6af510a3d",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 393,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "76",
+                "addr:postcode": "26180",
+                "addr:street": "Am Palsterkiel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2237925,
+                "lon": 8.184015
+            },
+            "id": "a604734c-b285-491f-8d03-8b7b60288efa",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "af9826d9-48e7-434f-99ab-49091b0090cf",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 407,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "74a",
+                "addr:postcode": "26180",
+                "addr:street": "Borbecker Weg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2239372,
+                "lon": 8.1839869
+            },
+            "id": "ca7d2d46-bccf-4e81-9c1d-829527711278",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "b8c30ff1-a9c2-4b9c-942c-d92d880cf0d6",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 869,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "74",
+                "addr:postcode": "26180",
+                "addr:street": "Borbecker Weg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2238472,
+                "lon": 8.1828072
+            },
+            "id": "d78b858b-ac27-4304-801d-542b8ada6473",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "b2ca630d-79c7-4b51-830a-cfd03d26291d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2891,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 144,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "199",
+                "addr:postcode": "26180",
+                "addr:street": "Metjendorfer Stra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2238119,
+                "lon": 8.1829983
+            },
+            "id": "be77293b-f158-4ccb-a284-755036559d56",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "c9eafb10-18ef-415f-8753-a8c21a90ed8b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2978,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 654,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "79",
+                "addr:postcode": "26180",
+                "addr:street": "Borbecker Weg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2213685,
+                "lon": 8.1847345
+            },
+            "id": "f9edc8f0-c5b8-44ca-8f24-030105c44734",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "ba14c8c9-cec9-4127-b332-dde38b1caac3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4086,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 221,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "226",
+                "addr:postcode": "26180",
+                "addr:street": "Metjendorfer Stra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2140507,
+                "lon": 8.164928
+            },
+            "id": "fac7abf0-d4fd-49d0-b3ca-df4b617a24ef",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "b4f5f2c3-4652-45dc-8db7-57eb8e29fbff",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4185,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 294,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26215",
+                "addr:street": "Feldkampsweg",
+                "addr:suburb": "Borbeckerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2155373,
+                "lon": 8.1647178
+            },
+            "id": "f421382b-642c-4b66-a5c7-34f35d03a544",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "ff8dfde2-8424-41b8-ab67-91f147a0e097",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4127,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 109,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26215",
+                "addr:street": "Borbecker Weg",
+                "addr:suburb": "Borbeckerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2159251,
+                "lon": 8.1649864
+            },
+            "id": "d118ca98-5a33-4646-b259-b624ffaa0085",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "a0a1f74b-48c5-4384-8d70-8a135ca96494",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4448,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 164,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "15",
+                "addr:postcode": "26215",
+                "addr:street": "Borbecker Weg",
+                "addr:suburb": "Borbeckerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2159961,
+                "lon": 8.1656342
+            },
+            "id": "f4e2a8f6-3228-437e-85db-69e70efd7b80",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "f53bf18f-53b4-41ed-9a19-b9f21ef825e3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3726,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 405,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "15a",
+                "addr:postcode": "26215",
+                "addr:street": "Borbecker Weg",
+                "addr:suburb": "Borbeckerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.220066,
+                "lon": 8.1701318
+            },
+            "id": "bff24730-bc3e-41d8-88ed-3dc7edbdf750",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "ea007d07-6ba6-4937-af67-3ea1388f6833",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2984,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 611,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26215",
+                "addr:street": "Haarenweg",
+                "addr:suburb": "Borbeckerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2196895,
+                "lon": 8.1704278
+            },
+            "id": "d037b999-745d-414f-bb5e-15bf7e215689",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "c809e633-3dd0-411c-a13e-5e86a66a86ab",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3156,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 885,
+            "tags": {
+                "addr:city": "Wiefelstede",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26215",
+                "addr:street": "Haarenweg",
+                "addr:suburb": "Borbeckerfeld"
+            }
+        }
+    ]
+}

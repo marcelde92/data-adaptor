@@ -1,0 +1,1455 @@
+{
+    "links": [
+        {
+            "source": "a12fa8cd-d15e-4079-b1a2-f70b3dd35730",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_4"
+        },
+        {
+            "source": "node_6",
+            "target": "node_16"
+        },
+        {
+            "source": "node_25",
+            "target": "node_32"
+        },
+        {
+            "source": "a12fa8cd-d15e-4079-b1a2-f70b3dd35730",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_1"
+        },
+        {
+            "source": "node_9",
+            "target": "node_13"
+        },
+        {
+            "source": "node_26",
+            "target": "node_30"
+        },
+        {
+            "source": "node_30",
+            "target": "node_29"
+        },
+        {
+            "source": "a12fa8cd-d15e-4079-b1a2-f70b3dd35730",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_15"
+        },
+        {
+            "source": "node_18",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_19"
+        },
+        {
+            "source": "a12fa8cd-d15e-4079-b1a2-f70b3dd35730",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_0"
+        },
+        {
+            "source": "node_5",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_12"
+        },
+        {
+            "source": "node_17",
+            "target": "node_22"
+        },
+        {
+            "source": "a12fa8cd-d15e-4079-b1a2-f70b3dd35730",
+            "target": "node_21"
+        },
+        {
+            "source": "node_21",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_11"
+        },
+        {
+            "source": "node_21",
+            "target": "node_33"
+        },
+        {
+            "source": "node_33",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_23"
+        },
+        {
+            "source": "node_24",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_31"
+        }
+    ],
+    "name": "Stau",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1404014,
+                "lon": 8.2311142
+            },
+            "id": "af55bd40-f32b-4e9f-8e23-50dbf2c43c69",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "ae99a6c7-042b-4a2a-8e24-3660114266dd",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3221,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 123,
+            "tags": {
+                "building": "yes",
+                "military": "bunker",
+                "name": "Deckungsgraben"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1384606,
+                "lon": 8.2336602
+            },
+            "id": "b10bffe3-68ae-4fd2-b5d1-177b705828ad",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "e0df227b-0d8b-439b-96ca-21b264ba9a4e",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 550,
+            "tags": {
+                "building": "yes",
+                "name": "SMP"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.140418,
+                "lon": 8.2338349
+            },
+            "id": "c5580ac8-8400-469e-b14a-7a47063e78a5",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "fc5ae23a-a04e-4c4d-a5d8-db892bd97055",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3835,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 378,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1405749,
+                "lon": 8.2336334
+            },
+            "id": "b30b71f6-8da6-480d-bccf-26e5503bf73b",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "a49d07d4-16d7-4b04-b3e1-9e1aef292c20",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3034,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 364,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "119",
+                "addr:postcode": "26122",
+                "addr:street": "Stau",
+                "addr:suburb": "Bahnhofsviertel",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1404173,
+                "lon": 8.2316451
+            },
+            "id": "ed5a5d89-b75c-49d6-9a2d-e083d71ea97c",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "e15fe5e5-6d3c-463b-98f3-f803e852d043",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3647,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 652,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "142",
+                "addr:postcode": "26122",
+                "addr:street": "Stau",
+                "amenity": "restaurant",
+                "building": "yes",
+                "cuisine": "regional",
+                "email": "post@heini-am-stau.de",
+                "internet_access": "wlan",
+                "internet_access:fee": "no",
+                "name": "Heini am Stau",
+                "opening_hours": "Mo-Fr 12:00+; Sa-Su,PH 09:00+",
+                "outdoor_seating": "yes",
+                "phone": "+49 441 34010975",
+                "service_times": "Mo-Fr 12:00-15:00,17:00-22:00; Sa-Su,PH 09:00-22:00",
+                "takeaway": "no",
+                "website": "http://www.heini-am-stau.de/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1450429,
+                "lon": 8.2331546
+            },
+            "id": "e6e83225-cf8d-41b8-b8a2-16148774e066",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "aae347ac-8da4-42d9-95a3-956add7fad66",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3809,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 541,
+            "tags": {
+                "amenity": "kindergarten",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.139052,
+                "lon": 8.229999
+            },
+            "id": "f492d33e-e1da-47ce-a39f-926e10829e50",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "bc3ccdb8-2f4e-421b-8130-cdcd3b283068",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3256,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 548,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1412169,
+                "lon": 8.2348968
+            },
+            "id": "a02804e8-2480-4270-9feb-0ecc273aa797",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "ca669663-e19c-41cf-b2dc-a8403c4b50ce",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3018,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 162,
+            "tags": {
+                "addr:housenumber": "154A",
+                "addr:postcode": "26122",
+                "addr:street": "Stau",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1405443,
+                "lon": 8.23291
+            },
+            "id": "e433a923-f355-4e9b-ab80-d6980b394047",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "dc58d54d-b414-4be2-b58f-a572e464ced5",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 485,
+            "tags": {
+                "building": "yes",
+                "image": "File:Oldenburg_Wasserturm_Hafen.jpg",
+                "man_made": "water_tower",
+                "wikipedia": "de:Bahnwasserturm Oldenburg Hafen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1406158,
+                "lon": 8.2301594
+            },
+            "id": "d1892e14-d341-48f4-bd0b-8bbedccd5f0f",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "d382930b-2354-477c-8679-122cc8fff333",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3641,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 688,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "117",
+                "addr:postcode": "26122",
+                "addr:street": "Stau",
+                "addr:suburb": "Bahnhofsviertel",
+                "building": "house",
+                "description": "Geb\u00e4ude der alten Fleischwarenfarbik(Fleiwa)",
+                "historic": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1409802,
+                "lon": 8.2345357
+            },
+            "id": "cb24ceb3-a187-49b0-805e-b6278f302cd1",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "ccec8b84-5cac-4e55-8340-e612fc6d0845",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3371,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 454,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1411508,
+                "lon": 8.2350935
+            },
+            "id": "bb99f4e2-bc7b-4c7c-856c-6e4dad74c6a5",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "c3dce884-d77b-4401-baa6-1c2125ef2762",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4703,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 585,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "157A",
+                "addr:postcode": "26122",
+                "addr:street": "Stau",
+                "addr:suburb": "Donnreschwee",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1409587,
+                "lon": 8.2349092
+            },
+            "id": "abd1fb32-3a7e-4365-97b0-61621ed6c866",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "b482f859-668e-4459-bded-15c09abe9048",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3147,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 147,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "155",
+                "addr:postcode": "26122",
+                "addr:street": "Stau",
+                "addr:suburb": "Donnerschwee",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1413363,
+                "lon": 8.2350533
+            },
+            "id": "dcf0bbdf-5e4d-4fd3-a325-7b26de185245",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "df6da4c2-b7c2-4f6f-9657-70fe3c5eba2e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2947,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 543,
+            "tags": {
+                "addr:housenumber": "7",
+                "addr:postcode": "26122",
+                "addr:street": "An der Braker Bahn",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1405328,
+                "lon": 8.2327592
+            },
+            "id": "ef2705e3-3307-4d8b-8101-493432018b23",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "f5763653-baea-4d8b-9fe1-1800303e7128",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2839,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 758,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1410552,
+                "lon": 8.2349239
+            },
+            "id": "eb1e498a-717d-442d-9a2f-afb4fee72fc9",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "f4fc83ec-2a89-4a32-8c2f-5e2e10ef3d80",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3936,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 809,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1409877,
+                "lon": 8.2351829
+            },
+            "id": "aaaa6e9f-7301-454f-8ffe-0e8172463bba",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "cfc4060c-e432-4934-bc66-8e56a1a47bb9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3195,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 356,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "157",
+                "addr:postcode": "26122",
+                "addr:street": "Stau",
+                "addr:suburb": "Donnerschwee",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1406052,
+                "lon": 8.2304495
+            },
+            "id": "c7347fbe-8cb7-4edb-b808-f7ff58e40936",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "d36418b1-143e-442a-b4c1-932af40fc241",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3107,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 90,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "119",
+                "addr:postcode": "26122",
+                "addr:street": "Stau",
+                "addr:suburb": "Bahnhofsviertel",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1404639,
+                "lon": 8.2325253
+            },
+            "id": "fa4abd9a-4e3f-4744-bace-828ef3e452ca",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "a69ce476-b120-4089-b916-aeaaccafb89c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3210,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "bb947fcc-8ca3-4c3b-869d-c944900c9422",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 359,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "144",
+                "addr:postcode": "26122",
+                "addr:street": "Stau",
+                "addr:suburb": "Bahnhofsviertel",
+                "building": "yes",
+                "contact:phone": "+49 441 21894 90",
+                "name": "Kubus Immobilien",
+                "office": "realtor",
+                "roof:colour": "white",
+                "roof:shape": "gabled",
+                "website": "http://www.kubus-immobilien.de/"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1418703,
+                "lon": 8.23324
+            },
+            "id": "f1b49b5f-4a0f-48a9-a1c5-8042c07af7c0",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "cebccf87-ef5e-4b99-88e3-be887e717193",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3608,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 175,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1411052,
+                "lon": 8.234127
+            },
+            "id": "e7d22808-bf3a-4aaf-9513-fdde99859708",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "c60cd6dc-a013-416e-9680-cce4505a2b3e",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 348,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.141005,
+                "lon": 8.2336175
+            },
+            "id": "b0ba7403-2978-4fbb-8904-caf5cfe08ad5",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "d29cc170-6924-402c-af59-2ffdc1e4787c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4391,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 375,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "143",
+                "addr:postcode": "26122",
+                "addr:street": "Stau",
+                "addr:suburb": "Donnerschwee",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1414028,
+                "lon": 8.233078
+            },
+            "id": "b7431330-dd85-4a14-8559-591b254964a1",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "e63b4534-22ee-4f4e-8d69-a8ae9dd6fc87",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3864,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 661,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1412605,
+                "lon": 8.2339185
+            },
+            "id": "d65d5dad-5ebc-4e40-822c-d64efdeb1768",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "c26b82cd-f2df-4d8e-83dd-2d989311437c",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 432,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.141725,
+                "lon": 8.2329651
+            },
+            "id": "e717121e-3cde-4ea3-8b0b-1f99935b52a9",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "b384ce3f-b074-4b1e-84a7-200d97d684c7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4589,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 333,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1429939,
+                "lon": 8.2309619
+            },
+            "id": "f18e5683-61c2-4d10-a9b7-e88435a6b250",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "d0186652-e714-4f93-94e4-1c51ac6e4b16",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 861,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1415346,
+                "lon": 8.2323978
+            },
+            "id": "c71a0253-f121-4de8-837f-7bb49050adf8",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "e026141d-2be4-47f9-9329-cd46d73d82ac",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4383,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 859,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.141827,
+                "lon": 8.2342018
+            },
+            "id": "f4feacac-f80b-4645-9888-ca802ebe3eee",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "d8e13233-b693-4f96-aec7-63478ccc123c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3314,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 813,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1409444,
+                "lon": 8.2342396
+            },
+            "id": "e7c36a33-770c-4582-b42f-b89a7a75fd5c",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "e7a75398-b32d-4ee0-bbed-f3252142da76",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3121,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 147,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "149",
+                "addr:postcode": "26122",
+                "addr:street": "Stau",
+                "addr:suburb": "Donnerschwee",
+                "building": "yes",
+                "name": "Holzhandel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.142819,
+                "lon": 8.2306611
+            },
+            "id": "e9f80d8f-ea3b-4f58-ae7f-48d4a52cfb4b",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "a396f3b5-080f-443e-95cc-e7f9319f9808",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2981,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "d4aae9f9-9948-48c3-9400-1bdfc59f784e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3202,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 898,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1383393,
+                "lon": 8.2299454
+            },
+            "id": "fb736b40-ed15-47de-b7f4-c8be51a936b9",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "ebd89d5d-e99d-43b2-9112-f9fc475b0eb8",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 616,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "13",
+                "addr:postcode": "26135",
+                "addr:street": "Emsstra\u00dfe",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "name": "Haci Bayram Moschee",
+                "operator": "DITIB T\u00fcrkisch-Islamische Gemeinde zu Oldenburg e.V.",
+                "religion": "muslim"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1386153,
+                "lon": 8.2297642
+            },
+            "id": "db90d7d1-9fff-4b02-b247-a53ff160053e",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "fc5e04a1-41e7-4a8d-a7df-bc9c6036af6f",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 216,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1384949,
+                "lon": 8.2310603
+            },
+            "id": "eb8f10f2-29b0-4829-88ee-c919bd97000e",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "b1c490a2-23a4-4eb9-92ef-1428eb1897e7",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 674,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1407282,
+                "lon": 8.2310416
+            },
+            "id": "fee991e7-d818-4771-860f-905ab4f9d2fe",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "b9ed4538-5201-4942-b7a5-b6cb5aeb45c2",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4219,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 208,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "125",
+                "addr:postcode": "26122",
+                "addr:street": "Stau",
+                "addr:suburb": "Bahnhofsviertel"
+            }
+        }
+    ]
+}

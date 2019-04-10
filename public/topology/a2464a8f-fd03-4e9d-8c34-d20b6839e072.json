@@ -1,0 +1,2029 @@
+{
+    "links": [
+        {
+            "source": "a2464a8f-fd03-4e9d-8c34-d20b6839e072",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_14"
+        },
+        {
+            "source": "node_16",
+            "target": "node_41"
+        },
+        {
+            "source": "node_41",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_18"
+        },
+        {
+            "source": "node_27",
+            "target": "node_33"
+        },
+        {
+            "source": "node_33",
+            "target": "node_37"
+        },
+        {
+            "source": "a2464a8f-fd03-4e9d-8c34-d20b6839e072",
+            "target": "node_32"
+        },
+        {
+            "source": "node_32",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_8"
+        },
+        {
+            "source": "node_13",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_17"
+        },
+        {
+            "source": "node_20",
+            "target": "node_21"
+        },
+        {
+            "source": "node_21",
+            "target": "node_30"
+        },
+        {
+            "source": "node_32",
+            "target": "node_40"
+        },
+        {
+            "source": "node_40",
+            "target": "node_34"
+        },
+        {
+            "source": "node_34",
+            "target": "node_36"
+        },
+        {
+            "source": "node_36",
+            "target": "node_38"
+        },
+        {
+            "source": "a2464a8f-fd03-4e9d-8c34-d20b6839e072",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_6"
+        },
+        {
+            "source": "node_9",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_10"
+        },
+        {
+            "source": "node_23",
+            "target": "node_24"
+        },
+        {
+            "source": "node_29",
+            "target": "node_35"
+        },
+        {
+            "source": "node_35",
+            "target": "node_31"
+        },
+        {
+            "source": "node_35",
+            "target": "node_42"
+        },
+        {
+            "source": "node_42",
+            "target": "node_39"
+        }
+    ],
+    "name": "Helmsweg",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1142527,
+                "lon": 8.2471978
+            },
+            "id": "ac320c1b-82e2-47d2-93f0-d953fcd87f50",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "e179b2f2-0f82-40a8-9d01-3348f8e3d156",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "ca57b520-b3ff-4300-a86c-6bd28d1b165f",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 138,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "26",
+                "addr:postcode": "26135",
+                "addr:street": "Storchweg",
+                "building": "house",
+                "building:levels": "1"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1148402,
+                "lon": 8.2463553
+            },
+            "id": "c2991e22-ee2d-4b65-badc-d22ffde37ea3",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "d3b333cb-63e0-4580-8c46-45486c315ae5",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "e05c4ddf-0aa1-424f-9fea-170c7d13aaba",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 450,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "16",
+                "addr:postcode": "26135",
+                "addr:street": "Storchweg",
+                "building": "house",
+                "building:levels": "1"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1146874,
+                "lon": 8.2466171
+            },
+            "id": "e12bc85f-d9f7-4b2a-8966-73eb663e1dcf",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "eab3dc25-f2b2-48fb-b12c-8d87ddf68f0c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 837,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "18",
+                "addr:postcode": "26135",
+                "addr:street": "Storchweg",
+                "building": "house",
+                "building:levels": "1"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1141449,
+                "lon": 8.2474017
+            },
+            "id": "df099e18-d3f0-4e3a-bc2d-d3ae5bbcef72",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "b3a93966-0f04-4efb-bb99-5fc1b7b016fa",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 220,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "28",
+                "addr:postcode": "26135",
+                "addr:street": "Storchweg",
+                "building": "house",
+                "building:levels": "1"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1145401,
+                "lon": 8.2468706
+            },
+            "id": "ebd053a6-7e0b-48d6-a8b1-b535b4f03cd1",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "b3699408-9c14-4aed-abf9-1cf0b5f11efd",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 671,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "22",
+                "addr:postcode": "26135",
+                "addr:street": "Storchweg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1149572,
+                "lon": 8.2461614
+            },
+            "id": "ca41c07d-ceb1-4611-ace9-c3b6bbad10c3",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "d881c45c-b98c-4c49-be64-596584786856",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3085,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 709,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "14",
+                "addr:postcode": "26135",
+                "addr:street": "Storchweg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.114396,
+                "lon": 8.2470811
+            },
+            "id": "cb51a66d-e2e6-42ac-88d6-0c80e341275c",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "df1db03e-dabb-4563-a0f8-e8ce79b3c9e2",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 305,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "24",
+                "addr:postcode": "26135",
+                "addr:street": "Storchweg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1140104,
+                "lon": 8.2476686
+            },
+            "id": "c55fad70-2f9d-4e12-bcd3-d7161010da41",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "d93b7b01-5102-4b22-91a0-fa72694f8af3",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 202,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "32",
+                "addr:postcode": "26135",
+                "addr:street": "Storchweg",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1160334,
+                "lon": 8.2455658
+            },
+            "id": "c2bb7fb6-5255-49e2-86b6-7e32d27402ea",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "ad8ba7a9-ac0c-402d-a914-b882f19eb457",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3178,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 296,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "95",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1162209,
+                "lon": 8.2456965
+            },
+            "id": "e3ee038f-e16c-4c7a-bc4e-a97256a8bcfb",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "c0f2ac74-a393-4dbb-8b28-c3a6ee5b568d",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 168,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "93",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1163329,
+                "lon": 8.2459239
+            },
+            "id": "eccb9b69-2d07-4069-9228-bb067e2b3da3",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "bb04ada5-9173-42d5-8d62-b2017c251967",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 103,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "91",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1164628,
+                "lon": 8.2461353
+            },
+            "id": "b65f6f92-4122-427e-8c4a-b9d08280cb07",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "ca22f026-6186-4872-b308-9886ae9a1564",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 76,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "89",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1166944,
+                "lon": 8.2454095
+            },
+            "id": "bf80f97b-dcd5-406d-b4ab-ffffa990a602",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "c55d0b0f-caed-4dc5-8a7e-f01de931c0ec",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 509,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "88",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1165844,
+                "lon": 8.2462673
+            },
+            "id": "b3ded79c-12c3-492c-8c41-19868f198531",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "c7677ebf-9788-48ba-82f0-6fc523c70291",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 270,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "87",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1167662,
+                "lon": 8.2457003
+            },
+            "id": "b454b9f6-ab45-4c34-b5ca-dad79c6548c3",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "b5ec395b-fa71-4688-949b-a802fea9e6a3",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 574,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "86",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1169398,
+                "lon": 8.2458459
+            },
+            "id": "d69e075d-f4c9-4e0a-ae99-3932040c03d3",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "b768f646-b252-45db-8f90-b263bfad92bb",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3610,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 517,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "84",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1167662,
+                "lon": 8.2466343
+            },
+            "id": "fdc28b45-f8bc-4167-bd30-822296469ce3",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "fe8c7d0d-c8e3-4aab-b599-708b0a6fe074",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 208,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "83",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1171181,
+                "lon": 8.2456959
+            },
+            "id": "e0218a0e-d7dc-48cd-962a-273281db5b75",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "db4fa87b-5397-4da3-9249-326b9ea97f20",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3119,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 162,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "82",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1168588,
+                "lon": 8.2468017
+            },
+            "id": "f24b1480-a5a1-41e3-b782-d92f4c928b1d",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "a95d54c8-d6da-47c6-aa55-dc60acb8f988",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2776,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 250,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "81",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1171415,
+                "lon": 8.2460045
+            },
+            "id": "d2b6a7ed-06e7-45a6-a7b5-0496688550b5",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "fec9430b-63b9-4ef8-b117-5013d225a2d4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3587,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "d1fa3b70-141f-4d7d-9e87-d6254ae1df3c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 33,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "80",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1170451,
+                "lon": 8.2470256
+            },
+            "id": "c9e70f7b-a2d4-46a4-932f-6817dc736a45",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "d71750d5-5a2c-4059-bb39-46baad77fda0",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "f1c1cb81-6458-42c9-93ab-f4cb2e132dfc",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 417,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "79",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1172625,
+                "lon": 8.246483
+            },
+            "id": "adf81d81-5943-41ec-8103-aa3d28abec65",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "bcd5888c-d640-493c-952a-f532979eefcc",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 783,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "78",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1171575,
+                "lon": 8.2471638
+            },
+            "id": "abb6ed15-6a38-4228-a52c-84d38ca386b9",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "a76a5e79-4bf7-45cd-a734-51071033ae2d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3702,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 127,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "77",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1173215,
+                "lon": 8.246567
+            },
+            "id": "cec6cae0-b628-47eb-828f-22e19d02bac6",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "e647f1e4-e706-48c1-a7dc-abe1ed7f8126",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 221,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "76",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1172756,
+                "lon": 8.2473127
+            },
+            "id": "d021eb3b-d706-41b8-b3ef-501274ac84bc",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "f939c550-b721-4a4d-9640-5a51178240b8",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 585,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "75",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1174209,
+                "lon": 8.2467
+            },
+            "id": "bf76ac17-435e-49ed-ab46-bb777a727d28",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "acdf4d12-9c32-48b0-8533-0f9d5ae07497",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 327,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "74",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1173879,
+                "lon": 8.2474528
+            },
+            "id": "bcf556cc-8929-428b-b8d1-bcf3e283ea7a",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "b48738f5-8335-4cbf-b419-39ab447ccc0e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 146,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "73",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1174805,
+                "lon": 8.2467834
+            },
+            "id": "d1af3dcb-3743-41ba-abc0-b4b3b81186a5",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "c4ae17fb-cc44-4d9b-9156-11fc0663076b",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 258,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "72",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.117624,
+                "lon": 8.246823
+            },
+            "id": "a5fb98a4-4a4d-435f-a716-e0e8e6e79e8a",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "acd57e53-c501-47c8-aeef-07e02c5626ed",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3467,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 856,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "70",
+                "addr:postcode": "26135",
+                "addr:street": "Helmsweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1176948,
+                "lon": 8.2455
+            },
+            "id": "b4d95716-8994-49e8-bd8c-7d09602d8231",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "dcc01024-1882-4943-b13b-f812dd1b136f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 578,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "54",
+                "addr:postcode": "26135",
+                "addr:street": "Steinkauzweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.11752,
+                "lon": 8.2456451
+            },
+            "id": "ec5ccb6e-72b9-4fc3-8d47-7abf36d9eed9",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "edf03ce6-20a7-4bbc-9a5b-dfc16933029e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 117,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "37",
+                "addr:postcode": "26135",
+                "addr:street": "Steinkauzweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1174848,
+                "lon": 8.2457908
+            },
+            "id": "d552421a-72c8-4358-8f25-5dd8772a3faf",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "d38e6ccf-99c1-46db-94bd-cbe24acbb2c8",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 532,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "35",
+                "addr:postcode": "26135",
+                "addr:street": "Steinkauzweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1174202,
+                "lon": 8.2460335
+            },
+            "id": "af2aed63-ae86-4437-b70a-59d49eb0ced5",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "d8ecdca2-8097-437b-9de0-95e688834d6a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2480,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 587,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "33",
+                "addr:postcode": "26135",
+                "addr:street": "Steinkauzweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1173287,
+                "lon": 8.2462371
+            },
+            "id": "a44cc349-3b64-4d0f-abb4-14fa8e2e7fa2",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "a9d6d50f-422e-420e-ae4b-77f86f3ba127",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 737,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "31",
+                "addr:postcode": "26135",
+                "addr:street": "Steinkauzweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1173945,
+                "lon": 8.2462971
+            },
+            "id": "d9ba10fa-8c15-46a8-86fa-8fbf510ebcdb",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "c933e764-4593-4d68-ad26-c2d729dbaa83",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 20,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "29",
+                "addr:postcode": "26135",
+                "addr:street": "Steinkauzweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1175536,
+                "lon": 8.2464622
+            },
+            "id": "ac31218c-32a3-4f03-b82d-1bb6366806ad",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "ae0bb50e-a831-47cb-875e-0b9cdd162212",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 189,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "27",
+                "addr:postcode": "26135",
+                "addr:street": "Steinkauzweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1176118,
+                "lon": 8.246267
+            },
+            "id": "e90e0d26-ce7d-42c7-a907-c2163029830d",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "e7d2d3a3-1389-4803-963c-e095f0f1e1e4",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 520,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "25",
+                "addr:postcode": "26135",
+                "addr:street": "Steinkauzweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1176466,
+                "lon": 8.2459414
+            },
+            "id": "c1893643-d43c-4d3d-a362-0363fba4702e",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "e12b09c2-27f2-4ba9-ab28-70d867841bc0",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 382,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "23",
+                "addr:postcode": "26135",
+                "addr:street": "Steinkauzweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.117713,
+                "lon": 8.2459909
+            },
+            "id": "f708ac03-865b-40a4-882f-314c00bdecf3",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "dfd0fc9f-cefe-4258-a380-7ded6e85eb92",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 304,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "21",
+                "addr:postcode": "26135",
+                "addr:street": "Steinkauzweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1178195,
+                "lon": 8.2461186
+            },
+            "id": "e26affcf-d556-4beb-999c-51ca5fe43c8b",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "f0f51c68-58db-4b94-9e5c-cbdfbc807886",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 744,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "19",
+                "addr:postcode": "26135",
+                "addr:street": "Steinkauzweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1179087,
+                "lon": 8.2464103
+            },
+            "id": "b0c55496-adc0-4dc1-bec9-1b6046339433",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "adf42174-f1d5-4744-9fbb-9d336f0ec82c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 701,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "17",
+                "addr:postcode": "26135",
+                "addr:street": "Steinkauzweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1179556,
+                "lon": 8.2463184
+            },
+            "id": "de06dbe0-6649-4ea5-a11e-e262a55e6879",
+            "node": "node_41",
+            "smartmeters": [
+                {
+                    "id": "f38dc7a9-7855-4a79-8666-2f14c8772d44",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 218,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "15",
+                "addr:postcode": "26135",
+                "addr:street": "Steinkauzweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1149238,
+                "lon": 8.2470615
+            },
+            "id": "ccfa0002-69f0-44ae-805b-bd12e00cb9b6",
+            "node": "node_42",
+            "smartmeters": [
+                {
+                    "id": "a6bb9eba-1daa-4b1f-87e3-a14c5c42b182",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 408,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "17",
+                "addr:postcode": "26135",
+                "addr:street": "Storchweg",
+                "building": "house",
+                "building:levels": "1",
+                "source": "bing imagery"
+            }
+        }
+    ]
+}

@@ -1,0 +1,199 @@
+{
+    "links": [
+        {
+            "source": "e690d73e-d271-45a6-8a5e-8e35698792eb",
+            "target": "node_0"
+        },
+        {
+            "source": "e690d73e-d271-45a6-8a5e-8e35698792eb",
+            "target": "node_1"
+        },
+        {
+            "source": "e690d73e-d271-45a6-8a5e-8e35698792eb",
+            "target": "node_2"
+        },
+        {
+            "source": "e690d73e-d271-45a6-8a5e-8e35698792eb",
+            "target": "node_3"
+        }
+    ],
+    "name": "Am Ende",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1997471,
+                "lon": 8.2249036
+            },
+            "id": "cb33fceb-715c-45c3-b772-0ff670847f84",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "bf18ba64-abc6-4b4a-91a2-52739c9f522c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3620,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 271,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1999689,
+                "lon": 8.2246046
+            },
+            "id": "a27e5044-f6ea-4e9c-9fe1-a9c5c688693e",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "ec37ebeb-14e9-448c-8fd7-67a9ac90e2db",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4602,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 20,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "27",
+                "addr:postcode": "26125",
+                "addr:street": "Am Ende",
+                "addr:suburb": "Ofenerdiek",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2001692,
+                "lon": 8.2224755
+            },
+            "id": "eabb5ff0-1163-4d7e-bfdb-c610b06956ac",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "b43c203d-e978-469d-9628-1f17886687e3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2959,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 404,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "47",
+                "addr:postcode": "26125",
+                "addr:street": "Am Ende",
+                "addr:suburb": "Ofenerdiek",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2011685,
+                "lon": 8.2219745
+            },
+            "id": "e61ed3f3-b0ce-4d0d-a0d0-26b2a888ca91",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "bd38d904-9418-4986-87e3-5d8f80680d82",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "cc5dcc63-df90-4c4b-835c-2f1ffe167b7c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3230,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 813,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "61",
+                "addr:postcode": "26125",
+                "addr:street": "Am Ende",
+                "addr:suburb": "Ofenerdiek",
+                "building": "yes"
+            }
+        }
+    ]
+}

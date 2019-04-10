@@ -1,0 +1,662 @@
+{
+    "links": [
+        {
+            "source": "f77401b0-5e39-42ad-94cc-77fed79c0d84",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_3"
+        },
+        {
+            "source": "f77401b0-5e39-42ad-94cc-77fed79c0d84",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_11"
+        },
+        {
+            "source": "f77401b0-5e39-42ad-94cc-77fed79c0d84",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_1"
+        },
+        {
+            "source": "node_5",
+            "target": "node_7"
+        },
+        {
+            "source": "f77401b0-5e39-42ad-94cc-77fed79c0d84",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_10"
+        }
+    ],
+    "name": "Alexanderstra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.18291,
+                "lon": 8.1765364
+            },
+            "id": "f57fb2bb-ce29-42c3-8331-dabb6a8bd90e",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "f1150a9e-b01c-42ed-8ba5-6c9b6ca056d5",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "d18272b2-e558-4a01-9552-f72d587fd841",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 581,
+            "tags": {
+                "building": "garage"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1832264,
+                "lon": 8.176805
+            },
+            "id": "c5946d3c-16c9-420d-8b45-d1c18915583c",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "be1e2e5c-ba98-4a31-b191-13edc88184bf",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 217,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "471",
+                "addr:postcode": "26127",
+                "addr:street": "Alexanderstra\u00dfe",
+                "addr:suburb": "Alexandersfeld",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1825911,
+                "lon": 8.1769256
+            },
+            "id": "d07100ae-6a02-4ded-aac4-dd5eb48b95cc",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "b74b4f96-03b4-47f8-be9c-25f6ff9551da",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3650,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "b5a2ab6f-f003-4810-b058-8d013b3784e5",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 678,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1825516,
+                "lon": 8.1780022
+            },
+            "id": "bc85721f-e094-418d-8db3-20907d204145",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "d82911f9-8eb3-40d1-95d4-52410a2da516",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 480,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.182966,
+                "lon": 8.1772105
+            },
+            "id": "c4348b84-b87e-4146-a923-11d15ea8f8e8",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "df9a1ee6-b1ec-45d0-9e94-8b74223d6cfc",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "b7fa1a5b-191f-40c7-b794-052d62f7c1b8",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 46,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1824833,
+                "lon": 8.1728844
+            },
+            "id": "eb485b5b-b9b3-46dc-bac7-e1ff83759aee",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "bc920a7d-4038-4d3f-a642-c3fcec4fbf36",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "b9e495e6-fc4c-4413-adfd-9c60cb00a1b0",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 873,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1804745,
+                "lon": 8.1782358
+            },
+            "id": "eafdde3b-7e21-430f-bd63-36e86a41a534",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "c91781db-2704-4962-83a0-fba3057c0bf4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2716,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 470,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1813487,
+                "lon": 8.1747694
+            },
+            "id": "c79e4787-c73d-4091-907e-9c9f268f9461",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "fb16dea8-d353-4930-9483-5e3878afd8ac",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 667,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1808623,
+                "lon": 8.1751153
+            },
+            "id": "f0abbc6f-75fa-423d-a8f1-1856a316d789",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "bfdd9382-48d3-4571-acf2-a50c06963298",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 19,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1809873,
+                "lon": 8.174003
+            },
+            "id": "f61db70b-571c-4ec9-bb5a-ce3cb0775f76",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "fa93e4de-c0b1-4e53-8f8a-fe2a622801d9",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 817,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1816012,
+                "lon": 8.1740071
+            },
+            "id": "c45a7ca3-f0a5-44c1-bf58-a58e6af68770",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "d973e9e2-2308-46c2-8d1c-c4b797a93203",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 656,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1818408,
+                "lon": 8.1724302
+            },
+            "id": "d6e3833b-ac20-445b-b033-425b171850d4",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "e8de43b4-08b3-4a06-b68a-72bb80d06d35",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "e2e3a9a3-0bac-4882-8a65-b1a6d692633a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 782,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1816932,
+                "lon": 8.171418
+            },
+            "id": "cff4c633-0133-4175-8f59-637e7081cd9d",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "a8849681-989b-4550-b421-7241d0184370",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2596,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 141,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        }
+    ]
+}

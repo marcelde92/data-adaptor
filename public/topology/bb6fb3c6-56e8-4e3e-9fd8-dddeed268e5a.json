@@ -1,0 +1,2001 @@
+{
+    "links": [
+        {
+            "source": "bb6fb3c6-56e8-4e3e-9fd8-dddeed268e5a",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_3"
+        },
+        {
+            "source": "node_5",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_40"
+        },
+        {
+            "source": "bb6fb3c6-56e8-4e3e-9fd8-dddeed268e5a",
+            "target": "node_35"
+        },
+        {
+            "source": "node_35",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_21"
+        },
+        {
+            "source": "bb6fb3c6-56e8-4e3e-9fd8-dddeed268e5a",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_9"
+        },
+        {
+            "source": "node_22",
+            "target": "node_32"
+        },
+        {
+            "source": "node_32",
+            "target": "node_26"
+        },
+        {
+            "source": "node_32",
+            "target": "node_33"
+        },
+        {
+            "source": "bb6fb3c6-56e8-4e3e-9fd8-dddeed268e5a",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_31"
+        },
+        {
+            "source": "node_31",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_27"
+        },
+        {
+            "source": "node_31",
+            "target": "node_34"
+        },
+        {
+            "source": "node_34",
+            "target": "node_42"
+        },
+        {
+            "source": "bb6fb3c6-56e8-4e3e-9fd8-dddeed268e5a",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_6"
+        },
+        {
+            "source": "node_8",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_19"
+        },
+        {
+            "source": "node_25",
+            "target": "node_37"
+        },
+        {
+            "source": "bb6fb3c6-56e8-4e3e-9fd8-dddeed268e5a",
+            "target": "node_39"
+        },
+        {
+            "source": "node_39",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_23"
+        },
+        {
+            "source": "node_39",
+            "target": "node_41"
+        },
+        {
+            "source": "bb6fb3c6-56e8-4e3e-9fd8-dddeed268e5a",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_4"
+        },
+        {
+            "source": "node_11",
+            "target": "node_30"
+        },
+        {
+            "source": "node_30",
+            "target": "node_16"
+        },
+        {
+            "source": "bb6fb3c6-56e8-4e3e-9fd8-dddeed268e5a",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_10"
+        },
+        {
+            "source": "node_12",
+            "target": "node_38"
+        },
+        {
+            "source": "node_38",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_36"
+        }
+    ],
+    "name": "Hauptstra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2289135,
+                "lon": 7.7749358
+            },
+            "id": "be1bbea1-9803-4048-adf9-5466193a7417",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "c4ce3622-b6c0-4296-ab1a-42e582ab4d9a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 357,
+            "tags": {
+                "building": "house",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2252185,
+                "lon": 7.7628166
+            },
+            "id": "eb7e544d-ed14-460e-81de-708049130a67",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "ed2286e2-9f79-4032-8124-d6f47ed64db0",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "e97a0f3c-6f9b-4bd5-b3da-ebbb3b5ad747",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 542,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:hamlet": "Augustfehn",
+                "addr:housenumber": "50",
+                "addr:postcode": "26689",
+                "addr:state": "Niedersachsen",
+                "addr:street": "Stahlwerkstra\u00dfe",
+                "amenity": "kindergarten",
+                "building": "kindergarten",
+                "name": "Evangelischer Kindergarten \"Die Br\u00fccke\"",
+                "phone": "04489 1731",
+                "source": "Bing",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2224262,
+                "lon": 7.7619719
+            },
+            "id": "cf3fbbc4-4966-4411-b824-1744943b0e5f",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "e8289d4c-ce4e-4835-ada0-61c0ef88a840",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 558,
+            "tags": {
+                "building": "yes",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2229517,
+                "lon": 7.7620677
+            },
+            "id": "a96670c3-df3d-48dc-8e53-42d8c05b62d7",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "eb53d54f-ae22-403f-aa04-d04642790a1c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 152,
+            "tags": {
+                "building": "school",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2223594,
+                "lon": 7.7610482
+            },
+            "id": "c5597beb-7928-4e69-a5bb-2b4eded2724f",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "b452d4a8-26c7-41cc-a3cd-d12ef5b62911",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 839,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "2A",
+                "addr:postcode": "26689",
+                "addr:state": "Niedersachsen",
+                "addr:street": "Schulstra\u00dfe",
+                "addr:suburb": "Augustfehn",
+                "building": "school",
+                "leisure": "sports_centre",
+                "name": "Turnhalle Haupt- und Realschule Augustfehn Schulstra\u00dfe",
+                "source": "Bing",
+                "sport": "multi",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2278821,
+                "lon": 7.763318
+            },
+            "id": "cca080dd-d660-49b2-9b38-3907e2e42ef5",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "e7393eb6-c60f-4aec-aa46-c26518f52594",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 624,
+            "tags": {
+                "building": "garage"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2277843,
+                "lon": 7.7632353
+            },
+            "id": "ba9fdd35-2c29-4eda-948c-7e004504b527",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "af5c2e1a-e07b-4204-8ce9-c59343a0d9cf",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 863,
+            "tags": {
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2153143,
+                "lon": 7.7679242
+            },
+            "id": "d47e32ea-0fe1-4cd1-b079-02e2a5718245",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "dfa484ad-9aa6-4fbe-98f3-2acb25d3da1a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 65,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2364434,
+                "lon": 7.7645068
+            },
+            "id": "bd00eaed-15e7-49ca-82fd-b6e67595f3c1",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "c06d3906-67a5-429f-964c-fa6e4697b13c",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 409,
+            "tags": {
+                "addr:housenumber": "1a",
+                "addr:street": "Ginsterweg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2366478,
+                "lon": 7.765871
+            },
+            "id": "c7918a81-62a3-4203-b7c3-30bacc307f04",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "ec3f0dcc-110c-4d64-b064-1d47466690f3",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 589,
+            "tags": {
+                "addr:housenumber": "104",
+                "addr:street": "Stahlwerkstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2363502,
+                "lon": 7.7657587
+            },
+            "id": "de70d2b1-ac80-4c2f-8823-e7b4190ddf5a",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "c638356a-62b2-4f2a-acc7-b3a1633923ab",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "f75d0157-17d9-482f-9177-8ba163f0900c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 722,
+            "tags": {
+                "addr:housenumber": "103a",
+                "addr:street": "Stahlwerkstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2365156,
+                "lon": 7.7640971
+            },
+            "id": "de3046b7-d87b-4a6d-93d5-09c545db0bdc",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "c80e3241-6e43-4721-86e4-3393e8559be6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3375,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 748,
+            "tags": {
+                "addr:housenumber": "1",
+                "addr:street": "Ginsterweg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2289703,
+                "lon": 7.7653586
+            },
+            "id": "c206c7f8-9894-4c54-a051-504f53d1ed9b",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "b961168b-54c4-49f3-8b86-814a0d109042",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 283,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "80",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2289348,
+                "lon": 7.7658135
+            },
+            "id": "e671784f-21d0-444a-9e1c-cc31aa966762",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "d2f1f052-e43a-42aa-abea-694eebff4651",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 101,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "79a",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2298129,
+                "lon": 7.7646003
+            },
+            "id": "dd6df572-ce6e-4ba4-9e8f-b6feb6da3be8",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "c8ce2161-17ea-4c84-b35a-e89783221547",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3460,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 337,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "79",
+                "addr:postcode": "26689",
+                "addr:street": "Stahlwerkstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2287902,
+                "lon": 7.765323
+            },
+            "id": "bc6b113e-56fc-4516-822e-0f1827c11f32",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "f4a1a467-fd17-448d-ba1c-831854e74b7b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2734,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 86,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "79",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.228749,
+                "lon": 7.7642449
+            },
+            "id": "fc331ac8-54fe-4211-8856-f24cd8cd7dcc",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "cdd5b258-cb4a-445d-b05d-43d08286c07f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 39,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "77",
+                "addr:postcode": "26689",
+                "addr:street": "Stahlwerkstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2288937,
+                "lon": 7.7662827
+            },
+            "id": "c64408e3-e47a-46d6-8ba9-6383555d6128",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "a8793ee3-c955-4a7f-b61b-9cd56f91d233",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3706,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 251,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "49",
+                "addr:postcode": "26689",
+                "addr:street": "Am Moorgraben"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2287377,
+                "lon": 7.7662637
+            },
+            "id": "c5ac9251-0432-4fab-a293-f3dd872d5837",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "e2450614-1ce7-4dcc-88e8-976bc39f45d7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3390,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 726,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "47",
+                "addr:postcode": "26689",
+                "addr:street": "Am Moorgraben"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2285504,
+                "lon": 7.7661879
+            },
+            "id": "fa204b2a-5e16-4405-aaa1-20ca4f278a54",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "bec89109-fba6-4913-a96f-bf8f69330ec0",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "c7565ce3-4767-4286-9aca-0ff931fb30f4",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 26,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "45",
+                "addr:postcode": "26689",
+                "addr:street": "Am Moorgraben"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2285377,
+                "lon": 7.7664604
+            },
+            "id": "e8bc6a97-40c8-40f7-a920-8592be0544a2",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "ca923903-1846-4b84-8109-563701ca4e67",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 215,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "43",
+                "addr:postcode": "26689",
+                "addr:street": "Am Moorgraben"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2287916,
+                "lon": 7.7666381
+            },
+            "id": "cf9e1d5d-1bb0-4467-92d5-29fce0023b45",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "f7cc77a9-47bf-447f-b3d8-afe0c3f8c271",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 821,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "41",
+                "addr:postcode": "26689",
+                "addr:street": "Am Moorgraben"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2278004,
+                "lon": 7.7632922
+            },
+            "id": "f9ef7e06-dd7a-4a79-ba64-33b18468b9f8",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "ff68dd26-483c-4f91-bbdf-8f1c2dc88d02",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 562,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26689",
+                "addr:street": "Friedensweg",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2278432,
+                "lon": 7.763476
+            },
+            "id": "dc30de6f-8164-4b1e-8635-72e25e1d3096",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "cc933eb9-bd81-4cb0-b231-05b40c3c222e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 357,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "4a",
+                "addr:postcode": "26689",
+                "addr:street": "Friedensweg",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2277367,
+                "lon": 7.7635723
+            },
+            "id": "f7348a10-a9b0-402d-b4e5-176c607ce4d3",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "dd2faa4f-d67d-450e-8262-e35a4ffaa846",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 191,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26689",
+                "addr:street": "Friedensweg",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2277803,
+                "lon": 7.7638714
+            },
+            "id": "b2958bc5-67b1-4389-8925-dda1916d8b50",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "faaf9089-4f0c-41a6-939e-5eea54fe2d2a",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 690,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26689",
+                "addr:street": "Friedensweg",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2158217,
+                "lon": 7.7665812
+            },
+            "id": "a5dbccb3-97b7-4df6-a38d-68bd85ffec99",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "ac7a7bdb-26db-4991-b188-100f2342b467",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 120,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "424",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2158816,
+                "lon": 7.7666517
+            },
+            "id": "f9b8480d-5fe7-41d0-a5fc-5e533742072b",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "aaeb94d3-453a-4650-b608-8148b5394b06",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2705,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 223,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "422",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2161738,
+                "lon": 7.7665224
+            },
+            "id": "cd078405-2f3a-40db-a358-987aa1b48652",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "e987891c-5a97-43bf-b70f-264706dee415",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 747,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "421",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2162583,
+                "lon": 7.7668458
+            },
+            "id": "ee4a91aa-2c12-41c5-ba02-ed90e6b5a679",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "a2929668-2909-4b7a-ad25-1fa98d90e9ee",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2872,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 123,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "419",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2158323,
+                "lon": 7.7672574
+            },
+            "id": "fd4b7ae8-a86e-44c7-9b97-881b174bfec6",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "fee6b17d-fef7-4e72-b8ad-6beb316d7c09",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 191,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "418",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2160956,
+                "lon": 7.767079
+            },
+            "id": "cb1402ab-0489-4109-a05a-dacc4d35b6f6",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "f508db0d-af2e-491b-909f-76215b728886",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 237,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "417",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2156351,
+                "lon": 7.7668046
+            },
+            "id": "e264ffc3-5966-42a5-aee4-79fc37f64273",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "e25ab33c-7208-41eb-bcae-d3346895de1f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 872,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "416",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2155893,
+                "lon": 7.7671986
+            },
+            "id": "bdb7c212-12a5-45f4-bbdb-0a0af0210cfc",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "b046fa0a-5db8-46d2-821b-2047ba6a9f91",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 225,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "414",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2160717,
+                "lon": 7.7675161
+            },
+            "id": "b3958e9b-3d5d-4f33-a950-dd36d4ae0542",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "dde95741-faeb-4a4a-a078-038d46560f76",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2631,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 287,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "413",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2155788,
+                "lon": 7.7674338
+            },
+            "id": "dd5b96f6-e1be-4760-9fca-1df23f3526ab",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "ae5993b0-bd98-4125-b633-68d862bad435",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 620,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "412",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2159897,
+                "lon": 7.767996
+            },
+            "id": "fc7612e3-cfe6-4717-90aa-8ae648fb6dc5",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "eb6ff4ef-b069-40fb-ac68-528386d25c07",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 153,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "409",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2171391,
+                "lon": 7.7702125
+            },
+            "id": "f61263c5-63ed-4112-abf8-0721f52ff1d3",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "e73b1b53-615b-4135-aef3-5040b10c7f06",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 387,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26689",
+                "addr:street": "Industriestra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2171832,
+                "lon": 7.7715771
+            },
+            "id": "a7f720af-4d04-46eb-8708-ff97db2568b0",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "f291efd6-81c6-4f20-a736-76f98b4ed376",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2605,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 561,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26689",
+                "addr:street": "Marktstra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2176171,
+                "lon": 7.7695331
+            },
+            "id": "f71a3c98-0798-40c5-b1b5-7ebd48c9a60b",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "a0707714-a827-41ac-ad32-2ec493b4b889",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 875,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "15",
+                "addr:postcode": "26689",
+                "addr:street": "Industriestra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2173222,
+                "lon": 7.7693349
+            },
+            "id": "c748d35e-5277-42ed-af2d-a74f9e26e5df",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "bae354af-5a7a-4e82-98d2-ef37225de29f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 129,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26689",
+                "addr:street": "Industriestra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2174476,
+                "lon": 7.770456
+            },
+            "id": "bfd7e87f-c5a8-4d87-a11c-b456edb549c8",
+            "node": "node_41",
+            "smartmeters": [
+                {
+                    "id": "ddaf6c68-5d1c-41bc-978f-571e634a4956",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 315,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26689",
+                "addr:street": "Industriestra\u00dfe",
+                "addr:suburb": "Augustfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.227721,
+                "lon": 7.7696666
+            },
+            "id": "f8f72705-15c9-4778-b254-77a00e58335f",
+            "node": "node_42",
+            "smartmeters": [
+                {
+                    "id": "cff7803d-dff6-4e1f-8d75-79bebe6c04b4",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "bc086a14-e301-4f1c-bb24-548aeeb640e9",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 559,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26689",
+                "addr:street": "An den Moork\u00e4mpen",
+                "addr:suburb": "Augustfehn"
+            }
+        }
+    ]
+}

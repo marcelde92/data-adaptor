@@ -1,0 +1,438 @@
+{
+    "links": [
+        {
+            "source": "ebd3f118-8e6f-4654-94ea-0147630174d6",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_1"
+        },
+        {
+            "source": "ebd3f118-8e6f-4654-94ea-0147630174d6",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_5"
+        },
+        {
+            "source": "ebd3f118-8e6f-4654-94ea-0147630174d6",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_3"
+        },
+        {
+            "source": "ebd3f118-8e6f-4654-94ea-0147630174d6",
+            "target": "node_6"
+        },
+        {
+            "source": "ebd3f118-8e6f-4654-94ea-0147630174d6",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_4"
+        }
+    ],
+    "name": "Im Vieh",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1499228,
+                "lon": 7.9782315
+            },
+            "id": "a675a88b-01ee-4a39-943d-c8f5f9b585e4",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "e1c5502c-2651-4d06-991a-cc0aa467e887",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "fabdd5a4-b622-4998-acce-d08071ced139",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2863,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 504,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "23",
+                "addr:postcode": "26160",
+                "addr:street": "Im Vieh",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1414861,
+                "lon": 7.9784812
+            },
+            "id": "fed18094-4f6d-4ef0-9ea0-87c15715c00b",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "cb5645d9-c253-4194-901e-19ed6c9c9983",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5091,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "e1773ce6-eb4c-4d78-b3ab-abcdd07fc93c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3780,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 728,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:housenumber": "1",
+                "addr:postcode": "26188",
+                "addr:street": "Lienenweg",
+                "building": "yes",
+                "building:levels": "4"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.141443,
+                "lon": 7.9781607
+            },
+            "id": "e5a82b43-a717-4513-973a-02b34ec61b96",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "e45b445b-1574-48fc-93ee-8ed56c9295ef",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 770,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1370644,
+                "lon": 7.9757095
+            },
+            "id": "ed3a1145-f7d3-4786-ae54-03488f1c307e",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "daba2400-3c2e-497c-b553-6862946bca2e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3769,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 773,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1369051,
+                "lon": 7.9762581
+            },
+            "id": "fb485007-d196-4b19-9692-660aae7815ec",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "ebca2687-90fb-4f95-a024-459504837124",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3185,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 660,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1456156,
+                "lon": 7.9660222
+            },
+            "id": "b0833e37-bbaf-481f-a7cc-190ffae829ba",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "c6904c2c-0386-4f1e-a402-674d443d5469",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4180,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 327,
+            "tags": {
+                "building": "yes",
+                "man_made": "works",
+                "name": "Ziegelei R\u00f6ben"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1462156,
+                "lon": 7.9695395
+            },
+            "id": "c6bdf469-d498-4585-b238-47ba86f7f27c",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "f2bf6efb-77ce-4b50-a316-190cb404440b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3154,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "f601347e-7bf0-4ac9-b3a7-2b74e8946c82",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3229,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 724,
+            "tags": {
+                "building": "yes",
+                "man_made": "works"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1417093,
+                "lon": 7.9788933
+            },
+            "id": "f32b99ae-fc02-4929-8d92-73b590727ae4",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "d79a4f62-74c9-4dcc-9874-7a638fba1803",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 71,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:housenumber": "10",
+                "addr:postcode": "26188",
+                "addr:street": "Im Vieh",
+                "name": "Holigart GmbH",
+                "phone": "04405-483507"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1416491,
+                "lon": 7.9789576
+            },
+            "id": "cca3c311-98d6-4a8e-8a6e-8f826089efd1",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "e2c80b5d-d60e-47a4-91f7-26db6da97778",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3126,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 138,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:housenumber": "10",
+                "addr:postcode": "26188",
+                "addr:street": "Im Vieh",
+                "craft": "photographer",
+                "craft_1": "luftaufnahmen",
+                "name": "German - Photographity",
+                "operator": "Sascha Seidel, Matti Rosenkranz, Martin Albrecht",
+                "website": "www.German-Photographity.de"
+            }
+        }
+    ]
+}

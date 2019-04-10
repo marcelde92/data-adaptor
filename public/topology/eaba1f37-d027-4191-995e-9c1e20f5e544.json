@@ -1,0 +1,1137 @@
+{
+    "links": [
+        {
+            "source": "eaba1f37-d027-4191-995e-9c1e20f5e544",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_4"
+        },
+        {
+            "source": "node_18",
+            "target": "node_23"
+        },
+        {
+            "source": "eaba1f37-d027-4191-995e-9c1e20f5e544",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_6"
+        },
+        {
+            "source": "node_7",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_12"
+        },
+        {
+            "source": "node_19",
+            "target": "node_21"
+        },
+        {
+            "source": "eaba1f37-d027-4191-995e-9c1e20f5e544",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_1"
+        },
+        {
+            "source": "node_13",
+            "target": "node_17"
+        },
+        {
+            "source": "node_20",
+            "target": "node_22"
+        },
+        {
+            "source": "eaba1f37-d027-4191-995e-9c1e20f5e544",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_8"
+        },
+        {
+            "source": "eaba1f37-d027-4191-995e-9c1e20f5e544",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_3"
+        },
+        {
+            "source": "eaba1f37-d027-4191-995e-9c1e20f5e544",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_16"
+        }
+    ],
+    "name": "Osterkamp",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2149206,
+                "lon": 7.9360399
+            },
+            "id": "a62fbe67-2646-426a-ae6a-8b1686c83a62",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "a75b7eec-ea92-4c6c-8be9-5d54ba07f4da",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2778,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 730,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2a",
+                "addr:postcode": "26655",
+                "addr:street": "Ostermoorstra\u00dfe",
+                "addr:suburb": "Torsholt",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2150008,
+                "lon": 7.9359247
+            },
+            "id": "ba4853c6-485f-444a-b07c-93f9c16b87fc",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "eee722e1-e351-419b-8d31-5ff246cf6dd0",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3176,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 181,
+            "tags": {
+                "building": "garage"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2150676,
+                "lon": 7.9357435
+            },
+            "id": "b329b5ac-d8b8-40ef-9dfc-6cefa8327315",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "de30077c-1a43-4466-9b3e-6f8dd8c3d3bf",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2685,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 894,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26655",
+                "addr:street": "Ostermoorstra\u00dfe",
+                "addr:suburb": "Torsholt",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2149235,
+                "lon": 7.9357102
+            },
+            "id": "b1933422-c90f-4c98-a7db-71f7f8d6cf96",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "c81441e8-7460-4276-9192-1bd6d0b050e3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3123,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 288,
+            "tags": {
+                "building": "roof",
+                "layer": "1"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2149411,
+                "lon": 7.9356646
+            },
+            "id": "c2d3949f-b141-4d52-8d03-6f26385faccb",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "bb6b6f08-e85d-49ec-bf26-977a34b1ab85",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 100,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2149163,
+                "lon": 7.9357539
+            },
+            "id": "bc38c0a3-343c-4575-88c3-b535e47a7360",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "bb3ee5fb-f82f-4cef-a2d8-7498572fd691",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3667,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "cf77cb0f-e466-4b43-b459-1ecc40143442",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 232,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.21491,
+                "lon": 7.9357929
+            },
+            "id": "cd8f9ccd-b76b-4417-a42a-b15c0b740710",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "f08bb6ea-a81b-4b8e-ac59-be9fdc2eb29e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3186,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 401,
+            "tags": {
+                "building": "roof",
+                "layer": "1"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2116559,
+                "lon": 7.9370283
+            },
+            "id": "e3997307-29f5-4ca1-90cb-530ad69a9aae",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "c210757c-5fcf-4fda-86b9-057b95cfad44",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4250,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 152,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:housenumber": "28",
+                "addr:postcode": "26655",
+                "addr:street": "Osterkamp",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2114585,
+                "lon": 7.9370019
+            },
+            "id": "b8c93b25-4753-4249-a0cf-f4e37033575b",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "a2909194-a1be-4bbc-a2b7-29a43403768e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3208,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 447,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "26",
+                "addr:postcode": "26655",
+                "addr:street": "Osterkamp",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2067559,
+                "lon": 7.9371017
+            },
+            "id": "c4f990e5-bb4a-4e7e-ab1d-c608bc4ed289",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "bf717c42-c461-455a-ac3d-034d7ba587da",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4485,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "af8e12e1-781e-4a7a-8780-b58932746066",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4389,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 589,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "4a",
+                "addr:postcode": "26655",
+                "addr:street": "Rostruper Stra\u00dfe",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2063751,
+                "lon": 7.9373339
+            },
+            "id": "ef8af1dd-6036-449d-b72a-8da9e4d981cf",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "dfea277f-6b7d-4e7f-a1d0-38c6296d15ee",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3757,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "aceaa4e0-a9da-40d6-8502-7801ce584681",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4566,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 218,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26655",
+                "addr:street": "Rostruper Stra\u00dfe",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2066145,
+                "lon": 7.9357732
+            },
+            "id": "c95cdb5a-83e9-4ac9-9770-c477d86abd27",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "c5cd45a8-0aba-41ee-a4df-6d872c2bf554",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3210,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 101,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26655",
+                "addr:street": "Rostruper Stra\u00dfe",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.206236,
+                "lon": 7.9358189
+            },
+            "id": "b75a64e8-6f8d-48da-ad7f-4c7b92d8a49d",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "adfdd5e6-9f8c-431e-9e3e-e7e5aca187a5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4100,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 879,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1a",
+                "addr:postcode": "26655",
+                "addr:street": "Ohrweger Stra\u00dfe",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.206065,
+                "lon": 7.9356019
+            },
+            "id": "f3e5e808-f6c4-4188-b683-e58310ce0aef",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "abf45f1d-b608-4c56-b737-eb96624e7593",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3900,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 532,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26655",
+                "addr:street": "Ohrweger Stra\u00dfe",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2075767,
+                "lon": 7.9352821
+            },
+            "id": "f203ee7b-1be1-4484-b410-92c80d845a0c",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "d9ce848a-8b4e-4dd7-92a6-9ac0d46718b8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4106,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 332,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "30",
+                "addr:postcode": "26655",
+                "addr:street": "R\u00fcschendamm",
+                "addr:suburb": "Torsholt",
+                "amenity": "cafe",
+                "name": "Bauerncaf\u00e9",
+                "operator": "Inge Dierks"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2081555,
+                "lon": 7.9370469
+            },
+            "id": "f0f373a4-a718-48ba-acd5-ed611593b193",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "d0577ee2-7f6d-425d-b5a6-442dd7d1c052",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2868,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 248,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26655",
+                "addr:street": "Osterkamp",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2079073,
+                "lon": 7.9365402
+            },
+            "id": "dc953c3e-33ef-43b8-9045-9055efc12aed",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "c64f3289-0ce5-45b4-8154-01f965e155b3",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 669,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26655",
+                "addr:street": "Osterkamp",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.209727,
+                "lon": 7.9367391
+            },
+            "id": "b4889465-dcad-4817-917e-45333ab1bb90",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "dbba9669-9afb-4ab9-be75-8dbdd80043c6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2820,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 323,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "14",
+                "addr:postcode": "26655",
+                "addr:street": "Osterkamp",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2094114,
+                "lon": 7.937304
+            },
+            "id": "ae93f2be-84e3-49f8-b3ac-2b5092a25e8b",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "a995983d-b74c-45fb-b266-73f987459f6e",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 130,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26655",
+                "addr:street": "Osterkamp",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.209005,
+                "lon": 7.9369836
+            },
+            "id": "e4a34080-44f9-4290-aa00-ec4ec6ac6a51",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "a5d10eef-0da6-42d4-967a-5aa7f7b36632",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5065,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 8,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26655",
+                "addr:street": "Osterkamp",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2091792,
+                "lon": 7.9374979
+            },
+            "id": "c048bd35-76f0-49e8-8ebf-f1b0ee56e59d",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "d8439356-1dd8-4be6-8665-f106755747a7",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 587,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "11",
+                "addr:postcode": "26655",
+                "addr:street": "Osterkamp",
+                "addr:suburb": "Torsholt"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2072892,
+                "lon": 7.9437974
+            },
+            "id": "ab474f8b-fb12-47d2-b5ed-dde7abe884c3",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "ad6085e9-cf53-4505-8efa-2ec121fd21d4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2722,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 628,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "17",
+                "addr:postcode": "26655",
+                "addr:street": "Torsholter Weg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2059901,
+                "lon": 7.9497182
+            },
+            "id": "a23143a0-1ec3-4d2a-b71f-9271f08bbb0e",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "f91a3d42-c30e-4502-bb17-4c9da2d4a56d",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 673,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "31",
+                "addr:postcode": "26655",
+                "addr:street": "Torsholter Weg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2081137,
+                "lon": 7.9370083
+            },
+            "id": "afda7f75-9a37-4f29-95d0-cdc71cdf6fae",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "b9b43288-0389-457a-9b03-230bce55c4da",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 510,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26655",
+                "addr:street": "Osterkamp",
+                "addr:suburb": "Torsholt",
+                "amenity": "cafe",
+                "name": "Thea's Caf\u00e9"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2076182,
+                "lon": 7.935399
+            },
+            "id": "d8045ecf-67bc-4f4b-9328-b6d53e2816b4",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "fa41475a-33bf-43df-b015-53525a05b553",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3456,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 55,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "30",
+                "addr:postcode": "26655",
+                "addr:street": "R\u00fcschendamm",
+                "addr:suburb": "Torsholt",
+                "amenity": "restaurant",
+                "cuisine": "german",
+                "email": "info@dierks-torsholt.de",
+                "fax": "04488 73500",
+                "name": "Gasthof Dierks",
+                "phone": "04488-2341",
+                "website": "http://www.dierks-torsholt.de"
+            }
+        }
+    ]
+}

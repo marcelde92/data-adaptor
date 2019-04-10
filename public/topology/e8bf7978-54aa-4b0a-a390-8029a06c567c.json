@@ -1,0 +1,503 @@
+{
+    "links": [
+        {
+            "source": "e8bf7978-54aa-4b0a-a390-8029a06c567c",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_4"
+        },
+        {
+            "source": "node_5",
+            "target": "node_8"
+        },
+        {
+            "source": "e8bf7978-54aa-4b0a-a390-8029a06c567c",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_1"
+        },
+        {
+            "source": "node_9",
+            "target": "node_11"
+        },
+        {
+            "source": "e8bf7978-54aa-4b0a-a390-8029a06c567c",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_2"
+        },
+        {
+            "source": "node_6",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_10"
+        }
+    ],
+    "name": "e8bf7978-54aa-4b0a-a390-8029a06c567c",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1768036,
+                "lon": 8.1757771
+            },
+            "id": "df3f4c9f-7de4-4f71-a4c7-d3c8fef02e87",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "c5ce90f6-794b-4d5d-9852-61a6692fb50d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4013,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 368,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1750864,
+                "lon": 8.1748113
+            },
+            "id": "ac9284bf-c7a5-4d8b-9094-7e2eb8215538",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "fda76eaa-65d1-44e4-a493-e906957f38c3",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 473,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1756255,
+                "lon": 8.1769533
+            },
+            "id": "a48d7582-5452-42a9-a9b9-417adf6708dd",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "c79f4fbc-fecc-4b28-b1bd-77e1c6715fa6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3567,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 817,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.175201,
+                "lon": 8.1759343
+            },
+            "id": "f94b0ce2-93e9-4c95-bebe-21eacf90942e",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "b4adffb6-0b77-4732-9ffa-df71054dff7b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3777,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 890,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1758308,
+                "lon": 8.175074
+            },
+            "id": "c84db9a5-fcd7-40dc-abc7-c99ad636d592",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "c31cf72e-5389-422d-ae80-dfb5b9af096f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3178,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 36,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1768252,
+                "lon": 8.1726988
+            },
+            "id": "f0815548-4787-4d00-b7d9-530090df9a5e",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "f35f00b9-95ae-44e8-a383-0032de9bd340",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 471,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1761173,
+                "lon": 8.1714472
+            },
+            "id": "b46c37ec-7664-4047-a15c-d873443ea5d9",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "b332259c-161b-4e7e-9717-1a2cfc1ded02",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5245,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 172,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1745115,
+                "lon": 8.1724392
+            },
+            "id": "b6023059-11a7-45e0-bce1-e9ef44e8e5c7",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "da5888c9-e683-451a-8f06-cf80b8494eee",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2897,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 635,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1744033,
+                "lon": 8.171977
+            },
+            "id": "e8443027-af78-4c61-b511-86094c063f4b",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "cdef7832-eab5-4d02-9238-d490009b3570",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3608,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 152,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.174226,
+                "lon": 8.1715139
+            },
+            "id": "a15e9cd4-478c-4dc3-9757-1e054a6c242c",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "ed15c9f6-df46-47ff-b5d3-63b17c9b5815",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2588,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 368,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1754162,
+                "lon": 8.1739015
+            },
+            "id": "b3c8cca9-987a-4f1e-85b5-e28c6fa14828",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "f49af29a-4391-4773-8974-07122bf9afcd",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4485,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "f8a422c2-da27-405a-9f6e-886fba0fd3cb",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4114,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 64,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1760334,
+                "lon": 8.1732671
+            },
+            "id": "abd149cd-12d8-403f-840e-313a75afcdd2",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "d41d61cb-4223-4ef0-aff8-b027ed3315bc",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 616,
+            "tags": {
+                "building": "bunker",
+                "bunker_type": "hardened_aircraft_shelter",
+                "military": "bunker"
+            }
+        }
+    ]
+}

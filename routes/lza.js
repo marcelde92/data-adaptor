@@ -173,16 +173,28 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
 
     //FIXME: We need to request amd cache all subnet ids
     //var subnet = tdmCache.getSubnetIdsFor(req.params.id);
-    var subnet = ['SM1', 'SM2', 'SM3', 'SM4', 'SM5', 'SM6'];
+    //var subnet = ['SM1', 'SM2', 'SM3', 'SM4', 'SM5', 'SM6'];
 
-    var queries = [];
+    //var queries = [];
     //FIXME: "Ersatzwert needs to be part of an ENUM
-    queries.push("SELECT plausibility_value, plausibility_source FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid IN (" + subnet + ");");
+    //queries.push("SELECT plausibility_value, plausibility_source FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid IN (" + subnet + ");");
 
     //FIXME: manual aggregation here
 
     //FIXME: Debug
-    res.render('debug', { content: queries });
+    //res.render('debug', { content: queries });
+
+
+    //FIXME: check for subnets (at least check if correct subnet was suplied)
+        var fs = require('fs');
+        fs.readFile( __dirname + '/../public/CSV/07_plausi_subnet-status_nearest.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+        });
+
 
     /*
      request({
@@ -210,9 +222,9 @@ router.get('/plausibility/meter/:id/past', function(req, res, next) {
     //FIXME: Debug
     //res.render('debug', { content: queries });
 
-    if (req.params.id == 'e31209cf-0cd1-4739-87d0-96f142d1dd68') {
+    if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
         var fs = require('fs');
-        fs.readFile( __dirname + '/../public/CSV/06_plausi_sm-status_nearest.csv','utf8', function (err, data) {
+        fs.readFile( __dirname + '/../public/CSV/08_plausi_sm_24hrs.csv','utf8', function (err, data) {
             if (err) {
                 throw err;
             }
@@ -242,11 +254,25 @@ router.get('/plausibility/meter/:id/past', function(req, res, next) {
  */
 router.get('/plausibility/meter/:id', function(req, res, next) {
 
-    var queries = [];
-    queries.push("SELECT mrid, plausibility_value, plausibility_source FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid =" + req.params.id + ";");
+    //var queries = [];
+    //queries.push("SELECT mrid, plausibility_value, plausibility_source FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid =" + req.params.id + ";");
 
     //FIXME: Debug
-    res.render('debug', { content: queries });
+    //res.render('debug', { content: queries });
+
+    if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
+        var fs = require('fs');
+        fs.readFile( __dirname + '/../public/CSV/06_plausi_sm-status_nearest_SMe91a.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+        });
+    } else {
+        res.setHeader('Content-Type', 'application/json');
+        res.send(JSON.stringify({ error: {code: 404, message: 'Smart meter id was not found'}}));
+    }
 
     /*
      request({

@@ -1,0 +1,1507 @@
+{
+    "links": [
+        {
+            "source": "d2aa88f3-b69c-441b-a91f-fc00ca70c772",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_1"
+        },
+        {
+            "source": "node_2",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_4"
+        },
+        {
+            "source": "node_7",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_8"
+        },
+        {
+            "source": "node_10",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_12"
+        },
+        {
+            "source": "node_13",
+            "target": "node_14"
+        },
+        {
+            "source": "node_15",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_17"
+        },
+        {
+            "source": "node_18",
+            "target": "node_19"
+        },
+        {
+            "source": "node_20",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_21"
+        },
+        {
+            "source": "node_21",
+            "target": "node_22"
+        },
+        {
+            "source": "node_23",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_24"
+        },
+        {
+            "source": "node_25",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_26"
+        },
+        {
+            "source": "node_27",
+            "target": "node_28"
+        },
+        {
+            "source": "node_29",
+            "target": "node_31"
+        },
+        {
+            "source": "node_31",
+            "target": "node_30"
+        },
+        {
+            "source": "node_31",
+            "target": "node_32"
+        }
+    ],
+    "name": "Moslesh\u00f6he",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1040546,
+                "lon": 8.1070298
+            },
+            "id": "cc5e62c0-3f44-4d38-bef4-ae71570542d7",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "fa24b3da-cf1a-401e-bf1c-8fce66a41cff",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 144,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1047913,
+                "lon": 8.1066121
+            },
+            "id": "f1ff13b6-1ba9-4ed7-bbe8-2cd885fea59c",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "f81f70d3-9e4b-4472-93df-dad4082fb089",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 597,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1063622,
+                "lon": 8.1098621
+            },
+            "id": "b6d9853b-9b10-46c8-ab6e-74e3112fc83d",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "a6d25187-9196-4f39-b66a-6bbde235a006",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 873,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26188",
+                "addr:street": "H\u00e4herweg",
+                "addr:suburb": "Friedrichsfehn",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1048372,
+                "lon": 8.1069384
+            },
+            "id": "e67b7bd4-bae5-4a83-9dbc-9f15ccd58b79",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "b3ba3afa-dacd-4a5f-bdde-b8206742b7f4",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 457,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1049261,
+                "lon": 8.1073297
+            },
+            "id": "c9680094-a803-425b-a389-b547ccaf809a",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "a11ebfb1-3489-4987-ad60-90ed764f0ade",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3547,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 325,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1037114,
+                "lon": 8.1042377
+            },
+            "id": "e7eb0894-c31b-42b1-83bc-6bd27b3534c8",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "c9aec22c-6446-4ca2-ab42-83c6f14cc39e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 725,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1042268,
+                "lon": 8.1070126
+            },
+            "id": "eb88fb97-7f21-416f-afa0-1df01e898b78",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "e15a1963-69fe-49b7-8aba-4ba21525a8a0",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 280,
+            "tags": {
+                "addr:street": "Moslesh\u00f6he",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1040977,
+                "lon": 8.1076396
+            },
+            "id": "ee57e013-b3f9-4c32-9901-964abea6ba77",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "dc01a106-33a3-4369-b0df-9c68737ef1dc",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 369,
+            "tags": {
+                "addr:street": "Moslesh\u00f6he",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1073581,
+                "lon": 8.1077435
+            },
+            "id": "fbf85242-a1c5-4ba8-8da9-822859eee035",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "ca574522-da09-4764-aa75-e8b833b9d50f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 136,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "11",
+                "addr:postcode": "26188",
+                "addr:street": "H\u00e4herweg",
+                "addr:suburb": "Friedrichsfehn",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1050761,
+                "lon": 8.1088851
+            },
+            "id": "feef104a-bc25-459a-b7e4-25551bf0bf8f",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "dcb5f779-4601-40c7-a50d-4af49fa1113e",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 126,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26188",
+                "addr:street": "H\u00e4herweg",
+                "addr:suburb": "Friedrichsfehn",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1067828,
+                "lon": 8.1079784
+            },
+            "id": "d3b09f76-c95f-4d27-b44b-a51012174571",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "d97c8c3c-6b5b-41b5-b070-09b806834329",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 883,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26188",
+                "addr:street": "H\u00e4herweg",
+                "addr:suburb": "Friedrichsfehn",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1053814,
+                "lon": 8.1099095
+            },
+            "id": "deba59dc-8eb2-4308-9268-c262cbe710dc",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "f9ef5138-23d2-4ed8-93ce-639c7ed76128",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 140,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26188",
+                "addr:street": "H\u00e4herweg",
+                "addr:suburb": "Friedrichsfehn",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1045936,
+                "lon": 8.1061116
+            },
+            "id": "d5aeb634-f0fc-424a-b821-b4124f1a3f48",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "cf75e44c-8bc1-40c4-86e8-82cf08beb932",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 624,
+            "tags": {
+                "addr:street": "Moslesh\u00f6he",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1035256,
+                "lon": 8.1030508
+            },
+            "id": "ecca0f94-c428-4ae0-9969-130371b9d143",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "eea0a6b3-9f79-491b-8db1-c1f6b827c399",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 139,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1039499,
+                "lon": 8.1069249
+            },
+            "id": "dd40ed14-7fb1-439b-9e33-1c24ec76c03b",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "be15d42d-db59-45c9-8b0f-848488e285b4",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 533,
+            "tags": {
+                "addr:street": "Moslesh\u00f6he",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.103166,
+                "lon": 8.1031328
+            },
+            "id": "d29dbc38-0ff2-4d86-8778-d5187234be9e",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "ee0f811c-07e7-4e91-930c-3aceb938cf6a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 770,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1041625,
+                "lon": 8.1056333
+            },
+            "id": "dd0faa3c-80a5-4473-ae99-30436d447f6b",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "a01dfd2c-f662-4edd-a722-66fb6dd06a5b",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 792,
+            "tags": {
+                "addr:street": "Moslesh\u00f6he",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1037777,
+                "lon": 8.106246
+            },
+            "id": "de4b33e1-8739-4e3b-9c17-9b461d9e90c6",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "ea38b628-6f77-42d5-b6fe-ec05c4578f3b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3592,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 318,
+            "tags": {
+                "addr:street": "Moslesh\u00f6he",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1055492,
+                "lon": 8.1112098
+            },
+            "id": "b8261c8e-ece9-49d7-86ed-7ac6a2494ddb",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "ada115ce-73f1-4629-875e-cf368d43bef5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3265,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "fd434cf2-9299-4170-8e95-838f6edd86ba",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 34,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26188",
+                "addr:street": "H\u00e4herweg",
+                "addr:suburb": "Friedrichsfehn",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1063125,
+                "lon": 8.1087349
+            },
+            "id": "a6508240-fac4-4d01-9c95-cd8af56e7d47",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "ecec3cc1-ce40-4c2b-8121-5d06a3f1d72a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 865,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "7",
+                "addr:postcode": "26188",
+                "addr:street": "H\u00e4herweg",
+                "addr:suburb": "Friedrichsfehn",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.104106,
+                "lon": 8.1076648
+            },
+            "id": "ad58dbd5-93c8-457d-97ad-e3fa5d940854",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "a8203da8-7b79-4595-972e-b1e4b88dc5ab",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 277,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26188",
+                "addr:street": "Moslesh\u00f6he"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1042339,
+                "lon": 8.1070365
+            },
+            "id": "e7c421c6-1267-459b-ae6e-67e8266974ff",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "f18cc486-b077-4084-8588-f19bb9a288dc",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 384,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "3a",
+                "addr:postcode": "26188",
+                "addr:street": "Moslesh\u00f6he"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1039449,
+                "lon": 8.1069002
+            },
+            "id": "df41d85f-fefc-4844-afaf-ad64e2903abc",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "f8ec854a-4713-488e-8ba9-60eb23fd3455",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 663,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26188",
+                "addr:street": "Moslesh\u00f6he"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1035306,
+                "lon": 8.1030513
+            },
+            "id": "a1731b06-90ee-41f2-ae01-d338043d8af7",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "f93f9d55-1a6c-448f-9ac6-a5f48fe1b3ba",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3690,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 442,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "108a",
+                "addr:postcode": "26188",
+                "addr:street": "K\u00fcstenkanalstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1031674,
+                "lon": 8.1031642
+            },
+            "id": "ef695323-bf2d-4669-8720-94140342b184",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "ac7c3942-4de9-4308-899b-47d345f60359",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2457,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 256,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "108",
+                "addr:postcode": "26188",
+                "addr:street": "K\u00fcstenkanalstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1041469,
+                "lon": 8.1056307
+            },
+            "id": "d9253ff3-dce9-4fb0-b457-cd2e6eef3b4e",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "b292c197-b22b-4634-b3d6-648220d7f815",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3740,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 620,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26188",
+                "addr:street": "Moslesh\u00f6he"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1038093,
+                "lon": 8.1063059
+            },
+            "id": "a36f98ce-8357-4ce3-999b-9c83859e9f7e",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "f774af48-cea0-453c-88da-df94b215eea4",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 415,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26188",
+                "addr:street": "Moslesh\u00f6he"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1049372,
+                "lon": 8.1073142
+            },
+            "id": "c8a1e8d4-2567-4019-bb28-1c50f1c28a1e",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "d0e78526-2655-4ee7-b1d3-024ab897130a",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "eff10d56-dd3e-4fa4-92ac-ba181d93e55c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 223,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "20",
+                "addr:postcode": "26188",
+                "addr:street": "Moslesh\u00f6he",
+                "addr:suburb": "Friedrichsfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1048886,
+                "lon": 8.1069289
+            },
+            "id": "f292bafd-0ecf-431b-ac4d-954c216dfae6",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "cb722896-ab10-4d03-984c-2b5866261a02",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 613,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "18",
+                "addr:postcode": "26188",
+                "addr:street": "Moslesh\u00f6he",
+                "addr:suburb": "Friedrichsfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1048156,
+                "lon": 8.106599
+            },
+            "id": "a7adbf48-6a19-4bf3-9370-a54e57f8adfa",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "b3e0f002-fe38-45d8-b744-cbbdaa6d8a79",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 226,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "16",
+                "addr:postcode": "26188",
+                "addr:street": "Moslesh\u00f6he",
+                "addr:suburb": "Friedrichsfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1045493,
+                "lon": 8.1061366
+            },
+            "id": "df7d8f8e-b707-470b-9456-0d6429ea8a46",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "cc908175-cbe4-49c8-8bf8-7373a4f60131",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3218,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "b0fb5ed9-afe1-40d3-ab30-b06468ec73d5",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 543,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "14b",
+                "addr:postcode": "26188",
+                "addr:street": "Moslesh\u00f6he",
+                "addr:suburb": "Friedrichsfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1044422,
+                "lon": 8.1061852
+            },
+            "id": "a4b1adf6-6ad5-405d-add0-e9280ed7b884",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "f6a3d682-a480-4461-b583-d0ec463a5231",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 217,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "14a",
+                "addr:postcode": "26188",
+                "addr:street": "Moslesh\u00f6he",
+                "addr:suburb": "Friedrichsfehn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1043562,
+                "lon": 8.1062339
+            },
+            "id": "fc404bf1-e2ed-4813-b5a4-b1d6d2dbecb4",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "c06f950f-3f37-4733-9902-15d2272ad859",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 494,
+            "tags": {
+                "addr:city": "Edewecht",
+                "addr:country": "DE",
+                "addr:housenumber": "14",
+                "addr:postcode": "26188",
+                "addr:street": "Moslesh\u00f6he",
+                "addr:suburb": "Friedrichsfehn"
+            }
+        }
+    ]
+}

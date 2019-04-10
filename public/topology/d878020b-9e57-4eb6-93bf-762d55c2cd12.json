@@ -1,0 +1,824 @@
+{
+    "links": [
+        {
+            "source": "d878020b-9e57-4eb6-93bf-762d55c2cd12",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_1"
+        },
+        {
+            "source": "node_2",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_4"
+        },
+        {
+            "source": "node_5",
+            "target": "node_6"
+        },
+        {
+            "source": "node_8",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_9"
+        },
+        {
+            "source": "node_10",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_11"
+        },
+        {
+            "source": "node_14",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_16"
+        },
+        {
+            "source": "node_17",
+            "target": "node_18"
+        }
+    ],
+    "name": "Barkenweg",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1320576,
+                "lon": 8.2886157
+            },
+            "id": "f9fdc1f6-d12c-425f-8286-85f927682c14",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "f3113522-46fc-454b-b024-13f49fc0c6a4",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 116,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1313054,
+                "lon": 8.2872158
+            },
+            "id": "d33d585b-eaaf-431f-aea3-a78d92723d9d",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "ee20277f-666c-437d-a4ef-35d90f8aaa65",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 442,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.132781,
+                "lon": 8.2864809
+            },
+            "id": "df4a8fe3-2abc-487b-8408-5a91985d00d2",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "d4e39499-4105-4470-96fb-4e06cdfc4915",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 387,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.132847,
+                "lon": 8.2861178
+            },
+            "id": "f3d630c1-2529-4fc2-a07f-c2d38293e187",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "a131c849-4142-4a11-8bed-4a4a7a50bcce",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 59,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1316353,
+                "lon": 8.2844146
+            },
+            "id": "a533433a-0d12-42fe-861b-1e18a55bb925",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "f3b0cc8f-f09a-47a6-9b7c-233f74d0351d",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 661,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.131525,
+                "lon": 8.2844186
+            },
+            "id": "d27d7a3e-9e7c-4e45-98d7-178a939a2216",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "c46bd133-d0bf-42ed-b671-f163c5b8b67a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 49,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.131794,
+                "lon": 8.2845189
+            },
+            "id": "c0af67d7-a1dc-4f22-9755-536dec3f381e",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "c2054f31-ab1f-45c4-b3ec-5f9cb54d8084",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 481,
+            "tags": {
+                "addr:housenumber": "6",
+                "addr:street": "Barkenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1307037,
+                "lon": 8.2869838
+            },
+            "id": "b6ba1c88-675b-4696-8b23-06df31befc4b",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "a73b2525-99f5-4f22-a6ac-19fdb0a59c9c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 842,
+            "tags": {
+                "addr:housenumber": "3",
+                "addr:street": "Barkenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1274925,
+                "lon": 8.2825369
+            },
+            "id": "a41c31cf-74f4-4908-a069-def710c5558b",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "a2b50b37-24ca-4415-a887-ff65f5b5ea4f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2622,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 146,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1281432,
+                "lon": 8.2847861
+            },
+            "id": "a4db76a9-47c8-4401-90a2-dca879767d82",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "afc05af4-4710-4bbb-8ee1-5f05070b6e1f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 250,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1274076,
+                "lon": 8.2828139
+            },
+            "id": "ddab3e28-08f1-4703-834e-2f595406e00c",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "b3c9967d-1b5f-4bfb-bd24-3fe5ac11a725",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3178,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 114,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1280161,
+                "lon": 8.2846819
+            },
+            "id": "a113a9a9-49b9-4281-a449-bfbd5033ee02",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "fb1d1b9b-cf45-439f-a23b-76f92416af44",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 617,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1356431,
+                "lon": 8.2867391
+            },
+            "id": "b265fb2d-252d-4125-b7cf-4d14a02a81ed",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "c00a5be2-c73b-4d75-92b3-27fd73f1db9b",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 481,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1347716,
+                "lon": 8.2857874
+            },
+            "id": "ce0733d8-75f0-4ae1-8dc1-d6ef1a6fc6a2",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "eb550a19-bf3d-4baf-8868-e98f54d8f16a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 752,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1360966,
+                "lon": 8.2866214
+            },
+            "id": "fe4f10da-a1c8-447b-93c8-af7ce6df06a4",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "b1858220-f552-4567-906f-369fd9950d16",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3243,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 432,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.135819,
+                "lon": 8.2871835
+            },
+            "id": "fa186230-d7da-4989-a267-4e1911d5bb56",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "b1b0b8de-ecc2-4580-8842-09f100f9e1f8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2733,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 301,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1323009,
+                "lon": 8.2875889
+            },
+            "id": "ff25b01e-0f2f-49a7-9b8f-c77aeb001633",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "cc15f3b3-645d-4ea4-826f-3c1a4c604d03",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "f187987c-620b-42d0-9801-f02d4835be26",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 73,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1322655,
+                "lon": 8.2882324
+            },
+            "id": "e687915d-77dc-4c3b-a3b4-18919153f2f4",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "c3c31218-6685-438b-a732-e253f15c8234",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 109,
+            "tags": {
+                "addr:housenumber": "1",
+                "addr:street": "Barkenweg",
+                "building": "yes",
+                "man_made": "works"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.13214,
+                "lon": 8.2870348
+            },
+            "id": "d38f5945-0284-4369-9bf5-336073e8b619",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "ababcefc-454e-43f3-90e1-18df537ee0bc",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "ddf5ed7b-a719-401d-bdfd-5f7881a05655",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 324,
+            "tags": {
+                "building": "yes"
+            }
+        }
+    ]
+}

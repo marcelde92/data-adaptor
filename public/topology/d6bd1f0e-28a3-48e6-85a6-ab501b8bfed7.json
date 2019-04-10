@@ -1,0 +1,1952 @@
+{
+    "links": [
+        {
+            "source": "d6bd1f0e-28a3-48e6-85a6-ab501b8bfed7",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_2"
+        },
+        {
+            "source": "node_4",
+            "target": "node_5"
+        },
+        {
+            "source": "node_8",
+            "target": "node_43"
+        },
+        {
+            "source": "node_43",
+            "target": "node_30"
+        },
+        {
+            "source": "node_30",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_17"
+        },
+        {
+            "source": "node_18",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_29"
+        },
+        {
+            "source": "node_30",
+            "target": "node_34"
+        },
+        {
+            "source": "node_34",
+            "target": "node_33"
+        },
+        {
+            "source": "node_34",
+            "target": "node_35"
+        },
+        {
+            "source": "d6bd1f0e-28a3-48e6-85a6-ab501b8bfed7",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_3"
+        },
+        {
+            "source": "node_7",
+            "target": "node_9"
+        },
+        {
+            "source": "node_13",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_14"
+        },
+        {
+            "source": "node_16",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_20"
+        },
+        {
+            "source": "node_28",
+            "target": "node_32"
+        },
+        {
+            "source": "node_32",
+            "target": "node_31"
+        },
+        {
+            "source": "node_32",
+            "target": "node_38"
+        },
+        {
+            "source": "node_38",
+            "target": "node_47"
+        },
+        {
+            "source": "d6bd1f0e-28a3-48e6-85a6-ab501b8bfed7",
+            "target": "node_45"
+        },
+        {
+            "source": "node_45",
+            "target": "node_41"
+        },
+        {
+            "source": "node_41",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_6"
+        },
+        {
+            "source": "node_10",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_12"
+        },
+        {
+            "source": "node_19",
+            "target": "node_21"
+        },
+        {
+            "source": "node_22",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_36"
+        },
+        {
+            "source": "node_36",
+            "target": "node_26"
+        },
+        {
+            "source": "node_36",
+            "target": "node_40"
+        },
+        {
+            "source": "node_40",
+            "target": "node_39"
+        },
+        {
+            "source": "node_39",
+            "target": "node_37"
+        },
+        {
+            "source": "node_41",
+            "target": "node_44"
+        },
+        {
+            "source": "node_44",
+            "target": "node_42"
+        },
+        {
+            "source": "node_45",
+            "target": "node_46"
+        }
+    ],
+    "name": "Alexandersfeld",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1826658,
+                "lon": 8.1860785
+            },
+            "id": "a6a366b3-d310-4222-ba06-c52ebca78d17",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "bc8ecf5d-bec1-4091-bd1e-300fcce97536",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3129,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 329,
+            "tags": {
+                "addr:housenumber": "15",
+                "addr:postcode": "26127",
+                "addr:street": "Alexandersfeld",
+                "building": "house",
+                "building:use": "residential"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1827703,
+                "lon": 8.186047
+            },
+            "id": "c94a58d4-04a5-4144-bf0b-1c157a3db06b",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "f495a0de-1648-43bf-864b-6ed02d07c4a1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2690,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 839,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1830705,
+                "lon": 8.1853517
+            },
+            "id": "e69abcf9-0f4a-460c-9cfa-e120f0bc37cc",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "dec8adbd-94fc-42e0-9ae8-20bb233b0588",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4437,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 100,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.182871,
+                "lon": 8.1858286
+            },
+            "id": "b9c30d31-84b1-4d3a-9531-9077e7639db3",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "b9c9ab27-28ba-41f3-a75c-cb77b214b022",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 280,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1829715,
+                "lon": 8.1856582
+            },
+            "id": "f57a4842-85e8-4fb8-9aac-043bb6c00ffa",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "ce4aa111-ac69-401e-9cc3-18cb0bfce379",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3137,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 572,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1829886,
+                "lon": 8.1874189
+            },
+            "id": "efb8e969-98ea-4929-b634-4a53208c593d",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "a4c685d8-4fd3-48cf-9212-c3be7b853192",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 893,
+            "tags": {
+                "addr:street": "Alexandersfeld",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1828247,
+                "lon": 8.1871277
+            },
+            "id": "f307629a-fa00-4658-9346-ba147be86818",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "a382a898-2f5f-464e-976e-68c2c9b6c42f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4201,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 42,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1827962,
+                "lon": 8.1870207
+            },
+            "id": "d473b298-ddb0-4e21-94c0-1081ba4c2d1c",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "a66c79fd-cb3f-4d64-a297-630a8850f250",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4243,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 583,
+            "tags": {
+                "addr:housenumber": "20",
+                "addr:street": "Alexandersfeld",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1833958,
+                "lon": 8.186925
+            },
+            "id": "b1d858db-e6f7-4a81-a432-ed9d5d20791c",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "d0ebc7bd-b01b-425f-ad22-92ad31891f5c",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 845,
+            "tags": {
+                "addr:housenumber": "23",
+                "addr:postcode": "26127",
+                "addr:street": "Alexandersfeld",
+                "building": "house",
+                "building:use": "residential"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1836242,
+                "lon": 8.1865967
+            },
+            "id": "f9c14581-e4dc-4825-8ddb-759a3f435ea3",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "e4f41584-695e-4f9b-9673-63a51d5aa739",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3505,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 577,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1830288,
+                "lon": 8.1865169
+            },
+            "id": "bcd9b898-8108-44aa-a6cb-0443179774ab",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "de43ec0c-331f-49cc-a7ef-c8a759d2f9fa",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3141,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 385,
+            "tags": {
+                "addr:housenumber": "19",
+                "addr:postcode": "26127",
+                "addr:street": "Alexandersfeld",
+                "building": "house",
+                "building:use": "residential"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1831005,
+                "lon": 8.1863167
+            },
+            "id": "af72abdd-21b0-4d43-81e2-7dd464a2c3da",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "d77af712-158f-48c9-ada0-a1372a2f2030",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3182,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 7,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1832084,
+                "lon": 8.1867514
+            },
+            "id": "b9ab3dc0-1f07-4b18-93a9-ed4b6caa7fc4",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "e173ed02-9bc3-470f-934e-c26c1b944ead",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4440,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 359,
+            "tags": {
+                "addr:housenumber": "21",
+                "addr:postcode": "26127",
+                "addr:street": "Alexandersfeld",
+                "building": "house",
+                "building:use": "residential"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.183273,
+                "lon": 8.1864818
+            },
+            "id": "cadb2164-5d15-4e8f-ad3d-8f2cd3585515",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "db3f903b-93b7-44c8-9c52-67fa6587474b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3528,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 216,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1833609,
+                "lon": 8.1862953
+            },
+            "id": "d9de9c90-ad8c-46eb-8246-38e5698a0008",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "b7fb93be-5a87-4371-9bcf-c9a5ac51399b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3809,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 745,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1832263,
+                "lon": 8.1862584
+            },
+            "id": "cb726ad0-43ea-4f2a-b500-9ad33b302498",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "dbc88948-c8f2-44ca-aef6-449004529f0a",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 138,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1833094,
+                "lon": 8.1860074
+            },
+            "id": "f3a560ff-70ce-461a-ba74-3e44a7d708be",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "a15e6f89-affd-434d-a728-ed655c08a6ac",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4121,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 363,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1835282,
+                "lon": 8.1862366
+            },
+            "id": "afaeea5b-3438-461e-bc65-18e9aa56ca63",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "f1431941-020e-45c5-abda-2090258ebf24",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 883,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1836043,
+                "lon": 8.1858417
+            },
+            "id": "f6a3d038-a75f-4665-8705-a3adf90cad33",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "ed4fc739-f6a0-4c32-937a-56df2944fabe",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4491,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 106,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1834468,
+                "lon": 8.1856514
+            },
+            "id": "fe4f9c47-b257-4d51-a100-7a3b5123bbb3",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "ec800940-46cf-455d-8f42-d5f98b960c32",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3530,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 596,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1834958,
+                "lon": 8.1853455
+            },
+            "id": "a57d0d3a-8fd3-475e-8880-02250d3b889b",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "f348a2c0-d089-480f-be59-a6c619386c6d",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 439,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1836085,
+                "lon": 8.1854036
+            },
+            "id": "f4bbd9c1-27b0-48a1-a2de-a5f4f16654b7",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "bdc4c327-aed9-4399-a785-54faca484867",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3585,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 455,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1836483,
+                "lon": 8.1855949
+            },
+            "id": "a3f46074-c077-4223-b953-46a2d6faa02b",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "e626a910-d4a4-4e8e-991f-c070f4bd74a1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3664,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 738,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1837482,
+                "lon": 8.1853581
+            },
+            "id": "ca46d506-b794-4749-8eb8-449829736d28",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "d9a78c4b-1a98-4fee-8d89-a0c959ad4f72",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3194,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 674,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.183632,
+                "lon": 8.1852053
+            },
+            "id": "f582f100-6c9b-4782-8008-9e73ac6e9668",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "cf5e4511-6420-442e-9de2-0e8e45704c59",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 877,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1840225,
+                "lon": 8.1857173
+            },
+            "id": "d7f6561c-8443-4d8a-a3fc-037e78d38df0",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "cba16538-4e31-4e88-979e-7a7b7caf1dda",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3537,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 803,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.184004,
+                "lon": 8.1854187
+            },
+            "id": "a16dd7e7-d8eb-4bfd-8944-0f9e5915832e",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "c19e50c5-b13f-423c-b795-aa6f36479532",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 618,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1841737,
+                "lon": 8.187268
+            },
+            "id": "c726976b-02d8-47f4-b2a6-5c3799b0cb6c",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "ad3b2b7d-0129-42cc-b084-15b8eea99bb7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2838,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 235,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1837529,
+                "lon": 8.1870763
+            },
+            "id": "ba9896ae-238b-4c6b-9734-b7096c6c2866",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "e4655b5c-7ab3-48d7-b8e9-3852f1a715ee",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2750,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 221,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1840524,
+                "lon": 8.1863337
+            },
+            "id": "f52e769d-59fa-4357-9ca4-cac0f63e999b",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "cbce1d92-9d6f-4a9b-910a-a53462e3805b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4539,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 407,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1841409,
+                "lon": 8.1860931
+            },
+            "id": "f64e913d-5a93-48c6-82b3-539f6a873fe4",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "e587e952-da02-4383-bb97-be910d6db234",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3687,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 502,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1826624,
+                "lon": 8.1867433
+            },
+            "id": "aa209080-b7c2-48fc-ac74-bd0767c7db56",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "ea3178c6-3920-4d6f-945e-bc3a912455e6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2627,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 81,
+            "tags": {
+                "addr:housenumber": "18",
+                "addr:postcode": "26127",
+                "addr:street": "Alexandersfeld",
+                "building": "house",
+                "building:roof:shape": "pitched",
+                "building:use": "residential",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1843466,
+                "lon": 8.1855375
+            },
+            "id": "bf29ae87-d4f0-40ba-8e30-3d543971cac0",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "c43f74e1-d0c4-42ca-9f34-6e8be6b11077",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 444,
+            "tags": {
+                "building": "house",
+                "building:roof:shape": "pitched",
+                "building:use": "residential",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1843,
+                "lon": 8.1863246
+            },
+            "id": "bc96cbac-7d54-4cd4-8d2b-c03c4691e604",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "c754f08f-ec88-49b0-97fb-3bcd9e09a2c7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4463,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 728,
+            "tags": {
+                "building": "garage",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1842166,
+                "lon": 8.1864996
+            },
+            "id": "b53362dc-b8ce-44ba-ab3d-1efbefe35ac7",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "aa5420c3-2c6d-4049-bdb8-e25d6523ddda",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2771,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 324,
+            "tags": {
+                "building": "house",
+                "building:roof:shape": "flat",
+                "building:use": "residential",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1840397,
+                "lon": 8.1874914
+            },
+            "id": "ffdb334d-d6c5-4058-93cf-a5b86f5decfb",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "d6823e4b-55f8-4692-ad42-5abaee7a398c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4567,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 797,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "29b",
+                "addr:postcode": "26127",
+                "addr:street": "Alexandersfeld",
+                "building": "house",
+                "building:roof:shape": "pitched",
+                "building:use": "residential",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1842483,
+                "lon": 8.1868429
+            },
+            "id": "c0ff70b2-0e03-46bd-b448-9f87955719e5",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "dcab259f-794c-4b50-be17-b07512188b0a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3447,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 667,
+            "tags": {
+                "building": "garage",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1842585,
+                "lon": 8.1869845
+            },
+            "id": "dc13e3b9-9782-4c06-b686-5312c9e0061c",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "c0737f7d-78b6-4383-a85d-aaefc3d5e1c7",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 489,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "29c",
+                "addr:postcode": "26127",
+                "addr:street": "Alexandersfeld",
+                "building": "house",
+                "building:roof:shape": "pitched",
+                "building:use": "residential",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1840023,
+                "lon": 8.1869321
+            },
+            "id": "c2b04f1a-1e77-4c60-8785-00118a3dbc07",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "d52cc08f-2649-4de0-98bb-69944cbb9892",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3732,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 822,
+            "tags": {
+                "building": "garage",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1840612,
+                "lon": 8.1868268
+            },
+            "id": "ed561d05-3520-4c0e-8045-c4d761108e0c",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "c52ff3db-fc73-43ab-ba5b-b58a965cc9cb",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2800,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "d7d0f0b9-6d8f-455f-8386-488584cf8332",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3904,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 678,
+            "tags": {
+                "building": "house",
+                "building:roof:shape": "pitched",
+                "building:use": "residential",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1839543,
+                "lon": 8.1870506
+            },
+            "id": "d00f0118-055f-4e40-a748-1300354cd6c8",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "e97516b8-ff32-45e7-ba15-50934d7d2fe1",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 175,
+            "tags": {
+                "building": "house",
+                "building:roof:shape": "pitched",
+                "building:use": "residential",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1838196,
+                "lon": 8.1873445
+            },
+            "id": "f0687603-1352-4bd4-9026-43938ece7040",
+            "node": "node_41",
+            "smartmeters": [
+                {
+                    "id": "a2e30024-f46f-48e5-b17b-ec72e4c348b2",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3995,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 367,
+            "tags": {
+                "building": "garage",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1838678,
+                "lon": 8.1872533
+            },
+            "id": "c15deff3-6302-4d3e-bf7f-239f71f1baef",
+            "node": "node_42",
+            "smartmeters": [
+                {
+                    "id": "d7c9cb63-c728-4f2a-9b48-9e26fe38a0b3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3112,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 627,
+            "tags": {
+                "building": "house",
+                "building:roof:shape": "pitched",
+                "building:use": "residential",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1837507,
+                "lon": 8.1874183
+            },
+            "id": "e572f617-badb-4beb-b3d7-ecdda15f6d2a",
+            "node": "node_43",
+            "smartmeters": [
+                {
+                    "id": "cc8f5d4f-ed13-40d2-a942-531342e9a5dc",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3411,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 525,
+            "tags": {
+                "addr:housenumber": "27",
+                "addr:postcode": "26127",
+                "addr:street": "Alexandersfeld",
+                "building": "house",
+                "building:roof:shape": "pitched",
+                "building:use": "residential",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1835911,
+                "lon": 8.1872311
+            },
+            "id": "c6703ca0-960c-471c-98fc-0cbf93dad4dd",
+            "node": "node_44",
+            "smartmeters": [
+                {
+                    "id": "fd3ed51a-5f58-42a7-bf2e-1dbedb7baf87",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3271,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 416,
+            "tags": {
+                "addr:housenumber": "25",
+                "addr:postcode": "26127",
+                "addr:street": "Alexandersfeld",
+                "building": "house",
+                "building:roof:shape": "pitched",
+                "building:use": "residential",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1831406,
+                "lon": 8.1875504
+            },
+            "id": "a37cd3db-c601-4a95-aaff-7cf05f67c649",
+            "node": "node_45",
+            "smartmeters": [
+                {
+                    "id": "cba89547-48b0-43e1-914a-3de82a91eca5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3126,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 149,
+            "tags": {
+                "addr:housenumber": "24",
+                "addr:postcode": "26127",
+                "addr:street": "Alexandersfeld",
+                "building": "house",
+                "building:roof:shape": "pitched",
+                "building:use": "residential",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1830415,
+                "lon": 8.1871873
+            },
+            "id": "e7f076fd-f7c9-40ca-9a36-cb46a7fb2eb9",
+            "node": "node_46",
+            "smartmeters": [
+                {
+                    "id": "fa2591ee-1f37-4ce4-8ba3-bc5b384edd5e",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 285,
+            "tags": {
+                "addr:housenumber": "22",
+                "addr:postcode": "26127",
+                "addr:street": "Alexandersfeld",
+                "building": "house",
+                "building:roof:shape": "pitched",
+                "building:use": "residential",
+                "source": "Bing"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1824742,
+                "lon": 8.186526
+            },
+            "id": "eeb73f2e-cdde-4007-9d06-7660b957a688",
+            "node": "node_47",
+            "smartmeters": [
+                {
+                    "id": "d4e1a3ed-c249-4ecc-84c8-736ae5820162",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3034,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 157,
+            "tags": {
+                "addr:housenumber": "16",
+                "addr:postcode": "26127",
+                "addr:street": "Alexandersfeld",
+                "building": "house",
+                "building:roof:shape": "pitched",
+                "building:use": "residential",
+                "source": "Bing"
+            }
+        }
+    ]
+}

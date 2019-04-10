@@ -1,0 +1,1966 @@
+{
+    "links": [
+        {
+            "source": "b8e53892-b029-4cfe-a769-997e5c4b1f67",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_0"
+        },
+        {
+            "source": "node_3",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_4"
+        },
+        {
+            "source": "node_8",
+            "target": "node_9"
+        },
+        {
+            "source": "node_11",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_20"
+        },
+        {
+            "source": "node_27",
+            "target": "node_32"
+        },
+        {
+            "source": "node_32",
+            "target": "node_33"
+        },
+        {
+            "source": "b8e53892-b029-4cfe-a769-997e5c4b1f67",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_2"
+        },
+        {
+            "source": "node_10",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_36"
+        },
+        {
+            "source": "node_36",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_17"
+        },
+        {
+            "source": "node_29",
+            "target": "node_31"
+        },
+        {
+            "source": "node_36",
+            "target": "node_37"
+        },
+        {
+            "source": "node_37",
+            "target": "node_43"
+        },
+        {
+            "source": "node_43",
+            "target": "node_40"
+        },
+        {
+            "source": "b8e53892-b029-4cfe-a769-997e5c4b1f67",
+            "target": "node_35"
+        },
+        {
+            "source": "node_35",
+            "target": "node_34"
+        },
+        {
+            "source": "node_34",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_12"
+        },
+        {
+            "source": "node_15",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_21"
+        },
+        {
+            "source": "node_24",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_25"
+        },
+        {
+            "source": "node_35",
+            "target": "node_44"
+        },
+        {
+            "source": "node_44",
+            "target": "node_41"
+        },
+        {
+            "source": "node_41",
+            "target": "node_39"
+        },
+        {
+            "source": "node_41",
+            "target": "node_42"
+        },
+        {
+            "source": "b8e53892-b029-4cfe-a769-997e5c4b1f67",
+            "target": "node_30"
+        },
+        {
+            "source": "node_30",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_5"
+        },
+        {
+            "source": "node_6",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_18"
+        },
+        {
+            "source": "node_30",
+            "target": "node_38"
+        }
+    ],
+    "name": "Hochkamp",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2055383,
+                "lon": 7.8741553
+            },
+            "id": "e8507d38-e27b-4051-a8ce-1d11482e56ab",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "b994f7e5-b9e1-4a92-9f80-9a6507262765",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3275,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 81,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "19",
+                "addr:postcode": "26655",
+                "addr:street": "Hochkamp",
+                "addr:suburb": "Ocholt",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2058218,
+                "lon": 7.8744546
+            },
+            "id": "f668e350-1bc4-4660-a656-c547d3785df9",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "cc25dc46-960e-4a41-b633-674b1f1b1bca",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4853,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 210,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26655",
+                "addr:street": "Schlehdornstra\u00dfe",
+                "addr:suburb": "Ocholt",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2057492,
+                "lon": 7.8745373
+            },
+            "id": "d9be3496-170d-43f3-a689-ee0bcde0a669",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "c24a08ab-8a6c-45fc-a206-3741c3f6a956",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3784,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 175,
+            "tags": {
+                "building": "garage"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2056214,
+                "lon": 7.8740565
+            },
+            "id": "faffd342-4ee3-4372-beea-e417e4d00bbe",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "da7f16bc-9ed1-459f-83c3-797085780c6f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4457,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "cd101945-5de8-47b6-a512-221016df6354",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 837,
+            "tags": {
+                "building": "garage"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2055971,
+                "lon": 7.8743171
+            },
+            "id": "faeb190c-a6e8-4705-9f05-e872992bff09",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "bf1f383d-cf5d-440e-a371-b7bb8c68658e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4086,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 513,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.204477,
+                "lon": 7.8733791
+            },
+            "id": "ed5e9fc7-bfb7-42bb-b61e-37baa3bb661a",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "ba14769e-254b-4b63-9eca-7d52c99b1078",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3561,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 630,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "11",
+                "addr:postcode": "26655",
+                "addr:street": "Hochkamp",
+                "addr:suburb": "Ocholt",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2044262,
+                "lon": 7.8734699
+            },
+            "id": "e8cc4556-58eb-4a88-9f8d-2424de7a987e",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "ec0becb7-22c9-4de8-b57c-c776deba7609",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 101,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2044046,
+                "lon": 7.8735602
+            },
+            "id": "b09790f3-7101-41d6-af99-9e4e8567cc3f",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "b762797e-688e-46f4-b180-c54ee6f4cfe1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3194,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 196,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2043625,
+                "lon": 7.873358
+            },
+            "id": "cc9a6e8c-1125-410b-9437-1d05229cd498",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "de469386-7870-4585-92d2-786538e6ce2d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2667,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 864,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2043004,
+                "lon": 7.8735694
+            },
+            "id": "cb08913d-e91d-4c34-ba03-f1b7a318e51c",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "e32fd932-d708-46a7-880b-5ce9b2428ab4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4644,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 12,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2041766,
+                "lon": 7.8732132
+            },
+            "id": "c3a44556-6a43-4e6d-a7c6-f44e7100deb3",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "a3fbd31a-6dba-4dac-b3e6-479c9450ff6c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3618,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 242,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26655",
+                "addr:street": "Hochkamp",
+                "addr:suburb": "Ocholt",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2038989,
+                "lon": 7.8730293
+            },
+            "id": "dfe6fd0a-5e9f-4fcc-8b4d-92abc7abe505",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "e4e2bb1a-4c44-4b37-86b2-aee8dfcca553",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3072,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 266,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "7a",
+                "addr:postcode": "26655",
+                "addr:street": "Hochkamp",
+                "addr:suburb": "Ocholt",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2038201,
+                "lon": 7.8729816
+            },
+            "id": "d4649fdf-5542-43eb-8c83-a1f3897429d8",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "ad05a168-20bf-48d0-b783-a93cd321faee",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4678,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 17,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "7",
+                "addr:postcode": "26655",
+                "addr:street": "Hochkamp",
+                "addr:suburb": "Ocholt",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2040063,
+                "lon": 7.8734089
+            },
+            "id": "e989e11a-d29c-4a67-ae6c-994a5e4fadea",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "ee36918d-2c01-4572-9215-f0ecaa64522d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4062,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 266,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26655",
+                "addr:street": "Hochkamp",
+                "addr:suburb": "Ocholt",
+                "building": "commercial",
+                "name": "Gerdes Reisen",
+                "phone": "04409 92890"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2037528,
+                "lon": 7.8730977
+            },
+            "id": "a98fbb6f-d8b9-4c90-aec8-e90fc7758e11",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "e5c96677-4925-450d-b309-46b5772f198e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2472,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "f7e2322e-cfdd-4a8f-a820-dc5b8a76013b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3528,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 713,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2039676,
+                "lon": 7.874358
+            },
+            "id": "c1bad1db-b5a6-4913-99bf-15d7181a6b39",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "dc812ed4-49d2-42a1-952b-157b5c866700",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3346,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 751,
+            "tags": {
+                "building": "commercial"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2035255,
+                "lon": 7.873439
+            },
+            "id": "f557c959-f3fd-4ad1-a55b-7dfda35f7c17",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "f8c834e9-a99c-4990-a77b-fa95b39c7157",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3345,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 70,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "tb",
+                "addr:postcode": "26655",
+                "addr:street": "Hochkamp",
+                "addr:suburb": "Ocholt",
+                "building": "commercial"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.206459,
+                "lon": 7.8736603
+            },
+            "id": "dab37eb1-436c-4850-8e94-9623cb7c5609",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "f969dcac-3552-4542-b5e5-97ceb0da7d12",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 608,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "22a",
+                "addr:postcode": "26655",
+                "addr:street": "Hochkamp",
+                "addr:suburb": "Ocholt",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2065448,
+                "lon": 7.8736029
+            },
+            "id": "dea99170-3592-4809-b132-2d6f25528b33",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "c0cd106d-ce38-4144-9939-1a0104321bcf",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3328,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 597,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2065379,
+                "lon": 7.8733654
+            },
+            "id": "b5f1bb14-3f8f-41ec-a1d7-b0ce5cedd5e4",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "e70c176e-151b-4761-a729-9ce4e6fcdda6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2850,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 817,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "22b",
+                "addr:postcode": "26655",
+                "addr:street": "Hochkamp",
+                "addr:suburb": "Ocholt",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2062442,
+                "lon": 7.8729763
+            },
+            "id": "c01ebc6e-67a4-4a53-ae39-60cfcb4c7c9e",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "bfc8f85b-2fb4-4dc7-8dd0-4c6b62b98e4f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2835,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 821,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26655",
+                "addr:street": "Holunderweg",
+                "addr:suburb": "Ocholt",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2073522,
+                "lon": 7.8735608
+            },
+            "id": "cbaac6aa-509a-40f3-a60d-8bd28572013b",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "cf9a2a79-0cb7-471f-8fe0-5d75de011a94",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 399,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26655",
+                "addr:street": "D\u00fcnje Moor",
+                "addr:suburb": "Ocholt",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2056425,
+                "lon": 7.873374
+            },
+            "id": "c277512f-1e70-4b58-b197-06b8c81b95dd",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "a5a32610-ed78-4d2c-8eaf-dc9f63752eb7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3733,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 213,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "16",
+                "addr:postcode": "26655",
+                "addr:street": "Hochkamp",
+                "addr:suburb": "Ocholt",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2051838,
+                "lon": 7.8733452
+            },
+            "id": "ef2ed4f4-cd4c-43e2-bf95-40ff6babddc6",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "a44d2d49-b0da-4efd-8ea0-e3b8e2020b89",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 341,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "14",
+                "addr:postcode": "26655",
+                "addr:street": "Hochkamp",
+                "addr:suburb": "Ocholt",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2050468,
+                "lon": 7.8732822
+            },
+            "id": "c8ea0149-b7e3-4d90-a909-c10af0241ba0",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "e03514d5-d36d-4653-b7fe-4587a686a2ae",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3452,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 174,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26655",
+                "addr:street": "Hochkamp",
+                "addr:suburb": "Ocholt",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.205923,
+                "lon": 7.8733828
+            },
+            "id": "eb5ecff8-7dbe-4062-974a-e3119d12b03b",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "b5a0f9ee-bbdf-4c51-a12d-18b6fc10f623",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2836,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 582,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2051631,
+                "lon": 7.8730364
+            },
+            "id": "b96b2b45-e887-4d37-ad33-1afc1e647dac",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "c3ddfeb4-b5dc-459b-9bb9-7e1a69733580",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 133,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2074102,
+                "lon": 7.8736923
+            },
+            "id": "a56c11b9-2907-435e-a4ee-e82d8b9ab83e",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "f53551fd-a4ab-4cba-a18a-334147ca4238",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4076,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 339,
+            "tags": {
+                "building": "garage"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2025414,
+                "lon": 7.8575475
+            },
+            "id": "ad1b58f9-5793-43bd-8408-2b0395e18c1c",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "edc4e262-7f9e-43fc-87cc-1b08b1b09536",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2790,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 263,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "28",
+                "addr:postcode": "26655",
+                "addr:street": "Apener Stra\u00dfe",
+                "addr:suburb": "Ocholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.203277,
+                "lon": 7.8601572
+            },
+            "id": "c76a7d01-eb15-4cce-88f9-059e19288b94",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "d2b8df6b-3923-440b-b501-7253515c5a33",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2856,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 495,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "27",
+                "addr:postcode": "26655",
+                "addr:street": "Apener Stra\u00dfe",
+                "addr:suburb": "Ocholterfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2206569,
+                "lon": 7.8683525
+            },
+            "id": "f86c11b2-d9f9-4d67-8954-fa6701463a17",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "a6f22cea-4b65-46d4-9557-77fed32747ba",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3691,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 15,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "11",
+                "addr:postcode": "26655",
+                "addr:street": "Linderner Damm",
+                "addr:suburb": "Lindernerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2115222,
+                "lon": 7.8672631
+            },
+            "id": "bc50560f-6040-4078-b3eb-2a9da175ff8f",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "bce3c2b8-546a-4e82-9b0c-339093223c21",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 385,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26655",
+                "addr:street": "Buchweizenweg",
+                "addr:suburb": "Lindernerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2114687,
+                "lon": 7.8715357
+            },
+            "id": "badf4cb0-1ae5-4cd6-a1a1-07cedfca1de7",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "ebe8c42b-a186-4fdd-8086-465fa1a8e542",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2824,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 398,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26655",
+                "addr:street": "Buchweizenweg",
+                "addr:suburb": "Lindernerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2121824,
+                "lon": 7.8517466
+            },
+            "id": "e89d5eeb-b184-4b4a-89bc-3d3e5e9e75b4",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "c3f22f67-7bfb-4104-af36-bc822c6d3585",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 456,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26689",
+                "addr:street": "Linderner Feldstra\u00dfe",
+                "addr:suburb": "Apermarsch"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2122984,
+                "lon": 7.852668
+            },
+            "id": "f001d03b-3cdc-4285-b17e-a6f54084674d",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "d6729354-93e0-498a-9cad-4fd423e13351",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 205,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26689",
+                "addr:street": "Linderner Feldstra\u00dfe",
+                "addr:suburb": "Apermarsch"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.212316,
+                "lon": 7.8487302
+            },
+            "id": "d2f7959d-3c8b-4d46-bcde-28f326a4548d",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "e51fe363-43ef-4620-a833-0c63978089c4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3332,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "c6c4a3b6-7506-4f36-b70f-786253000657",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3757,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 573,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26689",
+                "addr:street": "Linderner Feldstra\u00dfe",
+                "addr:suburb": "Apermarsch"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2188562,
+                "lon": 7.8702972
+            },
+            "id": "f2fe548c-aa41-4a3d-9a97-c496632a61c7",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "fda29543-b913-4b62-8214-3bf9b69e60de",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 142,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "51a",
+                "addr:postcode": "26655",
+                "addr:street": "Hochkamp",
+                "addr:suburb": "Lindernerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2150615,
+                "lon": 7.8657264
+            },
+            "id": "f8c44b45-361a-45a6-92f6-5fe8b23aba23",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "fbb38ed8-97b6-4421-b4d7-f372e0815db9",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 463,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26655",
+                "addr:street": "Linderner Feldstra\u00dfe",
+                "addr:suburb": "Lindernerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2150516,
+                "lon": 7.8654752
+            },
+            "id": "fea61471-88d0-48de-af3c-485604aa14ab",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "bda1e3a1-fd0f-4556-92e3-f29bddd2d8fb",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3224,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 92,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26655",
+                "addr:street": "Linderner Feldstra\u00dfe",
+                "addr:suburb": "Lindernerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2129643,
+                "lon": 7.8561358
+            },
+            "id": "ab0d9356-1abf-42c6-8f94-66f6d2da6b46",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "cf451f50-0795-4e4c-9866-1107ad0affa8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3742,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 426,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "25",
+                "addr:postcode": "26655",
+                "addr:street": "Linderner Feldstra\u00dfe",
+                "addr:suburb": "Lindernerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2124698,
+                "lon": 7.8575566
+            },
+            "id": "da65e7e1-2df4-44b9-ad0c-e9ca6b88efbf",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "d8f2c3ad-cd40-4a63-8187-108f1571d7eb",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3597,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 193,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26655",
+                "addr:street": "Am D\u00fcwelshop",
+                "addr:suburb": "Lindernerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2188833,
+                "lon": 7.8701572
+            },
+            "id": "c1003499-47be-4ff4-85ab-3dff2385774f",
+            "node": "node_41",
+            "smartmeters": [
+                {
+                    "id": "ea3e64f9-4a49-4216-8353-28567c6046cd",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3201,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 695,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "51",
+                "addr:postcode": "26655",
+                "addr:street": "Hochkamp",
+                "addr:suburb": "Lindernerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2168886,
+                "lon": 7.8633998
+            },
+            "id": "b67764ee-bd75-442c-87d4-98a526371e5f",
+            "node": "node_42",
+            "smartmeters": [
+                {
+                    "id": "d2d3a435-3dab-4801-b3a9-107ccc7afe7a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3185,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 348,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "7",
+                "addr:postcode": "26655",
+                "addr:street": "Takerbarg",
+                "addr:suburb": "Lindernerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.216393,
+                "lon": 7.8640875
+            },
+            "id": "bb36bec5-d56c-4852-ae0a-f28ec40fc605",
+            "node": "node_43",
+            "smartmeters": [
+                {
+                    "id": "c8672660-66f9-4fc8-8872-5d740e51b46e",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 182,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26655",
+                "addr:street": "Takerbarg",
+                "addr:suburb": "Lindernerfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2197035,
+                "lon": 7.8733852
+            },
+            "id": "afce3ea0-72af-42d8-8fe7-fe4df4632fe8",
+            "node": "node_44",
+            "smartmeters": [
+                {
+                    "id": "db4ece1a-b4d0-45b2-bd9a-2f3100d176c2",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3925,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 573,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26655",
+                "addr:street": "Linderner Feldstra\u00dfe",
+                "addr:suburb": "Lindernerfeld"
+            }
+        }
+    ]
+}

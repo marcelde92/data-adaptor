@@ -1,0 +1,1004 @@
+{
+    "links": [
+        {
+            "source": "ce858572-f1c2-4583-abbf-db48551c0b6a",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_2"
+        },
+        {
+            "source": "node_16",
+            "target": "node_17"
+        },
+        {
+            "source": "ce858572-f1c2-4583-abbf-db48551c0b6a",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_19"
+        },
+        {
+            "source": "ce858572-f1c2-4583-abbf-db48551c0b6a",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_0"
+        },
+        {
+            "source": "node_5",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_12"
+        },
+        {
+            "source": "ce858572-f1c2-4583-abbf-db48551c0b6a",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_3"
+        },
+        {
+            "source": "node_6",
+            "target": "node_15"
+        },
+        {
+            "source": "ce858572-f1c2-4583-abbf-db48551c0b6a",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_1"
+        },
+        {
+            "source": "node_9",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_21"
+        },
+        {
+            "source": "ce858572-f1c2-4583-abbf-db48551c0b6a",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_4"
+        },
+        {
+            "source": "node_11",
+            "target": "node_13"
+        }
+    ],
+    "name": "Hauptstra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2300238,
+                "lon": 7.823034
+            },
+            "id": "ee44284a-9c47-438e-a1d7-56701c40142b",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "f30b3800-2315-4ce7-8baf-1802458698e6",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 444,
+            "tags": {
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2297012,
+                "lon": 7.8219027
+            },
+            "id": "f073524c-2f84-44a8-9e71-c61a55c79c19",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "a6a59d00-8b93-4cd8-bb3b-b912c86f7f15",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3024,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 648,
+            "tags": {
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2229043,
+                "lon": 7.8225975
+            },
+            "id": "b9e1895d-b78c-40c8-a3dc-55d23129ef13",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "f89b6042-3e7b-4b40-81fb-a0b99e961e47",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4227,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 565,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "36",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Espern"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2250851,
+                "lon": 7.8211613
+            },
+            "id": "a4291f5c-c7ce-4076-b5b5-5743793e7aac",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "b8b59f88-a217-44a9-81c7-a8a6e30c16d0",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4692,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 313,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26689",
+                "addr:street": "An den Buchen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2247435,
+                "lon": 7.8209433
+            },
+            "id": "bb9b764a-29f7-40db-a5e5-6b38cae7f4f6",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "a120680c-e1a2-46c5-b0c6-04ceaa15d35d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3635,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 767,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "7",
+                "addr:postcode": "26689",
+                "addr:street": "An den Buchen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2231503,
+                "lon": 7.8222973
+            },
+            "id": "e337ee3a-e981-4fbe-844f-2a22102ef34a",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "a44367e5-6bc4-407f-a8a8-9b7b1e66016c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2964,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 350,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "47",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Espern"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2255591,
+                "lon": 7.8205571
+            },
+            "id": "c0e4b17d-266f-4f28-b9d9-2d9076d00c58",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "b4768f5a-e4ff-4cf5-ba0d-6ed1ef591a25",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4573,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "e118797c-02b9-4620-adfb-0f25c7264cb2",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4817,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 708,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26689",
+                "addr:street": "An den Buchen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2302885,
+                "lon": 7.8197437
+            },
+            "id": "bfa91b4a-873d-4438-bc8c-d979af694a1a",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "aec272f9-ae9f-4752-8964-065cddfae2bd",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2862,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 135,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "37",
+                "addr:postcode": "26689",
+                "addr:street": "Sch\u00fctzenstra\u00dfe",
+                "addr:suburb": "Aperfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2301655,
+                "lon": 7.8203259
+            },
+            "id": "f17a5f39-9db1-4718-a7e0-1bc8a7f39adf",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "bbbf9e17-6593-4dcf-9d1f-6a71d0baa3a6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4113,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 655,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "36",
+                "addr:postcode": "26689",
+                "addr:street": "Sch\u00fctzenstra\u00dfe",
+                "addr:suburb": "Aperfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2299928,
+                "lon": 7.8199308
+            },
+            "id": "b108a818-abba-4987-87e1-54bde4a412cc",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "afee5211-7c04-44a1-8504-b1bad9f6287a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2606,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 267,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "35",
+                "addr:postcode": "26689",
+                "addr:street": "Sch\u00fctzenstra\u00dfe",
+                "addr:suburb": "Aperfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2297484,
+                "lon": 7.8201889
+            },
+            "id": "b97b6b3f-cd3a-4eee-a296-b4cb675cbf36",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "ac58436b-ed62-4242-8f89-d839ea696170",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "dd7cd64f-8aad-4695-9691-2afdf9a664a4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2981,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 414,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "33",
+                "addr:postcode": "26689",
+                "addr:street": "Sch\u00fctzenstra\u00dfe",
+                "addr:suburb": "Aperfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2294937,
+                "lon": 7.820156
+            },
+            "id": "be978239-b062-470e-8944-7707f707809a",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "eac3c233-d598-4918-9bf6-3a03016b941e",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 487,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "31",
+                "addr:postcode": "26689",
+                "addr:street": "Sch\u00fctzenstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2286903,
+                "lon": 7.8200506
+            },
+            "id": "dbc82360-81a8-4ba2-a681-b7ea00b6d80c",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "f9d3ef03-a888-42a8-80f2-2ca8dad60073",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3010,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 575,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "23",
+                "addr:postcode": "26689",
+                "addr:street": "Sch\u00fctzenstra\u00dfe",
+                "addr:suburb": "Aperfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.230055,
+                "lon": 7.8230082
+            },
+            "id": "b4335631-cdee-40f7-8dbb-6cfe9d06a913",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "fdbb6f52-6091-4a9e-886a-788a88cde408",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3263,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 533,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26689",
+                "addr:street": "Zur Sch\u00fctzenstra\u00dfe",
+                "addr:suburb": "Aperfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2297473,
+                "lon": 7.821867
+            },
+            "id": "d7cdf6cf-27e2-4bdc-895a-1d7bc49abd6b",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "fe8f5e12-5544-4282-9d62-9db4fa88e0de",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4897,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 714,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26689",
+                "addr:street": "Zur Sch\u00fctzenstra\u00dfe",
+                "addr:suburb": "Aperfeld"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2249639,
+                "lon": 7.8316331
+            },
+            "id": "ad4a60f1-03c0-41fd-acad-01ab178c3261",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "fe4ae841-b468-4f1d-925a-2138d700077c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4765,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 437,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "2b",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Winkel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2251374,
+                "lon": 7.831447
+            },
+            "id": "a8475be7-2662-4d1d-b972-44dcc89736ec",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "f3656918-304a-4f74-8406-e8c97de84671",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 252,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "2a",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Winkel"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2298337,
+                "lon": 7.8375854
+            },
+            "id": "a9f8e046-41db-4b6a-82f0-e79540a09417",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "c5a922a1-3bc0-40ef-8a94-9d0226a9cce9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2921,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 469,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "25",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Klampen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2287918,
+                "lon": 7.8358201
+            },
+            "id": "c3ea9b70-e18a-4221-b780-be6040fd6742",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "e196bf97-36af-4cea-9507-230e4b8cf791",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3161,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 271,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "23",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Klampen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2282264,
+                "lon": 7.8393302
+            },
+            "id": "deec5014-20be-4d33-b5f3-edc65e6c72ff",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "ce287fdd-4763-44a8-8dc7-3a8b8640596b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2705,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 469,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26689",
+                "addr:street": "Hauptstra\u00dfe",
+                "addr:suburb": "Klampen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2121939,
+                "lon": 7.8353986
+            },
+            "id": "b4c41113-fc2f-4084-9223-ea6b17368887",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "b6654c95-97cc-45d3-b482-36191fd6994b",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "bea27197-cb32-4116-8553-34c877317c9f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3231,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 439,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "14",
+                "addr:postcode": "26689",
+                "addr:street": "Hoher Weg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2120155,
+                "lon": 7.8357515
+            },
+            "id": "e5be127b-8bc7-4042-9b46-dec7b5b24d50",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "a862ac1e-1502-4e95-aae1-048f0de0eb3f",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 430,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "15",
+                "addr:postcode": "26689",
+                "addr:street": "Hoher Weg"
+            }
+        }
+    ]
+}

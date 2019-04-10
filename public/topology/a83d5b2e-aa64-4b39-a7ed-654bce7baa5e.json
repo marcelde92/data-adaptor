@@ -1,0 +1,479 @@
+{
+    "links": [
+        {
+            "source": "a83d5b2e-aa64-4b39-a7ed-654bce7baa5e",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_9"
+        },
+        {
+            "source": "a83d5b2e-aa64-4b39-a7ed-654bce7baa5e",
+            "target": "node_2"
+        },
+        {
+            "source": "a83d5b2e-aa64-4b39-a7ed-654bce7baa5e",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_1"
+        },
+        {
+            "source": "a83d5b2e-aa64-4b39-a7ed-654bce7baa5e",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_4"
+        },
+        {
+            "source": "a83d5b2e-aa64-4b39-a7ed-654bce7baa5e",
+            "target": "node_6"
+        },
+        {
+            "source": "a83d5b2e-aa64-4b39-a7ed-654bce7baa5e",
+            "target": "node_7"
+        },
+        {
+            "source": "a83d5b2e-aa64-4b39-a7ed-654bce7baa5e",
+            "target": "node_8"
+        }
+    ],
+    "name": "Westfalendamm",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1305146,
+                "lon": 8.2094604
+            },
+            "id": "aba6a125-3ca3-4440-9890-2484c538e339",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "fc5f102c-ced8-4315-8ce1-dc48385abad4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3663,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 68,
+            "tags": {
+                "building": "yes",
+                "height": "2.5"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.12932,
+                "lon": 8.2090645
+            },
+            "id": "c68bf3ed-19ea-42dd-9163-79a9c3840730",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "f539dd0b-11be-4552-b580-406573a095fc",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 105,
+            "tags": {
+                "building": "yes",
+                "name": "Spielschiff"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1265501,
+                "lon": 8.2107643
+            },
+            "id": "cfbf3e0d-b92f-4d27-bb98-aee93184ac6d",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "e9d821a5-5110-4cee-88dd-b8499349f044",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3450,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 790,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "126A",
+                "addr:postcode": "26131",
+                "addr:street": "Westfalendamm",
+                "addr:suburb": "Eversten",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1256597,
+                "lon": 8.2108406
+            },
+            "id": "a71a2068-82c9-42a5-86a1-35c80f2f760a",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "a108eda8-f69c-4fa5-bb5d-d1516ff4cf44",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4015,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "ad7767ee-7588-41af-9997-5bc9a835c0b5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3823,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 302,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "126B",
+                "addr:postcode": "26131",
+                "addr:street": "Westfalendamm",
+                "addr:suburb": "Eversten",
+                "building": "public"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1266705,
+                "lon": 8.2106136
+            },
+            "id": "fa7e7810-26c2-40fa-8e4f-86a19a282bcd",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "f27b5000-9fab-4aa9-b53c-66fb69a61f48",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                },
+                {
+                    "id": "f0b8834c-ec76-431b-b96d-30e46070ff03",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4633,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 194,
+            "tags": {
+                "building": "service"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1286322,
+                "lon": 8.2080051
+            },
+            "id": "fa7232a0-9c7e-4e87-91b7-59a9519edd87",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "dd2112f5-647e-41aa-8ae3-61679ebf4521",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 592,
+            "tags": {
+                "building": "yes",
+                "layer": "1"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1253866,
+                "lon": 8.2120293
+            },
+            "id": "e63ea408-e92d-4629-9ac5-56e0c4066618",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "e8b8844f-c39f-44ba-b7c0-351f5ee5b620",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3078,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 664,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26131",
+                "addr:street": "Achterdiek",
+                "addr:suburb": "Eversten",
+                "amenity": "restaurant",
+                "building": "commercial",
+                "cuisine": "regional",
+                "delivery": "no",
+                "email": "oldenburg@hafenhaus.com",
+                "fax": "+49 441 3613841",
+                "name": "Hafenhaus Oldenburg",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "operator": "Hafenhaus Oldenburg GmbH & Co. KG",
+                "outdoor_seating": "yes",
+                "phone": "+49 441 3613840",
+                "smoking": "no",
+                "source": "bing imagery",
+                "toilets:wheelchair": "yes",
+                "website": "http://www.hafenhaus-oldenburg.de",
+                "wheelchair": "yes",
+                "wheelchair:description": "Behinderten WC im Keller mit Treppenlift erreichbar"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1263615,
+                "lon": 8.2123889
+            },
+            "id": "b555f754-96cb-4682-8b0e-754ae617fd59",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "ef38fae1-fa00-42ad-bb43-8b6f0d2fa1a6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3261,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 176,
+            "tags": {
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.125292,
+                "lon": 8.2127268
+            },
+            "id": "f8252fda-752a-4525-bad8-94c2409f4e19",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "a27d77ce-2e55-4c82-9787-cea35d0a7f50",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2446,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 856,
+            "tags": {
+                "building": "yes",
+                "generator:output:electricity": "700 kW",
+                "generator:source": "hydro",
+                "historic": "yes",
+                "layer": "1",
+                "name": "Hunte-Wasserkraftwerk",
+                "operator": "EWE",
+                "power": "generator",
+                "source": "bing imagery",
+                "url": "http://www.oldenburg.de/stadtol/index.php?id=5765#c18083",
+                "waterway": "weir"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1295866,
+                "lon": 8.208459
+            },
+            "id": "f3951dcb-4fe0-4a26-bcfe-6a926454d3e4",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "d799ebcc-3809-4ab4-99ea-8fa2eb1d74fc",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3666,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 701,
+            "tags": {
+                "building": "yes",
+                "height": "2.5"
+            }
+        }
+    ]
+}

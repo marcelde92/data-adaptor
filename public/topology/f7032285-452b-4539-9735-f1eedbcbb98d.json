@@ -1,0 +1,2105 @@
+{
+    "links": [
+        {
+            "source": "f7032285-452b-4539-9735-f1eedbcbb98d",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_2"
+        },
+        {
+            "source": "node_4",
+            "target": "node_43"
+        },
+        {
+            "source": "node_43",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_8"
+        },
+        {
+            "source": "node_9",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_11"
+        },
+        {
+            "source": "node_13",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_14"
+        },
+        {
+            "source": "node_15",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_17"
+        },
+        {
+            "source": "node_20",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_21"
+        },
+        {
+            "source": "node_21",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_23"
+        },
+        {
+            "source": "node_24",
+            "target": "node_41"
+        },
+        {
+            "source": "node_41",
+            "target": "node_34"
+        },
+        {
+            "source": "node_34",
+            "target": "node_30"
+        },
+        {
+            "source": "node_30",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_28"
+        },
+        {
+            "source": "node_30",
+            "target": "node_33"
+        },
+        {
+            "source": "node_33",
+            "target": "node_31"
+        },
+        {
+            "source": "node_31",
+            "target": "node_32"
+        },
+        {
+            "source": "node_34",
+            "target": "node_38"
+        },
+        {
+            "source": "node_38",
+            "target": "node_35"
+        },
+        {
+            "source": "node_35",
+            "target": "node_37"
+        },
+        {
+            "source": "node_37",
+            "target": "node_36"
+        },
+        {
+            "source": "node_38",
+            "target": "node_39"
+        },
+        {
+            "source": "node_39",
+            "target": "node_40"
+        },
+        {
+            "source": "node_41",
+            "target": "node_42"
+        },
+        {
+            "source": "node_43",
+            "target": "node_48"
+        },
+        {
+            "source": "node_48",
+            "target": "node_45"
+        },
+        {
+            "source": "node_45",
+            "target": "node_44"
+        },
+        {
+            "source": "node_45",
+            "target": "node_46"
+        },
+        {
+            "source": "node_46",
+            "target": "node_47"
+        }
+    ],
+    "name": "Philosophenweg",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1472603,
+                "lon": 8.2005773
+            },
+            "id": "fa27f208-d315-489f-b118-be53826d9994",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "e58d0225-7159-4cf3-9707-336cf1325d71",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4125,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 637,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housename": "Oberschule Paulus-Schule Hauptgeb\u00e4ude",
+                "addr:housenumber": "46",
+                "addr:postcode": "26121",
+                "addr:street": "Margaretenstra\u00dfe",
+                "building": "school",
+                "roof:colour": "black",
+                "roof:shape": "hipped"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1451365,
+                "lon": 8.1981453
+            },
+            "id": "f9202f39-8fe4-49c2-8375-6a01e9759f08",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "c23977b5-041f-40cf-a784-73f6e29320f2",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 552,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "11",
+                "addr:postcode": "26121",
+                "addr:street": "Philosophenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1463137,
+                "lon": 8.1972115
+            },
+            "id": "dcfcdbad-3ada-4ffa-8af7-ea35fcf3fa5d",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "a4973bc4-24b0-490f-a799-31681d5f88d3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3946,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 612,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1451136,
+                "lon": 8.1972115
+            },
+            "id": "c208b037-9d46-41ac-88c2-34bddc8094ad",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "f7467d83-9b51-4e41-a36d-f3f4264f04dc",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4194,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 116,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1457063,
+                "lon": 8.1976034
+            },
+            "id": "f91982fc-b7cc-41a4-8974-68d4106b7030",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "dffb5485-b513-4b1a-a279-38ab7ef12277",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3773,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 731,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1450106,
+                "lon": 8.1990775
+            },
+            "id": "bd0b9cd8-599e-4bcb-b003-fec117a0a0ae",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "f4981847-28ff-471e-bad4-f9045f4b7df7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3161,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 692,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26121",
+                "addr:street": "Philosophenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1451388,
+                "lon": 8.1990595
+            },
+            "id": "f4e1cc58-031b-4b7d-a7c0-2d93855b937b",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "d831fe1d-f4ad-4a65-8bb8-f0a695cffb5b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3502,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 324,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26121",
+                "addr:street": "Philosophenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1457254,
+                "lon": 8.1989709
+            },
+            "id": "e8696b18-cdd3-4b0b-95d7-67628aefd0a3",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "c21fdb94-e28f-4461-9d54-51b7321ec52b",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 582,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "18",
+                "addr:postcode": "26121",
+                "addr:street": "Philosophenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1456034,
+                "lon": 8.1995781
+            },
+            "id": "cec6ba6a-fb53-4027-8b13-387b2fc5e8b1",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "ec6168ba-f7e4-4ab6-a1a7-e3b552ede849",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 210,
+            "tags": {
+                "addr:housenumber": "73",
+                "addr:street": "Blumenstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1455662,
+                "lon": 8.1990381
+            },
+            "id": "f0d2ec88-08e6-4fc8-9eca-60a19816321b",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "c9837651-7cdd-470f-b3b7-c982dcf003e8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3508,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "dde2d134-4288-47c1-b979-84ff85a17dbc",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 178,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "16",
+                "addr:postcode": "26121",
+                "addr:street": "Philosophenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1448662,
+                "lon": 8.199089
+            },
+            "id": "a51e5107-d620-43ee-b700-6d32d98c92fb",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "eab9d223-cd3b-4f38-9551-46253e494d2d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4827,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "d2ed8f37-e306-478d-a5b6-ebe9cfb39285",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 92,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26121",
+                "addr:street": "Philosophenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1453899,
+                "lon": 8.1991192
+            },
+            "id": "f94221ae-460d-49cb-96bf-2079d09a7e73",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "a7e3baa2-2464-498a-9af3-d3b50de176f8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3789,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 590,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "14",
+                "addr:postcode": "26121",
+                "addr:street": "Philosophenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1462878,
+                "lon": 8.1990066
+            },
+            "id": "df37d7d7-48c4-4f52-b4ed-670613eb6cf6",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "b107f9bc-f1cf-4b72-b4c9-2be90731726a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3608,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 193,
+            "tags": {
+                "addr:housenumber": "24",
+                "addr:street": "Philosophenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1458754,
+                "lon": 8.1997591
+            },
+            "id": "d807280f-353d-4850-a08b-7f9239920f5e",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "cc60c868-ffa1-477f-89d0-2f10bf64c79d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4538,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 377,
+            "tags": {
+                "addr:housenumber": "74",
+                "addr:street": "Blumenstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1469428,
+                "lon": 8.198758
+            },
+            "id": "a06a5599-d57c-4824-9a39-9eafdb538e67",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "b56b086c-376f-4788-870a-f88b6592f894",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2897,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 35,
+            "tags": {
+                "addr:housenumber": "32",
+                "addr:street": "Philosophenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1464272,
+                "lon": 8.1989176
+            },
+            "id": "d5384aa2-e854-4912-ba79-250926347d2f",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "d5b68e15-2bca-4245-a4ac-d9da7d5ee982",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3696,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 734,
+            "tags": {
+                "addr:housenumber": "26",
+                "addr:street": "Philosophenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1461093,
+                "lon": 8.199099
+            },
+            "id": "d0761b76-c0e9-4d90-98ad-e4ac2a96f5f4",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "ae7145aa-7e4b-4c73-9d75-ad8fbf7b676c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4217,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 638,
+            "tags": {
+                "addr:housenumber": "22",
+                "addr:street": "Philosophenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.145919,
+                "lon": 8.1995531
+            },
+            "id": "ae406421-3e9a-4698-8ffd-4d60f3d20bb4",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "a1e8ee09-849a-43eb-a0e5-a3a68a1198a8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3639,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 23,
+            "tags": {
+                "addr:housenumber": "76",
+                "addr:street": "Blumenstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1459894,
+                "lon": 8.1993257
+            },
+            "id": "ad8e9dcf-ec6f-4057-a97a-9fcec97e6214",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "c1ee77d2-e813-48b6-a11f-1335b9803551",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3225,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 251,
+            "tags": {
+                "addr:housenumber": "78",
+                "addr:street": "Blumenstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1467323,
+                "lon": 8.198742
+            },
+            "id": "d6270135-bf47-46b4-9545-cf974c5e869e",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "f9142eb7-836a-4248-ab7d-e4eeaeb818c8",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 44,
+            "tags": {
+                "addr:housenumber": "30",
+                "addr:street": "Philosophenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1465791,
+                "lon": 8.1987944
+            },
+            "id": "d2846446-5afc-4910-97b6-23f5072132da",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "afe030d7-370c-4177-97af-77a3995c3b3e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4763,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 475,
+            "tags": {
+                "addr:housenumber": "28",
+                "addr:street": "Philosophenweg",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.145888,
+                "lon": 8.2000711
+            },
+            "id": "fa335bca-9cdb-4b37-a44c-7b439ccfd8fd",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "c1624dd2-4f44-4c0d-86d7-cbbad4fff818",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3996,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 93,
+            "tags": {
+                "addr:housenumber": "72",
+                "addr:street": "Blumenstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1467066,
+                "lon": 8.2006018
+            },
+            "id": "fbbb0049-16aa-412d-8478-8eb6688d26e5",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "cde0cf8b-286c-44cd-a04d-3a232d79484c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3708,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 568,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "43",
+                "addr:postcode": "26121",
+                "addr:street": "Margaretenstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1467375,
+                "lon": 8.2003335
+            },
+            "id": "ffdc513f-636d-4c2f-9740-75171b31f118",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "a2bd7cfa-437a-43ed-82c7-f792c163fdf1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3152,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 674,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "45",
+                "addr:postcode": "26121",
+                "addr:street": "Margaretenstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1463241,
+                "lon": 8.2005253
+            },
+            "id": "a6582fd2-f748-488b-aa76-301a167eb3e9",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "c835ade8-2c2c-4a5c-a72b-22610a481a40",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 446,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:housenumber": "30a",
+                "addr:street": "Kastanienallee",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1466523,
+                "lon": 8.2008096
+            },
+            "id": "d326f4de-d952-4580-b1f9-01fce01f91ff",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "bf695cb9-8037-415c-8798-2d0484d3724b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2816,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 111,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "41",
+                "addr:postcode": "26121",
+                "addr:street": "Margaretenstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1465432,
+                "lon": 8.2003842
+            },
+            "id": "bc5f2935-531c-492e-acd6-f9dec3c4f39d",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "a663851d-60c5-40b6-99a8-d01a8a1b785d",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 141,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "45A",
+                "addr:postcode": "26121",
+                "addr:street": "Margaretenstra\u00dfe",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.146572,
+                "lon": 8.1996762
+            },
+            "id": "a8699406-6088-4224-8ac1-3322ccbb960f",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "c9710f48-1edb-49cc-b46a-73fddd214167",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 603,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housename": "Paulus-Schule Oberschule Nebengeb\u00e4ude",
+                "addr:housenumber": "46",
+                "addr:postcode": "26121",
+                "addr:street": "Margaretenstra\u00dfe",
+                "amenity": "school",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1449393,
+                "lon": 8.1977034
+            },
+            "id": "eb98dbc5-3a3c-4628-9554-4df7eba80057",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "e9124e54-5338-449a-91ac-8831f6c31a63",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3136,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 560,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.14857,
+                "lon": 8.1980169
+            },
+            "id": "fc289ab0-2e90-475a-9f69-87b63b10f048",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "ef8deb7f-1c12-4616-9a55-a96c0ffefee7",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 409,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housename": "BTC AG",
+                "addr:housenumber": "8",
+                "addr:postcode": "26121",
+                "addr:street": "Escherweg",
+                "alt_name": "BTC Busines Technology Consulting AG",
+                "building": "yes",
+                "historic": "yes",
+                "name": "BTC AG & BTC IT Services GmbH",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1463004,
+                "lon": 8.1981247
+            },
+            "id": "c63c8377-0a2d-4bf7-9986-4835cc08aba0",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "bbcffce3-89fa-48df-babb-1b80634bd831",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3983,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 84,
+            "tags": {
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.146152,
+                "lon": 8.1983545
+            },
+            "id": "de062f6c-347e-4d24-8c41-2f4f2b015584",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "c193a184-6d6d-4649-9495-3fca733e8954",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3044,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 404,
+            "tags": {
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1477917,
+                "lon": 8.1986494
+            },
+            "id": "b9e71dea-edbc-4b57-82c9-3e6e6c5b7eb6",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "df64a2f3-5896-48af-8b86-b3d51938861e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2542,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 876,
+            "tags": {
+                "addr:housenumber": "38",
+                "addr:street": "Philosophenweg",
+                "building": "yes",
+                "roof:colour": "black",
+                "roof:shape": "gabled",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1473521,
+                "lon": 8.1986804
+            },
+            "id": "cdfc197a-7c09-48ce-95dc-b4e6d8b7d78e",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "c4b5576e-4311-4b5b-bc54-b5497203359a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3712,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 158,
+            "tags": {
+                "addr:housenumber": "36",
+                "addr:street": "Philosophenweg",
+                "building": "yes",
+                "roof:colour": "black",
+                "roof:shape": "gabled",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1478506,
+                "lon": 8.1989256
+            },
+            "id": "c8a9dc22-aa52-4fff-8775-c1111ad8decc",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "f8cb9632-25c9-4851-984c-12beb5876c51",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2920,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 801,
+            "tags": {
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1478478,
+                "lon": 8.1983718
+            },
+            "id": "d89ecd6e-3af5-4822-8d3c-0c635eb41d53",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "d67a90a8-914e-4458-a502-4071f0064b44",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2944,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 900,
+            "tags": {
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1470349,
+                "lon": 8.199214
+            },
+            "id": "d22d7dc5-cbac-4116-8837-7b5d3ce34b18",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "b6bdcae0-cc34-46a2-b468-0d9bb0dc7bd9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4307,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 81,
+            "tags": {
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1446736,
+                "lon": 8.1984261
+            },
+            "id": "c23d8267-abb8-4edf-bcda-90edd6cc5ded",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "ce6381c5-ce94-4456-9979-f390426df505",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3696,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 843,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26121",
+                "addr:street": "Philosophenweg",
+                "building": "office",
+                "name": "Ev.-Luth. Oberkirchenrat Oldenburg",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1456032,
+                "lon": 8.1981026
+            },
+            "id": "dbfd5576-ba6c-4a22-8de9-6cb4a2980c53",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "d16243be-5bcf-4aca-b1e8-2cbbcfe6c4e4",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3555,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 253,
+            "tags": {
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1455024,
+                "lon": 8.1973808
+            },
+            "id": "ee820954-ec9b-4015-831e-d3ce61eb501b",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "c52d4e74-7a7b-4ce6-ae8e-d1196eee24f6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3198,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 485,
+            "tags": {
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1455279,
+                "lon": 8.1978055
+            },
+            "id": "b23aabb2-82de-4e3a-bcbb-408386cd93e0",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "f3d42f80-150c-4287-9cee-8259b3a7e639",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3661,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "e4a48f45-088b-4955-8cce-44793c271676",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3443,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 777,
+            "tags": {
+                "building": "yes",
+                "source": "bing imagery"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1478013,
+                "lon": 8.1964065
+            },
+            "id": "b3af34d7-0c5d-48e5-9bb4-4015cfc621b7",
+            "node": "node_41",
+            "smartmeters": [
+                {
+                    "id": "f51dba0e-5e76-4443-b10a-3a0c11494f03",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4926,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 297,
+            "tags": {
+                "building": "yes",
+                "name": "Fasanen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.146681,
+                "lon": 8.1972194
+            },
+            "id": "ea6b6d82-f043-4b99-9200-c3c58b8bd6fb",
+            "node": "node_42",
+            "smartmeters": [
+                {
+                    "id": "ab64d64d-dc7e-4695-8f6d-e6cd53b1d6ae",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 138,
+            "tags": {
+                "amenity": "toilets",
+                "building": "yes",
+                "name": "WC",
+                "note": "Nur zug\u00e4nglich, wenn der Bot. Garten ge\u00f6ffnet ist"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1480125,
+                "lon": 8.1979643
+            },
+            "id": "acb01355-5add-4e7d-9150-46e212be3173",
+            "node": "node_43",
+            "smartmeters": [
+                {
+                    "id": "aa95552c-60b7-42f5-a73d-7a45e77b177f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4601,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 68,
+            "tags": {
+                "building": "yes",
+                "building:material": "glass",
+                "name": "Sukkulentenhaus",
+                "roof:material": "glass"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1475986,
+                "lon": 8.1979989
+            },
+            "id": "f45aff56-5b2b-45a9-9ec0-0598b2893cb7",
+            "node": "node_44",
+            "smartmeters": [
+                {
+                    "id": "d7faa626-6c7c-4a2d-acd0-76d07e1d7adb",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3152,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 15,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1474159,
+                "lon": 8.1980711
+            },
+            "id": "a9348f6e-5bab-4ded-ad9f-be9eefffdbd0",
+            "node": "node_45",
+            "smartmeters": [
+                {
+                    "id": "bb5aeace-440f-4019-9fd2-140dfca1021a",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 200,
+            "tags": {
+                "building": "yes",
+                "name": "Verwaltung"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1482982,
+                "lon": 8.1992952
+            },
+            "id": "f9fcbc41-0930-4721-9af4-219c41282232",
+            "node": "node_46",
+            "smartmeters": [
+                {
+                    "id": "c85efe35-be2f-479d-9e8f-3acbb493e003",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4098,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 100,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26121",
+                "addr:street": "Escherweg",
+                "alt_name": "BTC Busines Technology Consulting AG",
+                "building": "yes",
+                "name": "BTC AG",
+                "phone": "+49-441-36120",
+                "url": "http://www.btc-ag.com/",
+                "wikipedia": "de:BTC AG"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1462177,
+                "lon": 8.1976489
+            },
+            "id": "affc508a-6c3a-47ab-9bba-de7345b5a91f",
+            "node": "node_47",
+            "smartmeters": [
+                {
+                    "id": "a10f2339-1b97-45c6-ac0c-60a5790f0197",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5054,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 792,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "23",
+                "addr:postcode": "26121",
+                "addr:street": "Philosophenweg",
+                "amenity": "kindergarten",
+                "name": "Kindertagesst\u00e4tte Philosophenweg",
+                "note": "Fixme: Lage unklar, Adresse korrekt",
+                "operator": "Diakonie"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1457068,
+                "lon": 8.1981632
+            },
+            "id": "cab5a304-821a-40ad-aef0-5777608f3860",
+            "node": "node_48",
+            "smartmeters": [
+                {
+                    "id": "baaaa1f4-5e70-49b8-a497-38c07f28fd46",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 102,
+            "tags": {
+                "addr:city": "Oldenburg",
+                "addr:country": "DE",
+                "addr:housenumber": "17",
+                "addr:postcode": "26121",
+                "addr:street": "Philosophenweg",
+                "amenity": "retirement_home",
+                "name": "Friedas-Frieden-Stift",
+                "website": "http://www.friedas-frieden-ol.de/"
+            }
+        }
+    ]
+}

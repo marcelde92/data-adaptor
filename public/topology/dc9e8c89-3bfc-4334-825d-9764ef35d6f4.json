@@ -1,0 +1,2412 @@
+{
+    "links": [
+        {
+            "source": "dc9e8c89-3bfc-4334-825d-9764ef35d6f4",
+            "target": "node_30"
+        },
+        {
+            "source": "node_30",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_0"
+        },
+        {
+            "source": "node_4",
+            "target": "node_5"
+        },
+        {
+            "source": "node_6",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_7"
+        },
+        {
+            "source": "node_8",
+            "target": "node_9"
+        },
+        {
+            "source": "node_11",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_14"
+        },
+        {
+            "source": "node_15",
+            "target": "node_16"
+        },
+        {
+            "source": "node_17",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_21"
+        },
+        {
+            "source": "node_21",
+            "target": "node_20"
+        },
+        {
+            "source": "node_22",
+            "target": "node_23"
+        },
+        {
+            "source": "node_24",
+            "target": "node_25"
+        },
+        {
+            "source": "node_26",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_28"
+        },
+        {
+            "source": "node_30",
+            "target": "node_41"
+        },
+        {
+            "source": "node_41",
+            "target": "node_31"
+        },
+        {
+            "source": "node_31",
+            "target": "node_38"
+        },
+        {
+            "source": "node_38",
+            "target": "node_35"
+        },
+        {
+            "source": "node_35",
+            "target": "node_34"
+        },
+        {
+            "source": "node_34",
+            "target": "node_33"
+        },
+        {
+            "source": "node_33",
+            "target": "node_32"
+        },
+        {
+            "source": "node_35",
+            "target": "node_36"
+        },
+        {
+            "source": "node_36",
+            "target": "node_37"
+        },
+        {
+            "source": "node_38",
+            "target": "node_40"
+        },
+        {
+            "source": "node_40",
+            "target": "node_39"
+        },
+        {
+            "source": "node_41",
+            "target": "node_50"
+        },
+        {
+            "source": "node_50",
+            "target": "node_43"
+        },
+        {
+            "source": "node_43",
+            "target": "node_42"
+        },
+        {
+            "source": "node_43",
+            "target": "node_49"
+        },
+        {
+            "source": "node_49",
+            "target": "node_44"
+        },
+        {
+            "source": "node_44",
+            "target": "node_47"
+        },
+        {
+            "source": "node_47",
+            "target": "node_45"
+        },
+        {
+            "source": "node_45",
+            "target": "node_46"
+        },
+        {
+            "source": "node_47",
+            "target": "node_48"
+        },
+        {
+            "source": "node_50",
+            "target": "node_52"
+        },
+        {
+            "source": "node_52",
+            "target": "node_51"
+        },
+        {
+            "source": "node_52",
+            "target": "node_54"
+        },
+        {
+            "source": "node_54",
+            "target": "node_53"
+        }
+    ],
+    "name": "An den Feldk\u00e4mpen",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1659524,
+                "lon": 7.9709212
+            },
+            "id": "b49935bd-a529-4c14-8cdb-ac58f7795ef7",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "eb45dec5-d29a-4e41-bf37-a224b38ad813",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2763,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 307,
+            "tags": {
+                "building": "yes",
+                "generator:source": "biogas",
+                "power": "generator"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1770908,
+                "lon": 7.966306
+            },
+            "id": "a2a7be99-e3e3-43a0-ad46-d6c1168a9173",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "e22891e8-bc93-4f38-9bef-641e6c5b97ca",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4675,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 323,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1764498,
+                "lon": 7.9614278
+            },
+            "id": "b88fca7e-2e0c-47ad-9409-fa5f61cd0c0a",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "e87e2c26-d447-4d44-ba5c-2bcd8dd5dac2",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2930,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 225,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "17",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege",
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1764889,
+                "lon": 7.9620244
+            },
+            "id": "c5115a00-f804-4203-abe0-7addea2975d2",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "a56cea44-a616-4563-81ac-095b4c3fe725",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 862,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "19",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege",
+                "building": "detached",
+                "name": "Baumschulen Eilers GbR"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1770765,
+                "lon": 7.9612276
+            },
+            "id": "e71aed14-34a1-4328-9ae2-c05a246439a3",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "af2274b3-4d00-4863-a7ab-efa5d16c6df7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3349,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 861,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "15",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1786688,
+                "lon": 7.9590223
+            },
+            "id": "d3cfa712-bab4-414b-b5c1-a94773ec4a1b",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "e089241f-efb4-436f-8ef2-7ebef54b31d7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3665,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 26,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "11",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1661189,
+                "lon": 7.9680822
+            },
+            "id": "a5138694-1286-45fb-b776-bc5d9499dffa",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "c9412dd6-2162-41c7-9339-21cf53a06056",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4317,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 120,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26160",
+                "addr:street": "Querensteder Stra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1692783,
+                "lon": 7.9688457
+            },
+            "id": "bde4948c-207e-4020-924a-cad13503c480",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "b2af3c10-684f-4f43-bea5-a2fec6b692ff",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4031,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 802,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "7",
+                "addr:postcode": "26160",
+                "addr:street": "Querensteder Stra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1696635,
+                "lon": 7.9597866
+            },
+            "id": "fea8b29b-ec94-4f45-9c1b-230e40221add",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "a3b81d83-d2fd-44a6-969a-ca86270baa03",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5214,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 174,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "6a",
+                "addr:postcode": "26160",
+                "addr:street": "Wittkuhlenstra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1706013,
+                "lon": 7.9646212
+            },
+            "id": "b393e588-d696-4ca3-ab97-95cd77638676",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "e9100652-d383-4632-a808-35fe169b2ca4",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 108,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "6a",
+                "addr:postcode": "26160",
+                "addr:street": "Am Timp",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1696436,
+                "lon": 7.9598945
+            },
+            "id": "e0bce515-8d2d-494f-8af7-1f6549f0ef38",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "e9e9eb55-24aa-4ae7-bdb1-de46c00aecd1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2557,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 181,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26160",
+                "addr:street": "Wittkuhlenstra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1705764,
+                "lon": 7.9648245
+            },
+            "id": "a8689135-ba95-4403-9817-badedf59f475",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "e2721743-3950-448a-9ccd-bbba6aeb3006",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2805,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 292,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26160",
+                "addr:street": "Am Timp",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1700097,
+                "lon": 7.9670115
+            },
+            "id": "a3d467a3-f099-4f05-be93-c351dfd0f9e5",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "b4b93bca-9b44-43c0-8946-319c8ef60317",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4090,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 515,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26160",
+                "addr:street": "Querensteder Stra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1696013,
+                "lon": 7.9629198
+            },
+            "id": "a0e7277a-c41e-4c12-b1b9-cfb6106dc5eb",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "cf05c017-ecb1-4cca-936f-6ca3a8d052eb",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3787,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 415,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26160",
+                "addr:street": "Wittkuhlenstra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1672509,
+                "lon": 7.9704683
+            },
+            "id": "c63c0384-a0f5-4136-b7eb-28eeb4df64a4",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "efa8ea67-1a26-4b92-9dbb-a3fb7ec0c9b2",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 831,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26160",
+                "addr:street": "Querensteder Stra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1705192,
+                "lon": 7.9653972
+            },
+            "id": "f0b9631f-2a4f-49d5-ac44-f5c2aef5abbb",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "a292c159-536f-40de-9947-e4d41bed8071",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3488,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 73,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26160",
+                "addr:street": "Am Timp",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1716137,
+                "lon": 7.9547653
+            },
+            "id": "ed15ad0d-0181-4acf-bf48-6be8700ed913",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "c0c841de-a9e0-46d7-b9d4-57eceb6908da",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2989,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 327,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26160",
+                "addr:street": "Wittkuhlenstra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1712779,
+                "lon": 7.9657458
+            },
+            "id": "efc3f1d9-a291-42ef-9b5e-cc5a6df57732",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "b615b773-8cfa-4420-8d1f-28177414a19f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4782,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 530,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "2a",
+                "addr:postcode": "26160",
+                "addr:street": "Wittkuhlenstra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1686241,
+                "lon": 7.9700284
+            },
+            "id": "e628fd45-b178-4ad8-97b2-4ab58f3ebce5",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "b9d5a1e5-fc20-494f-a9e0-a4cdedfe310e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4063,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 896,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "2a",
+                "addr:postcode": "26160",
+                "addr:street": "Querensteder Stra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1711859,
+                "lon": 7.96553
+            },
+            "id": "db6ec9a2-89e4-4232-81a6-648c99569b58",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "f0e8b7c0-e826-4451-a5d0-e11d5f991e33",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4440,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 476,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26160",
+                "addr:street": "Wittkuhlenstra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1686937,
+                "lon": 7.9699205
+            },
+            "id": "e08a4310-cffc-48eb-b2af-151ab6a43f24",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "b7c07fbe-2341-4fe1-bd0d-6d767900e025",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3481,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 771,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26160",
+                "addr:street": "Querensteder Stra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.16935,
+                "lon": 7.9658869
+            },
+            "id": "a1414980-e1d6-4141-8e4c-8a5dcfc83598",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "d30721a3-bc09-40f2-80cb-3d98026c97fd",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3206,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 193,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26160",
+                "addr:street": "Am Timp",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.169251,
+                "lon": 7.9706011
+            },
+            "id": "c6b6db72-519d-45a8-9372-2b66e31ca9c0",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "c2564431-7149-448a-8d49-288602b6e926",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3893,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 393,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26160",
+                "addr:street": "Alter Bogen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1707356,
+                "lon": 7.9639655
+            },
+            "id": "e105f2e4-2a21-4d4e-9858-f82d2ff4622a",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "a8cf643d-704b-499b-98d7-de424fb5fe5c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4116,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 841,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26160",
+                "addr:street": "Wittkuhlenstra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1709421,
+                "lon": 7.9661691
+            },
+            "id": "ddb42033-525a-4e26-9f24-2c474a14ff6c",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "adc9cf14-30b1-42c9-82b3-1222d092a5ea",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3446,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 507,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26160",
+                "addr:street": "Am Timp",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1690395,
+                "lon": 7.9696882
+            },
+            "id": "b522e225-2209-49d1-8e18-2d8944677b7f",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "f28bee89-e57d-45ec-a7a8-a24b8d0b75d3",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 548,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26160",
+                "addr:street": "Alter Bogen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1732206,
+                "lon": 7.9658851
+            },
+            "id": "a81a9918-26ba-44d6-a127-11cd61b12257",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "f02441ff-9da5-4038-8993-654ad33d46ea",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3096,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 811,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "25a",
+                "addr:postcode": "26160",
+                "addr:street": "Langer Damm",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1732319,
+                "lon": 7.9661875
+            },
+            "id": "bd335b01-fc93-4913-acc3-0213a14f395f",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "e275ffe1-6b94-47b2-9946-cb404ab0f292",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3602,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 293,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "25",
+                "addr:postcode": "26160",
+                "addr:street": "Langer Damm",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1709896,
+                "lon": 7.9668448
+            },
+            "id": "dcf9efe5-87e8-47b0-b60c-0838be814b89",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "d6f286f3-d7cc-4d6f-93bc-8201b185d407",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2673,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 586,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26160",
+                "addr:street": "Querensteder Stra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1753013,
+                "lon": 7.9689112
+            },
+            "id": "f69bcb04-0e01-4db7-a081-b8aae7e7f965",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "eb06911d-b429-4d59-97d7-c98b96794957",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4252,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 843,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "23",
+                "addr:postcode": "26160",
+                "addr:street": "Langer Damm",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1757667,
+                "lon": 7.9695125
+            },
+            "id": "eb6bcc61-2cd6-423d-856c-1982d8b19938",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "bef41872-b20b-43e4-b399-e0a1f88b79f7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4245,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 325,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "21",
+                "addr:postcode": "26160",
+                "addr:street": "Langer Damm",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1758312,
+                "lon": 7.9699426
+            },
+            "id": "d157ae42-544b-4f48-9fba-8bdd635ea073",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "a7243f48-6358-44aa-a4a5-1f917ae936e5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3721,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 196,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "19c",
+                "addr:postcode": "26160",
+                "addr:street": "Langer Damm",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1759672,
+                "lon": 7.9703089
+            },
+            "id": "db388cc1-c3b6-44cd-9883-808847df8093",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "d2b9646e-214d-45ef-bc05-14d227f3b915",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 287,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "19b",
+                "addr:postcode": "26160",
+                "addr:street": "Langer Damm",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1760885,
+                "lon": 7.9575051
+            },
+            "id": "a767800d-fd9a-4b46-b36c-dd53eb21f7bd",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "effdc08e-17c9-4877-ad46-0551dbad8158",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 662,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26160",
+                "addr:street": "Ilexweg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.173565,
+                "lon": 7.9670745
+            },
+            "id": "a5abfcba-a206-4669-81d0-655cf667ec57",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "dd2179a4-8ba6-4ef8-af2d-f604e85efcb0",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3026,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 161,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "60a",
+                "addr:postcode": "26160",
+                "addr:street": "Langer Damm",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1736333,
+                "lon": 7.9669606
+            },
+            "id": "dea6bc10-a6ec-4587-a03d-095a5f8ab356",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "a3a73cec-726a-45d8-81e3-a44d653a1a06",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 202,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "60",
+                "addr:postcode": "26160",
+                "addr:street": "Langer Damm",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1737375,
+                "lon": 7.9672604
+            },
+            "id": "d8dd4b08-666a-4db4-8d9f-01a24bc0efca",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "b8dc6134-db0e-44f8-b18c-10bed394030b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2590,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 240,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "58",
+                "addr:postcode": "26160",
+                "addr:street": "Langer Damm",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1739029,
+                "lon": 7.9674043
+            },
+            "id": "ea398527-595f-4b6b-8d79-2ef8238aa85e",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "ce538091-f55d-4ef7-a322-22e9a3895b61",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 83,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "56",
+                "addr:postcode": "26160",
+                "addr:street": "Langer Damm",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1742323,
+                "lon": 7.9667054
+            },
+            "id": "acb93a79-5d13-4884-95ef-85516455364d",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "a764d813-22d5-4174-9feb-66a7a0ea515b",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 261,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "42",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1745249,
+                "lon": 7.9664875
+            },
+            "id": "e051c9ca-0702-4d32-8176-6ba53ffdd23b",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "e32f95b6-2c97-4d14-b2f3-c86f34c84957",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 850,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "40",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1747654,
+                "lon": 7.9665831
+            },
+            "id": "abe6b854-813a-4433-8151-a103b1a01c16",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "bd007c22-12e1-4a7c-965d-ccba0e58d79d",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 18,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "38",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege",
+                "amenity": "fire_station",
+                "name": "Freiwillige Feuerwehr Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1749518,
+                "lon": 7.9661958
+            },
+            "id": "e617c7fd-f802-4d94-b764-bcc424608ee0",
+            "node": "node_41",
+            "smartmeters": [
+                {
+                    "id": "a06ed8ef-d974-45ed-bae4-5eceaaf42148",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 108,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "36",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1773178,
+                "lon": 7.9637766
+            },
+            "id": "fdba0825-3f7f-44e7-a65c-d885d0e11134",
+            "node": "node_42",
+            "smartmeters": [
+                {
+                    "id": "da6f7253-7ec7-4852-ae66-2d78c768239c",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 590,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "34",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1738583,
+                "lon": 7.9659174
+            },
+            "id": "f5f8c0a6-d625-4a3b-92a0-37e244b76d99",
+            "node": "node_43",
+            "smartmeters": [
+                {
+                    "id": "ae31045a-2567-4378-80a3-6be75e108f9f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3237,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 480,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "27",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1746145,
+                "lon": 7.9657064
+            },
+            "id": "dded5935-ce57-4a46-befb-85e166c29154",
+            "node": "node_44",
+            "smartmeters": [
+                {
+                    "id": "b3b181b5-7784-43e1-a8b6-a61e101892a8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3028,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 360,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "25",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1740366,
+                "lon": 7.963898
+            },
+            "id": "ea4d123d-9271-443e-8d52-c5cce4bc2a47",
+            "node": "node_45",
+            "smartmeters": [
+                {
+                    "id": "c9e6f10b-ffcf-4bb5-a394-aee5157c371f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3433,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 733,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "23",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1747036,
+                "lon": 7.9644305
+            },
+            "id": "c6f0b809-ed65-4191-bbeb-2a97b570328e",
+            "node": "node_46",
+            "smartmeters": [
+                {
+                    "id": "a1b0d458-3786-4f71-8e5e-888817dff598",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4304,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 404,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "21",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1765184,
+                "lon": 7.9620232
+            },
+            "id": "a7e17c9a-9ad4-4b3a-bd65-de02e7f2735e",
+            "node": "node_47",
+            "smartmeters": [
+                {
+                    "id": "c1309836-2056-4138-af00-a3441495f177",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4176,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 676,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "19",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1764609,
+                "lon": 7.9614716
+            },
+            "id": "dcd11320-3e2d-46c7-a96e-277dab2a6cea",
+            "node": "node_48",
+            "smartmeters": [
+                {
+                    "id": "b06fa714-ec37-42ff-9287-617b73281c06",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4358,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 401,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "17",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1774613,
+                "lon": 7.960935
+            },
+            "id": "cab61c65-d89c-4bf4-8995-94299f43e7a6",
+            "node": "node_49",
+            "smartmeters": [
+                {
+                    "id": "c08097fe-926e-4d3c-96ce-f70f4f98ef48",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4233,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 375,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "13a",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1775326,
+                "lon": 7.9607739
+            },
+            "id": "fbd55008-77bb-4b5d-b71c-88f31c0870a2",
+            "node": "node_50",
+            "smartmeters": [
+                {
+                    "id": "c95c6dd3-8621-4f4f-9064-b112cd3ee28c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3156,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "c6ffd28b-3e47-41cd-b780-7fc77eedf581",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3168,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 424,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26160",
+                "addr:street": "An den Feldk\u00e4mpen",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1762394,
+                "lon": 7.9572226
+            },
+            "id": "d88486fa-4659-4ee0-b9c5-5c5e05b6f191",
+            "node": "node_51",
+            "smartmeters": [
+                {
+                    "id": "fa84c3c7-7b9f-4d2b-ba5b-868f03a5966a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2414,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 334,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26160",
+                "addr:street": "Ilexweg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.16613,
+                "lon": 7.9693163
+            },
+            "id": "e2c97f44-c5dc-492f-98b7-0166474f9808",
+            "node": "node_52",
+            "smartmeters": [
+                {
+                    "id": "c8f6e250-4995-4f3c-902e-be4b4f7b01df",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3000,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 486,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26160",
+                "addr:street": "Querensteder Stra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1716723,
+                "lon": 7.9667241
+            },
+            "id": "a765cf9a-03a8-4bb6-90ed-d1626f02e5fd",
+            "node": "node_53",
+            "smartmeters": [
+                {
+                    "id": "f376e1fa-72cb-485d-bff5-73e3280aa96d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5223,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 570,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housename": "Ohrweger Krug",
+                "addr:housenumber": "1",
+                "addr:postcode": "26160",
+                "addr:street": "Querensteder Stra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1715135,
+                "lon": 7.9666867
+            },
+            "id": "f608a7df-eb36-4c34-ad6f-098a44216421",
+            "node": "node_54",
+            "smartmeters": [
+                {
+                    "id": "a14dbd8f-0c7a-465e-bbc0-eda4e287e222",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 758,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26160",
+                "addr:street": "Querensteder Stra\u00dfe",
+                "addr:suburb": "Ohrwege",
+                "amenity": "restaurant",
+                "cuisine": "german",
+                "email": "ohrweger.krug@ewetel.net",
+                "fax": "04403 58982",
+                "name": "Ohrweger Krug",
+                "operator": "Familie Hibbeler",
+                "phone": "04403 2548",
+                "website": "www.ohrweger-krug.de"
+            }
+        }
+    ]
+}

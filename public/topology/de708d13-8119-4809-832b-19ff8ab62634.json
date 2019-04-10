@@ -1,0 +1,853 @@
+{
+    "links": [
+        {
+            "source": "de708d13-8119-4809-832b-19ff8ab62634",
+            "target": "node_16"
+        },
+        {
+            "source": "de708d13-8119-4809-832b-19ff8ab62634",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_0"
+        },
+        {
+            "source": "node_1",
+            "target": "node_17"
+        },
+        {
+            "source": "de708d13-8119-4809-832b-19ff8ab62634",
+            "target": "node_18"
+        },
+        {
+            "source": "de708d13-8119-4809-832b-19ff8ab62634",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_7"
+        },
+        {
+            "source": "de708d13-8119-4809-832b-19ff8ab62634",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_11"
+        },
+        {
+            "source": "de708d13-8119-4809-832b-19ff8ab62634",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_14"
+        },
+        {
+            "source": "de708d13-8119-4809-832b-19ff8ab62634",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_13"
+        },
+        {
+            "source": "de708d13-8119-4809-832b-19ff8ab62634",
+            "target": "node_10"
+        },
+        {
+            "source": "node_10",
+            "target": "node_9"
+        },
+        {
+            "source": "de708d13-8119-4809-832b-19ff8ab62634",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_2"
+        }
+    ],
+    "name": "Aperberger Stra\u00dfe",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1983814,
+                "lon": 7.8024582
+            },
+            "id": "bd650285-02d3-4c25-8c05-546a9704c55b",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "ffdc4707-c17a-4c34-9ce7-b98b3dbff132",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4538,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 35,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "35",
+                "addr:postcode": "26689",
+                "addr:state": "Niedersachsen",
+                "addr:street": "Traubenstra\u00dfe",
+                "addr:suburb": "Aperberg",
+                "name": "Ferienwohnung Haus Alma",
+                "tourism": "apartment"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1984623,
+                "lon": 7.8027567
+            },
+            "id": "ece66d67-7de8-4521-b9d8-e517f2600b04",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "d9d17068-6338-4784-9b26-eab621b99b3f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4044,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 472,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "35",
+                "addr:postcode": "26689",
+                "addr:state": "Niedersachsen",
+                "addr:street": "Traubenstra\u00dfe",
+                "addr:suburb": "Aperberg",
+                "name": "Elektronik Weber",
+                "shop": "electronics",
+                "website": "http://www.elektronikweber.de"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1906532,
+                "lon": 7.7848718
+            },
+            "id": "cacf94c5-8a22-44dc-811a-c8d1f08816ca",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "a1cab456-1c8c-423e-98e5-dc719b05f7bb",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4908,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "ce8cec11-fb4f-4973-9b4e-21ea040d4b1d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4121,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 719,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "41",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe",
+                "addr:suburb": "Nordloh"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1966926,
+                "lon": 7.7898293
+            },
+            "id": "fadf3d7f-1c87-4960-af79-a59a88390c28",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "acbf24ea-1adc-4796-b562-dee5478ffe36",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 1,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "40",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe",
+                "addr:suburb": "Aperberg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1929833,
+                "lon": 7.7893192
+            },
+            "id": "d1fc73ec-4cdb-469b-b0f9-9180cf3635d0",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "edfa941e-81ed-4d15-bc47-ee32d5c301de",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 132,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "39a",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe",
+                "addr:suburb": "Nordloh"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1934606,
+                "lon": 7.7895638
+            },
+            "id": "d1c205b6-7759-4a30-9c48-6f0ed671438f",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "cb811972-8ec4-4317-8ff6-c60100b94eba",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2989,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 613,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "39",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe",
+                "addr:suburb": "Nordloh"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1957422,
+                "lon": 7.7897944
+            },
+            "id": "a358b235-3fb2-43fe-b361-5dd84f626904",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "a7490964-ee7c-406b-a46e-70d1d7064dfc",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3428,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 398,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "35",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe",
+                "addr:suburb": "Aperberg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1965502,
+                "lon": 7.7904792
+            },
+            "id": "bc622e0a-4c98-4619-9381-99b93f74028c",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "ae44db4d-81f2-4d20-8e99-202fbd4126ac",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3242,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 36,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "31",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe",
+                "addr:suburb": "Aperberg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1968475,
+                "lon": 7.7908775
+            },
+            "id": "f9b46d0c-26a6-44ea-b14b-9bcdecc24827",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "fe4f0da2-a509-4475-b815-93ea76d45100",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4670,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 713,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "29",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe",
+                "addr:suburb": "Aperberg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1972117,
+                "lon": 7.7913038
+            },
+            "id": "b9d0aed7-a68d-4985-bee4-dc803fc5bf1a",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "ff5858b1-c091-46a5-a0c3-68d1c1335283",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2656,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 766,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "27",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe",
+                "addr:suburb": "Aperberg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1990578,
+                "lon": 7.7930578
+            },
+            "id": "c3dbbff5-d221-4533-9a04-4cd373f05be2",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "e6ee6ae0-e8ce-474c-93a0-cf8144978c2b",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 534,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "21",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe",
+                "addr:suburb": "Aperberg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2009876,
+                "lon": 7.7969712
+            },
+            "id": "b08b8718-5362-489e-8a61-ce426e49464e",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "d47bcfea-c991-4bb4-b89a-f7039a0dabdf",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3512,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 673,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "41",
+                "addr:postcode": "26689",
+                "addr:street": "Traubenstra\u00dfe",
+                "addr:suburb": "Aperberg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1999505,
+                "lon": 7.7909317
+            },
+            "id": "e1e6123b-6d6a-40b4-9167-bfd441be4312",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "d2552b07-4a7e-4eac-bbab-19c587a32683",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3207,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 681,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26689",
+                "addr:street": "M\u00fchlenberg",
+                "addr:suburb": "Aperberg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2036635,
+                "lon": 7.7934077
+            },
+            "id": "fb6603ca-2ac5-407f-aa6a-bb9e495318d9",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "fa06e4a4-d626-4b1e-b23c-538f2d483dba",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3421,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 793,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "28",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2042394,
+                "lon": 7.7935106
+            },
+            "id": "ba264fbc-ade6-4e06-81fc-e3e67c4ad561",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "b875bfbd-4a00-4f3d-b7eb-1b97a1b829e7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3087,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 705,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "24",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.20451,
+                "lon": 7.7935419
+            },
+            "id": "d07a9e41-711c-48b7-9f90-fe5bfce7553e",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "ac417c11-6d67-48c3-9f9d-344c81e6ec4d",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3458,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 49,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "22",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2047109,
+                "lon": 7.7935598
+            },
+            "id": "fdeeb2cd-9b07-41bb-a35d-8fe389dff8e5",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "c5461d87-7ca9-45e4-b7ca-ebac7c6b4980",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 492,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "20",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe",
+                "addr:suburb": "Aperberg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.205185,
+                "lon": 7.7938661
+            },
+            "id": "fc25e995-026e-48ab-9323-16530e3240f9",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "daa471bf-e389-43ba-8172-369fc742da12",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2499,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 82,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "18",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe",
+                "addr:suburb": "Aperberg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.200585,
+                "lon": 7.7935361
+            },
+            "id": "b59c0ff6-2ad6-4f15-bb11-e0bf51800d0c",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "f6bf1d10-82e5-44a8-adab-845e0126b3ff",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 374,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "15",
+                "addr:postcode": "26689",
+                "addr:street": "Aperberger Stra\u00dfe",
+                "addr:suburb": "Aperberg"
+            }
+        }
+    ]
+}

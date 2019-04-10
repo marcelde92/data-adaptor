@@ -1,0 +1,724 @@
+{
+    "links": [
+        {
+            "source": "d64a9474-4d67-4c74-b327-3c3254ce1445",
+            "target": "node_0"
+        },
+        {
+            "source": "node_0",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_5"
+        },
+        {
+            "source": "node_5",
+            "target": "node_7"
+        },
+        {
+            "source": "node_13",
+            "target": "node_15"
+        },
+        {
+            "source": "d64a9474-4d67-4c74-b327-3c3254ce1445",
+            "target": "node_2"
+        },
+        {
+            "source": "node_2",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_6"
+        },
+        {
+            "source": "node_9",
+            "target": "node_10"
+        },
+        {
+            "source": "d64a9474-4d67-4c74-b327-3c3254ce1445",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_12"
+        }
+    ],
+    "name": "Hankhauser Weg",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2172924,
+                "lon": 8.2438534
+            },
+            "id": "f8106373-1556-452b-a97d-d2f708fa04a1",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "ea07faca-07fc-46b6-8a3e-88979f38c5c1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4592,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 572,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "1",
+                "addr:postcode": "26180",
+                "addr:street": "Handelshof",
+                "building": "industrial",
+                "name": "Vierol AG",
+                "phone": "+49 4402 59710",
+                "website": "http://www.vierol.de"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2183938,
+                "lon": 8.2413926
+            },
+            "id": "abe8922a-ae15-484a-95d5-0e741c66318b",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "f0128894-a037-44be-ab4a-8f9baf8ee5cb",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4485,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 359,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "6",
+                "addr:postcode": "26180",
+                "addr:street": "Schafj\u00fcckenweg",
+                "building": "industrial",
+                "name": "NOWEDA",
+                "phone": "+49 4402 5960",
+                "website": "http://www.noweda.de"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2181678,
+                "lon": 8.2459615
+            },
+            "id": "ccad64c7-2426-41c9-a2c8-ce9308c3a699",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "ba742ad0-3522-4114-ac42-0a6f05dc3288",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3248,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 600,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "5",
+                "addr:postcode": "26180",
+                "addr:street": "Schafj\u00fcckenweg",
+                "building": "industrial",
+                "name": "WITTE TUBE & PIPE SYSTEMS GMBH",
+                "phone": "+49 4402 92490",
+                "website": "http://www.witte-tube.com"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2197113,
+                "lon": 8.2416519
+            },
+            "id": "facdedb6-d899-4f87-a7e0-222a469208d4",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "f85094c0-ca2a-4c40-8ff7-15003bf5b0d6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4960,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 729,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "1",
+                "addr:postcode": "26180",
+                "addr:street": "Schafj\u00fcckenweg",
+                "building": "industrial",
+                "name": "August Br\u00f6tje Handel KG",
+                "phone": "+49 4402 870",
+                "website": "http://www.gut-gruppe.de"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2146546,
+                "lon": 8.2448077
+            },
+            "id": "fe9ac6e6-07da-4298-bb45-9ab6924089e1",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "c161ed3b-d7b0-46a2-863f-4233a3bdd88a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3415,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 455,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "15",
+                "addr:postcode": "26180",
+                "addr:street": "Heiddornweg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2147301,
+                "lon": 8.2447
+            },
+            "id": "a2009737-b64c-47a8-9df2-0e49036f7018",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "f76642b2-5f63-45fc-bf03-075be78435cd",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2405,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 888,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:housenumber": "15a",
+                "addr:postcode": "26180",
+                "addr:street": "Heiddornweg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2242044,
+                "lon": 8.23762
+            },
+            "id": "be04dc66-4563-4c83-94b3-940914c69084",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "e62fa09c-8cbd-401d-9831-ad7e34f09580",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2854,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 464,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "37",
+                "addr:postcode": "26180",
+                "addr:street": "Im Himmel",
+                "addr:suburb": "Barghorn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2234553,
+                "lon": 8.2370113
+            },
+            "id": "fd631f54-e3b1-4a5e-a32b-36fa82d8946a",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "de274963-0811-46d3-bea2-bb35fda8bbdc",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4374,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 425,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "31",
+                "addr:postcode": "26180",
+                "addr:street": "Im Himmel",
+                "addr:suburb": "Barghorn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2274672,
+                "lon": 8.2422552
+            },
+            "id": "b7311ea1-0e93-41af-86eb-574577549bc4",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "e4646eea-19ac-4c52-a937-73deef48dbcb",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 71,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "132",
+                "addr:postcode": "26180",
+                "addr:street": "Hankhauser Weg",
+                "addr:suburb": "Loy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2232641,
+                "lon": 8.2371503
+            },
+            "id": "a8214a11-944e-4ff9-824f-7089270dc438",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "c4081bb6-9604-4101-bfb2-bb8acca65562",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 414,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "29",
+                "addr:postcode": "26180",
+                "addr:street": "Im Himmel",
+                "addr:suburb": "Barghorn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2272685,
+                "lon": 8.2458067
+            },
+            "id": "f1c0780f-8059-46f4-8692-ecddd627e161",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "d1884d9f-c692-4729-9197-dd5419e0c90b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3352,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 379,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "111",
+                "addr:postcode": "26180",
+                "addr:street": "Hankhauser Weg",
+                "addr:suburb": "Loy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2270229,
+                "lon": 8.2389426
+            },
+            "id": "e6c6fedf-1655-4935-ae28-a75c8b70af8f",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "a9c647b4-068a-45bb-9e72-f81fa0adaae3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3531,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 64,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "208",
+                "addr:postcode": "26180",
+                "addr:street": "Loyer Weg",
+                "addr:suburb": "Barghorn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2234373,
+                "lon": 8.2343197
+            },
+            "id": "fb602522-c8ea-4c7e-94d7-635e35ec378c",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "e396e6c8-c048-4a8b-abe7-3a0c99487cb5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4235,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 850,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "32",
+                "addr:postcode": "26180",
+                "addr:street": "Meendeelweg",
+                "addr:suburb": "Barghorn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2269386,
+                "lon": 8.2469474
+            },
+            "id": "d8d3e9c4-ce0f-414a-b941-af51314731f2",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "d3c39475-77ad-4fb9-a64c-39ac75f325ea",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 880,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "103",
+                "addr:postcode": "26180",
+                "addr:street": "Hankhauser Weg",
+                "addr:suburb": "Loy"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2269756,
+                "lon": 8.239833
+            },
+            "id": "a8006e57-16c1-4b0b-9681-09ff13ffb6d9",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "d2e48c83-d9d9-42d1-acea-b2bbc6ca46a5",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3290,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "ec36587e-952c-4211-920f-0b6f41f46ec1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3004,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 826,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "147",
+                "addr:postcode": "26180",
+                "addr:street": "Hankhauser Weg",
+                "addr:suburb": "Barghorn"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2183878,
+                "lon": 8.2356263
+            },
+            "id": "fe8049ac-8dc9-41e9-901f-0721d80c37cc",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "bcc44a5f-c0fc-46ad-b18e-4cc35eab3885",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 330,
+            "tags": {
+                "addr:city": "Rastede",
+                "addr:country": "DE",
+                "addr:housenumber": "29",
+                "addr:postcode": "26180",
+                "addr:street": "Tannenkrugstra\u00dfe",
+                "addr:suburb": "Barghorn"
+            }
+        }
+    ]
+}

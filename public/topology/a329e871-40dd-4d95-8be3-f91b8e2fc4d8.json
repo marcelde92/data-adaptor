@@ -1,0 +1,2098 @@
+{
+    "links": [
+        {
+            "source": "a329e871-40dd-4d95-8be3-f91b8e2fc4d8",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_34"
+        },
+        {
+            "source": "node_34",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_27"
+        },
+        {
+            "source": "node_34",
+            "target": "node_43"
+        },
+        {
+            "source": "a329e871-40dd-4d95-8be3-f91b8e2fc4d8",
+            "target": "node_30"
+        },
+        {
+            "source": "node_30",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_18"
+        },
+        {
+            "source": "node_18",
+            "target": "node_7"
+        },
+        {
+            "source": "node_7",
+            "target": "node_16"
+        },
+        {
+            "source": "node_30",
+            "target": "node_41"
+        },
+        {
+            "source": "node_41",
+            "target": "node_47"
+        },
+        {
+            "source": "a329e871-40dd-4d95-8be3-f91b8e2fc4d8",
+            "target": "node_22"
+        },
+        {
+            "source": "node_22",
+            "target": "node_9"
+        },
+        {
+            "source": "node_9",
+            "target": "node_11"
+        },
+        {
+            "source": "node_22",
+            "target": "node_45"
+        },
+        {
+            "source": "node_45",
+            "target": "node_44"
+        },
+        {
+            "source": "a329e871-40dd-4d95-8be3-f91b8e2fc4d8",
+            "target": "node_23"
+        },
+        {
+            "source": "node_23",
+            "target": "node_32"
+        },
+        {
+            "source": "node_32",
+            "target": "node_31"
+        },
+        {
+            "source": "a329e871-40dd-4d95-8be3-f91b8e2fc4d8",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_13"
+        },
+        {
+            "source": "node_13",
+            "target": "node_2"
+        },
+        {
+            "source": "node_13",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_21"
+        },
+        {
+            "source": "node_24",
+            "target": "node_36"
+        },
+        {
+            "source": "node_36",
+            "target": "node_35"
+        },
+        {
+            "source": "node_36",
+            "target": "node_42"
+        },
+        {
+            "source": "a329e871-40dd-4d95-8be3-f91b8e2fc4d8",
+            "target": "node_6"
+        },
+        {
+            "source": "node_6",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_1"
+        },
+        {
+            "source": "node_6",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_25"
+        },
+        {
+            "source": "node_25",
+            "target": "node_38"
+        },
+        {
+            "source": "a329e871-40dd-4d95-8be3-f91b8e2fc4d8",
+            "target": "node_37"
+        },
+        {
+            "source": "node_37",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_0"
+        },
+        {
+            "source": "node_37",
+            "target": "node_39"
+        },
+        {
+            "source": "node_39",
+            "target": "node_46"
+        },
+        {
+            "source": "a329e871-40dd-4d95-8be3-f91b8e2fc4d8",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_5"
+        },
+        {
+            "source": "a329e871-40dd-4d95-8be3-f91b8e2fc4d8",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_10"
+        },
+        {
+            "source": "node_15",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_40"
+        },
+        {
+            "source": "node_40",
+            "target": "node_33"
+        }
+    ],
+    "name": "Am Kanal",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.2553229,
+                "lon": 7.798669
+            },
+            "id": "f542a238-12df-42bf-afd9-c71e05d2e312",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "cf7fd717-bc76-4c65-a118-edbec7f7a735",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2984,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 562,
+            "tags": {
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2520032,
+                "lon": 7.7928659
+            },
+            "id": "c5fa3085-46be-4c17-8e52-3cde519adc15",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "bea3928d-597f-44d3-894a-986c2ce2b9b6",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 218,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "190",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2518182,
+                "lon": 7.7924823
+            },
+            "id": "d7884d2d-26f5-460e-b517-823efe1b0738",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "b41d34a5-e434-4ac3-9c61-249d82e7852f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3178,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 233,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "189",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2515577,
+                "lon": 7.7920159
+            },
+            "id": "e11a1834-7bae-4d51-80cc-3acf4990e18f",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "e671ad4e-6179-470f-b350-3a280eadb4a5",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 277,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "187a",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2513014,
+                "lon": 7.7916427
+            },
+            "id": "a4dc0c3f-170d-4b3f-b56f-b80aeb209cc9",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "bad39668-3540-4c50-a9a0-4fd8db9c7cc3",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 490,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "187",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2508868,
+                "lon": 7.7909723
+            },
+            "id": "ce6862af-06c7-49cc-9dec-e461d7d9e9d8",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "d9cd2d05-bb2d-49bb-a10a-eaf2652cad9e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3115,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 832,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "186",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2544358,
+                "lon": 7.7970636
+            },
+            "id": "fe629ebe-e319-46e5-8a74-18f10bbe0a03",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "b9c3d115-ab93-4807-b9f0-9cbb80cf2b44",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 830,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "202",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2574891,
+                "lon": 7.8023467
+            },
+            "id": "f1e1363b-db50-487e-be62-9c4abeb72df2",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "b9496c8b-d993-422d-97a5-b260e6c84420",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3503,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 331,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "52",
+                "addr:postcode": "26655",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2617791,
+                "lon": 7.8096533
+            },
+            "id": "ff2feaea-bfbb-4266-8ef8-da342d25eb79",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "e8b19518-7e1a-4413-993f-125ee49e4d10",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3725,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 795,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "35",
+                "addr:postcode": "26655",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.262034,
+                "lon": 7.8102938
+            },
+            "id": "eb94bb1e-fb4b-43b8-a31c-40ab9490e13f",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "d227cd7c-0b33-49a9-8368-5b372a00cb26",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5203,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "d8bb234a-1ddb-467a-924c-0f2638086d66",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3448,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 514,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "34a",
+                "addr:postcode": "26655",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2621877,
+                "lon": 7.8102997
+            },
+            "id": "f437e368-4c74-4314-a26f-49ed05a80583",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "d1e0e137-cf98-43ea-950a-36259d31596b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4918,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 859,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "34",
+                "addr:postcode": "26655",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2634183,
+                "lon": 7.8124511
+            },
+            "id": "a94f7d65-3c3c-41e9-ba20-3b4a3fdac6be",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "bcc8a046-993a-4b30-898e-40d38ce6d137",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4150,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 329,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "29",
+                "addr:postcode": "26655",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2635983,
+                "lon": 7.812828
+            },
+            "id": "c6fded16-b575-48b8-8608-3edeff5b873a",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "e74c0d45-f283-4b6f-a5f3-0c036e79f1f1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2820,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 682,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "28",
+                "addr:postcode": "26655",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2641746,
+                "lon": 7.8138442
+            },
+            "id": "bbdffe70-45ba-45b4-bee7-2c71cd8732a8",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "eee512be-5811-4c65-aa55-050bce1ec207",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 839,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "26",
+                "addr:postcode": "26655",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2647681,
+                "lon": 7.8147742
+            },
+            "id": "fbac0c40-35b5-4009-9a66-067ed9a14424",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "c33330ea-832e-494f-8fea-4b3ff2c7759b",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4282,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 317,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "24",
+                "addr:postcode": "26655",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2572407,
+                "lon": 7.801881
+            },
+            "id": "e3dfd2f0-1a75-40bd-9d2d-bd7c3e3a1fb7",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "b7872767-adb2-44a3-8f88-b2725e63f97c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3230,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 687,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "216",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2570186,
+                "lon": 7.8015678
+            },
+            "id": "b6510c24-fa49-44b5-94c7-499807fff42f",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "a0cc12bd-162b-4280-86d2-e74e61491227",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3711,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 729,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "214",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2565166,
+                "lon": 7.8005601
+            },
+            "id": "af4ae83e-7c10-4ddb-9b1f-1fafc5fb863e",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "f43f5cd9-7b1f-4623-bb28-3a4daf09beb1",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2925,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 382,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "213a",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2565639,
+                "lon": 7.8007183
+            },
+            "id": "bca7d2a9-a1ae-422c-bdc7-2cc3b88be9f9",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "de028bcc-cf99-4c98-9592-e60a023e95cc",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3294,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 325,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "213",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2576317,
+                "lon": 7.8009969
+            },
+            "id": "a8baff84-5bb9-4658-afce-fd75df7298ad",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "f915a039-3b46-48f6-82e1-51c2fb828967",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3957,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 594,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "208a",
+                "addr:postcode": "26689",
+                "addr:street": "Stahlwerkstra\u00dfe",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2577942,
+                "lon": 7.8012101
+            },
+            "id": "f9a261e3-27ee-441e-b8ab-0514d2f12411",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "df750e11-611c-4abf-86a6-4f6402083564",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3123,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 710,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "208",
+                "addr:postcode": "26689",
+                "addr:street": "Stahlwerkstra\u00dfe",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2569342,
+                "lon": 7.7997141
+            },
+            "id": "db6e07e1-379f-420f-afdc-73d592534981",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "d045edd3-e690-412b-bac7-3c036c61bb7f",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 772,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "206",
+                "addr:postcode": "26689",
+                "addr:street": "Stahlwerkstra\u00dfe",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2549401,
+                "lon": 7.7978681
+            },
+            "id": "b24d4ab0-c955-46b9-b289-ae742c77b3b9",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "dedd125f-81b2-4791-aecb-f7bc9c884f95",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3341,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 157,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "205",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.256317,
+                "lon": 7.798758
+            },
+            "id": "da8672e4-32b3-48b2-ac45-71992f16c60e",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "ff79fab8-b6c7-4506-82c0-ccd67f24208a",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4080,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 174,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "204",
+                "addr:postcode": "26689",
+                "addr:street": "Stahlwerkstra\u00dfe",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2558623,
+                "lon": 7.7980014
+            },
+            "id": "f0af900c-9292-4de1-bdc5-1f804026f0ff",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "be990921-1eb9-4076-ac6f-d1210ae3e743",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 169,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "202",
+                "addr:postcode": "26689",
+                "addr:street": "Stahlwerkstra\u00dfe",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2582324,
+                "lon": 7.8019461
+            },
+            "id": "a91f45b2-1d3b-479d-ae9c-e8aa717d0115",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "a80b1b39-3c1d-4804-bc3b-76651789f075",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3532,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 384,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "183",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2591891,
+                "lon": 7.8036863
+            },
+            "id": "b74d6f37-05c0-4506-9d9a-aab80cc53c72",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "c561edcf-d6b5-48de-aaec-c9d383cbddf2",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 334,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "177",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2594791,
+                "lon": 7.8041472
+            },
+            "id": "e225d89a-4325-4a13-8b44-9dfbeeb67e19",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "fc6c6223-5ebe-4da8-a79f-7539027feb64",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3997,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 573,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "175",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2600552,
+                "lon": 7.8048832
+            },
+            "id": "d61c6a62-d412-4a82-b0fd-3bb9396f92d6",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "a7546b52-dfe7-4025-85ac-72cba71ac6f3",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2474,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 200,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "171",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2602691,
+                "lon": 7.8055675
+            },
+            "id": "b3c15c42-a5e0-4767-b272-34b095946dfc",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "d98a7fdc-cf55-44b3-ae2e-d6d6628371c0",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4929,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 14,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "169",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2606476,
+                "lon": 7.8061763
+            },
+            "id": "c1d9194f-c805-44dd-ad50-2f56911e67bd",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "bf26d275-bba6-4f7e-93d5-2e2ef0feff31",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 841,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "165",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.261127,
+                "lon": 7.8070189
+            },
+            "id": "c79c2d64-36de-4e82-b0b5-f1a52c4eceb6",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "daaab9ab-9243-4c52-bb39-f2e2d0a28a8e",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 5002,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 541,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "163",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2616618,
+                "lon": 7.8079199
+            },
+            "id": "e3fce811-2382-4031-adf1-cdd053b81a2b",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "a9952912-35f4-4f02-8dd9-25a1a2096c67",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 237,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "159",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2621391,
+                "lon": 7.8087763
+            },
+            "id": "bf2b294e-385e-4442-bef8-621088600867",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "fb2b3841-58b0-43f1-975d-30be9cb8ac19",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3135,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 82,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "155",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2628118,
+                "lon": 7.8099009
+            },
+            "id": "e991cd91-252a-4249-b5a2-6a7fd148c89b",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "a4e00182-7818-4b9c-b44e-4522167a3e1c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3398,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 453,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "153a",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2627398,
+                "lon": 7.8097599
+            },
+            "id": "a11f12c0-0aa9-4397-a1c3-5ecec26771a1",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "c0572436-2604-4945-99f4-804ecc98dff2",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3187,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 746,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "153",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2635277,
+                "lon": 7.8111768
+            },
+            "id": "a89df5b9-da7c-4039-af56-2e20cacae4cb",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "c0f98ba6-0868-4311-9f37-7f5597050eba",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2745,
+                                "residents": 1
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 771,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "149",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2638856,
+                "lon": 7.8117408
+            },
+            "id": "d4de227f-4b77-4649-9f87-e49a8a4275e7",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "d2a15b3f-3e35-4f96-b5c8-ff0dd2a39f70",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3597,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 237,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "147",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2644484,
+                "lon": 7.812597
+            },
+            "id": "ae6f0750-aa68-41f7-beba-c3a87f3c37ff",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "ca1db651-bcab-4ba4-9794-f30b7852e79b",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 20,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "143",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2646665,
+                "lon": 7.812941
+            },
+            "id": "c11222b4-4a58-4f2a-a99d-3950ac342fd0",
+            "node": "node_39",
+            "smartmeters": [
+                {
+                    "id": "d5885ff5-112d-407b-88c1-1e17fe9002dd",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3841,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 137,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "141",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2648866,
+                "lon": 7.8134775
+            },
+            "id": "f491300b-402c-4c6b-8498-7f5e2e93b0b2",
+            "node": "node_40",
+            "smartmeters": [
+                {
+                    "id": "cfdb4435-62e2-4266-a500-f527753282a7",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4261,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 863,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "139",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2652868,
+                "lon": 7.8140395
+            },
+            "id": "ae69b00f-ceb5-4d4e-96cd-3a943b2ac40f",
+            "node": "node_41",
+            "smartmeters": [
+                {
+                    "id": "f38395b4-c244-4fb0-b530-3254aa55103c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3185,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 234,
+            "tags": {
+                "addr:city": "Westerstede",
+                "addr:country": "DE",
+                "addr:housenumber": "135",
+                "addr:postcode": "26655",
+                "addr:street": "Augustfehner Stra\u00dfe",
+                "addr:suburb": "Ihausen"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2540085,
+                "lon": 7.7963527
+            },
+            "id": "bf1f6548-d6c0-4233-99cf-9039164f162c",
+            "node": "node_42",
+            "smartmeters": [
+                {
+                    "id": "e94c1fba-882e-43cf-9676-c690851174cf",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 4798,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 313,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "200",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2538104,
+                "lon": 7.7960316
+            },
+            "id": "adad6086-774d-49cc-9c0f-3a7123c64204",
+            "node": "node_43",
+            "smartmeters": [
+                {
+                    "id": "fec0588a-1c88-4b15-af34-1465ca5983ac",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3164,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 423,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "199",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2534141,
+                "lon": 7.795259
+            },
+            "id": "a6851b3e-bbf2-4ae1-8484-e0c13055e885",
+            "node": "node_44",
+            "smartmeters": [
+                {
+                    "id": "cce4b1bb-8be7-4f26-9410-7ce79bf2923c",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3647,
+                                "residents": 4
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 483,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "197",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2528663,
+                "lon": 7.7943385
+            },
+            "id": "fef53bc3-5e66-4e10-bc5c-79ac22553727",
+            "node": "node_45",
+            "smartmeters": [
+                {
+                    "id": "fe791c26-25b5-45a0-a74c-247bd75c5718",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {},
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 636,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "194",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2526037,
+                "lon": 7.7938943
+            },
+            "id": "a70b7b2b-12f6-4076-b449-8049eaf3c58f",
+            "node": "node_46",
+            "smartmeters": [
+                {
+                    "id": "c2665203-9e3f-4005-9b50-445106b202d6",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3522,
+                                "residents": 3
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 430,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "193",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.2553747,
+                "lon": 7.7986577
+            },
+            "id": "bc97671c-f50d-4780-bb53-1b7c33b96fbb",
+            "node": "node_47",
+            "smartmeters": [
+                {
+                    "id": "ea03ea74-f818-45f8-b811-0a53d834eed8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2544,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 242,
+            "tags": {
+                "addr:city": "Apen",
+                "addr:country": "DE",
+                "addr:housenumber": "207",
+                "addr:postcode": "26689",
+                "addr:street": "Am Kanal",
+                "addr:suburb": "Augustfehn III"
+            }
+        }
+    ]
+}

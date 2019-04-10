@@ -1,0 +1,1818 @@
+{
+    "links": [
+        {
+            "source": "d691ed3a-e7c0-4a31-8eb6-c7aeda4ad388",
+            "target": "node_16"
+        },
+        {
+            "source": "node_16",
+            "target": "node_8"
+        },
+        {
+            "source": "node_8",
+            "target": "node_2"
+        },
+        {
+            "source": "node_8",
+            "target": "node_10"
+        },
+        {
+            "source": "node_16",
+            "target": "node_20"
+        },
+        {
+            "source": "node_20",
+            "target": "node_18"
+        },
+        {
+            "source": "node_20",
+            "target": "node_27"
+        },
+        {
+            "source": "node_27",
+            "target": "node_22"
+        },
+        {
+            "source": "d691ed3a-e7c0-4a31-8eb6-c7aeda4ad388",
+            "target": "node_17"
+        },
+        {
+            "source": "node_17",
+            "target": "node_1"
+        },
+        {
+            "source": "node_1",
+            "target": "node_5"
+        },
+        {
+            "source": "node_17",
+            "target": "node_26"
+        },
+        {
+            "source": "node_26",
+            "target": "node_23"
+        },
+        {
+            "source": "node_26",
+            "target": "node_38"
+        },
+        {
+            "source": "d691ed3a-e7c0-4a31-8eb6-c7aeda4ad388",
+            "target": "node_24"
+        },
+        {
+            "source": "node_24",
+            "target": "node_3"
+        },
+        {
+            "source": "node_3",
+            "target": "node_4"
+        },
+        {
+            "source": "node_4",
+            "target": "node_6"
+        },
+        {
+            "source": "node_24",
+            "target": "node_29"
+        },
+        {
+            "source": "node_29",
+            "target": "node_30"
+        },
+        {
+            "source": "d691ed3a-e7c0-4a31-8eb6-c7aeda4ad388",
+            "target": "node_11"
+        },
+        {
+            "source": "node_11",
+            "target": "node_7"
+        },
+        {
+            "source": "node_11",
+            "target": "node_35"
+        },
+        {
+            "source": "node_35",
+            "target": "node_14"
+        },
+        {
+            "source": "node_14",
+            "target": "node_13"
+        },
+        {
+            "source": "node_14",
+            "target": "node_28"
+        },
+        {
+            "source": "node_28",
+            "target": "node_33"
+        },
+        {
+            "source": "d691ed3a-e7c0-4a31-8eb6-c7aeda4ad388",
+            "target": "node_12"
+        },
+        {
+            "source": "node_12",
+            "target": "node_9"
+        },
+        {
+            "source": "node_12",
+            "target": "node_19"
+        },
+        {
+            "source": "node_19",
+            "target": "node_36"
+        },
+        {
+            "source": "node_36",
+            "target": "node_34"
+        },
+        {
+            "source": "node_34",
+            "target": "node_32"
+        },
+        {
+            "source": "node_32",
+            "target": "node_25"
+        },
+        {
+            "source": "d691ed3a-e7c0-4a31-8eb6-c7aeda4ad388",
+            "target": "node_31"
+        },
+        {
+            "source": "node_31",
+            "target": "node_15"
+        },
+        {
+            "source": "node_15",
+            "target": "node_0"
+        },
+        {
+            "source": "node_15",
+            "target": "node_21"
+        },
+        {
+            "source": "node_31",
+            "target": "node_37"
+        }
+    ],
+    "name": "Kiefernweg",
+    "smgw": [
+        {
+            "coordinates": {
+                "lat": 53.1884867,
+                "lon": 7.9405313
+            },
+            "id": "f26d5605-a0ff-4a1e-aba0-330b8a61c2f8",
+            "node": "node_0",
+            "smartmeters": [
+                {
+                    "id": "dee922b1-daa0-4b12-9796-42e8436c5e8b",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 113,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26160",
+                "addr:street": "Rettbrook",
+                "addr:suburb": "Ohrwege",
+                "building": "house"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.18836,
+                "lon": 7.9405706
+            },
+            "id": "e1d40178-7e8e-4556-ad12-e680bd498b1b",
+            "node": "node_1",
+            "smartmeters": [
+                {
+                    "id": "c234fb97-d121-4119-80b3-9d230102c3e8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3645,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 540,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1826861,
+                "lon": 7.9328788
+            },
+            "id": "e93a1161-a3c8-4444-b179-1374d6ff4684",
+            "node": "node_2",
+            "smartmeters": [
+                {
+                    "id": "a13268ed-8601-4500-b44a-fc387e59dbf9",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3622,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 337,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "43",
+                "addr:postcode": "26160",
+                "addr:street": "Ocholter Stra\u00dfe",
+                "addr:suburb": "Ohrwege",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1833046,
+                "lon": 7.9368582
+            },
+            "id": "bc1af888-6389-4f0b-be56-cdb64fe0356a",
+            "node": "node_3",
+            "smartmeters": [
+                {
+                    "id": "db25be26-f2b7-46ff-9334-bac81465c273",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 437,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "39",
+                "addr:postcode": "26160",
+                "addr:street": "Ocholter Stra\u00dfe",
+                "addr:suburb": "Ohrwege",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1827154,
+                "lon": 7.9331523
+            },
+            "id": "f3fdb901-ffdf-4924-9d70-7a0e6098720f",
+            "node": "node_4",
+            "smartmeters": [
+                {
+                    "id": "e2670dbc-8fbd-4769-a861-64e9ad8d673f",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3301,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 399,
+            "tags": {
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1832529,
+                "lon": 7.9372055
+            },
+            "id": "f08a256f-d82f-477f-9a94-273c5d09399d",
+            "node": "node_5",
+            "smartmeters": [
+                {
+                    "id": "ccccc39f-ce3f-425e-814c-7f5971ba0205",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 669,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1773829,
+                "lon": 7.9343434
+            },
+            "id": "ad55cdf6-4b66-4453-ab31-8282af4f6c35",
+            "node": "node_6",
+            "smartmeters": [
+                {
+                    "id": "f28bc410-37f5-4da4-a610-9a7d5bdd7003",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 755,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "7",
+                "addr:postcode": "26160",
+                "addr:street": "Hochtanger Weg",
+                "addr:suburb": "Ohrwege",
+                "building": "farm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1755436,
+                "lon": 7.9399955
+            },
+            "id": "d6211ca3-79e2-4b41-abf6-4931d00bf982",
+            "node": "node_7",
+            "smartmeters": [
+                {
+                    "id": "d1fcc43b-dc6c-4a96-b128-779acfdda73c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "daf98852-9339-44e9-b18a-7715af7da958",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3038,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 637,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26160",
+                "addr:street": "Kiefernweg",
+                "addr:suburb": "Ohrwege",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1779414,
+                "lon": 7.9288516
+            },
+            "id": "e49ce048-d5ba-4185-93e8-88545a8e15d3",
+            "node": "node_8",
+            "smartmeters": [
+                {
+                    "id": "afb97e42-69d3-49d0-a24b-797352d9c57a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 161,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26160",
+                "addr:street": "Ollendamm",
+                "addr:suburb": "Ohrwege",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1754307,
+                "lon": 7.9402029
+            },
+            "id": "d3396373-9593-40a9-8abc-91c33663328c",
+            "node": "node_9",
+            "smartmeters": [
+                {
+                    "id": "bcc6a5c5-63fb-4cf7-8ef7-92d9580037d0",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 193,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1773573,
+                "lon": 7.9338051
+            },
+            "id": "f191d56c-40db-43c8-9195-f62f0abce682",
+            "node": "node_10",
+            "smartmeters": [
+                {
+                    "id": "b28e2e1b-18f3-48a6-8388-23ab6df21395",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 238,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.177518,
+                "lon": 7.9346877
+            },
+            "id": "a23a52f8-ab2c-4eaa-b36a-e1b5c1f913a1",
+            "node": "node_11",
+            "smartmeters": [
+                {
+                    "id": "e5b30ff9-618e-4243-a60e-6eedfd9d521f",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 446,
+            "tags": {
+                "building": "yes"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1829261,
+                "lon": 7.93461
+            },
+            "id": "ea84798f-15d7-4a91-9e8c-c4169c110d6f",
+            "node": "node_12",
+            "smartmeters": [
+                {
+                    "id": "d98a92ef-227a-484a-9f4e-906281910073",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 376,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "41",
+                "addr:postcode": "26160",
+                "addr:street": "Ocholter Stra\u00dfe",
+                "addr:suburb": "Ohrwege",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1867656,
+                "lon": 7.9416393
+            },
+            "id": "edebcf25-6ca8-4dae-9da4-6b260cf0cc1c",
+            "node": "node_13",
+            "smartmeters": [
+                {
+                    "id": "f9b9ad3c-e623-4342-97eb-8b6bdd58938a",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 90,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26160",
+                "addr:street": "Rettbrook",
+                "addr:suburb": "Ohrwege",
+                "building": "detached"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1818553,
+                "lon": 7.9321619
+            },
+            "id": "b3aaae59-5e40-499e-83a4-ad1a5506d83b",
+            "node": "node_14",
+            "smartmeters": [
+                {
+                    "id": "fa99f97f-3b0d-41a8-aae8-a158820f7b14",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3119,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 461,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26160",
+                "addr:street": "Hochtanger Weg",
+                "addr:suburb": "Ohrwege",
+                "building": "farm"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1769957,
+                "lon": 7.9347355
+            },
+            "id": "b6cedc4c-816f-437e-b1b8-1ff7ad32a959",
+            "node": "node_15",
+            "smartmeters": [
+                {
+                    "id": "cca3a2d6-8727-4698-9750-14f502515205",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 106,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "9",
+                "addr:postcode": "26160",
+                "addr:street": "Hochtanger Weg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.180364,
+                "lon": 7.9333046
+            },
+            "id": "ee63979e-c47e-401a-a06f-1a56b96882ec",
+            "node": "node_16",
+            "smartmeters": [
+                {
+                    "id": "f3be326e-52b5-4570-816b-8bbfbec11821",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 781,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "5",
+                "addr:postcode": "26160",
+                "addr:street": "Hochtanger Weg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1808849,
+                "lon": 7.932997
+            },
+            "id": "cb5137a9-b152-4439-9b94-374bdf1fa11e",
+            "node": "node_17",
+            "smartmeters": [
+                {
+                    "id": "e879e155-276e-4c29-8568-7662c90b53c1",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 227,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26160",
+                "addr:street": "Hochtanger Weg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1794583,
+                "lon": 7.934234
+            },
+            "id": "bf2c8e5d-03e1-476f-b644-85164df8c3c7",
+            "node": "node_18",
+            "smartmeters": [
+                {
+                    "id": "e8d30221-4d75-479e-9141-ac2ad057a5c1",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 283,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "2b",
+                "addr:postcode": "26160",
+                "addr:street": "Hochtanger Weg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1793361,
+                "lon": 7.9343644
+            },
+            "id": "dd132672-9318-475d-a9e2-26edbe1830ca",
+            "node": "node_19",
+            "smartmeters": [
+                {
+                    "id": "d2883a40-15b7-42d2-881d-e157e1c0abb2",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 392,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "2a",
+                "addr:postcode": "26160",
+                "addr:street": "Hochtanger Weg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1825802,
+                "lon": 7.929291
+            },
+            "id": "a37aaf19-603a-4e5b-84e1-4673b16cdeb4",
+            "node": "node_20",
+            "smartmeters": [
+                {
+                    "id": "a8ab75a8-d241-4326-bfbc-20095a67dcb8",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2584,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 804,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "20",
+                "addr:postcode": "26160",
+                "addr:street": "Ocholter Stra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1799432,
+                "lon": 7.9341972
+            },
+            "id": "ed8c29f4-d716-4c31-b6f7-6202d31488c6",
+            "node": "node_21",
+            "smartmeters": [
+                {
+                    "id": "d9f08d3c-a8bb-4939-919f-4f1a34329c11",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 29,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26160",
+                "addr:street": "Hochtanger Weg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1831272,
+                "lon": 7.9393008
+            },
+            "id": "d05c78d3-3cac-4dec-84e2-eaa06c392a41",
+            "node": "node_22",
+            "smartmeters": [
+                {
+                    "id": "c55944df-9258-4dda-b8a9-46bd257a5d42",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 402,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "18",
+                "addr:postcode": "26160",
+                "addr:street": "Ocholter Stra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1758074,
+                "lon": 7.9351835
+            },
+            "id": "b72a6636-5031-4536-bb18-4ecae2cc7d91",
+            "node": "node_23",
+            "smartmeters": [
+                {
+                    "id": "bcde4bc9-8d42-4c45-80d0-e77c2427866e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 352,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26160",
+                "addr:street": "Hochtanger Weg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1764086,
+                "lon": 7.9350398
+            },
+            "id": "a1dea837-f31b-4c22-b96f-ab10cd725da8",
+            "node": "node_24",
+            "smartmeters": [
+                {
+                    "id": "bed7e103-24b4-43e2-8a5e-729730967780",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 3029,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 146,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "11",
+                "addr:postcode": "26160",
+                "addr:street": "Hochtanger Weg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1758836,
+                "lon": 7.9403181
+            },
+            "id": "aa2e3248-b293-42ed-b777-e48019c8beee",
+            "node": "node_25",
+            "smartmeters": [
+                {
+                    "id": "e365b411-5805-46d3-a6c3-bfa5c6a8258f",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 424,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "8",
+                "addr:postcode": "26160",
+                "addr:street": "Kiefernweg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.173219,
+                "lon": 7.9450366
+            },
+            "id": "aaa4fd5b-ab11-42ab-b744-8c9ce8aab029",
+            "node": "node_26",
+            "smartmeters": [
+                {
+                    "id": "f30f7b70-38dc-42f8-836b-326646fdb8ba",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "ea8e73d7-8726-401c-9afe-9731ea5e9d94",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 657,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "7a",
+                "addr:postcode": "26160",
+                "addr:street": "Kiefernweg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.172964,
+                "lon": 7.9446844
+            },
+            "id": "f1b0acb1-c2a1-4431-93a5-379403e02eb3",
+            "node": "node_27",
+            "smartmeters": [
+                {
+                    "id": "f24b0aae-b4dd-484d-ab7b-0beff2f7d983",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 838,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "7",
+                "addr:postcode": "26160",
+                "addr:street": "Wittkuhlenstra\u00dfe",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1733492,
+                "lon": 7.9449808
+            },
+            "id": "e50afb21-bbf3-481d-aef0-5ba15bf85ec2",
+            "node": "node_28",
+            "smartmeters": [
+                {
+                    "id": "dc50f3bd-dcc2-46ac-8c21-4226bfa1d77e",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 345,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "7",
+                "addr:postcode": "26160",
+                "addr:street": "Kiefernweg"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1760419,
+                "lon": 7.9397429
+            },
+            "id": "d5939177-9c0d-4d4b-a282-05a9fa5b5861",
+            "node": "node_29",
+            "smartmeters": [
+                {
+                    "id": "db719f92-c4e8-4962-a998-b6e12a2c8778",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 129,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "6",
+                "addr:postcode": "26160",
+                "addr:street": "Kiefernweg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1766205,
+                "lon": 7.9389771
+            },
+            "id": "f3250b1a-5a40-4efd-a1b1-7373c9b78218",
+            "node": "node_30",
+            "smartmeters": [
+                {
+                    "id": "d4d294df-7aec-4448-b139-1ea94de323a5",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 239,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "4",
+                "addr:postcode": "26160",
+                "addr:street": "Kiefernweg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1755213,
+                "lon": 7.9400335
+            },
+            "id": "d2d64a73-2629-4506-81ea-a232121dc003",
+            "node": "node_31",
+            "smartmeters": [
+                {
+                    "id": "ae917fa1-feda-423c-b314-9d34e82049a2",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 27500,
+                                "area": 500,
+                                "effiency": "normal",
+                                "type": "doctor"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 545,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "3",
+                "addr:postcode": "26160",
+                "addr:street": "Kiefernweg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1767698,
+                "lon": 7.9379714
+            },
+            "id": "f08488d7-70c2-414e-a273-74ff4fb46c8d",
+            "node": "node_32",
+            "smartmeters": [
+                {
+                    "id": "ff711b51-8e2e-45da-851c-1ef8143d73e7",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                },
+                {
+                    "id": "eea08890-3136-4f74-816b-1d7bca3c9c4e",
+                    "models": [
+                        {
+                            "name": "PV",
+                            "options": {
+                                "area": 300
+                            },
+                            "type": "producer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "producer"
+                }
+            ],
+            "start_difference": 522,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "2",
+                "addr:postcode": "26160",
+                "addr:street": "Kiefernweg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1764838,
+                "lon": 7.9372244
+            },
+            "id": "ea82f44f-5fc2-4076-821c-d9862b7ec090",
+            "node": "node_33",
+            "smartmeters": [
+                {
+                    "id": "e1596d9f-dac7-47a0-b39a-52f2d544b955",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 281,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "1b",
+                "addr:postcode": "26160",
+                "addr:street": "Kiefernweg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1765833,
+                "lon": 7.9368343
+            },
+            "id": "c73d2e94-1265-47d4-8cf5-ba860abbaba4",
+            "node": "node_34",
+            "smartmeters": [
+                {
+                    "id": "cf1ad830-2363-4ae0-97b9-fadfa3b60c84",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 44000,
+                                "area": 800,
+                                "effiency": "high",
+                                "type": "office"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 10,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "1a",
+                "addr:postcode": "26160",
+                "addr:street": "Kiefernweg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1755301,
+                "lon": 7.9420875
+            },
+            "id": "c1bf157b-1de0-4e9b-94a7-34aff872edd4",
+            "node": "node_35",
+            "smartmeters": [
+                {
+                    "id": "c366d4bd-5201-49f7-a230-ed50c5fda09c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 501,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "13",
+                "addr:postcode": "26160",
+                "addr:street": "Vor dem Kienmoor",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1754474,
+                "lon": 7.9416532
+            },
+            "id": "c7c35898-6afa-44ef-906d-d1cdd00faef3",
+            "node": "node_36",
+            "smartmeters": [
+                {
+                    "id": "b650a7ac-7235-4995-9c92-1268e5bb815c",
+                    "models": [
+                        {
+                            "name": "DaytimeBusiness",
+                            "options": {
+                                "annualConsumption": 11000,
+                                "area": 200,
+                                "effiency": "low",
+                                "type": "retail"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 140,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "12",
+                "addr:postcode": "26160",
+                "addr:street": "Kiefernweg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1756215,
+                "lon": 7.9410928
+            },
+            "id": "f1f369c2-58c7-401c-b7cf-a235f6885e24",
+            "node": "node_37",
+            "smartmeters": [
+                {
+                    "id": "eaae312d-3e59-4316-b562-ce0b4b97fca8",
+                    "models": [
+                        {
+                            "name": "Breeding",
+                            "options": {
+                                "annualConsumption": 16500.0,
+                                "livestook": 15000,
+                                "type": "poultry"
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 822,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "10",
+                "addr:postcode": "26160",
+                "addr:street": "Kiefernweg",
+                "addr:suburb": "Ohrwege"
+            }
+        },
+        {
+            "coordinates": {
+                "lat": 53.1767624,
+                "lon": 7.9358799
+            },
+            "id": "eb7b109e-adef-4459-9452-6f8bf0aad234",
+            "node": "node_38",
+            "smartmeters": [
+                {
+                    "id": "da3267bd-c2d0-4d6f-8430-89b063cd7430",
+                    "models": [
+                        {
+                            "name": "HouseHold",
+                            "options": {
+                                "annualConsumption": 2829,
+                                "residents": 2
+                            },
+                            "type": "consumer"
+                        }
+                    ],
+                    "obis_code": {
+                        "channel": "b",
+                        "measured_variable": 0,
+                        "measurement_type": 0,
+                        "medium": 0,
+                        "tariff": "e"
+                    },
+                    "type": "consumer"
+                }
+            ],
+            "start_difference": 405,
+            "tags": {
+                "addr:city": "Bad Zwischenahn",
+                "addr:country": "DE",
+                "addr:housenumber": "1",
+                "addr:postcode": "26160",
+                "addr:street": "Kiefernweg",
+                "addr:suburb": "Ohrwege"
+            }
+        }
+    ]
+}
