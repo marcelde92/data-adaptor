@@ -195,6 +195,32 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
 });
 
 /*
+ *  /plausibility/meter/:id/past returns plausibility for each algorithm for one SMGW in the given timespan which should be 24h
+ *
+ */
+router.get('/plausibility/meter/:id/past', function(req, res, next) {
+    //FIXME: TimeResolution ISO 15 Minuten (ISO kontrollieren)
+    //FIXME: Middlewear should set from data
+    var queries = [];
+
+    var fromTS = new Date() - 60 * 60;
+
+    queries.push("SELECT mrid, timestamp, plausibility_value, plausibility_source FROM SM_Plausibility ["+fromTS+" : ISO(PT00H15M) : NOW] WHERE mrid =" + req.params.id + ";");
+
+    //FIXME: Debug
+    res.render('debug', { content: queries });
+
+    /*
+     request({
+     uri: LZA_ADDR + ':' + LZA_PORT,
+     qs: {
+     query: queries
+     }
+     }).pipe(res);
+     */
+});
+
+/*
  *  Plausbilität je Algo eines SMGWs NOW
  *
  *
@@ -205,7 +231,6 @@ router.get('/plausibility/meter/:id', function(req, res, next) {
     var queries = [];
     queries.push("SELECT mrid, plausibility_value, plausibility_source FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid =" + req.params.id + ";");
 
-
     //FIXME: Debug
     res.render('debug', { content: queries });
 
@@ -219,32 +244,6 @@ router.get('/plausibility/meter/:id', function(req, res, next) {
      */
 });
 
-
-/*
- *  /plausibility/meter/:id/from/:from/to/:to returns plausibility for each algorithm for one SMGW in the given timespan which should be 24h
- *  
- *  TODO: Eventuelle Rückberechnung eines now ts - 24h statt "from"
- *  FIXME: Frage OFFIS: PL.timestamp?
- */
-router.get('/plausibility/meter/:id/from/:from/to/:to', function(req, res, next) {
-    //FIXME: TimeResolution ISO 15 Minuten (ISO kontrollieren)
-    //FIXME: Middlewear should set from data
-    var queries = [];
-    queries.push("SELECT mrid, timestamp, plausibility_value, plausibility_source FROM SM_Plausibility ["+req.params.from+" : ISO(PT00H15M) : NOW] WHERE mrid =" + req.params.id + ";");
-
-
-    //FIXME: Debug
-    res.render('debug', { content: queries });
-
-    /*
-     request({
-     uri: LZA_ADDR + ':' + LZA_PORT,
-     qs: {
-     query: queries
-     }
-     }).pipe(res);
-     */
-});
 
 /*
  *  /meter/:id/from/:from/to/:to returns Smartmeter values between from and to with a 1 hour resolution
@@ -262,7 +261,6 @@ router.get('/meter/:id/lastmonth/', function(req, res, next) {
 
     var queries = [];
     queries.push("SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : ISO(PT01H00M) : "+toTS+"] WHERE mrid =" + req.params.id + ";");
-
 
     //FIXME: Debug
     res.render('debug', { content: queries });
@@ -292,7 +290,6 @@ router.get('/meter/:id/pastmonth', function(req, res, next) {
     var queries = [];
     queries.push("SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : ISO(PT01H00M) : "+toTS+"] WHERE mrid =" + req.params.id + ";");
 
-
     //FIXME: Debug
     res.render('debug', { content: queries });
 
@@ -319,7 +316,6 @@ router.get('/weather/:location', function(req, res, next) {
 
     var queries = [];
     queries.push("SELECT * FROM Weather ["+fromTS+" : ISO(PT00H30M) : NOW] WHERE location =" + req.params.location + ";");
-
 
     //FIXME: Debug
     res.render('debug', { content: queries });
