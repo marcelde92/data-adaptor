@@ -205,10 +205,16 @@ router.get('/plausibility/meter/:id/past', function(req, res, next) {
 
     var fromTS = new Date() - 60 * 60;
 
-    queries.push("SELECT mrid, timestamp, plausibility_value, plausibility_source FROM SM_Plausibility ["+fromTS+" : ISO(PT00H15M) : NOW] WHERE mrid =" + req.params.id + ";");
+    //queries.push("SELECT mrid, timestamp, plausibility_value, plausibility_source FROM SM_Plausibility ["+fromTS+" : ISO(PT00H15M) : NOW] WHERE mrid =" + req.params.id + ";");
 
     //FIXME: Debug
-    res.render('debug', { content: queries });
+    //res.render('debug', { content: queries });
+
+    if (req.params.id == 'e31209cf-0cd1-4739-87d0-96f142d1dd68') {
+        res.download('./public/CSV/06_plausi_sm-status_nearest.csv')
+    } else {
+        res.render('error', { content: {code: 404, message: 'Smart meter id was not found'} });
+    }
 
     /*
      request({
