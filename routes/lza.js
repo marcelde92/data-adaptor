@@ -211,9 +211,17 @@ router.get('/plausibility/meter/:id/past', function(req, res, next) {
     //res.render('debug', { content: queries });
 
     if (req.params.id == 'e31209cf-0cd1-4739-87d0-96f142d1dd68') {
-        res.download('./public/CSV/06_plausi_sm-status_nearest.csv')
+        var fs = require('fs');
+        fs.readFile( __dirname + './public/CSV/06_plausi_sm-status_nearest.csv', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+        });
     } else {
-        res.render('error', { content: {code: 404, message: 'Smart meter id was not found'} });
+        res.setHeader('Content-Type', 'application/json');
+        res.send(JSON.stringify({ error: {code: 404, message: 'Smart meter id was not found'}}));
     }
 
     /*
