@@ -379,6 +379,15 @@ router.get('/meter/:id/lastmonth/', function(req, res, next) {
             res.setHeader('Content-Type', 'application/json');
             res.send(JSON.stringify({ content: JSON.stringify(data)}));
         });
+    } else if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
+        var fs = require('fs');
+        fs.readFile( __dirname + '/../public/CSV/09_last_month_hourly_SMe91a.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+        });
     } else {
         res.setHeader('Content-Type', 'application/json');
         res.send(JSON.stringify({ error: {code: 404, message: 'Smart meter id was not found'}}));
@@ -415,6 +424,15 @@ router.get('/meter/:id/pastmonth', function(req, res, next) {
     if (req.params.id == 'd6474feb-d37a-405c-b16b-5e39138355d0') {
         var fs = require('fs');
         fs.readFile( __dirname + '/../public/CSV/10_last_two_month_hourly.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+        });
+    } else if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
+        var fs = require('fs');
+        fs.readFile( __dirname + '/../public/CSV/10_last_two_month_hourly-SMe91a.csv','utf8', function (err, data) {
             if (err) {
                 throw err;
             }
