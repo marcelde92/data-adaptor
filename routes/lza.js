@@ -118,7 +118,7 @@ router.get('/subnet/:id', function(req, res, next) {
     //FIXME: Debug
     //res.render('debug', { content: queries });
 
-    if (req.params.id == 'fff760-33-6ed2-4296-90c0-ed682a68b6ec') {
+    if (req.params.id == 'fff76033-6ed2-4296-90c0-ed682a68b6ec') {
         var fs = require('fs');
         fs.readFile( __dirname + '/../public/CSV/03_category_allSM-Status_nearest.csv','utf8', function (err, data) {
             if (err) {
@@ -161,7 +161,7 @@ router.get('/subnet/:id/past', function(req, res, next) {
     //FIXME: Debug
     //res.render('debug', { content: queries });
 
-    if (req.params.id == 'fff760-33-6ed2-4296-90c0-ed682a68b6ec') {
+    if (req.params.id == 'fff76033-6ed2-4296-90c0-ed682a68b6ec') {
         var fs = require('fs');
         fs.readFile( __dirname + '/../public/CSV/04_category_allSM-Status_12hrs.csv','utf8', function (err, data) {
             if (err) {
@@ -279,6 +279,7 @@ router.get('/plausibility/meter/:id/past', function(req, res, next) {
 
     var fromTS = new Date() - 60 * 60;
 
+    //from/1515024000/to/1515110399
     //queries.push("SELECT mrid, timestamp, plausibility_value, plausibility_source FROM SM_Plausibility ["+fromTS+" : ISO(PT00H15M) : NOW] WHERE mrid =" + req.params.id + ";");
 
     //FIXME: Debug
@@ -307,6 +308,7 @@ router.get('/plausibility/meter/:id/past', function(req, res, next) {
      }).pipe(res);
      */
 });
+
 
 /*
  *  Plausbilität je Algo eines SMGWs NOW
@@ -436,7 +438,7 @@ router.get('/meter/:id/pastmonth', function(req, res, next) {
 
 
 /*
- *  /weather/:location/from/:from/to/:to returns the weather data between from and to in 30 Minute resolution
+ *  /weather/:location/ returns the weather of past 24 hours 30 Minute resolution
  *
  * wetter eines SMGWs 24h
  */
