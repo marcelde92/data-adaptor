@@ -7,7 +7,6 @@ var router = express.Router();
  */
 router.use('/overview', function (req, res, next) {
     console.log('Request Id:', req.params.id);
-    //res.download('./public/topology/mv-topology.json')
 
     let topologyList = [];
 
@@ -20,16 +19,15 @@ router.use('/overview', function (req, res, next) {
         fs.readdir(directoryPath, function (err, files) {
             //handling error
             if (err) {
-                return console.log('Unable to scan directory: ' + err);
+                console.log('Unable to scan directory: ' + err);
+            } else {
+                //listing all files using forEach
+                files.forEach(function (file) {
+                    topologyList.push(file);
+                });
+                res.setHeader('Content-Type', 'application/json');
+                res.send(JSON.stringify({content: JSON.stringify(topologyList)}));
             }
-            //listing all files using forEach
-            files.forEach(function (file) {
-                // Do whatever you want to do with the file
-                console.log(file);
-                topologyList.push(file);
-            });
-            res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: JSON.stringify(topologyList)}));
         });
 });
 
@@ -44,10 +42,13 @@ router.use('/:id', function (req, res, next) {
     var fs = require('fs');
     fs.readFile( __dirname + '/../public/topology/' + req.params.id + '.json','utf8', function (err, data) {
         if (err) {
-            throw err;
+            console.log(err);
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ error: {code: 404, message: 'Subnet with id: ' + req.params.id + ' could not be retrieved'}}));
+        } else {
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({content: JSON.stringify(data)}));
         }
-        res.setHeader('Content-Type', 'application/json');
-        res.send(JSON.stringify({ content: JSON.stringify(data)}));
     });
 });
 

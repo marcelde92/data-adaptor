@@ -30,7 +30,17 @@ router.get('/subnet', function(req, res, next) {
     }
 
     //FIXME: Debug
-    res.render('debug', { content: queries });
+    //res.render('debug', { content: queries });
+
+    var fs = require('fs');
+    fs.readFile( __dirname + '/../public/CSV/01_category_agg-status_nearest.csv','utf8', function (err, data) {
+        if (err) {
+            throw err;
+        }
+        res.setHeader('Content-Type', 'application/json');
+        res.send(JSON.stringify({ content: JSON.stringify(data)}));
+    });
+
 
     /*
     request({
@@ -67,7 +77,17 @@ router.get('/subnet/past/', function(req, res, next) {
     }
 
     //FIXME: Debug
-    res.render('debug', { content: queries });
+    //res.render('debug', { content: queries });
+
+    var fs = require('fs');
+    fs.readFile( __dirname + '/../public/CSV/02_category_subnet-status_12hrs.csv','utf8', function (err, data) {
+        if (err) {
+            throw err;
+        }
+        res.setHeader('Content-Type', 'application/json');
+        res.send(JSON.stringify({ content: JSON.stringify(data)}));
+    });
+
 
     /*
     request({
@@ -96,7 +116,21 @@ router.get('/subnet/:id', function(req, res, next) {
 
 
     //FIXME: Debug
-    res.render('debug', { content: queries });
+    //res.render('debug', { content: queries });
+
+    if (req.params.id == 'fff760-33-6ed2-4296-90c0-ed682a68b6ec') {
+        var fs = require('fs');
+        fs.readFile( __dirname + '/../public/CSV/03_category_allSM-Status_nearest.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+        });
+    } else {
+        res.setHeader('Content-Type', 'application/json');
+        res.send(JSON.stringify({ error: {code: 404, message: 'Subnet id was not found'}}));
+    }
 
     /*
     request({
@@ -125,7 +159,21 @@ router.get('/subnet/:id/past', function(req, res, next) {
     queries.push("SELECT mrid, category FROM SmartMeter["+minus12H+" : NOW] WHERE mrid IN (" + subnet + ") AND category LIKE 'Ersatzwert';");
 
     //FIXME: Debug
-    res.render('debug', { content: queries });
+    //res.render('debug', { content: queries });
+
+    if (req.params.id == 'fff760-33-6ed2-4296-90c0-ed682a68b6ec') {
+        var fs = require('fs');
+        fs.readFile( __dirname + '/../public/CSV/04_category_allSM-Status_12hrs.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+        });
+    } else {
+        res.setHeader('Content-Type', 'application/json');
+        res.send(JSON.stringify({ error: {code: 404, message: 'Subnet id was not found'}}));
+    }
 
     /*
     request({
@@ -141,17 +189,31 @@ router.get('/subnet/:id/past', function(req, res, next) {
  *  /meter/:id/days returns Smartmeter values vor the last day
  *
  */
-router.get('/meter/:id/days/', function(req, res, next) {
+router.get('/meter/:id/day/', function(req, res, next) {
 
     //FIXME: We need to be careful when selecting timestamps
-    //FIXME: month != 30 days
     var fromTS = new Date() - 24 * 60 * 60;
 
     var queries = [];
     queries.push("SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : NOW] WHERE mrid =" + req.params.id + ";");
 
     //FIXME: Debug
-    res.render('debug', { content: queries });
+    //res.render('debug', { content: queries });
+
+
+    if (req.params.id == 'c41daf96-f387-4098-bd23-fce1f32bf9d4') {
+        var fs = require('fs');
+        fs.readFile( __dirname + '/../public/CSV/05_sm_meas_24hrs.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+        });
+    } else {
+        res.setHeader('Content-Type', 'application/json');
+        res.send(JSON.stringify({ error: {code: 404, message: 'Smart meter id was not found'}}));
+    }
 
     /*
      request({
@@ -296,14 +358,29 @@ router.get('/meter/:id/lastmonth/', function(req, res, next) {
 
     //FIXME: We need to be careful when selecting timestamps
     //FIXME: month != 30 days
-    var fromTS = new Date() - 24 * 60 * 60 * 30;
-    var toTS = + new Date(); //Date() instead of NOW since we do the same in /meter/:id/pastmonth
+    //var fromTS = new Date() - 24 * 60 * 60 * 30;
+    //var toTS = + new Date(); //Date() instead of NOW since we do the same in /meter/:id/pastmonth
 
-    var queries = [];
-    queries.push("SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : ISO(PT01H00M) : "+toTS+"] WHERE mrid =" + req.params.id + ";");
+    //var queries = [];
+    //queries.push("SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : ISO(PT01H00M) : "+toTS+"] WHERE mrid =" + req.params.id + ";");
 
     //FIXME: Debug
-    res.render('debug', { content: queries });
+    //res.render('debug', { content: queries });
+
+
+    if (req.params.id == 'd6474feb-d37a-405c-b16b-5e39138355d0') {
+        var fs = require('fs');
+        fs.readFile( __dirname + '/../public/CSV/09_last_month_hourly.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+        });
+    } else {
+        res.setHeader('Content-Type', 'application/json');
+        res.send(JSON.stringify({ error: {code: 404, message: 'Smart meter id was not found'}}));
+    }
 
     /*
      request({
@@ -331,7 +408,21 @@ router.get('/meter/:id/pastmonth', function(req, res, next) {
     queries.push("SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : ISO(PT01H00M) : "+toTS+"] WHERE mrid =" + req.params.id + ";");
 
     //FIXME: Debug
-    res.render('debug', { content: queries });
+    //res.render('debug', { content: queries });
+
+    if (req.params.id == 'd6474feb-d37a-405c-b16b-5e39138355d0') {
+        var fs = require('fs');
+        fs.readFile( __dirname + '/../public/CSV/10_last_two_month_hourly.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+        });
+    } else {
+        res.setHeader('Content-Type', 'application/json');
+        res.send(JSON.stringify({ error: {code: 404, message: 'Smart meter id was not found'}}));
+    }
 
     /*
      request({
@@ -358,7 +449,21 @@ router.get('/weather/:location', function(req, res, next) {
     queries.push("SELECT * FROM Weather ["+fromTS+" : ISO(PT00H30M) : NOW] WHERE location =" + req.params.location + ";");
 
     //FIXME: Debug
-    res.render('debug', { content: queries });
+    //res.render('debug', { content: queries });
+
+    if (req.params.location.toLowerCase() === 'oldenburg') {
+        var fs = require('fs');
+        fs.readFile( __dirname + '/../public/CSV/11_weather_by_location_24hrs.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+        });
+    } else {
+        res.setHeader('Content-Type', 'application/json');
+        res.send(JSON.stringify({ error: {code: 404, message: 'Location: ' + req.params.location.toLowerCase() + ' was not found'}}));
+    }
 
     /*
      request({
