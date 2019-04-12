@@ -2,7 +2,7 @@ var express = require('express');
 var cors = require('cors')
 var router = express.Router();
 
-router.use(cors());
+router.use();
 
 /*
  *  Returns mid-current grid with references to all subnets
@@ -24,15 +24,14 @@ router.use('/overview', function (req, res, next) {
                 console.log('Unable to scan directory: ' + err);
             } else {
                 //listing all files using forEach
-                files.forEach(function (file) {
-                    topologyList.push(file);
+                files.forEach(function (filename) {
+                    topologyList.push(filename.replace(/\.[^/.]+$/, ""));
                 });
                 res.setHeader('Content-Type', 'application/json');
                 res.send(JSON.stringify({content: JSON.stringify(topologyList)}));
             }
         });
 });
-
 
 /*
  *  Returns the subnet with a given ID
