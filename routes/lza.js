@@ -32,13 +32,15 @@ router.get('/subnet', function(req, res, next) {
     //FIXME: Debug
     //res.render('debug', { content: queries });
 
+    const HEADER = "mrid;category\n";
+
     var fs = require('fs');
     fs.readFile( __dirname + '/../public/CSV/01_category_agg-status_nearest.csv','utf8', function (err, data) {
         if (err) {
             throw err;
         }
         res.setHeader('Content-Type', 'application/json');
-        res.send(JSON.stringify({ content: JSON.stringify(data)}));
+        res.send(JSON.stringify({ content: HEADER + data}));
     });
 
 
@@ -79,13 +81,15 @@ router.get('/subnet/past/', function(req, res, next) {
     //FIXME: Debug
     //res.render('debug', { content: queries });
 
+    const HEADER = "mrid;category\n";
+
     var fs = require('fs');
     fs.readFile( __dirname + '/../public/CSV/02_category_subnet-status_12hrs.csv','utf8', function (err, data) {
         if (err) {
             throw err;
         }
         res.setHeader('Content-Type', 'application/json');
-        res.send(JSON.stringify({ content: JSON.stringify(data)}));
+        res.send(JSON.stringify({ content: HEADER + data}));
     });
 
 
@@ -118,6 +122,8 @@ router.get('/subnet/:id', function(req, res, next) {
     //FIXME: Debug
     //res.render('debug', { content: queries });
 
+    const HEADER = "mrid;category\n";
+
     if (req.params.id == 'fff76033-6ed2-4296-90c0-ed682a68b6ec') {
         var fs = require('fs');
         fs.readFile( __dirname + '/../public/CSV/03_category_allSM-Status_nearest.csv','utf8', function (err, data) {
@@ -125,7 +131,7 @@ router.get('/subnet/:id', function(req, res, next) {
                 throw err;
             }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+            res.send(JSON.stringify({ content: HEADER + data}));
         });
     } else {
         res.setHeader('Content-Type', 'application/json');
@@ -161,6 +167,8 @@ router.get('/subnet/:id/past', function(req, res, next) {
     //FIXME: Debug
     //res.render('debug', { content: queries });
 
+    const HEADER = "mrid;category\n";
+
     if (req.params.id == 'fff76033-6ed2-4296-90c0-ed682a68b6ec') {
         var fs = require('fs');
         fs.readFile( __dirname + '/../public/CSV/04_category_allSM-Status_12hrs.csv','utf8', function (err, data) {
@@ -168,7 +176,7 @@ router.get('/subnet/:id/past', function(req, res, next) {
                 throw err;
             }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+            res.send(JSON.stringify({ content: HEADER + data}));
         });
     } else {
         res.setHeader('Content-Type', 'application/json');
@@ -200,6 +208,7 @@ router.get('/meter/:id/day/', function(req, res, next) {
     //FIXME: Debug
     //res.render('debug', { content: queries });
 
+    const HEADER = "mrid;timestamp;value\n";
 
     if (req.params.id == 'c41daf96-f387-4098-bd23-fce1f32bf9d4') {
         var fs = require('fs');
@@ -208,7 +217,7 @@ router.get('/meter/:id/day/', function(req, res, next) {
                 throw err;
             }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+            res.send(JSON.stringify({ content: HEADER + data}));
         });
     } else {
         res.setHeader('Content-Type', 'application/json');
@@ -246,6 +255,7 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
     //FIXME: Debug
     //res.render('debug', { content: queries });
 
+    const HEADER = "plausibility_value;plausibility_source\n";
 
     //FIXME: check for subnets (at least check if correct subnet was suplied)
         var fs = require('fs');
@@ -254,7 +264,7 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
                 throw err;
             }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+            res.send(JSON.stringify({ content: HEADER + data}));
         });
 
 
@@ -285,6 +295,7 @@ router.get('/plausibility/meter/:id/past', function(req, res, next) {
     //FIXME: Debug
     //res.render('debug', { content: queries });
 
+    const HEADER = "mrid;timestamp;plausibility_value;plausibility_source\n";
     if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
         var fs = require('fs');
         fs.readFile( __dirname + '/../public/CSV/08_plausi_sm_24hrs.csv','utf8', function (err, data) {
@@ -292,7 +303,7 @@ router.get('/plausibility/meter/:id/past', function(req, res, next) {
                 throw err;
             }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+            res.send(JSON.stringify({ content: HEADER + data}));
         });
     } else {
         res.setHeader('Content-Type', 'application/json');
@@ -324,6 +335,8 @@ router.get('/plausibility/meter/:id', function(req, res, next) {
     //FIXME: Debug
     //res.render('debug', { content: queries });
 
+    const HEADER = "mrid;plausibility_value;plausibility_source\n";
+
     if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
         var fs = require('fs');
         fs.readFile( __dirname + '/../public/CSV/06_plausi_sm-status_nearest_SMe91a.csv','utf8', function (err, data) {
@@ -331,7 +344,7 @@ router.get('/plausibility/meter/:id', function(req, res, next) {
                 throw err;
             }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+            res.send(JSON.stringify({ content: HEADER + data}));
         });
     } else {
         res.setHeader('Content-Type', 'application/json');
@@ -369,6 +382,7 @@ router.get('/meter/:id/lastmonth/', function(req, res, next) {
     //FIXME: Debug
     //res.render('debug', { content: queries });
 
+    const HEADER = "mrid;timestamp;value\n";
 
     if (req.params.id == 'd6474feb-d37a-405c-b16b-5e39138355d0') {
         var fs = require('fs');
@@ -377,7 +391,7 @@ router.get('/meter/:id/lastmonth/', function(req, res, next) {
                 throw err;
             }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+            res.send(JSON.stringify({ content: HEADER + data}));
         });
     } else if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
         var fs = require('fs');
@@ -386,7 +400,7 @@ router.get('/meter/:id/lastmonth/', function(req, res, next) {
                 throw err;
             }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+            res.send(JSON.stringify({ content: HEADER + data}));
         });
     } else {
         res.setHeader('Content-Type', 'application/json');
@@ -421,6 +435,8 @@ router.get('/meter/:id/pastmonth', function(req, res, next) {
     //FIXME: Debug
     //res.render('debug', { content: queries });
 
+    const HEADER = "mrid;timestamp;value\n";
+
     if (req.params.id == 'd6474feb-d37a-405c-b16b-5e39138355d0') {
         var fs = require('fs');
         fs.readFile( __dirname + '/../public/CSV/10_last_two_month_hourly.csv','utf8', function (err, data) {
@@ -428,7 +444,7 @@ router.get('/meter/:id/pastmonth', function(req, res, next) {
                 throw err;
             }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+            res.send(JSON.stringify({ content: HEADER + data}));
         });
     } else if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
         var fs = require('fs');
@@ -437,7 +453,7 @@ router.get('/meter/:id/pastmonth', function(req, res, next) {
                 throw err;
             }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+            res.send(JSON.stringify({ content: HEADER + data}));
         });
     } else {
         res.setHeader('Content-Type', 'application/json');
@@ -470,6 +486,7 @@ router.get('/weather/:location', function(req, res, next) {
 
     //FIXME: Debug
     //res.render('debug', { content: queries });
+    const HEADER = "location;twothousandeighteen;category;type;timestamp;id;unit_multiplier;unit;value\n";
 
     if (req.params.location.toLowerCase() === 'oldenburg') {
         var fs = require('fs');
@@ -478,7 +495,7 @@ router.get('/weather/:location', function(req, res, next) {
                 throw err;
             }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: JSON.stringify(data)}));
+            res.send(JSON.stringify({ content: HEADER + data}));
         });
     } else {
         res.setHeader('Content-Type', 'application/json');
