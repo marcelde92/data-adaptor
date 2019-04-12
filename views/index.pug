@@ -4,13 +4,16 @@ block content
   h1= title
   h2 available API calls
   h3 TDM
-  h2 This is currently stored locally in the clients
+  h2 Topology data is transmitted as JSON
   p /tdm/overview/ returns mid-current grid with references to all subnets
   a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/tdm/overview")  http://netzdatenstrom.imis.uni-luebeck.de:3000/tdm/overview
 
   p /tdm/#ID returns the subnet with a given #ID
   a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/tdm/fff76033-6ed2-4296-90c0-ed682a68b6ec")  http://netzdatenstrom.imis.uni-luebeck.de:3000/tdm/fff76033-6ed2-4296-90c0-ed682a68b6ec
+
   h3 LZA
+  h2 Smart-Meter values are transmitted as semicolon separated CSV
+
   p /lza/subnet will return the status of all subnets. Due to system architecture this requires a request for each subnet
   a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/subnet")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/subnet
 
