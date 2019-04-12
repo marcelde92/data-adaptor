@@ -2,8 +2,6 @@ var express = require('express');
 var cors = require('cors')
 var router = express.Router();
 
-router.use();
-
 /*
  *  Returns mid-current grid with references to all subnets
  */
