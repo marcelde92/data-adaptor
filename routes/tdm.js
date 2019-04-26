@@ -8,7 +8,6 @@ router.use(cors());
  *  Returns mid-current grid with references to all subnets
  */
 router.use('/overview', function (req, res, next) {
-    console.log('Request Id:', req.params.id);
 
     let topologyList = [];
 

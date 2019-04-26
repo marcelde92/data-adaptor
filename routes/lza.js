@@ -1,6 +1,8 @@
 var express = require('express');
 var request = require('request');
+var cors = require('cors')
 var router = express.Router();
+router.use(cors());
 
 var LZA_ADDR = 'IP_OF_THE_LZA_SERVER'
 var LZA_PORT = 'PORT_OF_THE_LZA_SERVER'
@@ -334,6 +336,8 @@ router.get('/plausibility/meter/:id', function(req, res, next) {
 
     //FIXME: Debug
     //res.render('debug', { content: queries });
+    console.log(req);
+    console.log(req.params);
 
     const HEADER = "mrid;plausibility_value;plausibility_source\n";
 
