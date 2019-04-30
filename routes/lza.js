@@ -239,7 +239,7 @@ router.get('/meter/:id/day/', function(req, res, next) {
 /*
  *  FIXME: Aggregation über IDs, nicht Zeitreihen möglich?
  *
- * /plausibility/subnet/:id returns the average of all plausibilities within a given subnet per algorithm
+ * /plausibility/subnet/:id returns all plausibilities within a given subnet per algorithm
  *
  */
 router.get('/plausibility/subnet/:id', function(req, res, next) {
@@ -250,7 +250,7 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
 
     //var queries = [];
     //FIXME: "Ersatzwert needs to be part of an ENUM
-    //queries.push("SELECT plausibility_value, plausibility_source FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid IN (" + subnet + ");");
+    //queries.push("SELECT plausibility_value, plausibility_source, mrid FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid IN (" + subnet + ");");
 
     //FIXME: manual aggregation here
 
