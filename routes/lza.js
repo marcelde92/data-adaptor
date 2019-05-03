@@ -257,7 +257,7 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
     //FIXME: Debug
     //res.render('debug', { content: queries });
 
-    const HEADER = "plausibility_value;plausibility_source\n";
+    const HEADER = "mrid;plausibility_value;plausibility_source\n";
 
     //FIXME: check for subnets (at least check if correct subnet was suplied)
         var fs = require('fs');
