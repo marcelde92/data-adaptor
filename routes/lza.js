@@ -361,7 +361,7 @@ router.get('/plausibility/meter/:id', function(req, res, next) {
             res.send(JSON.stringify({ content: HEADER + data}));
         });
     } else if (simulateMissingData){
-        fs.readFile( __dirname + '/../public/CSV/simulation/06_plausi_sm-status_nearest_SMe91a.csv','utf8', function (err, data) {
+        fs.readFile( __dirname + '/../public/CSV/simulation/06_plausi_sm-status_nearest.csv','utf8', function (err, data) {
             if (err) {
                 throw err;
             }
