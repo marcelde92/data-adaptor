@@ -6,6 +6,7 @@ router.use(cors());
 
 var LZA_ADDR = 'IP_OF_THE_LZA_SERVER'
 var LZA_PORT = 'PORT_OF_THE_LZA_SERVER'
+let simulateMissingData = true;
 
 //FIXME: Generate list of all queries with explanation for OFFIS and Kisters
 
@@ -288,7 +289,6 @@ router.get('/plausibility/meter/:id/past', function(req, res, next) {
     //FIXME: TimeResolution ISO 15 Minuten (ISO kontrollieren)
     //FIXME: Middlewear should set from data
     var queries = [];
-
     var fromTS = new Date() - 60 * 60;
 
     //from/1515024000/to/1515110399
@@ -298,12 +298,22 @@ router.get('/plausibility/meter/:id/past', function(req, res, next) {
     //res.render('debug', { content: queries });
 
     const HEADER = "mrid;timestamp;plausibility_value;plausibility_source\n";
+    const fs = require('fs');
+
     if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
-        var fs = require('fs');
         fs.readFile( __dirname + '/../public/CSV/08_plausi_sm_24hrs.csv','utf8', function (err, data) {
             if (err) {
                 throw err;
             }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: HEADER + data}));
+        });
+    } else if (simulateMissingData){
+        fs.readFile( __dirname + '/../public/CSV/simulation/08_plausi_sm_24hrs.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            data = data.replace('MRID', req.params.id);
             res.setHeader('Content-Type', 'application/json');
             res.send(JSON.stringify({ content: HEADER + data}));
         });
@@ -340,9 +350,8 @@ router.get('/plausibility/meter/:id', function(req, res, next) {
     console.log(req.params);
 
     const HEADER = "mrid;plausibility_value;plausibility_source\n";
-
+    const fs = require('fs');
     if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
-        var fs = require('fs');
         fs.readFile( __dirname + '/../public/CSV/06_plausi_sm-status_nearest_SMe91a.csv','utf8', function (err, data) {
             if (err) {
                 throw err;
@@ -350,11 +359,19 @@ router.get('/plausibility/meter/:id', function(req, res, next) {
             res.setHeader('Content-Type', 'application/json');
             res.send(JSON.stringify({ content: HEADER + data}));
         });
+    } else if (simulateMissingData){
+        fs.readFile( __dirname + '/../public/CSV/simulation/06_plausi_sm-status_nearest_SMe91a.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            data = data.replace('MRID', req.params.id);
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: HEADER + data}));
+        });
     } else {
         res.setHeader('Content-Type', 'application/json');
         res.send(JSON.stringify({ error: {code: 404, message: 'Smart meter id was not found'}}));
     }
-
     /*
      request({
      uri: LZA_ADDR + ':' + LZA_PORT,
@@ -387,9 +404,8 @@ router.get('/meter/:id/lastmonth/', function(req, res, next) {
     //res.render('debug', { content: queries });
 
     const HEADER = "mrid;timestamp;value\n";
-
+    const fs = require('fs');
     if (req.params.id == 'd6474feb-d37a-405c-b16b-5e39138355d0') {
-        var fs = require('fs');
         fs.readFile( __dirname + '/../public/CSV/09_last_month_hourly.csv','utf8', function (err, data) {
             if (err) {
                 throw err;
@@ -398,11 +414,19 @@ router.get('/meter/:id/lastmonth/', function(req, res, next) {
             res.send(JSON.stringify({ content: HEADER + data}));
         });
     } else if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
-        var fs = require('fs');
         fs.readFile( __dirname + '/../public/CSV/09_last_month_hourly_SMe91a.csv','utf8', function (err, data) {
             if (err) {
                 throw err;
             }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: HEADER + data}));
+        });
+    } else if (simulateMissingData){
+        fs.readFile( __dirname + '/../public/CSV/simulation/09_last_month_hourly.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            data = data.replace('MRID', req.params.id);
             res.setHeader('Content-Type', 'application/json');
             res.send(JSON.stringify({ content: HEADER + data}));
         });
