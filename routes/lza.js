@@ -260,16 +260,17 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
 
     const HEADER = "mrid;plausibility_value;plausibility_source\n";
 
-    //FIXME: check for subnets (at least check if correct subnet was suplied)
-        var fs = require('fs');
-        fs.readFile( __dirname + '/../public/CSV/07_plausi_subnet-status_nearest.csv','utf8', function (err, data) {
-            if (err) {
-                throw err;
-            }
-            res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: HEADER + data}));
-        });
+    //FIXME: for simjulation we need to read the topologies SM-List - this can't be faked using the csv files
 
+    //FIXME: check for subnets (at least check if correct subnet was suplied)
+    const fs = require('fs');
+    fs.readFile( __dirname + '/../public/CSV/07_plausi_subnet-status_nearest.csv','utf8', function (err, data) {
+        if (err) {
+            throw err;
+        }
+        res.setHeader('Content-Type', 'application/json');
+        res.send(JSON.stringify({ content: HEADER + data}));
+    });
 
     /*
      request({

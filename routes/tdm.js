@@ -47,7 +47,7 @@ router.use('/:id', function (req, res, next) {
             res.send(JSON.stringify({ error: {code: 404, message: 'Subnet with id: ' + req.params.id + ' could not be retrieved'}}));
         } else {
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({content: JSON.stringify(data)}));
+            res.send(JSON.stringify({content: data}));
         }
     });
 });
