@@ -300,7 +300,7 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
             }
 
             let csvString = HEADER;
-            for (let element in plausibilityList){
+            for (let element of plausibilityList){
                 csvString += element.id + ";" + element.plausibility + ";" + element.type + "\n";
             }
 
