@@ -289,11 +289,11 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
                         // FIXME: here we should read values from the cache instead of generating them randomly
                         plausibilityList.push({
                             id : smartMeter.id,
-                            plausibility: Math.floor(((Math.random() * 50) + 50) / 100),
+                            plausibility: Math.floor(((Math.random() * 50) + 50)) / 100,
                             type: 'historical'});
                         plausibilityList.push({
                             id: smartMeter.id,
-                            plausibility: Math.floor(((Math.random() * 50) + 50) / 100),
+                            plausibility: Math.floor(((Math.random() * 50) + 50)) / 100,
                             type: 'weather'});
                     }
                 }
