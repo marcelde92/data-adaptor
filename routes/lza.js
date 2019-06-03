@@ -264,13 +264,50 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
 
     //FIXME: check for subnets (at least check if correct subnet was suplied)
     const fs = require('fs');
-    fs.readFile( __dirname + '/../public/CSV/07_plausi_subnet-status_nearest.csv','utf8', function (err, data) {
-        if (err) {
-            throw err;
-        }
-        res.setHeader('Content-Type', 'application/json');
-        res.send(JSON.stringify({ content: HEADER + data}));
-    });
+    if (req.params.id == 'fff76033-6ed2-4296-90c0-ed682a68b6ec') {
+        fs.readFile(__dirname + '/../public/CSV/07_plausi_subnet-status_nearest.csv', 'utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({content: HEADER + data}));
+        });
+    } else {
+        //read topology to generate example values for each smartmeter
+        fs.readFile(__dirname + '/../public/topology/' + req.params.id + '.json', 'utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            // Parsen der Topologie in JSON, mit dem weiter gearbeitet wird
+            let subnetTopology = JSON.parse(data);
+
+            let plausibilityList = [];
+            for (let i = 0; i < subnetTopology.smgw.length; i++) {
+                //We will render smart meter gateways as the lowest layer for now
+                for (let smartMeter of subnetTopology.smgw[i].smartmeters) {
+                    if (smartMeter.type == "producer") {
+                        // FIXME: here we should read values from the cache instead of generating them randomly
+                        plausibilityList.push({
+                            id : smartMeter.id,
+                            plausibility: Math.floor((Math.random() * 50) + 50),
+                            type: 'historical'});
+                        plausibilityList.push({
+                            id: smartMeter.id,
+                            plausibility: Math.floor((Math.random() * 50) + 50),
+                            type: 'weather'});
+                    }
+                }
+            }
+
+            let csvString = HEADER;
+            for (element in plausibilityList){
+                csvString += element.id + ";" + element.plausibility + ";" + element.type + "\n";
+            }
+
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({content: csvString}));
+        });
+    }
 
     /*
      request({
@@ -281,6 +318,7 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
      }).pipe(res);
      */
 });
+
 
 /*
  *  /plausibility/meter/:id/past returns plausibility for each algorithm for one SMGW in the given timespan which should be 24h
