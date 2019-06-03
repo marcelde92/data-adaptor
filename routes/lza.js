@@ -301,7 +301,7 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
 
             let csvString = HEADER;
             for (element in plausibilityList){
-                csvString += element.id + ";" + element.plausibility + ";" + element.type + "\n";
+                csvString += element.id + ";" + element.plausibility + ";" + element.type + System.lineSeparator();
             }
 
             res.setHeader('Content-Type', 'application/json');
