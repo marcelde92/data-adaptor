@@ -1,12 +1,14 @@
-var express = require('express');
-var request = require('request');
-var cors = require('cors')
-var router = express.Router();
+const express = require('express');
+const request = require('request');
+const cors = require('cors')
+const router = express.Router();
 router.use(cors());
 
-var LZA_ADDR = 'IP_OF_THE_LZA_SERVER'
-var LZA_PORT = 'PORT_OF_THE_LZA_SERVER'
+const LZA_ADDR = 'IP_OF_THE_LZA_SERVER'
+const LZA_PORT = 'PORT_OF_THE_LZA_SERVER'
 let simulateMissingData = true;
+
+const simulatedFailures = ['efdc2987-3a32-457e-9507-b446b0db52f0'];
 
 //FIXME: Generate list of all queries with explanation for OFFIS and Kisters
 
@@ -137,8 +139,34 @@ router.get('/subnet/:id', function(req, res, next) {
             res.send(JSON.stringify({ content: HEADER + data}));
         });
     } else {
-        res.setHeader('Content-Type', 'application/json');
-        res.send(JSON.stringify({ error: {code: 404, message: 'Subnet id was not found'}}));
+        //read topology to generate example values for each smartmeter
+        fs.readFile(__dirname + '/../public/topology/' + req.params.id + '.json', 'utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+
+            let subnetTopology = JSON.parse(data);
+
+            let statusList = [];
+            for (let i = 0; i < subnetTopology.smgw.length; i++) {
+                //We check if a failure should be simulated
+                for (let smartMeter of subnetTopology.smgw[i].smartmeters) {
+                    if (simulateMissingData && simulatedFailures.includes(smartMeter.id) ) {
+                        statusList.push({
+                            mrid : smartMeter.id,
+                            category: 'Ersatzwert'});
+                    }
+                }
+            }
+
+            let csvString = HEADER;
+            for (let element of statusList){
+                csvString += element.mrid + ";" + element.category + "\n";
+            }
+
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({content: csvString}));
+        });
     }
 
     /*
@@ -223,8 +251,14 @@ router.get('/meter/:id/day/', function(req, res, next) {
             res.send(JSON.stringify({ content: HEADER + data}));
         });
     } else {
-        res.setHeader('Content-Type', 'application/json');
-        res.send(JSON.stringify({ error: {code: 404, message: 'Smart meter id was not found'}}));
+        fs.readFile( __dirname + '/../public/CSV/simulation/05_sm_meas_24hrs.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            data = data.replace(new RegExp('MRID', 'g'), req.params.id);
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: HEADER + data}));
+        });
     }
 
     /*
@@ -278,7 +312,7 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
             if (err) {
                 throw err;
             }
-            // Parsen der Topologie in JSON, mit dem weiter gearbeitet wird
+            
             let subnetTopology = JSON.parse(data);
 
             let plausibilityList = [];
@@ -352,7 +386,7 @@ router.get('/plausibility/meter/:id/past', function(req, res, next) {
             if (err) {
                 throw err;
             }
-            data = data.replace('MRID', req.params.id);
+            data = data.replace(new RegExp('MRID', 'g'), req.params.id);
             res.setHeader('Content-Type', 'application/json');
             res.send(JSON.stringify({ content: HEADER + data}));
         });
