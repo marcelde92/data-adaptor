@@ -128,9 +128,8 @@ router.get('/subnet/:id', function(req, res, next) {
     //res.render('debug', { content: queries });
 
     const HEADER = "mrid;category\n";
-
+    const fs = require('fs');
     if (req.params.id == 'fff76033-6ed2-4296-90c0-ed682a68b6ec') {
-        var fs = require('fs');
         fs.readFile( __dirname + '/../public/CSV/03_category_allSM-Status_nearest.csv','utf8', function (err, data) {
             if (err) {
                 throw err;
