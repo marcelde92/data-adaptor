@@ -612,6 +612,38 @@ router.get('/weather/:location', function(req, res, next) {
      */
 });
 
+
+/*
+ *  /test/ tests the lza API
+ *
+ */
+router.get('/test/', function(front_req, front_res, front_next) {
+
+    var options = {
+        host: "10.10.103.12:9089",
+        path: "/tsql/v1",
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        }
+    };
+
+    var back_req = http.request(options, function (back_res) {
+        var responseString = "";
+
+        back_res.on("data", function (data) {
+            responseString += data;
+            // save all the data from response
+        });
+        back_res.on("end", function () {
+            front_res.send(responseString);
+        });
+    });
+
+    var anfragesprache = "SELECT mrid, timestamp, value FROM SmartMeter [1515018600:1515105000] WHERE mrid = 'c41daf96-f387-4098-bd23-fce1f32bf9d4' AND year = 2018 AND type = 'smartmeter' AND unit = 'Wh'";
+    back_req.write(anfragesprache);
+});
+
 /*
  *  Operateur schreibt Wert zurück
  */
