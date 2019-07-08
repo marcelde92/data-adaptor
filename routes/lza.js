@@ -1,11 +1,13 @@
 const express = require('express');
 const request = require('request');
-const cors = require('cors')
+const cors = require('cors');
 const router = express.Router();
+const http = require('http');
+
 router.use(cors());
 
-const LZA_ADDR = 'IP_OF_THE_LZA_SERVER'
-const LZA_PORT = 'PORT_OF_THE_LZA_SERVER'
+const LZA_ADDR = 'IP_OF_THE_LZA_SERVER';
+const LZA_PORT = 'PORT_OF_THE_LZA_SERVER';
 let simulateMissingData = true;
 
 const simulatedFailures = ['efdc2987-3a32-457e-9507-b446b0db52f0'];
@@ -616,32 +618,40 @@ router.get('/weather/:location', function(req, res, next) {
 /*
  *  /test/ tests the lza API
  *
+ *
+ *  FIXME: This function will cause the express-server to crash when adress not reachable
  */
 router.get('/test/', function(front_req, front_res, front_next) {
 
-    var options = {
-        host: "10.10.103.12:9089",
-        path: "/tsql/v1",
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        }
-    };
+        var options = {
+            host: "10.10.103.12",
+            port: "9089",
+            path: "/tsql/v1",
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        };
 
-    var back_req = http.request(options, function (back_res) {
-        var responseString = "";
+    try {
+        var back_req = http.request(options, function (back_res) {
+            var responseString = "";
 
-        back_res.on("data", function (data) {
-            responseString += data;
-            // save all the data from response
+            back_res.on("data", function (data) {
+                responseString += data;
+                // save all the data from response
+            });
+            back_res.on("end", function () {
+                front_res.send(responseString);
+            });
         });
-        back_res.on("end", function () {
-            front_res.send(responseString);
-        });
-    });
 
-    var anfragesprache = "SELECT mrid, timestamp, value FROM SmartMeter [1515018600:1515105000] WHERE mrid = 'c41daf96-f387-4098-bd23-fce1f32bf9d4' AND year = 2018 AND type = 'smartmeter' AND unit = 'Wh'";
-    back_req.write(anfragesprache);
+        var anfragesprache = "SELECT mrid, timestamp, value FROM SmartMeter [1515018600:1515105000] WHERE mrid = 'c41daf96-f387-4098-bd23-fce1f32bf9d4' AND year = 2018 AND type = 'smartmeter' AND unit = 'Wh'";
+        back_req.write(anfragesprache);
+    } catch (error) {
+        // This is not catching the error...
+        console.error(error);
+    }
 });
 
 /*
