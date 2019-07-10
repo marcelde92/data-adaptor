@@ -2,7 +2,8 @@ const express = require('express');
 const request = require('request');
 const cors = require('cors');
 const router = express.Router();
-const http = require('http');
+const http = require('http-debug').http;
+http.debug = 2;
 
 router.use(cors());
 
@@ -576,42 +577,31 @@ router.get('/meter/:id/pastmonth', function(req, res, next) {
 /*
  *  /weather/:location/ returns the weather of past 24 hours 30 Minute resolution
  *
+ * Attention! temperature and globalRadiation will be added in individual CSV-lines
+ *
  * wetter eines SMGWs 24h
  */
 router.get('/weather/:location', function(req, res, next) {
 
+    //FIXME: remove this when data is available for current period
+    let lastYearREMOVETHIS = 365 * 24 * 60 * 60;
+
     //FIXME: We need to be careful when selecting timestamps
-    var fromTS = new Date() - 24 * 60 * 60;
+    const fromTS = Math.floor(((new Date()) / 1000) - 24 * 60 * 60 - lastYearREMOVETHIS);
+    const toTS = Math.floor((new Date().getTime()) / 1000 - lastYearREMOVETHIS);
 
-    var queries = [];
-    queries.push("SELECT * FROM Weather ["+fromTS+" : ISO(PT00H30M) : NOW] WHERE location =" + req.params.location + ";");
+    const query = "SELECT towndetail_name, kind, timestamp, value FROM Weather["+fromTS+":"+toTS+"] WHERE towndetail_name = '"+req.params.location+"' AND year = 2018 AND type = 'weather' AND kind = 'ambientTemperature'";
 
-    //FIXME: Debug
-    //res.render('debug', { content: queries });
-    const HEADER = "location;twothousandeighteen;category;type;timestamp;id;unit_multiplier;unit;value\n";
+    const HEADER = "location;category;timestamp;unit_multiplier;unit;value\n";
 
-    if (req.params.location.toLowerCase() === 'oldenburg') {
-        var fs = require('fs');
-        fs.readFile( __dirname + '/../public/CSV/11_weather_by_location_24hrs.csv','utf8', function (err, data) {
-            if (err) {
-                throw err;
-            }
+
+    queryLZA(query)
+        .then( (response) =>  {
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: HEADER + data}));
-        });
-    } else {
-        res.setHeader('Content-Type', 'application/json');
-        res.send(JSON.stringify({ error: {code: 404, message: 'Location: ' + req.params.location.toLowerCase() + ' was not found'}}));
-    }
+            res.send(JSON.stringify({ content: HEADER + response}));
+        })
+        .catch((response) => res.send(response));
 
-    /*
-     request({
-     uri: LZA_ADDR + ':' + LZA_PORT,
-     qs: {
-     query: queries
-     }
-     }).pipe(res);
-     */
 });
 
 
@@ -623,36 +613,55 @@ router.get('/weather/:location', function(req, res, next) {
  */
 router.get('/test/', function(front_req, front_res, front_next) {
 
-        var options = {
+    var anfragesprache = "SELECT towndetail_name, kind, timestamp, value FROM Weather WHERE towndetail_name = 'Oldenburg' AND year = 2018 AND type = 'weather' AND kind = 'ambientTemperature'";
+
+    queryLZA(anfragesprache)
+        .then( (response) => front_res.send(response))
+        .catch((response) => front_res.send(response));
+
+});
+
+async function queryLZA(request) {
+    return new Promise(function (resolve, reject) {
+        const options = {
             host: "10.10.103.12",
             port: "9089",
             path: "/tsql/v1",
             method: "POST",
             headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "text/plain",
+                'Cache-Control': 'no-cache',
+                'Connection': 'keep-alive',
+                'User-Agent': 'IMIS-Middleware',
+                'Content-Length': request.length
             }
         };
 
-    try {
-        var back_req = http.request(options, function (back_res) {
-            var responseString = "";
+        try {
+            http.request(options, function (back_res) {
+                var responseString = "";
 
-            back_res.on("data", function (data) {
-                responseString += data;
-                // save all the data from response
-            });
-            back_res.on("end", function () {
-                front_res.send(responseString);
-            });
-        });
+                back_res.on("data", function (data) {
+                    responseString += data;
+                    // save all the data from response
+                });
+                back_res.on("end", function () {
+                    if (responseString.includes('InvalidQueryException')){
+                        console.error(responseString);
+                        reject(responseString);
+                    } else {
+                        resolve(responseString);
+                    }
+                });
+            }).write(request);
+        } catch (error) {
+            // This is not catching the error...
+            console.error(error);
+            reject(error);
+        }
 
-        var anfragesprache = "SELECT mrid, timestamp, value FROM SmartMeter [1515018600:1515105000] WHERE mrid = 'c41daf96-f387-4098-bd23-fce1f32bf9d4' AND year = 2018 AND type = 'smartmeter' AND unit = 'Wh'";
-        back_req.write(anfragesprache);
-    } catch (error) {
-        // This is not catching the error...
-        console.error(error);
-    }
-});
+    });
+}
 
 /*
  *  Operateur schreibt Wert zurück
