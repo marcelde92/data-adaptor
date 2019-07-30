@@ -289,11 +289,6 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
     //FIXME: "Ersatzwert needs to be part of an ENUM
     //queries.push("SELECT plausibility_value, plausibility_source, mrid FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid IN (" + subnet + ");");
 
-    //FIXME: manual aggregation here
-
-    //FIXME: Debug
-    //res.render('debug', { content: queries });
-
     const HEADER = "mrid;plausibility_value;plausibility_source\n";
 
     //FIXME: for simjulation we need to read the topologies SM-List - this can't be faked using the csv files
@@ -322,14 +317,14 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
                 //We will render smart meter gateways as the lowest layer for now
                 for (let smartMeter of subnetTopology.smgw[i].smartmeters) {
                     if (smartMeter.type == "producer") {
-                        // FIXME: here we should read values from the cache instead of generating them randomly
+                        // FIXME: here we should read values from the cache instead of generating them randomly between 40% and 100% percent
                         plausibilityList.push({
                             id : smartMeter.id,
-                            plausibility: Math.floor(((Math.random() * 50) + 50)) / 100,
+                            plausibility: Math.floor(((Math.random() * 60) + 40)) / 100,
                             type: 'historical'});
                         plausibilityList.push({
                             id: smartMeter.id,
-                            plausibility: Math.floor(((Math.random() * 50) + 50)) / 100,
+                            plausibility: Math.floor(((Math.random() * 60) + 40)) / 100,
                             type: 'weather'});
                     }
                 }
