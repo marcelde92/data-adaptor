@@ -9,9 +9,9 @@ router.use(cors());
 
 const LZA_ADDR = 'IP_OF_THE_LZA_SERVER';
 const LZA_PORT = 'PORT_OF_THE_LZA_SERVER';
-let simulateMissingData = true;
 
-const simulatedFailures = ['efdc2987-3a32-457e-9507-b446b0db52f0', 'a7de7692-e2d5-49f0-a116-8d2cb525a05a'];
+const simulateMissingData = true;
+const simulatedFailures = ['a7de7692-e2d5-49f0-a116-8d2cb525a05a', 'a0c0fabd-e157-4735-908e-af6ee71d199a'];
 
 //FIXME: Generate list of all queries with explanation for OFFIS and Kisters
 
@@ -150,13 +150,14 @@ router.get('/subnet/:id', function(req, res, next) {
             let subnetTopology = JSON.parse(data);
 
             let statusList = [];
-            for (let i = 0; i < subnetTopology.smgw.length; i++) {
-                //We check if a failure should be simulated
-                for (let smartMeter of subnetTopology.smgw[i].smartmeters) {
-                    if (simulateMissingData && simulatedFailures.includes(smartMeter.id) ) {
+            if (simulateMissingData && simulatedFailures.includes(req.params.id) ) {
+                for (const gateway of subnetTopology.smgw) {
+                    // We check if a failure should be simulated
+                    for (const smartMeter of gateway.smartmeters) {
                         statusList.push({
-                            mrid : smartMeter.id,
-                            category: 'Ersatzwert'});
+                            mrid: smartMeter.id,
+                            category: 'Ersatzwert'
+                        });
                     }
                 }
             }
