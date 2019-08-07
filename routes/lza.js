@@ -11,7 +11,7 @@ const LZA_ADDR = 'IP_OF_THE_LZA_SERVER';
 const LZA_PORT = 'PORT_OF_THE_LZA_SERVER';
 let simulateMissingData = true;
 
-const simulatedFailures = ['efdc2987-3a32-457e-9507-b446b0db52f0'];
+const simulatedFailures = ['efdc2987-3a32-457e-9507-b446b0db52f0', 'a7de7692-e2d5-49f0-a116-8d2cb525a05a'];
 
 //FIXME: Generate list of all queries with explanation for OFFIS and Kisters
 
