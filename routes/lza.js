@@ -11,7 +11,13 @@ const LZA_ADDR = 'IP_OF_THE_LZA_SERVER';
 const LZA_PORT = 'PORT_OF_THE_LZA_SERVER';
 
 const simulateMissingData = true;
-const simulatedFailures = ['a7de7692-e2d5-49f0-a116-8d2cb525a05a', 'a0c0fabd-e157-4735-908e-af6ee71d199a'];
+const simulatedGridFailures = ['a7de7692-e2d5-49f0-a116-8d2cb525a05a', 'a0c0fabd-e157-4735-908e-af6ee71d199a'];
+const simulatedGatewayFailures = [
+    /* grid in which gateways can be failing*/
+    '',
+    /* the failing gateways */
+    'ebba1299-5cab-417b-8404-3773b21a6be7', 'e2f6fca5-4e74-4e35-a765-3e189fdd0e6c'];
+
 
 //FIXME: Generate list of all queries with explanation for OFFIS and Kisters
 
@@ -150,14 +156,16 @@ router.get('/subnet/:id', function(req, res, next) {
             let subnetTopology = JSON.parse(data);
 
             let statusList = [];
-            if (simulateMissingData && simulatedFailures.includes(req.params.id) ) {
+            if (simulateMissingData && (simulatedGridFailures.includes(req.params.id) || simulatedGatewayFailures.includes(req.params.id))) {
                 for (const gateway of subnetTopology.smgw) {
                     // We check if a failure should be simulated
-                    for (const smartMeter of gateway.smartmeters) {
-                        statusList.push({
-                            mrid: smartMeter.id,
-                            category: 'Ersatzwert'
-                        });
+                    if (simulateMissingData && (simulatedGatewayFailures.includes(gateway.id) || simulatedGridFailures.includes(req.params.id)) ) {
+                        for (const smartMeter of gateway.smartmeters) {
+                            statusList.push({
+                                mrid: smartMeter.id,
+                                category: 'Ersatzwert'
+                            });
+                        }
                     }
                 }
             }
