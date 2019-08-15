@@ -14,9 +14,9 @@ const simulateMissingData = true;
 const simulatedGridFailures = ['a7de7692-e2d5-49f0-a116-8d2cb525a05a', 'a0c0fabd-e157-4735-908e-af6ee71d199a'];
 const simulatedGatewayFailures = [
     /* grid in which gateways can be failing*/
-    'a3435eb8-df9d-47d6-9870-740d12b063f3',
+    'af07538e-2f88-48ef-987e-c4c71ad5b48c',
     /* the failing gateways */
-    'ebba1299-5cab-417b-8404-3773b21a6be7', 'e2f6fca5-4e74-4e35-a765-3e189fdd0e6c'];
+    'f07b1e79-be6b-438b-b1b8-3e63e37ae157', 'ac3cfd2b-4fba-40f6-88a0-2ce9a4f7a90c'];
 
 
 //FIXME: Generate list of all queries with explanation for OFFIS and Kisters
