@@ -290,17 +290,12 @@ router.get('/meter/:id/day/', function(req, res, next) {
  */
 router.get('/plausibility/subnet/:id', function(req, res, next) {
 
-    //FIXME: We need to request amd cache all subnet ids
+    //FIXME: We need to request and cache all subnet ids
     //var subnet = tdmCache.getSubnetIdsFor(req.params.id);
-    //var subnet = ['SM1', 'SM2', 'SM3', 'SM4', 'SM5', 'SM6'];
 
-    //var queries = [];
-    //FIXME: "Ersatzwert needs to be part of an ENUM
-    //queries.push("SELECT plausibility_value, plausibility_source, mrid FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid IN (" + subnet + ");");
+    const subnet = [];
 
     const HEADER = "mrid;plausibility_value;plausibility_source\n";
-
-    //FIXME: for simjulation we need to read the topologies SM-List - this can't be faked using the csv files
 
     //FIXME: check for subnets (at least check if correct subnet was suplied)
     const fs = require('fs');
@@ -326,37 +321,29 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
                 //We will render smart meter gateways as the lowest layer for now
                 for (let smartMeter of subnetTopology.smgw[i].smartmeters) {
                     if (smartMeter.type == "producer") {
-                        // FIXME: here we should read values from the cache instead of generating them randomly between 40% and 100% percent
-                        plausibilityList.push({
-                            id : smartMeter.id,
-                            plausibility: Math.floor(((Math.random() * 60) + 40)) / 100,
-                            type: 'historical'});
-                        plausibilityList.push({
-                            id: smartMeter.id,
-                            plausibility: Math.floor(((Math.random() * 60) + 40)) / 100,
-                            type: 'weather'});
+                        subnet.push(smartMeter.id);
                     }
                 }
             }
 
-            let csvString = HEADER;
-            for (let element of plausibilityList){
-                csvString += element.id + ";" + element.plausibility + ";" + element.type + "\n";
-            }
+            const query = "SELECT plausibility_value, plausibility_source, mrid FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid IN (" + subnet + ");";
 
-            res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({content: csvString}));
+            queryLZA(query)
+                .then( (response) =>  {
+                    res.setHeader('Content-Type', 'application/json');
+                    res.send(JSON.stringify({ content: HEADER + response}));
+                })
+                .catch((response) => res.send(response));
+
+             request({
+             uri: LZA_ADDR + ':' + LZA_PORT,
+             qs: {
+             query: queries
+             }
+             }).pipe(res);
+
         });
     }
-
-    /*
-     request({
-     uri: LZA_ADDR + ':' + LZA_PORT,
-     qs: {
-     query: queries
-     }
-     }).pipe(res);
-     */
 });
 
 
