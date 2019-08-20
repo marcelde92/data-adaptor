@@ -242,19 +242,44 @@ router.get('/subnet/:id/past', function(req, res, next) {
 router.get('/meter/:id/day/', function(req, res, next) {
 
     //FIXME: We need to be careful when selecting timestamps
-    const fromTS = new Date() - 24 * 60 * 60;
+    var fromTS = new Date() - 24 * 60 * 60;
 
-    const query = "SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : NOW] WHERE mrid ='" + req.params.id + "';";
+    var queries = [];
+    queries.push("SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : NOW] WHERE mrid =" + req.params.id + ";");
+
+    //FIXME: Debug
+    //res.render('debug', { content: queries });
 
     const HEADER = "mrid;timestamp;value\n";
 
-    queryLZA(query)
-        .then( (response) =>  {
+    if (req.params.id == 'c41daf96-f387-4098-bd23-fce1f32bf9d4') {
+        var fs = require('fs');
+        fs.readFile( __dirname + '/../public/CSV/05_sm_meas_24hrs.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: HEADER + response}));
-        })
-        .catch((response) => res.send(response));
+            res.send(JSON.stringify({ content: HEADER + data}));
+        });
+    } else {
+        fs.readFile( __dirname + '/../public/CSV/simulation/05_sm_meas_24hrs.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            data = data.replace(new RegExp('MRID', 'g'), req.params.id);
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: HEADER + data}));
+        });
+    }
 
+    /*
+     request({
+     uri: LZA_ADDR + ':' + LZA_PORT,
+     qs: {
+     query: queries
+     }
+     }).pipe(res);
+     */
 });
 
 /*
@@ -265,42 +290,73 @@ router.get('/meter/:id/day/', function(req, res, next) {
  */
 router.get('/plausibility/subnet/:id', function(req, res, next) {
 
-    //FIXME: We need to request and cache all subnet ids
+    //FIXME: We need to request amd cache all subnet ids
     //var subnet = tdmCache.getSubnetIdsFor(req.params.id);
+    //var subnet = ['SM1', 'SM2', 'SM3', 'SM4', 'SM5', 'SM6'];
 
-    const subnet = [];
+    //var queries = [];
+    //FIXME: "Ersatzwert needs to be part of an ENUM
+    //queries.push("SELECT plausibility_value, plausibility_source, mrid FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid IN (" + subnet + ");");
+
+    const HEADER = "mrid;plausibility_value;plausibility_source\n";
+
+    //FIXME: for simjulation we need to read the topologies SM-List - this can't be faked using the csv files
 
     //FIXME: check for subnets (at least check if correct subnet was suplied)
     const fs = require('fs');
+    if (req.params.id == 'fff76033-6ed2-4296-90c0-ed682a68b6ec') {
+        fs.readFile(__dirname + '/../public/CSV/07_plausi_subnet-status_nearest.csv', 'utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({content: HEADER + data}));
+        });
+    } else {
+        //read topology to generate example values for each smartmeter
+        fs.readFile(__dirname + '/../public/topology/' + req.params.id + '.json', 'utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
 
-    //read topology to generate example values for each smartmeter
-    fs.readFile(__dirname + '/../public/topology/' + req.params.id + '.json', 'utf8', function (err, data) {
-        if (err) {
-            throw err;
-        }
+            let subnetTopology = JSON.parse(data);
 
-        let subnetTopology = JSON.parse(data);
-
-        let plausibilityList = [];
-        for (let i = 0; i < subnetTopology.smgw.length; i++) {
-            //We will render smart meter gateways as the lowest layer for now
-            for (let smartMeter of subnetTopology.smgw[i].smartmeters) {
-                if (smartMeter.type == "producer") {
-                    subnet.push("'" + smartMeter.id + "'");
+            let plausibilityList = [];
+            for (let i = 0; i < subnetTopology.smgw.length; i++) {
+                //We will render smart meter gateways as the lowest layer for now
+                for (let smartMeter of subnetTopology.smgw[i].smartmeters) {
+                    if (smartMeter.type == "producer") {
+                        // FIXME: here we should read values from the cache instead of generating them randomly between 40% and 100% percent
+                        plausibilityList.push({
+                            id : smartMeter.id,
+                            plausibility: Math.floor(((Math.random() * 60) + 40)) / 100,
+                            type: 'historical'});
+                        plausibilityList.push({
+                            id: smartMeter.id,
+                            plausibility: Math.floor(((Math.random() * 60) + 40)) / 100,
+                            type: 'weather'});
+                    }
                 }
             }
-        }
 
-        const query = "SELECT mrid, plausibility_value, plausibility_source FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid IN (" + subnet + ");";
+            let csvString = HEADER;
+            for (let element of plausibilityList){
+                csvString += element.id + ";" + element.plausibility + ";" + element.type + "\n";
+            }
 
-        queryLZA(query)
-            .then( (response) =>  {
-                res.setHeader('Content-Type', 'application/json');
-                res.send(JSON.stringify({ content: response}));
-            })
-            .catch((response) => res.send(response));
-    });
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({content: csvString}));
+        });
+    }
 
+    /*
+     request({
+     uri: LZA_ADDR + ':' + LZA_PORT,
+     qs: {
+     query: queries
+     }
+     }).pipe(res);
+     */
 });
 
 
@@ -309,18 +365,50 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
  *
  */
 router.get('/plausibility/meter/:id/past', function(req, res, next) {
+    //FIXME: TimeResolution ISO 15 Minuten (ISO kontrollieren)
+    //FIXME: Middlewear should set from data
+    var queries = [];
+    var fromTS = new Date() - 60 * 60;
 
-    const fromTS = new Date() - 60 * 60;
+    //from/1515024000/to/1515110399
+    //queries.push("SELECT mrid, timestamp, plausibility_value, plausibility_source FROM SM_Plausibility ["+fromTS+" : ISO(PT00H15M) : NOW] WHERE mrid =" + req.params.id + ";");
 
-    const query = "SELECT mrid, timestamp, plausibility_value, plausibility_source FROM SM_Plausibility ["+Math.floor(fromTS / 1000)+" : ISO(PT00H15M) : NOW] WHERE mrid ='" + req.params.id + "';";
+    //FIXME: Debug
+    //res.render('debug', { content: queries });
 
-    queryLZA(query)
-        .then( (response) =>  {
+    const HEADER = "mrid;timestamp;plausibility_value;plausibility_source\n";
+    const fs = require('fs');
+
+    if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
+        fs.readFile( __dirname + '/../public/CSV/08_plausi_sm_24hrs.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: response}));
-        })
-        .catch((response) => res.send(response));
+            res.send(JSON.stringify({ content: HEADER + data}));
+        });
+    } else if (simulateMissingData){
+        fs.readFile( __dirname + '/../public/CSV/simulation/08_plausi_sm_24hrs.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            data = data.replace(new RegExp('MRID', 'g'), req.params.id);
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: HEADER + data}));
+        });
+    } else {
+        res.setHeader('Content-Type', 'application/json');
+        res.send(JSON.stringify({ error: {code: 404, message: 'Smart meter id was not found'}}));
+    }
 
+    /*
+     request({
+     uri: LZA_ADDR + ':' + LZA_PORT,
+     qs: {
+     query: queries
+     }
+     }).pipe(res);
+     */
 });
 
 
@@ -332,15 +420,45 @@ router.get('/plausibility/meter/:id/past', function(req, res, next) {
  */
 router.get('/plausibility/meter/:id', function(req, res, next) {
 
-    const query = "SELECT mrid, plausibility_value, plausibility_source FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid ='" + req.params.id + "';";
+    //var queries = [];
+    //queries.push("SELECT mrid, plausibility_value, plausibility_source FROM SM_Plausibility NEARESTBEFORE NOW WHERE mrid =" + req.params.id + ";");
 
-    queryLZA(query)
-        .then( (response) =>  {
+    //FIXME: Debug
+    //res.render('debug', { content: queries });
+    console.log(req);
+    console.log(req.params);
+
+    const HEADER = "mrid;plausibility_value;plausibility_source\n";
+    const fs = require('fs');
+    if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
+        fs.readFile( __dirname + '/../public/CSV/06_plausi_sm-status_nearest_SMe91a.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: response}));
-        })
-        .catch((response) => res.send(response));
-
+            res.send(JSON.stringify({ content: HEADER + data}));
+        });
+    } else if (simulateMissingData){
+        fs.readFile( __dirname + '/../public/CSV/simulation/06_plausi_sm-status_nearest.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            data = data.replace('MRID', req.params.id);
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ content: HEADER + data}));
+        });
+    } else {
+        res.setHeader('Content-Type', 'application/json');
+        res.send(JSON.stringify({ error: {code: 404, message: 'Smart meter id was not found'}}));
+    }
+    /*
+     request({
+     uri: LZA_ADDR + ':' + LZA_PORT,
+     qs: {
+     query: queries
+     }
+     }).pipe(res);
+     */
 });
 
 
@@ -480,10 +598,11 @@ router.get('/weather/:location', function(req, res, next) {
 
     const HEADER = "location;category;timestamp;unit_multiplier;unit;value\n";
 
+
     queryLZA(query)
         .then( (response) =>  {
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: response}));
+            res.send(JSON.stringify({ content: HEADER + response}));
         })
         .catch((response) => res.send(response));
 
