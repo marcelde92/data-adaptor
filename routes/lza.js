@@ -480,11 +480,10 @@ router.get('/weather/:location', function(req, res, next) {
 
     const HEADER = "location;category;timestamp;unit_multiplier;unit;value\n";
 
-
     queryLZA(query)
         .then( (response) =>  {
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: HEADER + response}));
+            res.send(JSON.stringify({ content: response}));
         })
         .catch((response) => res.send(response));
 
