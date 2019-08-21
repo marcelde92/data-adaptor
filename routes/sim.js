@@ -581,32 +581,28 @@ router.get('/meter/:id/pastmonth', function(req, res, next) {
 /*
  *  /weather/:location/ returns the weather of past 24 hours 30 Minute resolution
  *
- * Attention! temperature and globalRadiation will be added in individual CSV-lines
- *
  * wetter eines SMGWs 24h
  */
 router.get('/weather/:location', function(req, res, next) {
 
-    //FIXME: remove this when data is available for current period
-    let lastYearREMOVETHIS = 365 * 24 * 60 * 60;
+    const HEADER = "location;twothousandeighteen;category;type;timestamp;id;unit_multiplier;unit;value\n";
 
-    //FIXME: We need to be careful when selecting timestamps
-    const fromTS = Math.floor(((new Date()) / 1000) - 24 * 60 * 60 - lastYearREMOVETHIS);
-    const toTS = Math.floor((new Date().getTime()) / 1000 - lastYearREMOVETHIS);
-
-    const query = "SELECT towndetail_name, kind, timestamp, value FROM Weather["+fromTS+":"+toTS+"] WHERE towndetail_name = '"+req.params.location+"' AND year = 2018 AND type = 'weather' AND kind = 'ambientTemperature'";
-
-    const HEADER = "location;category;timestamp;unit_multiplier;unit;value\n";
-
-
-    queryLZA(query)
-        .then( (response) =>  {
+    if (req.params.location.toLowerCase() === 'oldenburg') {
+        var fs = require('fs');
+        fs.readFile( __dirname + '/../public/CSV/11_weather_by_location_24hrs.csv','utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: HEADER + response}));
-        })
-        .catch((response) => res.send(response));
-
+            res.send(JSON.stringify({ content: HEADER + data}));
+        });
+    } else {
+        res.setHeader('Content-Type', 'application/json');
+        res.send(JSON.stringify({ error: {code: 404, message: 'Location: ' + req.params.location.toLowerCase() + ' was not found'}}));
+    }
+    
 });
+
 
 
 /*
