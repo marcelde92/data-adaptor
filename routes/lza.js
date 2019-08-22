@@ -92,12 +92,7 @@ router.get('/subnet/past/', function(req, res, next) {
         queries.push("SELECT mrid, category FROM SmartMeter["+minus12H+" : NOW] WHERE mrid IN (" + subnet + ") AND category LIKE 'Ersatzwert' LIMIT 1;");
     }
 
-    //FIXME: Debug
-    //res.render('debug', { content: queries });
-
-    const HEADER = "mrid;category\n";
-
-    var fs = require('fs');
+    const fs = require('fs');
     fs.readFile( __dirname + '/../public/CSV/02_category_subnet-status_12hrs.csv','utf8', function (err, data) {
         if (err) {
             throw err;
@@ -106,15 +101,6 @@ router.get('/subnet/past/', function(req, res, next) {
         res.send(JSON.stringify({ content: HEADER + data}));
     });
 
-
-    /*
-    request({
-        uri: LZA_ADDR + ':' + LZA_PORT,
-        qs: {
-            query: queries
-        }
-    }).pipe(res);
-    */
 });
 
 
@@ -124,70 +110,37 @@ router.get('/subnet/past/', function(req, res, next) {
  */
 router.get('/subnet/:id', function(req, res, next) {
 
-    //FIXME: We need to request amd cache all subnet ids
-    //var subnet = tdmCache.getSubnetIdsFor(req.params.id);
-    var subnet = ['SM1', 'SM2', 'SM3', 'SM4', 'SM5', 'SM6'];
-
-    var queries = [];
-    //FIXME: "Ersatzwert needs to be part of an ENUM
-    queries.push("SELECT mrid, category FROM SmartMeter NEARESTBEFORE NOW WHERE mrid IN (" + subnet + ") AND category LIKE 'Ersatzwert';");
-
-
-    //FIXME: Debug
-    //res.render('debug', { content: queries });
-
-    const HEADER = "mrid;category\n";
+    const smartMeterList = [];
     const fs = require('fs');
-    if (req.params.id == 'fff76033-6ed2-4296-90c0-ed682a68b6ec') {
-        fs.readFile( __dirname + '/../public/CSV/03_category_allSM-Status_nearest.csv','utf8', function (err, data) {
-            if (err) {
-                throw err;
-            }
-            res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: HEADER + data}));
-        });
-    } else {
-        //read topology to generate example values for each smartmeter
-        fs.readFile(__dirname + '/../public/topology/' + req.params.id + '.json', 'utf8', function (err, data) {
-            if (err) {
-                throw err;
-            }
 
-            let subnetTopology = JSON.parse(data);
-
-            let statusList = [];
-            if (simulateMissingData && (simulatedGridFailures.includes(req.params.id) || simulatedGatewayFailures.includes(req.params.id))) {
-                for (const gateway of subnetTopology.smgw) {
-                    // We check if a failure should be simulated
-                    if (simulateMissingData && (simulatedGatewayFailures.includes(gateway.id) || simulatedGridFailures.includes(req.params.id)) ) {
-                        for (const smartMeter of gateway.smartmeters) {
-                            statusList.push({
-                                mrid: smartMeter.id,
-                                category: 'Ersatzwert'
-                            });
-                        }
-                    }
-                }
-            }
-
-            let csvString = HEADER;
-            for (let element of statusList){
-                csvString += element.mrid + ";" + element.category + "\n";
-            }
-
-            res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({content: csvString}));
-        });
-    }
-
-    /*
-    request({
-        uri: LZA_ADDR + ':' + LZA_PORT,
-        qs: {
-            query: queries
+    //read topology to add all Gateways
+    fs.readFile(__dirname + '/../public/topology/' + req.params.id + '.json', 'utf8', function (err, data) {
+        if (err) {
+            throw err;
         }
-    }).pipe(res);
-    */
+
+        let subnetTopology = JSON.parse(data);
+        for (const gateway of subnetTopology.smgw) {
+            for (const smartMeter of gateway.smartmeters) {
+                smartMeterList.push("'"+smartMeter.id+"'");
+            }
+        }
+
+        if (smartMeterList.length === 0){
+            conole.error('No smarter meter found for topology: ' + req.params.id);
+        }
+
+        const query = "SELECT mrid, category FROM SmartMeter NEARESTBEFORE NOW WHERE mrid IN (" + smartMeterList + ") AND category LIKE 'Ersatzwert';";
+
+        queryLZA(query)
+            .then( (response) =>  {
+                res.setHeader('Content-Type', 'application/json');
+                res.send(JSON.stringify({ content: response}));
+            })
+            .catch((response) => res.send(response));
+
+    });
+
 });
 
 /*
@@ -196,43 +149,38 @@ router.get('/subnet/:id', function(req, res, next) {
  */
 router.get('/subnet/:id/past', function(req, res, next) {
 
-    //FIXME: We need to request amd cache all subnet ids
-    //var subnet = tdmCache.getSubnetIdsFor(req.params.id);
-    var subnet = ['SM1', 'SM2', 'SM3', 'SM4', 'SM5', 'SM6'];
+    const minus12H = new Date()  - 60 * 60 * 12;
 
-    var minus12H = new Date()  - 60 * 60 * 12;
+    const smartMeterList = [];
+    const fs = require('fs');
 
-    var queries = [];
-    //FIXME: "Ersatzwert needs to be part of an ENUM
-    queries.push("SELECT mrid, category FROM SmartMeter["+minus12H+" : NOW] WHERE mrid IN (" + subnet + ") AND category LIKE 'Ersatzwert';");
-
-    //FIXME: Debug
-    //res.render('debug', { content: queries });
-
-    const HEADER = "mrid;category\n";
-
-    if (req.params.id == 'fff76033-6ed2-4296-90c0-ed682a68b6ec') {
-        var fs = require('fs');
-        fs.readFile( __dirname + '/../public/CSV/04_category_allSM-Status_12hrs.csv','utf8', function (err, data) {
-            if (err) {
-                throw err;
-            }
-            res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: HEADER + data}));
-        });
-    } else {
-        res.setHeader('Content-Type', 'application/json');
-        res.send(JSON.stringify({ error: {code: 404, message: 'Subnet id was not found'}}));
-    }
-
-    /*
-    request({
-        uri: LZA_ADDR + ':' + LZA_PORT,
-        qs: {
-            query: queries
+    //read topology to add all Gateways
+    fs.readFile(__dirname + '/../public/topology/' + req.params.id + '.json', 'utf8', function (err, data) {
+        if (err) {
+            throw err;
         }
-    }).pipe(res);
-    */
+
+        let subnetTopology = JSON.parse(data);
+        for (const gateway of subnetTopology.smgw) {
+            for (const smartMeter of gateway.smartmeters) {
+                smartMeterList.push("'"+smartMeter.id+"'");
+            }
+        }
+
+        if (smartMeterList.length === 0){
+            conole.error('No smarter meter found for topology: ' + req.params.id);
+        }
+
+        const query = "SELECT mrid, category FROM SmartMeter["+minus12H+" : NOW] WHERE mrid IN (" + smartMeterList + ") AND category LIKE 'Ersatzwert';";
+
+        queryLZA(query)
+            .then( (response) =>  {
+                res.setHeader('Content-Type', 'application/json');
+                res.send(JSON.stringify({ content: response}));
+            })
+            .catch((response) => res.send(response));
+
+    });
 });
 
 /*
@@ -246,12 +194,10 @@ router.get('/meter/:id/day/', function(req, res, next) {
 
     const query = "SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : NOW] WHERE mrid ='" + req.params.id + "';";
 
-    const HEADER = "mrid;timestamp;value\n";
-
     queryLZA(query)
         .then( (response) =>  {
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: HEADER + response}));
+            res.send(JSON.stringify({ content: response}));
         })
         .catch((response) => res.send(response));
 
@@ -285,7 +231,7 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
         for (let i = 0; i < subnetTopology.smgw.length; i++) {
             //We will render smart meter gateways as the lowest layer for now
             for (let smartMeter of subnetTopology.smgw[i].smartmeters) {
-                if (smartMeter.type == "producer") {
+                if (smartMeter.type === "producer") {
                     subnet.push("'" + smartMeter.id + "'");
                 }
             }
