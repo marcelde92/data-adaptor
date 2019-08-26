@@ -7,19 +7,8 @@ http.debug = 2;
 
 router.use(cors());
 
-const LZA_ADDR = 'IP_OF_THE_LZA_SERVER';
-const LZA_PORT = 'PORT_OF_THE_LZA_SERVER';
-
-const simulateMissingData = true;
-const simulatedGridFailures = ['a7de7692-e2d5-49f0-a116-8d2cb525a05a', 'a0c0fabd-e157-4735-908e-af6ee71d199a'];
-const simulatedGatewayFailures = [
-    /* grid in which gateways can be failing*/
-    'af07538e-2f88-48ef-987e-c4c71ad5b48c',
-    /* the failing gateways */
-    'f07b1e79-be6b-438b-b1b8-3e63e37ae157', 'ac3cfd2b-4fba-40f6-88a0-2ce9a4f7a90c'];
-
-
-//FIXME: Generate list of all queries with explanation for OFFIS and Kisters
+const LZA_ADDR = "10.10.103.12";
+const LZA_PORT = "9089";
 
 /*
  *  '/subnet' will return the status of all subnets. Due to system architecture this requires a request for each subnet
@@ -29,43 +18,25 @@ const simulatedGatewayFailures = [
  */
 router.get('/subnet', function(req, res, next) {
 
-    //FIXME: We need to request amd cache all subnet ids
-    //var subnets = tdmCache.getAllSubnetIds();
-    var subnets = {
-        'subnet1' : ['SM1', 'SM2', 'SM3', 'SM4', 'SM5', 'SM6'],
-        'subnet2' : ['SMA1', 'SMA2', 'SMA3', 'SMA4', 'SMA5', 'SMA6']
-    };
-
-    var queries = [];
-    for (key in subnets) {
-        var subnet = subnets[key];
-        //FIXME: "Ersatzwert needs to be part of an ENUM
-        queries.push("SELECT mrid, category FROM SmartMeter NEARESTBEFORE NOW WHERE mrid IN (" + subnet + ") AND category LIKE 'Ersatzwert' LIMIT 1;");
-    }
-
-    //FIXME: Debug
-    //res.render('debug', { content: queries });
-
-    const HEADER = "mrid;category\n";
-
-    var fs = require('fs');
-    fs.readFile( __dirname + '/../public/CSV/01_category_agg-status_nearest.csv','utf8', function (err, data) {
+    const subnets = [];
+    const fs = require('fs');
+    fs.readdir( __dirname + '/../public/topology', (err, files) => {
         if (err) {
             throw err;
         }
-        res.setHeader('Content-Type', 'application/json');
-        res.send(JSON.stringify({ content: HEADER + data}));
+        files.forEach(file => {
+            subnets.push("'"+file.substring(0, file.length- 5)+"'");
+        });
+        const query = "SELECT mrid, category FROM SmartMeter NEARESTBEFORE NOW WHERE mrid IN (" + subnets + ") AND category LIKE 'Ersatzwert' LIMIT 1;";
+
+        queryLZA(query)
+            .then( (response) =>  {
+                res.setHeader('Content-Type', 'application/json');
+                res.send(JSON.stringify({ content: response}));
+            })
+            .catch((response) => res.send(response));
     });
 
-
-    /*
-    request({
-        uri: LZA_ADDR + ':' + LZA_PORT,
-        qs: {
-            query: queries
-        }
-    }).pipe(res);
-    */
 });
 
 /*
@@ -76,29 +47,25 @@ router.get('/subnet', function(req, res, next) {
  */
 router.get('/subnet/past/', function(req, res, next) {
 
-    //FIXME: We need to request amd cache all subnet ids
-    //var subnets = tdmCache.getAllSubnetIds();
-    var subnets = {
-        'subnet1' : ['SM1', 'SM2', 'SM3', 'SM4', 'SM5', 'SM6'],
-        'subnet2' : ['SMA1', 'SMA2', 'SMA3', 'SMA4', 'SMA5', 'SMA6']
-    };
+    const minus12H = new Date()  - 60 * 60 * 12;
 
-    var minus12H = new Date()  - 60 * 60 * 12;
-
-    var queries = [];
-    for (key in subnets) {
-        var subnet = subnets[key];
-        //FIXME: "Ersatzwert needs to be part of an ENUM
-        queries.push("SELECT mrid, category FROM SmartMeter["+minus12H+" : NOW] WHERE mrid IN (" + subnet + ") AND category LIKE 'Ersatzwert' LIMIT 1;");
-    }
-
+    const subnets = [];
     const fs = require('fs');
-    fs.readFile( __dirname + '/../public/CSV/02_category_subnet-status_12hrs.csv','utf8', function (err, data) {
+    fs.readdir( __dirname + '/../public/topology', (err, files) => {
         if (err) {
             throw err;
         }
-        res.setHeader('Content-Type', 'application/json');
-        res.send(JSON.stringify({ content: HEADER + data}));
+        files.forEach(file => {
+            subnets.push("'"+file.substring(0, file.length- 5)+"'");
+        });
+        const query = "SELECT mrid, category FROM SmartMeter["+minus12H+" : NOW] WHERE mrid IN (" + subnets + ") AND category LIKE 'Ersatzwert' LIMIT 1;";
+
+        queryLZA(query)
+            .then( (response) =>  {
+                res.setHeader('Content-Type', 'application/json');
+                res.send(JSON.stringify({ content: response}));
+            })
+            .catch((response) => res.send(response));
     });
 
 });
@@ -301,55 +268,18 @@ router.get('/meter/:id/lastmonth/', function(req, res, next) {
 
     //FIXME: We need to be careful when selecting timestamps
     //FIXME: month != 30 days
-    //var fromTS = new Date() - 24 * 60 * 60 * 30;
-    //var toTS = + new Date(); //Date() instead of NOW since we do the same in /meter/:id/pastmonth
+    const fromTS = new Date() - 24 * 60 * 60 * 30;
+    const toTS = + new Date(); //Date() instead of NOW since we do the same in /meter/:id/pastmonth
 
-    //var queries = [];
-    //queries.push("SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : ISO(PT01H00M) : "+toTS+"] WHERE mrid =" + req.params.id + ";");
+    const query = "SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : ISO(PT01H00M) : "+toTS+"] WHERE mrid ='" + req.params.id + "';";
 
-    //FIXME: Debug
-    //res.render('debug', { content: queries });
-
-    const HEADER = "mrid;timestamp;value\n";
-    const fs = require('fs');
-    if (req.params.id == 'd6474feb-d37a-405c-b16b-5e39138355d0') {
-        fs.readFile( __dirname + '/../public/CSV/09_last_month_hourly.csv','utf8', function (err, data) {
-            if (err) {
-                throw err;
-            }
+    queryLZA(query)
+        .then( (response) =>  {
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: HEADER + data}));
-        });
-    } else if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
-        fs.readFile( __dirname + '/../public/CSV/09_last_month_hourly_SMe91a.csv','utf8', function (err, data) {
-            if (err) {
-                throw err;
-            }
-            res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: HEADER + data}));
-        });
-    } else if (simulateMissingData){
-        fs.readFile( __dirname + '/../public/CSV/simulation/09_last_month_hourly.csv','utf8', function (err, data) {
-            if (err) {
-                throw err;
-            }
-            data = data.replace('MRID', req.params.id);
-            res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: HEADER + data}));
-        });
-    } else {
-        res.setHeader('Content-Type', 'application/json');
-        res.send(JSON.stringify({ error: {code: 404, message: 'Smart meter id was not found'}}));
-    }
+            res.send(JSON.stringify({ content: response}));
+        })
+        .catch((response) => res.send(response));
 
-    /*
-     request({
-     uri: LZA_ADDR + ':' + LZA_PORT,
-     qs: {
-     query: queries
-     }
-     }).pipe(res);
-     */
 });
 
 /*
@@ -361,48 +291,18 @@ router.get('/meter/:id/pastmonth', function(req, res, next) {
 
     //FIXME: We need to be careful when selecting timestamps
     //FIXME: month != 30 days
-    var fromTS = new Date() - 24 * 60 * 60 * 30 * 13;
-    var toTS = new Date() - 24 * 60 * 60 * 30 * 11;
+    const fromTS = new Date() - 24 * 60 * 60 * 30 * 13;
+    const toTS = new Date() - 24 * 60 * 60 * 30 * 11;
 
-    var queries = [];
-    queries.push("SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : ISO(PT01H00M) : "+toTS+"] WHERE mrid =" + req.params.id + ";");
+    const query = "SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : ISO(PT01H00M) : "+toTS+"] WHERE mrid ='" + req.params.id + "';";
 
-    //FIXME: Debug
-    //res.render('debug', { content: queries });
-
-    const HEADER = "mrid;timestamp;value\n";
-
-    if (req.params.id == 'd6474feb-d37a-405c-b16b-5e39138355d0') {
-        var fs = require('fs');
-        fs.readFile( __dirname + '/../public/CSV/10_last_two_month_hourly.csv','utf8', function (err, data) {
-            if (err) {
-                throw err;
-            }
+    queryLZA(query)
+        .then( (response) =>  {
             res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: HEADER + data}));
-        });
-    } else if (req.params.id == 'd71bb352-0cdb-4e74-9754-11687a7de91a') {
-        var fs = require('fs');
-        fs.readFile( __dirname + '/../public/CSV/10_last_two_month_hourly-SMe91a.csv','utf8', function (err, data) {
-            if (err) {
-                throw err;
-            }
-            res.setHeader('Content-Type', 'application/json');
-            res.send(JSON.stringify({ content: HEADER + data}));
-        });
-    } else {
-        res.setHeader('Content-Type', 'application/json');
-        res.send(JSON.stringify({ error: {code: 404, message: 'Smart meter id was not found'}}));
-    }
+            res.send(JSON.stringify({ content: response}));
+        })
+        .catch((response) => res.send(response));
 
-    /*
-     request({
-     uri: LZA_ADDR + ':' + LZA_PORT,
-     qs: {
-     query: queries
-     }
-     }).pipe(res);
-     */
 });
 
 
@@ -455,8 +355,8 @@ router.get('/test/', function(front_req, front_res, front_next) {
 async function queryLZA(request) {
     return new Promise(function (resolve, reject) {
         const options = {
-            host: "10.10.103.12",
-            port: "9089",
+            host: LZA_ADDR,
+            port: LZA_PORT,
             path: "/tsql/v1",
             method: "POST",
             headers: {
