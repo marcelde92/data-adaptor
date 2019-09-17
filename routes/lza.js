@@ -10,6 +10,8 @@ router.use(cors());
 const LZA_ADDR = "10.10.103.12";
 const LZA_PORT = "9089";
 
+const simulatedNow = new Date('2019-05-31T12:00:00');
+
 /*
  *  '/subnet' will return the status of all subnets. Due to system architecture this requires a request for each subnet
  *
@@ -47,7 +49,7 @@ router.get('/subnet', function(req, res, next) {
  */
 router.get('/subnet/past/', function(req, res, next) {
 
-    const minus12H = new Date()  - 60 * 60 * 12;
+    const minus12H = simulatedNow  - 60 * 60 * 12;
 
     const subnets = [];
     const fs = require('fs');
@@ -116,7 +118,7 @@ router.get('/subnet/:id', function(req, res, next) {
  */
 router.get('/subnet/:id/past', function(req, res, next) {
 
-    const minus12H = new Date()  - 60 * 60 * 12;
+    const minus12H = simulatedNow  - 60 * 60 * 12;
 
     const smartMeterList = [];
     const fs = require('fs');
@@ -157,7 +159,7 @@ router.get('/subnet/:id/past', function(req, res, next) {
 router.get('/meter/:id/day/', function(req, res, next) {
 
     //FIXME: We need to be careful when selecting timestamps
-    const fromTS = new Date() - 24 * 60 * 60;
+    const fromTS = simulatedNow - 24 * 60 * 60;
 
     const query = "SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : NOW] WHERE mrid ='" + req.params.id + "';";
 
@@ -223,7 +225,7 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
  */
 router.get('/plausibility/meter/:id/past', function(req, res, next) {
 
-    const fromTS = new Date() - 60 * 60;
+    const fromTS = simulatedNow - 60 * 60;
 
     const query = "SELECT mrid, timestamp, plausibility_value, plausibility_source FROM SM_Plausibility ["+Math.floor(fromTS / 1000)+" : ISO(PT00H15M) : NOW] WHERE mrid ='" + req.params.id + "';";
 
@@ -268,8 +270,8 @@ router.get('/meter/:id/lastmonth/', function(req, res, next) {
 
     //FIXME: We need to be careful when selecting timestamps
     //FIXME: month != 30 days
-    const fromTS = new Date() - 24 * 60 * 60 * 30;
-    const toTS = + new Date(); //Date() instead of NOW since we do the same in /meter/:id/pastmonth
+    const fromTS = simulatedNow - 24 * 60 * 60 * 30;
+    const toTS = simulatedNow; //simulatedNow instead of NOW since we do the same in /meter/:id/pastmonth
 
     const query = "SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : ISO(PT01H00M) : "+toTS+"] WHERE mrid ='" + req.params.id + "';";
 
@@ -291,8 +293,8 @@ router.get('/meter/:id/pastmonth', function(req, res, next) {
 
     //FIXME: We need to be careful when selecting timestamps
     //FIXME: month != 30 days
-    const fromTS = new Date() - 24 * 60 * 60 * 30 * 13;
-    const toTS = new Date() - 24 * 60 * 60 * 30 * 11;
+    const fromTS = simulatedNow - 24 * 60 * 60 * 30 * 13;
+    const toTS = simulatedNow - 24 * 60 * 60 * 30 * 11;
 
     const query = "SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS+" : ISO(PT01H00M) : "+toTS+"] WHERE mrid ='" + req.params.id + "';";
 
@@ -319,8 +321,8 @@ router.get('/weather/:location', function(req, res, next) {
     let lastYearREMOVETHIS = 365 * 24 * 60 * 60;
 
     //FIXME: We need to be careful when selecting timestamps
-    const fromTS = Math.floor(((new Date()) / 1000) - 24 * 60 * 60 - lastYearREMOVETHIS);
-    const toTS = Math.floor((new Date().getTime()) / 1000 - lastYearREMOVETHIS);
+    const fromTS = Math.floor(((simulatedNow) / 1000) - 24 * 60 * 60 - lastYearREMOVETHIS);
+    const toTS = Math.floor((simulatedNow.getTime()) / 1000 - lastYearREMOVETHIS);
 
     const query = "SELECT towndetail_name, kind, timestamp, value FROM Weather["+fromTS+":"+toTS+"] WHERE towndetail_name = '"+req.params.location+"' AND year = 2018 AND type = 'weather' AND kind = 'ambientTemperature'";
 
@@ -334,6 +336,7 @@ router.get('/weather/:location', function(req, res, next) {
         .catch((response) => res.send(response));
 
 });
+
 
 
 /*
