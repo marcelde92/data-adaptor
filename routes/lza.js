@@ -185,18 +185,19 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
 
     const subnet = [];
 
-    //FIXME: check for subnets (at least check if correct subnet was suplied)
+    //FIXME: check for subnets (at least check if correct subnet was supplied)
     const fs = require('fs');
 
     //read topology to generate example values for each smartmeter
     fs.readFile(__dirname + '/../public/topology/' + req.params.id + '.json', 'utf8', function (err, data) {
         if (err) {
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({ error: err}));
             throw err;
         }
 
         let subnetTopology = JSON.parse(data);
 
-        let plausibilityList = [];
         for (let i = 0; i < subnetTopology.smgw.length; i++) {
             //We will render smart meter gateways as the lowest layer for now
             for (let smartMeter of subnetTopology.smgw[i].smartmeters) {
@@ -317,14 +318,11 @@ router.get('/meter/:id/pastmonth', function(req, res, next) {
  */
 router.get('/weather/:location', function(req, res, next) {
 
-    //FIXME: remove this when data is available for current period
-    let lastYearREMOVETHIS = 365 * 24 * 60 * 60;
-
     //FIXME: We need to be careful when selecting timestamps
-    const fromTS = Math.floor(((simulatedNow) / 1000) - 24 * 60 * 60 - lastYearREMOVETHIS);
-    const toTS = Math.floor((simulatedNow.getTime()) / 1000 - lastYearREMOVETHIS);
+    const fromTS = Math.floor(((simulatedNow) / 1000) - 24 * 60 * 60);
+    const toTS = Math.floor((simulatedNow.getTime()) / 1000);
 
-    const query = "SELECT towndetail_name, kind, timestamp, value FROM Weather["+fromTS+":"+toTS+"] WHERE towndetail_name = '"+req.params.location+"' AND year = 2018 AND type = 'weather' AND kind = 'ambientTemperature'";
+    const query = "SELECT towndetail_name, kind, timestamp, value FROM Weather["+fromTS+":"+toTS+"] WHERE towndetail_name = '"+req.params.location+"' AND year = 2018 AND type = 'weather'";
 
     const HEADER = "location;category;timestamp;unit_multiplier;unit;value\n";
 
