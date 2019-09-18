@@ -322,7 +322,7 @@ router.get('/weather/:location', function(req, res, next) {
     const fromTS = Math.floor(((simulatedNow) / 1000) - 24 * 60 * 60);
     const toTS = Math.floor((simulatedNow.getTime()) / 1000);
 
-    const query = "SELECT towndetail_name, kind, timestamp, value FROM Weather["+fromTS+":"+toTS+"] WHERE towndetail_name = '"+req.params.location+"' AND year = 2018 AND type = 'weather'";
+    const query = "SELECT towndetail_name, kind, timestamp, value FROM Weather["+fromTS+":"+toTS+"] WHERE towndetail_name = '"+req.params.location+"' AND type = 'weather'";
 
     const HEADER = "location;category;timestamp;unit_multiplier;unit;value\n";
 
