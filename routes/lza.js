@@ -271,10 +271,10 @@ router.get('/meter/:id/lastmonth/', function(req, res, next) {
 
     //FIXME: We need to be careful when selecting timestamps
     //FIXME: month != 30 days
-    const fromTS = simulatedNow - 24 * 60 * 60 * 30;
-    const toTS = simulatedNow; //simulatedNow instead of NOW since we do the same in /meter/:id/pastmonth
+    const fromTS = new Date(simulatedNow - 24 * 60 * 60 * 30 * 1000);
+    const toTS = new Date(simulatedNow); //simulatedNow instead of NOW since we do the same in /meter/:id/pastmonth
 
-    const query = "SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS.getTime()+" : ISO(PT01H00M) : "+toTS.getTime()+"] WHERE mrid ='" + req.params.id + "';";
+    const query = "SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS.getTime() / 1000+" : ISO(PT01H00M) : "+toTS.getTime() / 1000+"] WHERE mrid ='" + req.params.id + "';";
 
     queryLZA(query)
         .then( (response) =>  {
@@ -294,10 +294,10 @@ router.get('/meter/:id/pastmonth', function(req, res, next) {
 
     //FIXME: We need to be careful when selecting timestamps
     //FIXME: month != 30 days
-    const fromTS = simulatedNow - 24 * 60 * 60 * 30 * 13;
-    const toTS = simulatedNow - 24 * 60 * 60 * 30 * 11;
+    const fromTS =  new Date(simulatedNow - 24 * 60 * 60 * 30 * 13 * 1000);
+    const toTS =  new Date(simulatedNow - 24 * 60 * 60 * 30 * 11 * 1000);
 
-    const query = "SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS.getTime()+" : ISO(PT01H00M) : "+toTS.getTime()+"] WHERE mrid ='" + req.params.id + "';";
+    const query = "SELECT mrid, timestamp, value FROM SmartMeter ["+fromTS.getTime() / 1000+" : ISO(PT01H00M) : "+toTS.getTime() / 1000+"] WHERE mrid ='" + req.params.id + "';";
 
     queryLZA(query)
         .then( (response) =>  {
@@ -322,7 +322,7 @@ router.get('/weather/:location', function(req, res, next) {
     const fromTS = Math.floor(((simulatedNow) / 1000) - 24 * 60 * 60);
     const toTS = Math.floor((simulatedNow.getTime()) / 1000);
 
-    const query = "SELECT towndetail_name, kind, timestamp, value FROM Weather["+fromTS.getTime()+":"+toTS.getTime()+"] WHERE towndetail_name = '"+req.params.location+"' AND type = 'weather'";
+    const query = "SELECT towndetail_name, kind, timestamp, value FROM Weather["+fromTS+":"+toTS+"] WHERE towndetail_name = '"+req.params.location+"' AND type = 'weather'";
 
     const HEADER = "location;category;timestamp;unit_multiplier;unit;value\n";
 
