@@ -96,7 +96,7 @@ router.get('/subnet/:id', function(req, res, next) {
         }
 
         if (smartMeterList.length === 0){
-            conole.error('No smarter meter found for topology: ' + req.params.id);
+            console.error('No smarter meter found for topology: ' + req.params.id);
         }
 
         const query = "SELECT mrid, category FROM SmartMeter NEARESTBEFORE NOW WHERE mrid IN (" + smartMeterList + ") AND category LIKE 'Ersatzwert';";
@@ -137,7 +137,7 @@ router.get('/subnet/:id/past', function(req, res, next) {
         }
 
         if (smartMeterList.length === 0){
-            conole.error('No smarter meter found for topology: ' + req.params.id);
+            console.error('No smarter meter found for topology: ' + req.params.id);
         }
 
         const query = "SELECT mrid, category FROM SmartMeter["+minus12H+" : NOW] WHERE mrid IN (" + smartMeterList + ") AND category LIKE 'Ersatzwert';";

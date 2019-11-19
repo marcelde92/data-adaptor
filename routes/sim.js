@@ -184,6 +184,22 @@ router.get('/plausibility/subnet/:id', function(req, res, next) {
             res.setHeader('Content-Type', 'application/json');
             res.send(JSON.stringify({content: HEADER + data}));
         });
+    } else if (req.params.id === 'ffd09fda-6552-410b-bf64-cc25e0981e54') {
+        fs.readFile(__dirname + '/../public/CSV/simulation/07_plausi_subnet-status_nearest_e54.csv', 'utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({content: HEADER + data}));
+        });
+    } else if (req.params.id === 'a0dee2d8-a55f-4e32-a169-0e768f815bc3') {
+        fs.readFile(__dirname + '/../public/CSV/simulation/07_plausi_subnet-status_nearest_bc3.csv', 'utf8', function (err, data) {
+            if (err) {
+                throw err;
+            }
+            res.setHeader('Content-Type', 'application/json');
+            res.send(JSON.stringify({content: HEADER + data}));
+        });
     } else {
         //read topology to generate example values for each smartmeter
         fs.readFile(__dirname + '/../public/topology/' + req.params.id + '.json', 'utf8', function (err, data) {
