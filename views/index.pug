@@ -6,44 +6,44 @@ block content
   h3 TDM
   h2 Topology data is transmitted as JSON
   p /tdm/overview/ returns mid-current grid with references to all subnets
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/tdm/overview")  http://netzdatenstrom.imis.uni-luebeck.de:3000/tdm/overview
+  a(href="http://localhost:3000/tdm/overview")  http://localhost:3000/tdm/overview
 
   p /tdm/#ID returns the subnet with a given #ID
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/tdm/fff76033-6ed2-4296-90c0-ed682a68b6ec")  http://netzdatenstrom.imis.uni-luebeck.de:3000/tdm/fff76033-6ed2-4296-90c0-ed682a68b6ec
+  a(href="http://localhost:3000/tdm/fff76033-6ed2-4296-90c0-ed682a68b6ec")  http://localhost:3000/tdm/fff76033-6ed2-4296-90c0-ed682a68b6ec
 
   h3 LZA
   h2 Smart-Meter values are transmitted as semicolon separated CSV
 
   p /lza/subnet will return the status of all subnets. Due to system architecture this requires a request for each subnet
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/subnet")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/subnet
+  a(href="http://localhost:3000/lza/subnet")  http://localhost:3000/lza/subnet
 
   p /lza/subnet/past will return the status of all subnets, aggregated for the last 12 hours. Due to system architecture this requires a request for each subnet
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/subnet/past")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/subnet/past
+  a(href="http://localhost:3000/lza/subnet/past")  http://nlocalhost:3000/lza/subnet/past
 
   p /lza/subnet/:id will return the status of all nodes of a subnet
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/subnet/fff76033-6ed2-4296-90c0-ed682a68b6ec")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/subnet/fff76033-6ed2-4296-90c0-ed682a68b6ec
+  a(href="http://localhost:3000/lza/subnet/fff76033-6ed2-4296-90c0-ed682a68b6ec")  http://localhost:3000/lza/subnet/fff76033-6ed2-4296-90c0-ed682a68b6ec
 
   p /lza/subnet/:id/past will return the status of all nodes of a subnet, aggregated for the last 12 hours
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/subnet/fff76033-6ed2-4296-90c0-ed682a68b6ec/past")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/subnet/fff76033-6ed2-4296-90c0-ed682a68b6ec/past
+  a(href="http://localhost:3000/lza/subnet/fff76033-6ed2-4296-90c0-ed682a68b6ec/past")  http://localhost:3000/lza/subnet/fff76033-6ed2-4296-90c0-ed682a68b6ec/past
 
   p /lza/meter/:id/day will return values of a Smart-Meter for the last 24 hours
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/meter/c41daf96-f387-4098-bd23-fce1f32bf9d4/day")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/meter/c41daf96-f387-4098-bd23-fce1f32bf9d4/day
+  a(href="http://localhost:3000/lza/meter/c41daf96-f387-4098-bd23-fce1f32bf9d4/day")  http://localhost:3000/lza/meter/c41daf96-f387-4098-bd23-fce1f32bf9d4/day
 
   p /lza/plausibility/meter/:id will return the status of all nodes of a subnet
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/meter/d71bb352-0cdb-4e74-9754-11687a7de91a")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/meter/d71bb352-0cdb-4e74-9754-11687a7de91a
+  a(href="http://localhost:3000/lza/plausibility/meter/d71bb352-0cdb-4e74-9754-11687a7de91a")  http://localhost:3000/lza/plausibility/meter/d71bb352-0cdb-4e74-9754-11687a7de91a
 
   p /plausibility/subnet/:id returns all plausibilities within a given subnet per algorithm
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/subnet/fff76033-6ed2-4296-90c0-ed682a68b6ec")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/subnet/fff76033-6ed2-4296-90c0-ed682a68b6ec
+  a(href="http://localhost:3000/lza/plausibility/subnet/fff76033-6ed2-4296-90c0-ed682a68b6ec")  http://localhost:3000/lza/plausibility/subnet/fff76033-6ed2-4296-90c0-ed682a68b6ec
 
   p /plausibility/meter/:id/past returns plausibility for each algorithm for one SM in 24h
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/meter/d71bb352-0cdb-4e74-9754-11687a7de91a/past")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/plausibility/meter/fff76033-6ed2-4296-90c0-ed682a68b6ec/past
+  a(href="http://localhost:3000/lza/plausibility/meter/d71bb352-0cdb-4e74-9754-11687a7de91a/past")  http://localhost:3000/lza/plausibility/meter/fff76033-6ed2-4296-90c0-ed682a68b6ec/past
 
   p /meter/:id/lastmonth/ returns Smart-Meter values for last month with 1 hour resolution
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/meter/d6474feb-d37a-405c-b16b-5e39138355d0/lastmonth")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/meter/d6474feb-d37a-405c-b16b-5e39138355d0/lastmonth
+  a(href="http://localhost:3000/lza/meter/d6474feb-d37a-405c-b16b-5e39138355d0/lastmonth")  http://localhost:3000/lza/meter/d6474feb-d37a-405c-b16b-5e39138355d0/lastmonth
 
   p /meter/:id/pastmonth/ returns Smart-Meter values for two month one year ago with 1 hour resolution
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/meter/d6474feb-d37a-405c-b16b-5e39138355d0/pastmonth")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/meter/d6474feb-d37a-405c-b16b-5e39138355d0/pastmonth
+  a(href="http://localhost:3000/lza/meter/d6474feb-d37a-405c-b16b-5e39138355d0/pastmonth")  http://localhost:3000/lza/meter/d6474feb-d37a-405c-b16b-5e39138355d0/pastmonth
 
   p  /weather/:location/ returns the weather data for the last 24 hours in 30 Minute resolution
-  a(href="http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/weather/Oldenburg")  http://netzdatenstrom.imis.uni-luebeck.de:3000/lza/weather/Oldenburg
+  a(href="http://localhost:3000/lza/weather/Oldenburg")  http://localhost:3000/lza/weather/Oldenburg
 

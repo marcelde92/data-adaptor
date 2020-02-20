@@ -6,12 +6,12 @@ http.debug = 2;
 
 router.use(cors());
 
-const simulatedGridFailures = ['a7de7692-e2d5-49f0-a116-8d2cb525a05a', 'a0c0fabd-e157-4735-908e-af6ee71d199a'];
+const simulatedGridFailures = ['b2f02ef0-71e1-4660-8322-002ae02c69e7', 'a1c24288-4775-470b-87e6-77a68af36763', 'fd48f0ab-5a25-42d5-84f7-d0053b29fd71'];
 const simulatedGatewayFailures = [
     /* grid in which gateways can be failing*/
-    'af07538e-2f88-48ef-987e-c4c71ad5b48c',
+    'fff76033-6ed2-4296-90c0-ed682a68b6ec', 'd6bd1f0e-28a3-48e6-85a6-ab501b8bfed7',
     /* the failing gateways */
-    'f07b1e79-be6b-438b-b1b8-3e63e37ae157', 'ac3cfd2b-4fba-40f6-88a0-2ce9a4f7a90c'];
+    'a37cd3db-c601-4a95-aaff-7cf05f67c649', 'cb726ad0-43ea-4f2a-b500-9ad33b302498', 'f6a3d038-a75f-4665-8705-a3adf90cad33', 'afaeea5b-3438-461e-bc65-18e9aa56ca63', 'ca46d506-b794-4749-8eb8-449829736d28', 'c726976b-02d8-47f4-b2a6-5c3799b0cb6c', 'f52e769d-59fa-4357-9ca4-cac0f63e999b', 'd8c7f268-a058-4216-ad0c-1bcf1b22bec3', 'd3431250-8f98-4032-9a82-5f49aa9b75e9', 'aa8619d1-44d1-41c9-95c9-87f4b8fe95ca', 'fd0c9b18-be83-4596-9384-6e8a6bd00a4e', 'f036dcc4-2860-41d2-b7e1-4e3c83e78b83', 'b41467df-e2c4-4e3a-9e23-47de45002e60', 'b49330d3-ed7b-4dbc-b673-2059122e44bc', 'a94c3959-7a3a-4997-a64d-0ce23345d299'];
 
 
 
@@ -60,13 +60,13 @@ router.get('/subnet/past/', function(req, res, next) {
 
 /*
  *  '/subnet/:id' will return the status of all nodes of a subnet
- *
+ *  for preparation of evaluations-data
  */
 router.get('/subnet/:id', function(req, res, next) {
 
     const HEADER = "mrid;category\n";
     const fs = require('fs');
-    if (req.params.id === 'fff76033-6ed2-4296-90c0-ed682a68b6ec') {
+    if (req.params.id === 'abcde') {
         fs.readFile( __dirname + '/../public/CSV/03_category_allSM-Status_nearest.csv','utf8', function (err, data) {
             if (err) {
                 throw err;
